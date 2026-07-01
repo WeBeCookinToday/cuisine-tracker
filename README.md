@@ -106,34 +106,6 @@ vars (`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`), read in
 `src/lib/supabase.js`. Locally they come from `.env.local`; in CI they come from
 per-environment GitHub secrets.
 
-### One-time setup
-
-**1. Create a second Supabase project** (e.g. `cuisine-tracker-staging`) at
-[supabase.com](https://supabase.com). Open its **SQL editor** and run
-[`supabase/schema.sql`](supabase/schema.sql) to create the tables, the
-`recipe-photos` storage bucket, and the access policies. Grab its **Project URL**
-and **anon public key** from *Project Settings → API*.
-
-**2. Add CI secrets per environment.** In the GitHub repo, go to
-*Settings → Environments* and create two environments named exactly
-**`production`** and **`staging`**. In each, add two secrets:
-
-- `VITE_SUPABASE_URL`
-- `VITE_SUPABASE_ANON_KEY`
-
-Use the **prod** project's values in `production` and the **staging** project's
-values in `staging`. (The anon key is public by design, so these could be
-environment *variables* instead of secrets — either works.)
-
-**3. Enable GitHub Pages from the deploy branch.** The workflow publishes the
-built site to a `gh-pages` branch. After the first successful run, go to
-*Settings → Pages* and set **Source: Deploy from a branch → `gh-pages` / `/root`**.
-
-**4. Create the `staging` branch:**
-```bash
-git checkout -b staging && git push -u origin staging
-```
-
 ### How deploys work
 
 `.github/workflows/deploy.yml` runs on every push to `main` or `staging`:
