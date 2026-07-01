@@ -5,7 +5,7 @@ import { RecipeSection } from "./RecipeSection.jsx";
 import { CookingLog } from "./CookingLog.jsx";
 import { LikesAndComments } from "./LikesAndComments.jsx";
 
-export function DetailView({ recipe, entry, onBack, onUpdate }) {
+export function DetailView({ recipe, entry, onBack, onUpdate, isAdmin }) {
   return (
     <div data-detail-view="true">
       <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 13, color: C.ink2, padding: 0, marginBottom: 14, fontFamily: "inherit" }}>← All countries</button>
@@ -19,7 +19,7 @@ export function DetailView({ recipe, entry, onBack, onUpdate }) {
         <div style={{ fontSize: 9.5, letterSpacing: "0.16em", textTransform: "uppercase", color: C.inkMute, marginBottom: 14 }}>Recipe</div>
         <RecipeSection recipe={recipe} entry={entry} onUpdate={onUpdate} />
       </div>
-      <CookingLog recipe={recipe} entry={entry} onUpdate={onUpdate} />
+      {isAdmin && <CookingLog recipe={recipe} entry={entry} onUpdate={onUpdate} />}
       <LikesAndComments recipeId={recipe.id} />
     </div>
   );

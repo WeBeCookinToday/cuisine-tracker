@@ -83,3 +83,32 @@ export async function fetchComments(recipeId) {
 export async function addComment(recipeId, author, body) {
   await _supa.from("comments").insert({ recipe_id: recipeId, author, body });
 }
+
+// Cooking log: fetch all entries as a keyed object
+export async function fetchCookingLog() {
+  const { data } = await _supa.from("cooking_log").select("*");
+  const out = {};
+  (data || []).forEach(r => {
+    out[r.recipe_id] = {
+      cooked: r.cooked,
+      cookedDate: r.cooked_date,
+      rating: r.rating,
+      notes: r.notes,
+      photo: r.photo,
+    };
+  });
+  return out;
+}
+
+// Save one recipe's log entry (upsert)
+export async function saveCookingLog(recipeId, entry) {
+  await _supa.from("cooking_log").upsert({
+    recipe_id: recipeId,
+    cooked: entry.cooked ?? false,
+    cooked_date: entry.cookedDate ?? null,
+    rating: entry.rating ?? null,
+    notes: entry.notes ?? null,
+    photo: entry.photo ?? null,
+    updated_at: new Date().toISOString(),
+  });
+}

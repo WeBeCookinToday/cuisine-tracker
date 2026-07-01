@@ -5,7 +5,7 @@ import { CONTINENTS, CONTINENT_ORDER } from "./data/continents.js";
 import { AREA_KM2 } from "./data/areas.js";
 import { C } from "./lib/theme.js";
 import { fd } from "./lib/format.jsx";
-import { fetchPhoto } from "./lib/supabase.js";
+import { fetchPhoto, fetchCookingLog, saveCookingLog } from "./lib/supabase.js";
 import { WorldMap } from "./components/WorldMap.jsx";
 import { DetailView } from "./components/DetailView.jsx";
 import { DishImage } from "./components/DishImage.jsx";
@@ -13,6 +13,35 @@ import { StarFill } from "./components/StarRating.jsx";
 
 export function App() {
   const [log, setLog] = useState(INIT_LOG);
+
+  // Load saved cooking log from Supabase on startup (overrides INIT_LOG defaults)
+  useEffect(() => {
+    fetchCookingLog().then(remote => {
+      if (remote && Object.keys(remote).length > 0) {
+        setLog(prev => ({ ...prev, ...remote }));
+      }
+    });
+  }, []);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [tapCount, setTapCount] = useState(0);
+  const tapTimer = useRef(null);
+
+  const handleTitleTap = () => {
+    setTapCount(n => {
+      const next = n + 1;
+      clearTimeout(tapTimer.current);
+      if (next >= 5) {
+        const pw = prompt("Admin password:");
+        if (pw === "imcookingoodlookin") {
+          setIsAdmin(true);
+          alert("Admin mode on ✓");
+        }
+        return 0;
+      }
+      tapTimer.current = setTimeout(() => setTapCount(0), 1500);
+      return next;
+    });
+  };
   const [sel, setSel] = useState(null);
   const [mapHighlight, setMapHighlight] = useState(null);
   const mousePos = useRef({ x: -1, y: -1 });
@@ -50,7 +79,14 @@ export function App() {
   const cookedCount = RECIPES.filter((r) => log[r.id]?.cooked).length;
   const pct = Math.round((cookedCount / RECIPES.length) * 100);
   const selected = sel ? RECIPES.find((r) => r.id === sel) : null;
-  const update = (updates) => setLog((prev) => ({ ...prev, [sel]: { ...(prev[sel] || {}), ...updates } }));
+  const update = (updates) => {
+    setLog((prev) => {
+      const merged = { ...(prev[sel] || {}), ...updates };
+      // Persist to Supabase (fire-and-forget)
+      saveCookingLog(sel, merged).catch(e => console.error("Save failed:", e));
+      return { ...prev, [sel]: merged };
+    });
+  };
 
   // When a recipe is selected, load its Supabase photo if not already set
   React.useEffect(() => {
@@ -70,7 +106,7 @@ export function App() {
 
   if (selected) return (
     <div style={{ fontFamily: "DM Sans, system-ui, sans-serif", background: C.bg, minHeight: "100vh", padding: 20 }}>
-      <DetailView recipe={selected} entry={log[sel] || {}} onBack={() => setSel(null)} onUpdate={update} />
+      <DetailView recipe={selected} entry={log[sel] || {}} onBack={() => setSel(null)} onUpdate={update} isAdmin={isAdmin} />
     </div>
   );
 
@@ -82,7 +118,7 @@ export function App() {
         {/* Top row: title + progress */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, marginBottom: 10 }}>
           <div>
-            <h1 style={{ fontSize: 20, fontWeight: 700, color: C.ink, letterSpacing: "-0.01em", marginBottom: 1 }}>Cuisine Tracker</h1>
+            <h1 onClick={handleTitleTap} style={{ fontSize: 20, fontWeight: 700, color: C.ink, letterSpacing: "-0.01em", marginBottom: 1, cursor: "default", userSelect: "none" }}>Cuisine Tracker</h1>
             <p style={{ fontSize: 11, color: C.inkMute, fontWeight: 500, letterSpacing: "0.02em" }}>One iconic dish per country · no repeats</p>
           </div>
           <div style={{ textAlign: "center", background: C.card, borderRadius: 16, padding: "8px 18px", boxShadow: "0 1px 3px rgba(26,115,232,0.12)", border: `1px solid ${C.accSoft}`, flexShrink: 0 }}>

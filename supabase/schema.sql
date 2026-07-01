@@ -38,13 +38,25 @@ create table if not exists public.comments (
   created_at timestamptz not null default now()
 );
 
+-- One persisted cooking-log entry per recipe (upserted on recipe_id).
+create table if not exists public.cooking_log (
+  recipe_id   text primary key,
+  cooked      boolean,
+  cooked_date timestamptz,
+  rating      numeric,
+  notes       text,
+  photo       text,
+  updated_at  timestamptz not null default now()
+);
+
 -- ── Row-Level Security ──────────────────────────────────────────────────────
 -- RLS is ON; the policies below grant the anon (public) role exactly the
 -- operations the app performs. With RLS on and no policy, all access is denied.
 
-alter table public.photos   enable row level security;
-alter table public.likes    enable row level security;
-alter table public.comments enable row level security;
+alter table public.photos      enable row level security;
+alter table public.likes       enable row level security;
+alter table public.comments    enable row level security;
+alter table public.cooking_log enable row level security;
 
 -- photos: app selects, inserts, and deletes
 create policy "photos_select" on public.photos for select to anon using (true);
@@ -58,6 +70,12 @@ create policy "likes_insert" on public.likes for insert to anon with check (true
 -- comments: app selects and inserts
 create policy "comments_select" on public.comments for select to anon using (true);
 create policy "comments_insert" on public.comments for insert to anon with check (true);
+
+-- cooking_log: everyone reads; upsert needs insert + update.
+-- (Admin gating is client-side only, so the anon role must be allowed to write.)
+create policy "cooking_log_select" on public.cooking_log for select to anon using (true);
+create policy "cooking_log_insert" on public.cooking_log for insert to anon with check (true);
+create policy "cooking_log_update" on public.cooking_log for update to anon using (true) with check (true);
 
 -- ── Storage bucket for uploaded dish photos ─────────────────────────────────
 
