@@ -1,0 +1,44 @@
+name: Sync main -> staging
+
+# Whenever main updates (including a direct push/hotfix), bring staging up to
+# date so the two branches never drift. Uses a MERGE (not a force-push) so any
+# un-promoted work already on staging is preserved, not clobbered.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-main-to-staging
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: staging
+          fetch-depth: 0
+
+      - name: Merge main into staging
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+
+          # Already contains main? Nothing to do.
+          if git merge-base --is-ancestor origin/main HEAD; then
+            echo "staging already contains main — nothing to sync."
+            exit 0
+          fi
+
+          if ! git merge --no-edit origin/main; then
+            echo "::error::Merge conflict bringing main into staging. Resolve it manually (git checkout staging && git merge main)."
+            git merge --abort
+            exit 1
+          fi
+
+          git push origin HEAD:staging
