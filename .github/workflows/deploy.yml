@@ -1,0 +1,51 @@
+name: Deploy
+
+# main   -> published to the site root  (production)
+# staging -> published to /staging/      (staging)
+on:
+  push:
+    branches: [main, staging]
+
+permissions:
+  contents: write            # needed to push the built site to the gh-pages branch
+
+# Don't let a main and a staging deploy clobber each other's gh-pages push.
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    # Selects the matching GitHub Environment so the right Supabase
+    # secrets are injected. Create these two environments in
+    # Settings -> Environments: "production" and "staging".
+    environment: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # main deploys to the root; staging deploys into the /staging/ subfolder.
+          destination_dir: ${{ github.ref == 'refs/heads/main' && '.' || 'staging' }}
+          # keep_files preserves the OTHER environment's folder on each deploy
+          # (so a main deploy doesn't wipe /staging/ and vice-versa).
+          keep_files: true

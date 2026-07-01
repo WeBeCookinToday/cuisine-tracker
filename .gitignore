@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.DS_Store
+
+# Local env files (keep .env.example tracked)
+.env
+.env.*
+!.env.example
