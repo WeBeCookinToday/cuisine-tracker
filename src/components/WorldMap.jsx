@@ -118,7 +118,7 @@ export function WorldMap({ recipes, log, onSelect, highlightId }) {
       {/* Hover tooltip */}
       {hover && (
         <div style={{ position: "absolute", top: 14, right: 14, background: C.card, border: `0.5px solid ${C.line}`, borderRadius: 6, padding: "8px 12px", fontSize: 12, color: C.ink, boxShadow: "0 4px 12px rgba(0,0,0,0.08)", pointerEvents: "none" }}>
-            <div style={{ fontFamily: "'Google Sans', Roboto, sans-serif", fontSize: 14, fontWeight: 500 }}>{hover.recipe.dish}</div>
+            <div style={{ fontFamily: "inherit", fontSize: 14, fontWeight: 500 }}>{hover.recipe.dish}</div>
             <div style={{ color: C.ink2, fontSize: 11, marginTop: 2 }}>
               {hover.recipe.country}
               {hover.isCooked && <span style={{ color: C.cok, marginLeft: 6 }}>· cooked ✓</span>}
