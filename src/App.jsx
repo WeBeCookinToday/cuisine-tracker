@@ -122,7 +122,7 @@ export function App() {
             <span style={{ color: C.inkMute, fontSize: 12, fontWeight: 600 }}> / {RECIPES.length}</span>
           </div>
           <div style={{ fontSize: 9.5, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", color: C.inkMute, marginTop: 5, marginBottom: 8 }}>countries cooked</div>
-          <div style={{ width: 148, height: 7, background: C.planned, borderRadius: 99, overflow: "hidden", margin: "0 auto" }}>
+          <div style={{ width: 148, height: 7, background: C.track, borderRadius: 99, overflow: "hidden", margin: "0 auto" }}>
             <div style={{ height: "100%", background: C.acc, width: `${pct}%`, transition: "width 0.6s cubic-bezier(0.34,1.56,0.64,1)", borderRadius: 99 }} />
           </div>
         </div>
@@ -179,7 +179,7 @@ export function App() {
                   >
                     <h2 style={{ fontSize: 22, fontWeight: 800, color: C.ink, flexShrink: 0 }}>{continent}</h2>
                     <div style={{ flex: 1, height: 1, background: C.divider }} />
-                    <div style={{ width: 100, height: 6, background: C.planned, borderRadius: 99, overflow: "hidden", flexShrink: 0 }}>
+                    <div style={{ width: 100, height: 6, background: C.track, borderRadius: 99, overflow: "hidden", flexShrink: 0 }}>
                       <div style={{ height: "100%", background: C.acc, width: `${groupPct}%`, transition: "width 0.6s cubic-bezier(0.34,1.56,0.64,1)", borderRadius: 99 }} />
                     </div>
                     <span style={{ fontSize: 13, fontWeight: 600, color: C.inkMute, whiteSpace: "nowrap" }}>{groupCooked} / {group.length}</span>

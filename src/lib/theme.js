@@ -21,13 +21,16 @@ export const C = {
   cok: "#57B33A",       // "cooked" green (matches the real map fill)
   cokSoft: "#E8F6E2",
   secondary: "#7BC62D", // secondary accent (checkmark badge)
-  planned: "#C4CFE8",   // "on the list" / uncooked neutral
+  planned: "#D6D3CE",   // "on the list" / uncooked (neutral warm gray)
+  track: "#C4CFE8",     // unfilled progress-bar track
 
   // Lines / map
   line: "rgba(26, 34, 51, 0.10)",     // hairline border on cards
   divider: "rgba(26, 34, 51, 0.12)",  // divider under headings
   cardLine: "rgba(26, 34, 51, 0.10)",
-  land: "#F1F2F4", ocean: "#4ECDC4", oceanDeep: "#1A9C93",
+  mapBg: "#FFFFFF",     // map ocean/background (was light blue)
+  land: "#E6E9F0",      // non-recipe countries — light gray, visible on white
+  ocean: "#4ECDC4", oceanDeep: "#1A9C93",
 };
 
 // Poppins everywhere (loaded from Google Fonts in App.jsx)
