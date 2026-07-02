@@ -3,10 +3,12 @@ import { RECIPES } from "./data/recipes.js";
 import { CONTINENTS, CONTINENT_ORDER } from "./data/continents.js";
 import { AREA_KM2 } from "./data/areas.js";
 import { C, FONT, SHADOW } from "./lib/theme.js";
+import { fd } from "./lib/format.jsx";
 import { fetchPhoto, fetchCookingLog, saveCookingLog } from "./lib/supabase.js";
 import { WorldMap } from "./components/WorldMap.jsx";
 import { DetailView } from "./components/DetailView.jsx";
 import { DishImage } from "./components/DishImage.jsx";
+import { StarFill } from "./components/StarRating.jsx";
 
 export function App() {
   const [log, setLog] = useState({});
@@ -167,6 +169,7 @@ export function App() {
                   return (AREA_KM2[b.id] || 0) - (AREA_KM2[a.id] || 0);
                 });
               const groupCooked = group.filter(r => log[r.id]?.cooked).length;
+              const groupPct = Math.round((groupCooked / group.length) * 100);
               const collapsed = !!collapsedRegions[continent];
               return (
                 <div key={continent} style={{ marginBottom: 40 }}>
@@ -176,6 +179,9 @@ export function App() {
                   >
                     <h2 style={{ fontSize: 22, fontWeight: 800, color: C.ink, flexShrink: 0 }}>{continent}</h2>
                     <div style={{ flex: 1, height: 1, background: C.divider }} />
+                    <div style={{ width: 100, height: 6, background: C.planned, borderRadius: 99, overflow: "hidden", flexShrink: 0 }}>
+                      <div style={{ height: "100%", background: C.acc, width: `${groupPct}%`, transition: "width 0.6s cubic-bezier(0.34,1.56,0.64,1)", borderRadius: 99 }} />
+                    </div>
                     <span style={{ fontSize: 13, fontWeight: 600, color: C.inkMute, whiteSpace: "nowrap" }}>{groupCooked} / {group.length}</span>
                     <span style={{ fontSize: 16, color: C.inkMute, transition: "transform 0.2s", transform: collapsed ? "rotate(-90deg)" : "rotate(0deg)", display: "inline-block", flexShrink: 0 }}>▾</span>
                   </button>
@@ -189,10 +195,20 @@ export function App() {
                           onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = SHADOW.tile; setMapHighlight(null); }}
                           style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `2px solid ${C.acc}` : `1px solid ${C.line}`, borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
                           <DishImage recipe={r} photo={log[r.id]?.photo} showLabel={false} />
-                          {/* Bottom scrim + country/dish labels */}
+                          {/* Bottom scrim + country/dish labels (+ rating/date for cooked) */}
                           <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "10px 12px", background: "linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.05) 78%, transparent)", pointerEvents: "none" }}>
                             <span style={{ fontSize: 10, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: "rgba(255,255,255,0.82)", lineHeight: 1.2 }}>{r.country}</span>
                             <span style={{ fontSize: 13, fontWeight: 600, color: "white", lineHeight: 1.25, textShadow: "0 1px 3px rgba(0,0,0,0.4)" }}>{r.dish}</span>
+                            {cooked && log[r.id]?.rating > 0 && (
+                              <div style={{ display: "flex", gap: 1, marginTop: 4 }}>
+                                {[1,2,3,4,5].map(n => (
+                                  <StarFill key={n} fill={Math.min(1, Math.max(0, log[r.id].rating - (n - 1)))} size={11} emptyColor="rgba(255,255,255,0.35)" />
+                                ))}
+                              </div>
+                            )}
+                            {cooked && log[r.id]?.cookedDate && (
+                              <div style={{ fontSize: 9, fontWeight: 500, letterSpacing: "0.04em", color: "rgba(255,255,255,0.78)", marginTop: 3 }}>{fd(log[r.id].cookedDate)}</div>
+                            )}
                           </div>
                           {/* Cooked checkmark badge */}
                           {cooked && (
