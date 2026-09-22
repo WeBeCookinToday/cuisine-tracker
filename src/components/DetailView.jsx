@@ -1,4 +1,4 @@
-import { C } from "../lib/theme.js";
+import { C, SHADOW } from "../lib/theme.js";
 import { p2 } from "../lib/format.jsx";
 import { DishImage } from "./DishImage.jsx";
 import { RecipeSection } from "./RecipeSection.jsx";
@@ -8,7 +8,7 @@ import { LikesAndComments } from "./LikesAndComments.jsx";
 export function DetailView({ recipe, entry, onBack, onUpdate, isAdmin }) {
   return (
     <div data-detail-view="true">
-      <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 13, color: C.ink2, padding: 0, marginBottom: 14, fontFamily: "inherit" }}>← All countries</button>
+      <button onClick={onBack} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: C.card, border: `1.5px solid ${C.acc}`, borderRadius: 99, boxShadow: SHADOW.card, cursor: "pointer", fontSize: 15, fontWeight: 600, color: C.acc, padding: "9px 18px 9px 14px", marginBottom: 16, fontFamily: "inherit" }}><span style={{ fontSize: 18, lineHeight: 1 }}>←</span>All countries</button>
       <div style={{ width: "100%", aspectRatio: "4/3", maxHeight: "70vh", borderRadius: 10, overflow: "hidden", marginBottom: 18 }}>
         <DishImage recipe={recipe} photo={entry?.photo} fit="contain" />
       </div>
