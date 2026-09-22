@@ -117,13 +117,17 @@ export function App() {
   if (selected) return (
     <div style={{ fontFamily: FONT, background: C.bg, minHeight: "100vh", padding: 20 }}>
       {adminDot}
-      <DetailView recipe={selected} entry={log[sel] || {}} onBack={() => setSel(null)} onUpdate={update} isAdmin={isAdmin} />
+      <div style={{ maxWidth: 860, margin: "0 auto" }}>
+        <DetailView recipe={selected} entry={log[sel] || {}} onBack={() => setSel(null)} onUpdate={update} isAdmin={isAdmin} />
+      </div>
     </div>
   );
 
   return (
     <div style={{ fontFamily: FONT, background: C.bg, minHeight: "100vh", padding: "30px 32px 34px" }}>
       {adminDot}
+      {/* Centered column so wide desktop windows don't stretch content edge to edge */}
+      <div style={{ maxWidth: 1180, margin: "0 auto" }}>
 
       {/* Header — title + progress chip */}
       <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, marginBottom: 18 }}>
@@ -265,6 +269,7 @@ export function App() {
             })
           )}
         </div>
+      </div>
       </div>
     </div>
   );

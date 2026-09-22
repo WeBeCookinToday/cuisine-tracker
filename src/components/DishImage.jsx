@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { flagUrl } from "../lib/format.jsx";
 
-export function DishImage({ recipe, photo, style = {}, showLabel = true }) {
+// fit="contain" shows the whole photo uncropped, backed by a blurred copy of itself
+export function DishImage({ recipe, photo, style = {}, showLabel = true, fit = "cover" }) {
   const [loaded, setLoaded] = useState(false);
   const [errored, setErrored] = useState(false);
   // Prefer the user's own photo of what they actually cooked over the generic stock image
@@ -16,13 +17,21 @@ export function DishImage({ recipe, photo, style = {}, showLabel = true }) {
         style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", opacity: showPhoto && loaded ? 0 : 0.55, filter: "saturate(0.5)", transition: "opacity 0.4s" }}
       />
       {/* Dish photo layered on top — user's own photo if they have one, else the stock image */}
+      {showPhoto && fit === "contain" && (
+        <img
+          src={imageSrc}
+          alt=""
+          aria-hidden="true"
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", filter: "blur(24px) brightness(0.85)", transform: "scale(1.15)", opacity: loaded ? 1 : 0, transition: "opacity 0.4s" }}
+        />
+      )}
       {showPhoto && (
         <img
           src={imageSrc}
           alt={recipe.dish}
           onLoad={() => setLoaded(true)}
           onError={() => setErrored(true)}
-          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", opacity: loaded ? 1 : 0, transition: "opacity 0.4s" }}
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: fit, opacity: loaded ? 1 : 0, transition: "opacity 0.4s" }}
         />
       )}
       {/* Dish name overlay when no photo loaded (suppressed when the parent
