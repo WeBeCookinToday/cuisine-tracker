@@ -9,8 +9,8 @@ export function DetailView({ recipe, entry, onBack, onUpdate, isAdmin }) {
   return (
     <div data-detail-view="true">
       <button onClick={onBack} style={{ background: "none", border: "none", cursor: "pointer", fontSize: 13, color: C.ink2, padding: 0, marginBottom: 14, fontFamily: "inherit" }}>← All countries</button>
-      <div style={{ width: "100%", aspectRatio: "21/9", borderRadius: 10, overflow: "hidden", marginBottom: 18 }}>
-        <DishImage recipe={recipe} photo={entry?.photo} />
+      <div style={{ width: "100%", aspectRatio: "4/3", maxHeight: "70vh", borderRadius: 10, overflow: "hidden", marginBottom: 18 }}>
+        <DishImage recipe={recipe} photo={entry?.photo} fit="contain" />
       </div>
       <div style={{ fontSize: 10, letterSpacing: "0.16em", textTransform: "uppercase", color: C.inkMute, marginBottom: 7 }}>Week {p2(recipe.week)} · {recipe.country}</div>
       <div style={{ fontFamily: "inherit", fontSize: 34, fontWeight: 800, letterSpacing: "-0.02em", color: C.ink, lineHeight: 1.0, marginBottom: 12 }}>{recipe.dish}</div>
