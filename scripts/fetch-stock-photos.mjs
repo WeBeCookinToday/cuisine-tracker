@@ -2,13 +2,17 @@
 // by searching Wikipedia for the dish and pulling its lead photo (hosted on
 // Wikimedia Commons — same free-licensed source the existing entries use).
 //
-// Safe to re-run: only touches entries where dishImageUrl is currently "".
+// Safe to re-run: only touches entries where dishImageUrl is currently "" (or,
+// with --include-broken, entries whose URL no longer loads).
 //
-//   node scripts/fetch-stock-photos.mjs            # do the fetch + patch
-//   node scripts/fetch-stock-photos.mjs --dry-run   # report matches only, don't edit recipes.js
+//   node scripts/fetch-stock-photos.mjs                  # do the fetch + patch
+//   node scripts/fetch-stock-photos.mjs --dry-run         # report matches only, don't edit recipes.js
+//   node scripts/fetch-stock-photos.mjs --include-broken  # also re-fetch URLs that return 4xx
 //
-// Coverage as of the last run: 173 of 206 dishes have a photo; the rest have
-// no confident free-licensed match and fall back to the flag+name card look.
+// Coverage as of the last run: 206 of 206 dishes have a photo. 33 were
+// hand-picked from Commons after this script found no confident match, and 13
+// broken 640px links were replaced — Wikimedia now only serves standard thumb
+// widths (250, 330, 500, 960...), so always use URLs the API returns.
 
 import { readFileSync, writeFileSync } from "fs";
 import { fileURLToPath, pathToFileURL } from "url";
@@ -17,6 +21,7 @@ import path from "path";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RECIPES_PATH = path.join(__dirname, "..", "src", "data", "recipes.js");
 const DRY_RUN = process.argv.includes("--dry-run");
+const INCLUDE_BROKEN = process.argv.includes("--include-broken");
 const limitArg = process.argv.find(a => a.startsWith("--limit="));
 const LIMIT = limitArg ? parseInt(limitArg.split("=")[1], 10) : Infinity;
 
@@ -70,7 +75,7 @@ function splitSegments(dish) {
 }
 
 async function searchWikipediaPage(query) {
-  const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=pageimages&piprop=thumbnail&pithumbsize=640&format=json&origin=*`;
+  const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=pageimages&piprop=thumbnail&pithumbsize=960&format=json&origin=*`;
   const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) return null;
   const data = await res.json();
@@ -84,7 +89,7 @@ async function searchWikipediaPage(query) {
 // Searches Wikimedia Commons' File: namespace directly — catches dishes whose
 // Wikipedia article (if any) has no lead image, but that do have photos on Commons.
 async function searchCommonsImage(query) {
-  const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=640&format=json&origin=*`;
+  const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=960&format=json&origin=*`;
   const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) return null;
   const data = await res.json();
@@ -144,9 +149,28 @@ async function findImageFor(dish, country) {
 }
 
 const { RECIPES } = await import(pathToFileURL(RECIPES_PATH).href);
-const missing = RECIPES.filter(r => !r.dishImageUrl || r.dishImageUrl.trim() === "").slice(0, LIMIT);
+// A URL that 400/404s renders as a bare flag, same as an empty one. Wikimedia
+// rate-limits bulk HEADs with 429, so back off and retry rather than count those.
+async function isBroken(url) {
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const res = await fetch(url, { method: "HEAD", headers: { "User-Agent": USER_AGENT } });
+    if (res.status !== 429) return res.status === 400 || res.status === 404;
+    await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+  }
+  return false;
+}
 
-console.log(`${RECIPES.length} total recipes, ${missing.length} missing dishImageUrl.\n`);
+const empty = RECIPES.filter(r => !r.dishImageUrl || r.dishImageUrl.trim() === "");
+const broken = [];
+if (INCLUDE_BROKEN) {
+  for (const r of RECIPES.filter(r => r.dishImageUrl && r.dishImageUrl.trim() !== "")) {
+    if (await isBroken(r.dishImageUrl)) broken.push(r);
+    await new Promise(res => setTimeout(res, 300));
+  }
+}
+const missing = [...empty, ...broken].slice(0, LIMIT);
+
+console.log(`${RECIPES.length} total recipes, ${empty.length} missing dishImageUrl, ${broken.length} broken.\n`);
 
 const matches = [];
 const misses = [];
@@ -183,12 +207,12 @@ if (DRY_RUN) {
 let src = readFileSync(RECIPES_PATH, "utf8");
 let patched = 0;
 for (const m of matches) {
-  const re = new RegExp(`(id:\\s*"${m.id}"\\s*,\\s*dishImageUrl:\\s*)""`);
+  const re = new RegExp(`(id:\\s*"${m.id}"\\s*,\\s*dishImageUrl:\\s*)"[^"]*"`);
   if (re.test(src)) {
     src = src.replace(re, `$1"${m.imageUrl}"`);
     patched++;
   } else {
-    console.log(`WARNING: could not find empty dishImageUrl slot for id "${m.id}" — skipped.`);
+    console.log(`WARNING: could not find dishImageUrl slot for id "${m.id}" — skipped.`);
   }
 }
 writeFileSync(RECIPES_PATH, src);
