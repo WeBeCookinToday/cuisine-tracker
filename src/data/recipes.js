@@ -1,5 +1,5 @@
 export const RECIPES = [
-  { id: "puerto-rico", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Arroz_con_gandules.jpg/640px-Arroz_con_gandules.jpg", week: 1, country: "Puerto Rico", countryCode: "pr", numericCode: "630", dish: "Arroz con Gandules", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: ["pot", "knife-board"],
+  { id: "puerto-rico", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/03/Arrozcongandules2.jpg", week: 1, country: "Puerto Rico", countryCode: "pr", numericCode: "630", dish: "Arroz con Gandules", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: ["pot", "knife-board"],
     description: "Considered the unofficial national dish of Puerto Rico. Yellow rice slow-simmered with pigeon peas and sofrito — a sautéed base of peppers, onion, garlic, and recao — alongside smoked ham and achiote for color. Traditionally served at Christmas next to lechón asado.",
     ingredients: ["2 cups long-grain white rice","1 can (15 oz) pigeon peas, drained","3 oz smoked ham, diced","1 packet Sazón with achiote","3 tbsp sofrito","2 tbsp tomato sauce","1 tbsp olive oil","2 tsp garlic powder","2½ cups chicken broth","Salt and pepper to taste"],
     steps: ["Heat olive oil in a heavy pot. Sauté smoked ham until lightly browned, about 3 minutes.","Add sofrito and tomato sauce. Cook stirring until fragrant, 2 minutes.","Add Sazón, garlic powder, pigeon peas, and broth. Bring to a boil.","Stir in the rice. Season, taste, and adjust.","Reduce to low, cover tightly, cook 20 minutes without lifting the lid.","Fluff with a fork and serve."] },
@@ -73,10 +73,10 @@ export const RECIPES = [
       "Increase heat briefly at the end to develop the socarrat (the crisp, caramelized layer of rice on the bottom) — listen for a faint crackling sound, about 1-2 minutes.",
       "Remove from heat, cover loosely with a clean towel, and let rest for 5 minutes before serving with lemon wedges."
     ] },
-  { id: "greece", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Moussaka_slice.jpg/640px-Moussaka_slice.jpg", week: 4, country: "Greece", countryCode: "gr", numericCode: "300", dish: "Moussaka",
+  { id: "greece", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/MussakasMeMelitsanesKePatates01.JPG/960px-MussakasMeMelitsanesKePatates01.JPG", week: 4, country: "Greece", countryCode: "gr", numericCode: "300", dish: "Moussaka",
     description: "Invented in the 1920s by chef Nikolaos Tselementes, who layered eggplant and spiced lamb under French-style béchamel. Despite its modern origin, it became Greece's most internationally recognized dish.",
     ingredients: [], steps: [] },
-  { id: "morocco", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Harira_soup.jpg/640px-Harira_soup.jpg", week: 5, country: "Morocco", countryCode: "ma", numericCode: "504", dish: "Harira", prepTime: "15 min", cookTime: "1 hr 15 min", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
+  { id: "morocco", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Harira.png", week: 5, country: "Morocco", countryCode: "ma", numericCode: "504", dish: "Harira", prepTime: "15 min", cookTime: "1 hr 15 min", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Morocco's beloved spiced tomato soup with lentils, chickpeas, and orzo — the soup that breaks the Ramadan fast and warms every Moroccan winter. Finished with a flour-and-water thickener, fresh cilantro, and lemon juice.",
     miseEnPlace: [
       "Rinse 0.5 cup lentils",
@@ -116,7 +116,7 @@ export const RECIPES = [
       { id: "s11", title: "Finish and serve", content: "Stir in the cilantro-lemon-tomato paste mixture. Cook 1–2 minutes more until orzo is soft. Taste and adjust {0014}. Serve immediately.", timer_seconds: 120 },
     ] },
 
-  { id: "south-africa", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bobotie.jpg/640px-Bobotie.jpg", week: 6, country: "South Africa", countryCode: "za", numericCode: "710", dish: "Bobotie", prepTime: "20 min", cookTime: "50 min", servings: 6, equipment: [{ icon: "🍲", label: "Oven-Safe Baking Dish" }, { icon: "🍳", label: "Skillet" }, "knife-board", "oven"],
+  { id: "south-africa", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bobotie%2C_South_African_dish.jpg/960px-Bobotie%2C_South_African_dish.jpg", week: 6, country: "South Africa", countryCode: "za", numericCode: "710", dish: "Bobotie", prepTime: "20 min", cookTime: "50 min", servings: 6, equipment: [{ icon: "🍲", label: "Oven-Safe Baking Dish" }, { icon: "🍳", label: "Skillet" }, "knife-board", "oven"],
     description: "Spiced minced meat with chutney and dried fruit, baked under a savory egg custard. A cornerstone of Cape Malay cuisine — Dutch-Indonesian-Malay fusion cooking born in the Cape Colony in the 17th century.",
     miseEnPlace: [
       "Soak 2 thick slices of white bread in 125 ml milk until soft; squeeze and reserve the milk",
@@ -146,7 +146,7 @@ export const RECIPES = [
       { id: "s4", title: "Make and pour custard", content: "Whisk eggs with reserved milk plus fresh milk to make 200 ml total. Add a pinch of turmeric and salt. Pour gently over the meat — it should form a thin layer on top.", timer_seconds: 120 },
       { id: "s5", title: "Bake and serve", content: "Bake at 180°C for 30–35 min until custard is set and lightly golden. Rest 5 min. Serve with yellow rice (cooked with turmeric, raisins, and cinnamon) and chutney.", timer_seconds: 2100 },
     ] },
-  { id: "united-kingdom", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sausage_and_mash_with_onion_gravy.jpg/640px-Sausage_and_mash_with_onion_gravy.jpg", week: 7, country: "United Kingdom", countryCode: "gb", numericCode: "826", dish: "Bangers and Mash", prepTime: "10 min", cookTime: "35 min", servings: 4, equipment: ["pot", "stainless-skillet", { icon: "🥔", label: "Potato Masher" }],
+  { id: "united-kingdom", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sausage_and_mash_with_peas.jpg/960px-Sausage_and_mash_with_peas.jpg", week: 7, country: "United Kingdom", countryCode: "gb", numericCode: "826", dish: "Bangers and Mash", prepTime: "10 min", cookTime: "35 min", servings: 4, equipment: ["pot", "stainless-skillet", { icon: "🥔", label: "Potato Masher" }],
     description: "Pork sausages browned and simmered in a rich onion gravy, piled over buttery mashed potatoes. The \"bangers\" get their name from WWI-era sausages, stretched with fillers and water, that would burst when fried — the definitive British pub comfort plate.",
     miseEnPlace: [
       "Prick 1 lb pork sausage links (4–6, such as sweet Italian sausage or bratwurst) in a few places with a fork",
@@ -178,7 +178,7 @@ export const RECIPES = [
       { id: "s4", title: "Thicken and simmer", content: "Add {0008} and cook, stirring constantly, until it browns on the bottom of the pan, 1–2 min. Gradually whisk in {0009}, scraping up browned bits. Add {0010} and ½ tsp salt; simmer until reduced and thickened, 5–8 min. Stir in {0011} and season with black pepper and more salt to taste.", timer_seconds: 480 },
       { id: "s5", title: "Finish and serve", content: "Return the sausages to the skillet with any accumulated juices; toss to coat in the gravy and warm through over low heat. Add the milk, butter, and 1 tsp salt to the potatoes; mash until smooth, adding more milk if needed, and season to taste. Serve the mash topped with sausages and gravy, finished with fresh parsley." },
     ] },
-  { id: "peru", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ceviche_del_Peru.jpg/640px-Ceviche_del_Peru.jpg", week: 8, country: "Peru", countryCode: "pe", numericCode: "604", dish: "Ceviche",
+  { id: "peru", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cebiche_de_corvina.JPG/960px-Cebiche_de_corvina.JPG", week: 8, country: "Peru", countryCode: "pe", numericCode: "604", dish: "Ceviche",
     prepTime: "20 min", cookTime: "0 min", servings: 4, equipment: ["knife-board"],
     description: "Pre-Columbian Peru's greatest gift to world cuisine: raw fish cured in fresh lime juice with ají amarillo, red onion, and cilantro. Served with choclo, cancha, and sweet potato. The leche de tigre (tiger's milk) left in the bowl is drunk as a hangover cure.",
     miseEnPlace: [
@@ -205,7 +205,7 @@ export const RECIPES = [
       { id: "s3", title: "Plate immediately", content: "Ceviche must be served the moment it is made — it keeps curing in the lime and will become rubbery if left too long. Divide into chilled bowls." },
       { id: "s4", title: "Garnish and serve", content: "Arrange choclo rounds and sweet potato slices alongside the fish. Scatter {0009} over the top. Serve with leche de tigre left in the bowl for drinking. The contrast of cold, acid fish with sweet potato and crunchy cancha is the whole point." },
     ] },
-  { id: "ethiopia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Doro_Wat_Injera.jpg/640px-Doro_Wat_Injera.jpg", week: 9, country: "Ethiopia", countryCode: "et", numericCode: "231", dish: "Doro Wat with Injera", prepTime: "30 min", cookTime: "1 hr 30 min", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Heavy Pot" }, "knife-board"],
+  { id: "ethiopia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Injera_and_doro_wat.jpg/960px-Injera_and_doro_wat.jpg", week: 9, country: "Ethiopia", countryCode: "et", numericCode: "231", dish: "Doro Wat with Injera", prepTime: "30 min", cookTime: "1 hr 30 min", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Heavy Pot" }, "knife-board"],
     description: "Ethiopia's ceremonial spiced chicken stew — slow-cooked in a deep, complex berbere and niter kibbeh sauce — served on spongy sourdough injera flatbread. Eaten communally with the right hand.",
     miseEnPlace: [
       "Score 1 kg bone-in chicken pieces deeply with a knife; rub with lemon and salt; rest 15 min",
@@ -537,7 +537,7 @@ export const RECIPES = [
       "Add the water spinach leaves, cover, and turn off the heat — the residual heat will gently finish the leaves in about 3 minutes without overcooking them.",
       "Serve hot with steamed rice and a small dish of fish sauce with crushed chili on the side for dipping."
     ] },
-  { id: "egypt", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kushari.jpg/640px-Kushari.jpg", week: 22, country: "Egypt", countryCode: "eg", numericCode: "818", dish: "Koshari", prepTime: "20 min", cookTime: "1 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Saucepan" }, "knife-board"],
+  { id: "egypt", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Egyptian_food_Koshary.jpg/960px-Egyptian_food_Koshary.jpg", week: 22, country: "Egypt", countryCode: "eg", numericCode: "818", dish: "Koshari", prepTime: "20 min", cookTime: "1 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Saucepan" }, "knife-board"],
     description: "Egypt's great street food: lentils, rice, and macaroni layered in a bowl and topped with spiced tomato sauce, vinegar, and crispy fried onions. Born from 19th-century cultural collisions — cheap, filling, and entirely meat-free.",
     miseEnPlace: [
       "Soak 150 g brown lentils 30 min; drain",
@@ -704,7 +704,7 @@ export const RECIPES = [
   { id: "thailand", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pad_see_ew.jpg/960px-Pad_see_ew.jpg", week: 28, country: "Thailand", countryCode: "th", numericCode: "764", dish: "Pork Pad See Ew",
     description: "Wide rice noodles stir-fried hard and fast with pork, egg, and Chinese broccoli in a sweet-savory soy glaze. A beloved Thai-Chinese noodle dish found at street stalls across Bangkok.",
     ingredients: [], steps: [] },
-  { id: "tanzania", dishImageUrl: "", week: 29, country: "Tanzania", countryCode: "tz", numericCode: "834", dish: "Mchuzi wa Samaki", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Pot" }, "knife-board"],
+  { id: "tanzania", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Coconut_Fish_curry.jpg/960px-Coconut_Fish_curry.jpg", week: 29, country: "Tanzania", countryCode: "tz", numericCode: "834", dish: "Mchuzi wa Samaki", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Pot" }, "knife-board"],
     description: "Tanzania's beloved coconut fish curry — firm white fish simmered in a turmeric-and-coconut milk broth with tomatoes and green peppers. Swahili coast cooking at its most aromatic.",
     miseEnPlace: [
       "Cut 700 g firm white fish (tilapia, snapper, or cod) into large chunks; pat dry",
@@ -731,7 +731,7 @@ export const RECIPES = [
       { id: "s4", title: "Poach fish", content: "Gently lower fish chunks into the simmering sauce. Cook 10–12 min, turning once carefully, until fish is just opaque and flakes easily. Do not stir vigorously or fish will break.", timer_seconds: 720 },
       { id: "s5", title: "Serve", content: "Scatter {0011} over top. Serve with ugali, white rice, or chapati to soak up the coconut broth." },
     ] },
-  { id: "italy", dishImageUrl: "", week: 30, country: "Italy", countryCode: "it", numericCode: "380", dish: "Pollo alla Cacciatora", prepTime: "15 min", cookTime: "1 hr", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Wide Braiser" }, "knife-board"],
+  { id: "italy", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chicken_cacciatore_%28cropped%29.jpg/960px-Chicken_cacciatore_%28cropped%29.jpg", week: 30, country: "Italy", countryCode: "it", numericCode: "380", dish: "Pollo alla Cacciatora", prepTime: "15 min", cookTime: "1 hr", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Wide Braiser" }, "knife-board"],
     description: "Hunter's chicken — braised with tomatoes, olives, capers, and white wine until the sauce clings and the meat falls from the bone. Italian home cooking at its most elemental.",
     miseEnPlace: [
       "Joint 1 whole chicken into 8 pieces, or use 1.2 kg skin-on bone-in thighs and drumsticks",
@@ -1333,7 +1333,7 @@ export const RECIPES = [
       "If using, season the small fish with salt and deep fry in the remaining oil until crisp.",
       "To assemble, place a scoop of rice in the center of each plate. Arrange the fried fish, hard-boiled egg, roasted peanuts, and cucumber slices around it, then spoon the sambal over the rice. Serve immediately."
     ] },
-  { id: "mozambique", dishImageUrl: "", week: 49, country: "Mozambique", countryCode: "mz", numericCode: "508", dish: "Peri-Peri Chicken", prepTime: "20 min (plus overnight marinating)", cookTime: "45 min", servings: 4, equipment: ["grill", { icon: "🍳", label: "Skillet" }, "mortar-pestle", "knife-board"],
+  { id: "mozambique", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/41/African_Piri_Piri_Chicken.jpg", week: 49, country: "Mozambique", countryCode: "mz", numericCode: "508", dish: "Peri-Peri Chicken", prepTime: "20 min (plus overnight marinating)", cookTime: "45 min", servings: 4, equipment: ["grill", { icon: "🍳", label: "Skillet" }, "mortar-pestle", "knife-board"],
     description: "Mozambique's gift to the world: chicken marinated in a fiery peri-peri chili sauce, grilled until charred and glossy. The Portuguese colonial encounter with African bird's eye chilies created one of the great spice traditions.",
     miseEnPlace: [
       "Spatchcock 1 whole chicken: cut out backbone, press flat",
@@ -1624,7 +1624,7 @@ export const RECIPES = [
       "Top with the remaining dough, pressing gently to seal the edges, then score the top into a diamond pattern with a knife.",
       "Drizzle with a little melted butter or olive oil and bake for 30-35 minutes, until golden brown. Let rest a few minutes before cutting and serving."
     ] },
-  { id: "mali", dishImageUrl: "", week: 60, country: "Mali", countryCode: "ml", numericCode: "466", dish: "Maafe", prepTime: "20 min", cookTime: "1 hr", servings: 5, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
+  { id: "mali", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mafe.malien.jpg/960px-Mafe.malien.jpg", week: 60, country: "Mali", countryCode: "ml", numericCode: "466", dish: "Maafe", prepTime: "20 min", cookTime: "1 hr", servings: 5, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "West Africa's great peanut stew — lamb or beef simmered in a rich groundnut and tomato sauce with root vegetables. The peanut base cooks down silky and savory-sweet; a dish that traveled the Sahel along ancient trade routes.",
     miseEnPlace: [
       "Cut 700 g bone-in lamb shoulder into 4 cm pieces",
@@ -1860,7 +1860,7 @@ export const RECIPES = [
       { id: "s4", title: "Braise", content: "Mix crushed tomatoes, tomato paste, and stock. Pour over sarmale until just covered. Top with more torn cabbage leaves. Bring to a simmer, cover, and cook on very low heat for 2 hours. Check occasionally and add water if drying out.", timer_seconds: 7200 },
       { id: "s5", title: "Serve", content: "Serve sarmale directly from the pot, a few per plate with the tomato broth spooned over. Add a generous dollop of {0011} alongside. Serve with polenta (mămăligă) or crusty bread." },
     ] },
-  { id: "somalia", dishImageUrl: "", week: 69, country: "Somalia", countryCode: "so", numericCode: "706", dish: "Suqaar", prepTime: "15 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Wok" }, "knife-board"],
+  { id: "somalia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Somali_food.jpg", week: 69, country: "Somalia", countryCode: "so", numericCode: "706", dish: "Suqaar", prepTime: "15 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Wok" }, "knife-board"],
     description: "Somalia's beloved stir-fried meat dish: diced beef or goat, quickly cooked with onion, tomato, peppers, and xawaash spice blend. Fast, fragrant, and eaten with anjero flatbread or rice.",
     miseEnPlace: [
       "Dice 600 g beef sirloin or goat into 1.5 cm cubes; pat dry",
@@ -1950,7 +1950,7 @@ export const RECIPES = [
       { id: "s4", title: "Braise chicken", content: "Add chicken pieces to the sauce, turning to coat. Add stock. Bring to a simmer, cover, and cook 35–40 min until chicken is very tender.", timer_seconds: 2400 },
       { id: "s5", title: "Serve", content: "Taste and adjust {0013}. Serve over white rice or with tortillas. The sauce should be thick, dark reddish-brown, with a complex nutty-smoky depth. Garnish with toasted pumpkin seeds." },
     ] },
-  { id: "netherlands", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Stamppot_boerenkool_met_worst.jpg/640px-Stamppot_boerenkool_met_worst.jpg", week: 72, country: "Netherlands", countryCode: "nl", numericCode: "528", dish: "Stamppot", prepTime: "10 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🥔", label: "Large Pot" }, "knife-board"],
+  { id: "netherlands", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Boerenkool_stamppot.jpg/960px-Boerenkool_stamppot.jpg", week: 72, country: "Netherlands", countryCode: "nl", numericCode: "528", dish: "Stamppot", prepTime: "10 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🥔", label: "Large Pot" }, "knife-board"],
     description: "Potatoes mashed with kale, endive, or sauerkraut and crowned with smoked sausage. A hearty Dutch winter classic.",
     miseEnPlace: [
       "Peel and cube 1.5 kg floury potatoes",
@@ -2094,7 +2094,7 @@ export const RECIPES = [
       { id: "s4", title: "Braise together", content: "Add remaining marinade, scotch bonnet, bay leaves, and stock to the onions. Nestle grilled chicken pieces in the onion mixture. Cover and braise on medium-low heat 25 min until chicken is very tender.", timer_seconds: 1500 },
       { id: "s5", title: "Serve", content: "Remove scotch bonnet and bay. Taste and adjust {0006}. Serve over white rice with the caramelized onion sauce poured over everything." },
     ] },
-  { id: "rwanda", dishImageUrl: "", week: 77, country: "Rwanda", countryCode: "rw", numericCode: "646", dish: "Agatogo", prepTime: "10 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Medium Pot" }, "knife-board"],
+  { id: "rwanda", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Matoke_with_stew.jpg/960px-Matoke_with_stew.jpg", week: 77, country: "Rwanda", countryCode: "rw", numericCode: "646", dish: "Agatogo", prepTime: "10 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Medium Pot" }, "knife-board"],
     description: "Rwanda's everyday comfort dish: banana fingers (matoke/plantain) and beef or beans stewed in a simple tomato and onion sauce. A reminder that great food needs only a few ingredients and patience.",
     miseEnPlace: [
       "Peel 4–6 firm green bananas (or unripe plantains) and slice into rounds",
@@ -2206,7 +2206,7 @@ export const RECIPES = [
       { id: "s4", title: "Plate the pile", content: "Spread fried potatoes across a large serving platter or in a mountain on individual plates. Spoon the beef-and-vegetable mixture over the fries. Top with halved hard-boiled eggs." },
       { id: "s5", title: "Finish", content: "Scatter {0012} over everything. Serve immediately at the table family-style. The fries should absorb the meat juices from the bottom up. Eat with cold Bolivian singani or beer." },
     ] },
-  { id: "burundi", dishImageUrl: "", week: 81, country: "Burundi", countryCode: "bi", numericCode: "108", dish: "Mukeke",
+  { id: "burundi", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Alimentation_%C3%A0_la_Burundaise.jpg/960px-Alimentation_%C3%A0_la_Burundaise.jpg", week: 81, country: "Burundi", countryCode: "bi", numericCode: "108", dish: "Mukeke",
     description: "Fresh fish from Lake Tanganyika simmered with tomatoes, onions, and greens. A staple of Burundi's lakeside tables.",
     ingredients: [], steps: [] },
   { id: "tunisia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Shakshuka_by_Calliopejen1.jpg/960px-Shakshuka_by_Calliopejen1.jpg", week: 82, country: "Tunisia", countryCode: "tn", numericCode: "788", dish: "Shakshouka", prepTime: "10 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Wide Skillet or Tagine" }, "knife-board"],
@@ -2340,7 +2340,7 @@ export const RECIPES = [
       { id: "s4", title: "Add beef and simmer", content: "Add shredded beef, olives, and capers. Stir to coat every strand. Season with {0014} and {0014}. Simmer on low heat 20 min until the sauce clings to the beef and everything has melded.", timer_seconds: 1200 },
       { id: "s5", title: "Serve", content: "Serve over white rice with black beans and fried sweet plantains (maduros). Ropa vieja is better the next day — the shreds absorb the sofrito overnight." },
     ] },
-  { id: "south-sudan", dishImageUrl: "", week: 87, country: "South Sudan", countryCode: "ss", numericCode: "728", dish: "Kajaik", prepTime: "15 min", cookTime: "35 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "south-sudan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D9%85%D9%84%D8%A7%D8%AD_%D8%B3%D9%85%D9%83.jpg/960px-%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D9%85%D9%84%D8%A7%D8%AD_%D8%B3%D9%85%D9%83.jpg", week: 87, country: "South Sudan", countryCode: "ss", numericCode: "728", dish: "Kajaik", prepTime: "15 min", cookTime: "35 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "South Sudan's traditional dried fish stew — sun-dried Nile perch or tilapia simmered with peanuts, onion, and tomatoes into a thick, deeply flavored sauce. Served with asida (sorghum porridge).",
     miseEnPlace: [
       "Soak 200 g dried fish (dried tilapia or Nile perch) in water 30 min; drain and break into large flakes",
@@ -2453,7 +2453,7 @@ export const RECIPES = [
       { id: "s3", title: "Make the gravy", content: "In the same skillet, whisk flour into the remaining fat over medium heat, scraping up all the browned bits. Cook 1 min. Gradually add beef stock, whisking constantly. Pour in cream and soy sauce. Simmer 4–5 min until a smooth, glossy gravy forms. Season to taste.", timer_seconds: 300 },
       { id: "s4", title: "Finish and serve", content: "Return meatballs to the gravy and simmer together 3 min. Serve over mashed potatoes or egg noodles, with a spoonful of {0014} and pickled cucumber slices alongside." },
     ] },
-  { id: "portugal", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Caldo_verde_with_meat.jpg/640px-Caldo_verde_with_meat.jpg", week: 91, country: "Portugal", countryCode: "pt", numericCode: "620", dish: "Caldo Verde", prepTime: "15 min", cookTime: "30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "portugal", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Caldo_verde.jpg/960px-Caldo_verde.jpg", week: 91, country: "Portugal", countryCode: "pt", numericCode: "620", dish: "Caldo Verde", prepTime: "15 min", cookTime: "30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A velvety potato-and-kale soup studded with smoky chouriço slices. Portugal's most beloved comfort dish, born in the Minho region.",
     miseEnPlace: [
       "Peel and slice 700 g waxy potatoes into 1-inch chunks",
@@ -2538,7 +2538,7 @@ export const RECIPES = [
       { id: "s4", title: "Braise", content: "Add stock, {0012}, and {0013}. Bring to a boil, reduce to a low simmer, cover, and cook 1 hr 15 min until beef is starting to turn tender.", timer_seconds: 4500 },
       { id: "s5", title: "Add potatoes and finish", content: "Add potatoes and simmer uncovered 25–30 min until potatoes are tender and the broth has thickened into a rich sauce. Taste and adjust salt. Serve with a dollop of {0013} and crusty bread or egg noodles.", timer_seconds: 1800 },
     ] },
-  { id: "uae", dishImageUrl: "", week: 130, country: "United Arab Emirates", countryCode: "ae", numericCode: "784", dish: "Saloona", prepTime: "15 min", cookTime: "1 hr", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "uae", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Machboos.JPG/960px-Machboos.JPG", week: 130, country: "United Arab Emirates", countryCode: "ae", numericCode: "784", dish: "Saloona", prepTime: "15 min", cookTime: "1 hr", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A versatile Emirati stew of chicken, fish, or meat simmered with vegetables and the fragrant Bezar spice blend, often cooked twice a day in Emirati homes. Believed to have Bedouin origins, it's commonly served with rice or thin Emirati bread.",
     miseEnPlace: [
       "Cut the chicken into pieces.",
@@ -2871,7 +2871,7 @@ export const RECIPES = [
       { id: "s4", title: "Add chickpeas and pasta", content: "Add chickpeas and orzo. Simmer 10–12 min until pasta is cooked through. The soup should be thick — if too thin, simmer uncovered 5 more min.", timer_seconds: 720 },
       { id: "s5", title: "Finish and serve", content: "Stir in fresh mint and lemon juice. Taste and adjust {0013}. Ladle into bowls and serve immediately with crusty bread. The mint and lemon stirred in at the end are what make this soup distinctly Libyan." },
     ] },
-  { id: "lebanon", dishImageUrl: "", week: 92, country: "Lebanon", countryCode: "lb", numericCode: "422", dish: "Mujadara", prepTime: "15 min", cookTime: "45 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Frying Pan" }, "knife-board"],
+  { id: "lebanon", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Mujaddara.jpg/960px-Mujaddara.jpg", week: 92, country: "Lebanon", countryCode: "lb", numericCode: "422", dish: "Mujadara", prepTime: "15 min", cookTime: "45 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Frying Pan" }, "knife-board"],
     description: "Lentils and rice simmered together until tender, crowned with deeply caramelized onions fried until sweet and a little crisp. Ancient Levantine peasant food beloved across Lebanon, Syria, Palestine, and Jordan, where the magic lies entirely in how patiently the onions are cooked.",
     miseEnPlace: [
       "Rinse the lentils and rice separately.",
@@ -2985,7 +2985,7 @@ export const RECIPES = [
       { id: "s4", title: "Cook on comal", content: "Heat a dry comal or cast iron skillet over medium-high heat. Cook pupusas 3–4 min per side until golden-brown and slightly charred in spots and the inside is hot and melted.", timer_seconds: 480 },
       { id: "s5", title: "Serve", content: "Serve immediately with a heap of curtido on top or alongside, and tomato salsa. The contrast of hot, molten pupusa with cold, tangy curtido is the whole point." },
     ] },
-  { id: "turkmenistan", dishImageUrl: "", week: 112, country: "Turkmenistan", countryCode: "tm", numericCode: "795", dish: "Dograma", prepTime: "20 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "turkmenistan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Meal_in_Turkmenistan.jpg/960px-Meal_in_Turkmenistan.jpg", week: 112, country: "Turkmenistan", countryCode: "tm", numericCode: "795", dish: "Dograma", prepTime: "20 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Crumbled flatbread, boiled meat, and onion brought together in a rich broth, eaten by hand. A Turkmen national dish served at gatherings.",
     miseEnPlace: [
       "Cube the mutton, lamb, or beef stew meat.",
@@ -3049,7 +3049,7 @@ export const RECIPES = [
       "Remove the chicken from the ice bath, pat dry, and lightly brush the skin with sesame oil to keep it glossy. Carve into pieces.",
       "Serve the chicken over the fragrant rice with cucumber slices, chili sauce, and light soy sauce on the side, along with a bowl of the remaining hot broth as soup."
     ] },
-  { id: "denmark", dishImageUrl: "", week: 114, country: "Denmark", countryCode: "dk", numericCode: "208", dish: "Smorrebrod", prepTime: "25 min", cookTime: "0 min", servings: 4, equipment: ["knife-board"],
+  { id: "denmark", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sm%C3%B8rrebr%C3%B8d_in_Copenhagen_01.jpg/960px-Sm%C3%B8rrebr%C3%B8d_in_Copenhagen_01.jpg", week: 114, country: "Denmark", countryCode: "dk", numericCode: "208", dish: "Smorrebrod", prepTime: "25 min", cookTime: "0 min", servings: 4, equipment: ["knife-board"],
     description: "Denmark's open-faced rye bread sandwiches — dense, dark rugbrød loaded with herring, smoked salmon, or roast beef, and stacked with garnishes. Architectural and delicious.",
     miseEnPlace: [
       "Slice 8 pieces of dense Danish rye bread (rugbrød) about 1 cm thick",
@@ -3077,7 +3077,7 @@ export const RECIPES = [
       { id: "s4", title: "Roast beef smørrebrød", content: "Layer thin slices of roast beef over remaining buttered slices. Top with {0010} and a scatter of {0011}." },
       { id: "s5", title: "Serve", content: "Arrange all smørrebrød on a platter or board. They are eaten with a knife and fork, never picked up. Serve with cold Danish lager or aquavit. The visual presentation — neat, layered, precise — is half the point." },
     ] },
-  { id: "finland", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lohikeitto.jpg/640px-Lohikeitto.jpg", week: 115, country: "Finland", countryCode: "fi", numericCode: "246", dish: "Lohikeitto", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "finland", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Finland_salmonsoup_01.jpg", week: 115, country: "Finland", countryCode: "fi", numericCode: "246", dish: "Lohikeitto", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A silky Finnish salmon chowder with cream, dill, and leeks. Simple, pale, and deeply comforting — the definitive Nordic fish soup.",
     miseEnPlace: [
       "Cube 500 g skinless salmon fillet into 2-inch pieces",
@@ -3131,7 +3131,7 @@ export const RECIPES = [
       { id: "s4", title: "Grill or steam", content: "Grill parcels over medium heat 12–15 min per side, or steam over boiling water for 25 min. The banana leaf will char and perfume the fish with its grassy, slightly sweet smoke.", timer_seconds: 1800 },
       { id: "s5", title: "Serve", content: "Bring parcels to the table unopened. Diners open their own parcel to release the herbed steam. Serve with white rice or boiled plantain." },
     ] },
-  { id: "slovakia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Bryndzov%C3%A9_halu%C5%A1ky_1.jpg/640px-Bryndzov%C3%A9_halu%C5%A1ky_1.jpg", week: 117, country: "Slovakia", countryCode: "sk", numericCode: "703", dish: "Bryndzové Halušky", prepTime: "25 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Frying Pan" }, { icon: "🥔", label: "Box Grater or Halušky Maker" }, "knife-board"],
+  { id: "slovakia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg/960px-Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg", week: 117, country: "Slovakia", countryCode: "sk", numericCode: "703", dish: "Bryndzové Halušky", prepTime: "25 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Frying Pan" }, { icon: "🥔", label: "Box Grater or Halušky Maker" }, "knife-board"],
     description: "Slovakia's national dish: pillowy potato dumplings tossed with tangy sheep's-milk bryndza cheese and topped with crispy bacon. Humble, rich, and utterly distinctive.",
     miseEnPlace: [
       "Finely grate 600 g raw Russet potatoes, squeeze out as much liquid as possible",
@@ -3177,7 +3177,7 @@ export const RECIPES = [
       { id: "s2", title: "Add water and simmer", content: "Pour {0005} over the layers. Bring to a boil over medium-high heat, skimming any foam. Reduce to a low, steady simmer. Cover and cook 1 hr 45 min to 2 hr until lamb is very tender and cabbage has collapsed into the broth.", timer_seconds: 6300 },
       { id: "s3", title: "Season and serve", content: "Taste broth and adjust salt. Scatter {0006} over the top. Serve directly from the pot into deep bowls — make sure each serving has plenty of lamb, cabbage, and peppercorn-spiked broth. Serve with boiled potatoes." },
     ] },
-  { id: "car", dishImageUrl: "", week: 119, country: "Central African Republic", countryCode: "cf", numericCode: "140", dish: "Kanda ti Nyma", prepTime: "25 min", cookTime: "45 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "car", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Boulettes_ti_k%C3%B6ss%C3%B4_en_Rca.jpg/960px-Boulettes_ti_k%C3%B6ss%C3%B4_en_Rca.jpg", week: 119, country: "Central African Republic", countryCode: "cf", numericCode: "140", dish: "Kanda ti Nyma", prepTime: "25 min", cookTime: "45 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "The Central African Republic's dish of meatballs simmered in a peanut and palm oil broth. Simple ground meat mixed with garlic and spices, poached gently until tender in a nutty, savory sauce.",
     miseEnPlace: [
       "Mix 500 g ground beef with 3 minced garlic cloves, salt, pepper, and 1 beaten egg",
@@ -3205,7 +3205,7 @@ export const RECIPES = [
       { id: "s4", title: "Poach meatballs", content: "Gently lower meatballs into the simmering peanut broth. Cover and cook on low heat 20–25 min until meatballs are cooked through and the sauce has thickened.", timer_seconds: 1500 },
       { id: "s5", title: "Serve", content: "Scatter {0011} over top. Serve over white rice or with cassava fufu." },
     ] },
-  { id: "costa-rica", dishImageUrl: "", week: 120, country: "Costa Rica", countryCode: "cr", numericCode: "188", dish: "Casado con Patacones",
+  { id: "costa-rica", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Casado_Tico.jpg/960px-Casado_Tico.jpg", week: 120, country: "Costa Rica", countryCode: "cr", numericCode: "188", dish: "Casado con Patacones",
     prepTime: "20 min", cookTime: "35 min", servings: 4, equipment: [{ icon: "🍳", label: "Skillet" }, { icon: "🍲", label: "Saucepan" }, "knife-board"],
     description: "Costa Rica's everyday lunch plate: rice and black beans with a protein (chicken, beef, or fish), fried patacones (twice-fried green plantain), fresh salad, and a drizzle of Lizano sauce. 'Casado' means 'married man' — this is the lunch a wife was said to pack.",
     miseEnPlace: [
@@ -3266,7 +3266,7 @@ export const RECIPES = [
       "Top with a piece of roasted chicken and scatter with toasted pine nuts.",
       "Serve warm with lemon wedges, traditionally eaten by hand."
     ] },
-  { id: "ireland", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Irish_stew.jpg/640px-Irish_stew.jpg", week: 122, country: "Ireland", countryCode: "ie", numericCode: "372", dish: "Irish Stew", prepTime: "20 min", cookTime: "1 hr 45 min", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Heavy Pot" }, "knife-board"],
+  { id: "ireland", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Irish_Beef_Stew_%2834046928633%29.jpg/960px-Irish_Beef_Stew_%2834046928633%29.jpg", week: 122, country: "Ireland", countryCode: "ie", numericCode: "372", dish: "Irish Stew", prepTime: "20 min", cookTime: "1 hr 45 min", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Heavy Pot" }, "knife-board"],
     description: "A bare and beautiful stew of lamb, potatoes, onions, and carrots simmered in a herb-scented broth. Ireland's great national dish in its most traditional form.",
     miseEnPlace: [
       "Cut 800 g bone-in lamb neck or shoulder into 2-inch pieces",
@@ -3620,7 +3620,7 @@ export const RECIPES = [
       { id: "s3", title: "Grill", content: "Grill on a hot, well-oiled grill or cast iron skillet over high heat. Cook, turning occasionally, 10–12 min until charred outside and just cooked through. Do not press down — keep them plump.", timer_seconds: 720 },
       { id: "s4", title: "Serve", content: "Warm somun bread on the grill briefly. Stuff each piece of bread with 5–6 ćevapi. Pile raw onion inside, add a spoonful of kajmak, and serve ajvar alongside. Eat immediately." },
     ] },
-  { id: "qatar", dishImageUrl: "", week: 135, country: "Qatar", countryCode: "qa", numericCode: "634", dish: "Thareed", prepTime: "20 min", cookTime: "1 hr 15 min", servings: 5, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "qatar", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tharid._%28cropped%29.JPG/960px-Tharid._%28cropped%29.JPG", week: 135, country: "Qatar", countryCode: "qa", numericCode: "634", dish: "Thareed", prepTime: "20 min", cookTime: "1 hr 15 min", servings: 5, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A hearty stew of lamb and vegetables ladled over crispy, thin layered bread that soaks up every drop of the spiced broth. Often called 'Qatari lasagne' for its layered construction, this is one of the most beloved dishes during Ramadan across the Gulf.",
     miseEnPlace: [
       "Cut the lamb into chunks.",
@@ -3827,7 +3827,7 @@ export const RECIPES = [
       { id: "s4", title: "Bake and brown", content: "Transfer to oven at 200°C (400°F). Bake 12–15 min until top is golden and slightly bubbly at the edges.", timer_seconds: 900 },
       { id: "s5", title: "Serve", content: "Scatter {0010} over top. Serve straight from the dish with crusty bread for scooping. Fergese waits for no one — serve it steaming." },
     ] },
-  { id: "gambia", dishImageUrl: "", week: 142, country: "Gambia", countryCode: "gm", numericCode: "270", dish: "Superkanja", prepTime: "20 min", cookTime: "50 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "gambia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/10/Soupou_Kandja.jpg", week: 142, country: "Gambia", countryCode: "gm", numericCode: "270", dish: "Superkanja", prepTime: "20 min", cookTime: "50 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "The Gambia's beloved okra stew — whole okra simmered with smoked fish, palm oil, and a blend of aromatics into a thick, slightly slimy sauce prized for its texture. Eaten with benachin rice — the heart of Gambian home cooking.",
     miseEnPlace: [
       "Top and tail 500 g fresh okra; keep whole",
@@ -3854,7 +3854,7 @@ export const RECIPES = [
       { id: "s4", title: "Add okra and cook", content: "Add whole okra to the simmering pot. Cook 18–20 min uncovered until okra is completely tender and the natural okra slick has fully integrated into the sauce, giving it a glossy, thick coating.", timer_seconds: 1200 },
       { id: "s5", title: "Serve", content: "Remove scotch bonnet. Taste and adjust {0010}. Serve over steamed white rice or benachin (Gambian jollof rice). The superkanja's texture — richly viscous from the okra — is considered a sign of skill." },
     ] },
-  { id: "gabon", dishImageUrl: "", week: 143, country: "Gabon", countryCode: "ga", numericCode: "266", dish: "Capitaine Fish", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Grill" }, "knife-board"],
+  { id: "gabon", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Poisson_brais%C3%A9_oignons.jpg/960px-Poisson_brais%C3%A9_oignons.jpg", week: 143, country: "Gabon", countryCode: "ga", numericCode: "266", dish: "Capitaine Fish", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Grill" }, "knife-board"],
     description: "Gabon's prized Nile perch (capitaine) grilled or pan-fried with a garlicky herb crust and served with a palm oil tomato sauce. The capitaine is the most sought-after fish in Central Africa's rivers and estuaries.",
     miseEnPlace: [
       "Score 4 capitaine (Nile perch) fillets or 2 whole fish and pat dry",
@@ -3903,7 +3903,7 @@ export const RECIPES = [
       { id: "s4", title: "Make pap", content: "Bring {0006} to boil with a pinch of salt. Gradually stir in maize meal, reduce heat, and cook 8–10 min stirring constantly until thick and pulling from the sides.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Serve seswaa piled in the center of a communal platter, with pap alongside. Traditionally eaten with hands — pinch pap, make a scoop, and pick up the meat. Serve with morogo (wild spinach) for a complete traditional meal." },
     ] },
-  { id: "lesotho", dishImageUrl: "", week: 145, country: "Lesotho", countryCode: "ls", numericCode: "426", dish: "Likhobe", prepTime: "10 min", cookTime: "2 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
+  { id: "lesotho", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Samp_and_beans_meal.jpg", week: 145, country: "Lesotho", countryCode: "ls", numericCode: "426", dish: "Likhobe", prepTime: "10 min", cookTime: "2 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Lesotho's hearty mountain dish: whole hominy corn simmered for hours with dried beans until thick and creamy. Simple, sustaining food for the Basotho highlands — often enriched with lard or meat drippings.",
     miseEnPlace: [
       "Soak 300 g dried hominy corn (samp) and 200 g dried beans (kidney or sugar beans) separately overnight; drain",
@@ -3949,7 +3949,7 @@ export const RECIPES = [
       { id: "s3", title: "Poach fish", content: "Gently lower scored fish into the broth. Cook 12–15 min until fish is cooked through and flakes at the thickest part — turn once carefully if needed.", timer_seconds: 900 },
       { id: "s4", title: "Serve", content: "Remove scotch bonnet. Scatter {0010} over top. Serve fish whole in deep bowls with plenty of broth poured over. Serve with white rice or baguette for soaking." },
     ] },
-  { id: "slovenia", dishImageUrl: "", week: 147, country: "Slovenia", countryCode: "si", numericCode: "705", dish: "Jota", prepTime: "20 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "slovenia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Gori%C5%A1ka_jota_slovenska_jed.jpg/960px-Gori%C5%A1ka_jota_slovenska_jed.jpg", week: 147, country: "Slovenia", countryCode: "si", numericCode: "705", dish: "Jota", prepTime: "20 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A thick, smoky Slovenian stew of sauerkraut, borlotti beans, and pork. Deeply humble and deeply satisfying — Karst peasant food at its finest.",
     miseEnPlace: [
       "Soak 200 g dried borlotti beans overnight (or use 2 cans, drained)",
@@ -4140,7 +4140,7 @@ export const RECIPES = [
       { id: "s4", title: "Add crab", content: "Stir in crab meat (or add whole crabs and simmer 10 min more). Season with {0011}. The callaloo should be pourable but thick — like a velvet soup.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Ladle into bowls. Serve alongside white rice, macaroni pie, stewed chicken, and fried plantain for a full Sunday lunch. Callaloo is also eaten over rice with a boiled or fried egg on top for a simpler meal." },
     ] },
-  { id: "estonia", dishImageUrl: "", week: 154, country: "Estonia", countryCode: "ee", numericCode: "233", dish: "Rosolje", prepTime: "30 min", cookTime: "40 min", servings: 6, equipment: [{ icon: "🍲", label: "Pot" }, "knife-board"],
+  { id: "estonia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rosolli.jpg/960px-Rosolli.jpg", week: 154, country: "Estonia", countryCode: "ee", numericCode: "233", dish: "Rosolje", prepTime: "30 min", cookTime: "40 min", servings: 6, equipment: [{ icon: "🍲", label: "Pot" }, "knife-board"],
     description: "Estonia's iconic pink beetroot salad with pickled herring, potatoes, and a cloud of dill cream. A Christmas staple that looks as vivid as it tastes.",
     miseEnPlace: [
       "Boil 3 medium beets and 3 waxy potatoes separately until tender; cool and peel",
@@ -4192,7 +4192,7 @@ export const RECIPES = [
       { id: "s3", title: "Add fish or sausage", content: "Add soaked salt fish flakes (or sausage, browned first). Stir gently to combine. Cook 8–10 min for the fish to heat through and meld with the sauce. Taste before adding {0009} — the salt fish may already provide sufficient saltiness.", timer_seconds: 600 },
       { id: "s4", title: "Serve", content: "Remove thyme sprigs. Scatter {0010} over top. Serve over white rice — rougaille is always eaten with rice in Mauritius, with chutneys and pickles alongside." },
     ] },
-  { id: "eswatini", dishImageUrl: "", week: 156, country: "Eswatini", countryCode: "sz", numericCode: "748", dish: "Umbidvo wetintsanga", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "eswatini", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pumpkin_Leaves_or_Muboora.jpg/960px-Pumpkin_Leaves_or_Muboora.jpg", week: 156, country: "Eswatini", countryCode: "sz", numericCode: "748", dish: "Umbidvo wetintsanga", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Eswatini's traditional dish of pumpkin leaves cooked with groundnuts in a simple, nourishing porridge-like stew. One of the oldest Swazi dishes — the pumpkin leaves are prized for their tender, slightly bitter flavor.",
     miseEnPlace: [
       "Strip 500 g fresh pumpkin leaves (or spinach) from stems; wash well",
@@ -4214,7 +4214,7 @@ export const RECIPES = [
       { id: "s3", title: "Add groundnuts", content: "Stir in ground peanuts. Mix thoroughly — the peanuts will thicken the liquid and coat the leaves. Cook 10–12 min more on medium-low heat until the mixture is thick and creamy and the peanut flavor has deepened.", timer_seconds: 720 },
       { id: "s4", title: "Serve", content: "Taste and adjust {0005}. Serve with thick maize porridge (sishwala) or white rice. Umbidvo is also a traditional accompaniment to beef or chicken stews." },
     ] },
-  { id: "djibouti", dishImageUrl: "", week: 157, country: "Djibouti", countryCode: "dj", numericCode: "262", dish: "Skoudehkaris", prepTime: "15 min", cookTime: "45 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "djibouti", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Djiboutian_rice_%28bariis%29_and_fish_%28kalluun%29%2C_Liver_%28beerka%29_with_vegetable_also_%28Sabaayad%29_pancakes.jpg", week: 157, country: "Djibouti", countryCode: "dj", numericCode: "262", dish: "Skoudehkaris", prepTime: "15 min", cookTime: "45 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Djibouti's fragrant lamb and rice dish: spiced with cardamom, cinnamon, and cumin, topped with fried onions and served with a fresh tomato salad. Reflecting the country's Somali, Afar, and Yemeni culinary crossroads.",
     miseEnPlace: [
       "Cut 600 g bone-in lamb shoulder into large pieces",
@@ -4267,7 +4267,7 @@ export const RECIPES = [
   { id: "fiji", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kokoda_Track.jpg/960px-Kokoda_Track.jpg", week: 159, country: "Fiji", countryCode: "fj", numericCode: "242", dish: "Kokoda",
     description: "Fresh fish cured in lime and bathed in coconut cream with tomato, onion, and chili. Fiji's beloved national dish.",
     ingredients: [], steps: [] },
-  { id: "comoros", dishImageUrl: "", week: 160, country: "Comoros", countryCode: "km", numericCode: "174", dish: "Langouste a la Vanille", prepTime: "15 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, "knife-board"],
+  { id: "comoros", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Grilled_Lobster_%288558909573%29.jpg/960px-Grilled_Lobster_%288558909573%29.jpg", week: 160, country: "Comoros", countryCode: "km", numericCode: "174", dish: "Langouste a la Vanille", prepTime: "15 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, "knife-board"],
     description: "The Comoros Islands' signature dish: spiny lobster (langouste) sautéed in butter with vanilla, coconut milk, and lime. The Islands are one of the world's largest vanilla producers — this dish is their most elegant expression of it.",
     miseEnPlace: [
       "Split 2 spiny lobsters (or 4 large langoustines/prawns) lengthwise; devein",
@@ -4722,10 +4722,10 @@ export const RECIPES = [
       { id: "s3", title: "Grill fish", content: "Grill fish over medium-high charcoal heat 5–7 min per side until deeply charred in spots and cooked through. A well-oiled grill grate prevents sticking.", timer_seconds: 840 },
       { id: "s4", title: "Serve", content: "Arrange grilled fish on a platter with breadfruit alongside. Scatter {0009} over everything. Squeeze {0009} over the fish. Simple, fragrant, and complete." },
     ] },
-  { id: "samoa", dishImageUrl: "", week: 177, country: "Samoa", countryCode: "ws", numericCode: "882", dish: "Palusami",
+  { id: "samoa", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Laulau_unwrapped_with_coconut_cream_and_onions.jpg/960px-Laulau_unwrapped_with_coconut_cream_and_onions.jpg", week: 177, country: "Samoa", countryCode: "ws", numericCode: "882", dish: "Palusami",
     description: "Taro leaves wrapped around rich coconut cream and baked until silky. A Samoan favorite.",
     ingredients: [], steps: [] },
-  { id: "saint-lucia", dishImageUrl: "", week: 178, country: "Saint Lucia", countryCode: "lc", numericCode: "662", dish: "Green Fig and Saltfish",
+  { id: "saint-lucia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Peeled_Green_bananas_ready_for_cooking.jpg/960px-Peeled_Green_bananas_ready_for_cooking.jpg", week: 178, country: "Saint Lucia", countryCode: "lc", numericCode: "662", dish: "Green Fig and Saltfish",
     prepTime: "20 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Skillet" }, "knife-board"],
     description: "Saint Lucia's national dish: boiled unripe bananas ('green figs') tossed with sautéed salted cod, onion, peppers, and herbs. Simple, cheap, and deeply satisfying — the everyday breakfast and lunch of the island.",
     miseEnPlace: [
@@ -4754,7 +4754,7 @@ export const RECIPES = [
       { id: "s4", title: "Add saltfish and tomatoes", content: "Add flaked saltfish and diced tomatoes. Cook 5–6 min, stirring, until tomatoes soften. Taste before adding any salt — the cod may provide enough." },
       { id: "s5", title: "Add bananas and serve", content: "Add sliced green bananas to the pan. Fold gently to combine with the saltfish mixture. Cook 2 min to warm through. Season with {0011}. Scatter scallions and {0011} over top. Serve immediately." },
     ] },
-  { id: "kiribati", dishImageUrl: "", week: 179, country: "Kiribati", countryCode: "ki", numericCode: "296", dish: "Coconut Reef Fish",
+  { id: "kiribati", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ika_mata.jpg/960px-Ika_mata.jpg", week: 179, country: "Kiribati", countryCode: "ki", numericCode: "296", dish: "Coconut Reef Fish",
     description: "Reef fish poached in coconut cream and served with breadfruit or rice. A staple across the atolls of Kiribati.",
     ingredients: [], steps: [] },
   { id: "seychelles", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Octopuses_in_Tsukiji.JPG/960px-Octopuses_in_Tsukiji.JPG", week: 180, country: "Seychelles", countryCode: "sc", numericCode: "690", dish: "Octopus Curry", prepTime: "20 min", cookTime: "1 hr 20 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
@@ -4988,7 +4988,7 @@ export const RECIPES = [
       { id: "s4", title: "Layer with cheese", content: "In a warmed baking dish or directly in the pot, layer half the knöpfle, then half the cheese, then remaining knöpfle, then remaining cheese. The residual heat will melt the cheese — toss gently to combine. Season with {0009}." },
       { id: "s5", title: "Serve", content: "Pile caramelized onions on top. Scatter {0009} over everything. Serve immediately, very hot, with apple sauce on the side if desired." },
     ] },
-  { id: "monaco", dishImageUrl: "", week: 189, country: "Monaco", countryCode: "mc", numericCode: "492", dish: "Barbagiuan", prepTime: "45 min", cookTime: "20 min", servings: 6, equipment: [{ icon: "🍳", label: "Deep Frying Pan or Pot" }, { icon: "🍳", label: "Skillet" }, "knife-board"],
+  { id: "monaco", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Barbaguiai.jpg/960px-Barbaguiai.jpg", week: 189, country: "Monaco", countryCode: "mc", numericCode: "492", dish: "Barbagiuan", prepTime: "45 min", cookTime: "20 min", servings: 6, equipment: [{ icon: "🍳", label: "Deep Frying Pan or Pot" }, { icon: "🍳", label: "Skillet" }, "knife-board"],
     description: "Monaco's beloved fried pastry — crispy pockets filled with Swiss chard, ricotta, and rice. Street food of the principality, devoured at the national holiday.",
     miseEnPlace: [
       "Cook 100 g arborio rice in salted water until just tender; drain and cool",
@@ -5019,7 +5019,7 @@ export const RECIPES = [
   { id: "marshall-islands", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Coconut_Crab_Birgus_latro.jpg/960px-Coconut_Crab_Birgus_latro.jpg", week: 190, country: "Marshall Islands", countryCode: "mh", numericCode: "584", dish: "Coconut Crab",
     description: "The giant coconut crab grilled or simmered in its own rich, coconut-sweet meat. A prized delicacy of the Marshall Islands.",
     ingredients: [], steps: [] },
-  { id: "san-marino", dishImageUrl: "", week: 191, country: "San Marino", countryCode: "sm", numericCode: "674", dish: "Fagioli con le Cotiche", prepTime: "15 min (plus overnight soaking)", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
+  { id: "san-marino", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Fagioli_e_cotiche.jpg/960px-Fagioli_e_cotiche.jpg", week: 191, country: "San Marino", countryCode: "sm", numericCode: "674", dish: "Fagioli con le Cotiche", prepTime: "15 min (plus overnight soaking)", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "San Marino's peasant classic: borlotti beans braised with pork rind (cotiche) in tomato and rosemary. Ancient mountain cooking from the world's oldest republic.",
     miseEnPlace: [
       "Soak 300 g dried borlotti beans overnight; drain",
@@ -5047,7 +5047,7 @@ export const RECIPES = [
       { id: "s4", title: "Add beans and braise", content: "Add pre-cooked beans and enough reserved bean liquid to keep everything moist. Season with {0010} and {0011}. Cover and simmer on low heat 50–60 min until cotiche is completely tender and beans are creamy. Stir gently occasionally, adding liquid if needed.", timer_seconds: 3600 },
       { id: "s5", title: "Finish and serve", content: "Remove rosemary. Scatter {0011} over top. Serve as a hearty main with grilled bread rubbed with garlic. Best the next day — reheat gently." },
     ] },
-  { id: "palau", dishImageUrl: "", week: 192, country: "Palau", countryCode: "pw", numericCode: "585", dish: "Demok",
+  { id: "palau", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Laing_with_Coconut_Milk.jpg/960px-Laing_with_Coconut_Milk.jpg", week: 192, country: "Palau", countryCode: "pw", numericCode: "585", dish: "Demok",
     description: "Taro leaves slow-cooked with coconut milk and crab or fish into a creamy green dish. A Palauan staple.",
     ingredients: [], steps: [] },
   { id: "nauru", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nasi_Liwet_Solo.jpg/960px-Nasi_Liwet_Solo.jpg", week: 193, country: "Nauru", countryCode: "nr", numericCode: "520", dish: "Coconut Fish and Rice",
@@ -5110,7 +5110,7 @@ export const RECIPES = [
       { id: "s3", title: "Add rice", content: "Add rinsed rice. Continue simmering 25–30 min until both rice and barley are fully tender and the broth has thickened slightly.", timer_seconds: 1800 },
       { id: "s4", title: "Season and serve", content: "Remove bay leaves. Season with {0007}. The soup should taste of the meat, clean and direct, with the grain providing body. Serve in deep bowls with rye crispbread (knækbrød) on the side. Suaasat has sustained the Greenlandic people through centuries of Arctic winters — it needs nothing more than what it is." },
     ] },
-  { id: "chad", dishImageUrl: "", week: 198, country: "Chad", countryCode: "td", numericCode: "148", dish: "Daraba", prepTime: "20 min", cookTime: "40 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "chad", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Du_bamia_avec_du_riz_en_f%C3%A9vrier_2022.jpg/960px-Du_bamia_avec_du_riz_en_f%C3%A9vrier_2022.jpg", week: 198, country: "Chad", countryCode: "td", numericCode: "148", dish: "Daraba", prepTime: "20 min", cookTime: "40 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Chad's traditional dish of okra leaves, tomatoes, and meat in a thick peanut and palm oil sauce. Eaten with millet porridge, daraba is Central Saharan comfort food at its most nourishing.",
     miseEnPlace: [
       "Wash and chop 400 g okra leaves or tender spinach (dried okra powder can substitute)",
@@ -5142,7 +5142,7 @@ export const RECIPES = [
   { id: "micronesia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Songe-R%C3%A9union.JPG/960px-Songe-R%C3%A9union.JPG", week: 200, country: "Micronesia", countryCode: "fm", numericCode: "583", dish: "Taro with Coconut Cream",
     description: "Steamed taro pounded soft and served with fresh coconut cream, the staple combination across Micronesia. Simple, sustaining, and deeply rooted in island life.",
     ingredients: [], steps: [] },
-  { id: "falkland-islands", dishImageUrl: "", week: 201, country: "Falkland Islands", countryCode: "fk", numericCode: "238", dish: "Upland Goose Roast",
+  { id: "falkland-islands", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Roasted_goose.jpg/960px-Roasted_goose.jpg", week: 201, country: "Falkland Islands", countryCode: "fk", numericCode: "238", dish: "Upland Goose Roast",
     description: "Wild upland goose slow-roasted and served with root vegetables and gravy, a tradition of the remote South Atlantic islands. The birds feed freely on island grass, giving the meat a distinctive flavor.",
     ingredients: [], steps: [] },
   { id: "saint-helena", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Fish_cakes_food_dinner.jpg/960px-Fish_cakes_food_dinner.jpg", week: 206, country: "Saint Helena", countryCode: "sh", numericCode: "654", dish: "Spicy Fish Cakes",
@@ -5151,10 +5151,10 @@ export const RECIPES = [
   { id: "tokelau", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/RybnoeDistrict_06-13_Konstantinovo_Oka_River_01.jpg/960px-RybnoeDistrict_06-13_Konstantinovo_Oka_River_01.jpg", week: 203, country: "Tokelau", countryCode: "tk", numericCode: "772", dish: "Oka with Coconut Cream",
     description: "Raw fish marinated in lime and bathed in fresh coconut cream with onion and chili. The staple dish of Tokelau's atolls, eaten at nearly every communal meal.",
     ingredients: [], steps: [] },
-  { id: "antarctica", dishImageUrl: "", week: 204, country: "Antarctica", countryCode: "aq", numericCode: "010", dish: "Midwinter Roast",
+  { id: "antarctica", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Traditional.Sunday.Roast-01.jpg/960px-Traditional.Sunday.Roast-01.jpg", week: 204, country: "Antarctica", countryCode: "aq", numericCode: "010", dish: "Midwinter Roast",
     description: "A full roast of whatever meat the station stores hold — beef, lamb, or pork — with roasted vegetables and gravy, cooked by rotating volunteer chefs to mark the winter solstice. The Midwinter Feast is the single most celebrated meal on the continent, observed by every Antarctic research station since the earliest expeditions.",
     ingredients: [], steps: [] },
-  { id: "western-sahara", dishImageUrl: "", week: 205, country: "Western Sahara", countryCode: "eh", numericCode: "732", dish: "Mechoul with Dates", prepTime: "15 min", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Roasting Pan" }, "oven"],
+  { id: "western-sahara", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Mechoui.jpg/960px-Mechoui.jpg", week: 205, country: "Western Sahara", countryCode: "eh", numericCode: "732", dish: "Mechoul with Dates", prepTime: "15 min", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Roasting Pan" }, "oven"],
     description: "Western Sahara's nomadic feast: slowly roasted lamb seasoned with cumin and coriander, served alongside Saharan dates and argan oil flatbread. The desert mechoul is ancient Sahrawi hospitality — to roast a lamb is to honor a guest.",
     miseEnPlace: [
       "Prepare 1.5 kg bone-in lamb shoulder or leg — ask for it tied",
