@@ -3074,7 +3074,7 @@ export const RECIPES = [
       { id: "s1", title: "Butter the bread", content: "Butter each slice of rugbrød generously to the edges — butter is the moisture barrier that keeps the toppings from sogging the bread." },
       { id: "s2", title: "Herring smørrebrød", content: "Lay pickled herring over 2–3 buttered slices. Top with red onion rings, capers, and a grind of black pepper. The classic and most traditional version." },
       { id: "s3", title: "Smoked salmon smørrebrød", content: "Drape smoked salmon over 2–3 buttered slices. Add a spoonful of crème fraîche, a squeeze of lemon, and {0007}." },
-      { id: "s4", title: "Roast beef smørrebrød", content: "Layer thin slices of roast beef over remaining buttered slices. Top with {0009} and a scatter of crispy fried onions." },
+      { id: "s4", title: "Roast beef smørrebrød", content: "Layer thin slices of roast beef over remaining buttered slices. Top with {0009} (or the mayo-and-pickle mix) and a scatter of crispy fried onions." },
       { id: "s5", title: "Serve", content: "Arrange all smørrebrød on a platter or board. They are eaten with a knife and fork, never picked up. Serve with cold Danish lager or aquavit. The visual presentation — neat, layered, precise — is half the point." },
     ] },
   { id: "finland", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Finland_salmonsoup_01.jpg", week: 115, country: "Finland", countryCode: "fi", numericCode: "246", dish: "Lohikeitto", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
