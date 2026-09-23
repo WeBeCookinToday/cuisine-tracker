@@ -1252,7 +1252,7 @@ export const RECIPES = [
       { id: "s4", title: "Add fresh fish and greens", content: "Add fresh fish pieces and sweet potato leaves. Season with {0010}. Cook 10–12 min until fresh fish is cooked through and greens are wilted.", timer_seconds: 720 },
       { id: "s5", title: "Serve", content: "Taste and adjust salt. Serve over funge (Angolan cornmeal porridge) or white rice. The palm oil should give the stew a beautiful orange hue." },
     ] },
-  { id: "uzbekistan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/66/L%C7%ABgma%C3%B0r_Gu%C3%B0r%C3%B8%C3%B0arson_%28British_Library_Cotton_MS_Julius_A_VII%2C_folio_33v%29.jpg", week: 47, country: "Uzbekistan", countryCode: "uz", numericCode: "860", dish: "Lagman", prepTime: "20 min", cookTime: "50 min", servings: 7, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
+  { id: "uzbekistan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Laghman%2C_Novosibirsk_01.jpg/960px-Laghman%2C_Novosibirsk_01.jpg", week: 47, country: "Uzbekistan", countryCode: "uz", numericCode: "860", dish: "Lagman", prepTime: "20 min", cookTime: "50 min", servings: 7, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Hand-pulled wheat noodles tossed with a stir-fry of lamb, peppers, tomatoes, and greens, a Silk Road dish shared across Central Asia. Uzbek cooks prize the springy texture of the stretched dough. Equally at home as a soup or a saucy noodle plate.",
     miseEnPlace: [
       "Cut the beef (don't discard any bones — they enrich the broth) into small strips.",
@@ -2423,7 +2423,7 @@ export const RECIPES = [
       { id: "s4", title: "Make the sauce", content: "Remove beef and rest covered. Strain braising liquid and vegetables, pressing vegetables through a sieve or blending them into the sauce. Return to pot, add cream, mustard, lemon juice, and sugar. Simmer 5–8 min until velvety and coating. Adjust seasoning.", timer_seconds: 480 },
       { id: "s5", title: "Serve", content: "Slice beef across the grain into thick rounds. Fan over bread dumplings (houskový knedlík) or egg noodles. Pour cream sauce over everything. Add a generous spoonful of {0013} and garnish with lemon zest." },
     ] },
-  { id: "sweden", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Soup_with_meatballs-01.jpg", week: 90, country: "Sweden", countryCode: "se", numericCode: "752", dish: "Swedish Meatballs", prepTime: "25 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, "knife-board"],
+  { id: "sweden", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/30/K%C3%B6ttbullar_-_Swedish_meatballs.jpg", week: 90, country: "Sweden", countryCode: "se", numericCode: "752", dish: "Swedish Meatballs", prepTime: "25 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, "knife-board"],
     description: "Tender pork-and-beef meatballs in a creamy gravy, served with lingonberry jam and potatoes. A cornerstone of Swedish home cooking.",
     miseEnPlace: [
       "Soak 2 slices of white bread (crusts off) in 60 ml milk until soft; mash into a paste",
@@ -4192,7 +4192,7 @@ export const RECIPES = [
       { id: "s3", title: "Add fish or sausage", content: "Add soaked salt fish flakes (or sausage, browned first). Stir gently to combine. Cook 8–10 min for the fish to heat through and meld with the sauce. Taste before adding {0009} — the salt fish may already provide sufficient saltiness.", timer_seconds: 600 },
       { id: "s4", title: "Serve", content: "Remove thyme sprigs. Scatter {0010} over top. Serve over white rice — rougaille is always eaten with rice in Mauritius, with chutneys and pickles alongside." },
     ] },
-  { id: "eswatini", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pumpkin_Leaves_or_Muboora.jpg/960px-Pumpkin_Leaves_or_Muboora.jpg", week: 156, country: "Eswatini", countryCode: "sz", numericCode: "748", dish: "Umbidvo wetintsanga", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
+  { id: "eswatini", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ifisashi.jpg/960px-Ifisashi.jpg", week: 156, country: "Eswatini", countryCode: "sz", numericCode: "748", dish: "Umbidvo wetintsanga", prepTime: "15 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Eswatini's traditional dish of pumpkin leaves cooked with groundnuts in a simple, nourishing porridge-like stew. One of the oldest Swazi dishes — the pumpkin leaves are prized for their tender, slightly bitter flavor.",
     miseEnPlace: [
       "Strip 500 g fresh pumpkin leaves (or spinach) from stems; wash well",
@@ -4323,7 +4323,7 @@ export const RECIPES = [
       { id: "s4", title: "Reduce and glaze", content: "Remove lid and simmer 20–30 min more until the sauce reduces to a thick, near-black glaze that coats the meat completely. Season with {0011}.", timer_seconds: 1800 },
       { id: "s5", title: "Serve", content: "Remove whole peppers (do not break them — the heat has already diffused into the sauce), cinnamon sticks, and cloves. Serve with homemade bread or plait bread for Christmas morning. Pepperpot improves for days — add new cassareep and meat to the existing pot to keep it going." },
     ] },
-  { id: "bhutan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ema_datshi%28Dry_red_chilli_version%29.jpg", week: 162, country: "Bhutan", countryCode: "bt", numericCode: "064", dish: "Ema Datshi", prepTime: "10 min", cookTime: "20 min", servings: 3, equipment: [{ icon: "🍲", label: "Saucepan" }, "knife-board"],
+  { id: "bhutan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ema_datshi.jpg/960px-Ema_datshi.jpg", week: 162, country: "Bhutan", countryCode: "bt", numericCode: "064", dish: "Ema Datshi", prepTime: "10 min", cookTime: "20 min", servings: 3, equipment: [{ icon: "🍲", label: "Saucepan" }, "knife-board"],
     description: "Fat green and red chilies stewed with melted cheese into a fiery, soupy dish. Bhutan's beloved national dish.",
     miseEnPlace: [
       "Wash and slit the chilies lengthwise; remove the seeds for a milder dish.",
@@ -4899,7 +4899,7 @@ export const RECIPES = [
       { id: "s4", title: "Crisp the trinxat", content: "Add olive oil to the pork fat if needed. Add garlic and cook 30 sec. Spread cabbage-potato mixture into the pan in an even layer, pressing down firmly. Cook undisturbed over medium heat 6–8 min until a deep golden crust forms underneath.", timer_seconds: 480 },
       { id: "s5", title: "Flip and serve", content: "Slide or flip the cake onto a plate (or cut into wedges). Scatter crispy pork lardons over top. Serve immediately — trinxat is best eaten when hot and crackling." },
     ] },
-  { id: "dominica", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bouyon.jpg/960px-Bouyon.jpg", week: 186, country: "Dominica", countryCode: "dm", numericCode: "212", dish: "Bouyon",
+  { id: "dominica", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bouyon_bef.jpg/960px-Bouyon_bef.jpg", week: 186, country: "Dominica", countryCode: "dm", numericCode: "212", dish: "Bouyon",
     prepTime: "20 min", cookTime: "1 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Dominica's hearty provision soup: a clear broth loaded with ground provisions — yam, dasheen (taro), green banana, dumplings — with chicken, pork, or salted meat. The ultimate Dominican comfort, especially on a Sunday morning after church.",
     miseEnPlace: [
@@ -5136,10 +5136,10 @@ export const RECIPES = [
       { id: "s4", title: "Add greens", content: "Add chopped okra leaves or spinach. Stir to incorporate. Season with {0008} and {0009}. Simmer 10–12 min until greens are wilted and fully tender and the peanut sauce is thick.", timer_seconds: 720 },
       { id: "s5", title: "Serve", content: "Taste and adjust seasoning. Serve with millet or sorghum porridge (boule) for scooping. The peanut sauce should be thick enough to coat the porridge generously." },
     ] },
-  { id: "new-caledonia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Femme_kanak.jpg", week: 199, country: "New Caledonia", countryCode: "nc", numericCode: "540", dish: "Bougna",
+  { id: "new-caledonia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bougna_traditionnel.jpg/960px-Bougna_traditionnel.jpg", week: 199, country: "New Caledonia", countryCode: "nc", numericCode: "540", dish: "Bougna",
     description: "Chicken, lobster, or pork layered with yam, taro, and coconut milk, wrapped in banana leaves and baked over hot stones. The traditional feast dish of the Kanak people.",
     ingredients: [], steps: [] },
-  { id: "micronesia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Songe-R%C3%A9union.JPG/960px-Songe-R%C3%A9union.JPG", week: 200, country: "Micronesia", countryCode: "fm", numericCode: "583", dish: "Taro with Coconut Cream",
+  { id: "micronesia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Boiled_taro.png/960px-Boiled_taro.png", week: 200, country: "Micronesia", countryCode: "fm", numericCode: "583", dish: "Taro with Coconut Cream",
     description: "Steamed taro pounded soft and served with fresh coconut cream, the staple combination across Micronesia. Simple, sustaining, and deeply rooted in island life.",
     ingredients: [], steps: [] },
   { id: "falkland-islands", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Roasted_goose.jpg/960px-Roasted_goose.jpg", week: 201, country: "Falkland Islands", countryCode: "fk", numericCode: "238", dish: "Upland Goose Roast",
