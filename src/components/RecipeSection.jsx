@@ -206,14 +206,16 @@ export function RecipeSection({ recipe, entry, onUpdate }) {
             {recipe.steps.map((step, i) => {
               const isObj = typeof step === "object" && step !== null;
               const rawContent = isObj ? step.content : step;
-              // Resolve {0001} ingredient refs → ingredient name+unit string
+              // Resolve {0001} ingredient refs → ingredient name+unit string.
+              // "(sub: …)" substitution notes stay on the shopping list only.
+              const stripSub = (s) => s.replace(/\s*\(sub: [^)]*\)/g, "");
               const resolvedContent = rawContent.replace(/\{(\d{4})\}/g, (_, idx) => {
                 const ing = recipe.ingredients[parseInt(idx, 10)];
                 if (!ing) return "";
-                if (typeof ing === "string") return ing;
+                if (typeof ing === "string") return stripSub(ing);
                 const amt = ing.amount != null ? numToNiceString(ing.amount) : "";
                 const unit = ing.unit ? ing.unit + " " : "";
-                return `${amt}${amt ? " " : ""}${unit}${ing.name}`.trim();
+                return `${amt}${amt ? " " : ""}${unit}${stripSub(ing.name)}`.trim();
               });
               return (
                 <li key={i} style={{ position: "relative", padding: "9px 0 9px 32px", borderBottom: i < recipe.steps.length - 1 ? `0.5px solid ${C.line}` : "none", fontSize: 13, lineHeight: 1.6, color: C.ink }}>
