@@ -4283,7 +4283,7 @@ export const RECIPES = [
       { amount: 1, unit: null, name: "medium green bell pepper, finely diced" },
       { amount: 1, unit: null, name: "medium red bell pepper, finely diced" },
       { amount: 1, unit: null, name: "Persian cucumber, finely diced" },
-      { amount: 3, unit: null, name: "long red chilies, finely diced" },
+      { amount: 3, unit: null, name: "long red chilies, finely diced (sub: red Fresno chiles)" },
       { amount: 2, unit: "tbsp", name: "cilantro, finely chopped" },
       { amount: 2, unit: null, name: "Roma tomatoes, finely diced" },
       { amount: null, unit: null, name: "salt and pepper, to taste" },
