@@ -185,7 +185,7 @@ export const RECIPES = [
       "Cut 600 g very fresh firm white fish (sea bass, flounder, or corvina) into 2 cm cubes; keep cold",
       "Thinly slice 1 large red onion; soak in cold salted water 10 min to mellow, drain",
       "Juice 12–15 limes (need about 180 ml) — use only fresh",
-      "Mince 1–2 ají amarillo chiles (or use paste)",
+      "Mince 1–2 ají amarillo chiles (or use paste — or blend a seeded habanero with a little yellow bell pepper)",
     ],
     ingredients: [
       { amount: 600, unit: "g", name: "very fresh firm white fish (sea bass or corvina), cut into 2 cm cubes" },
@@ -200,10 +200,10 @@ export const RECIPES = [
       { amount: 4, unit: "tbsp", name: "cancha (toasted dried corn kernels), to serve (sub: corn nuts)" },
     ],
     steps: [
-      { id: "s1", title: "Cure the fish", content: "Place fish cubes in a cold bowl. Add lime juice, garlic, ají amarillo, and {0006}. Toss gently. The fish will begin to turn opaque immediately — this is the acid 'cooking' it. For Peruvian-style (barely cured), rest only 2–3 min. For more cured, rest up to 10 min.", timer_seconds: 180 },
+      { id: "s1", title: "Cure the fish", content: "Place fish cubes in a cold bowl. Add lime juice, garlic, ají amarillo (or the habanero–bell pepper blend), and {0006}. Toss gently. The fish will begin to turn opaque immediately — this is the acid 'cooking' it. For Peruvian-style (barely cured), rest only 2–3 min. For more cured, rest up to 10 min.", timer_seconds: 180 },
       { id: "s2", title: "Add onion and cilantro", content: "Drain soaked red onion and add to fish. Add cilantro. Toss gently to combine. Taste the leche de tigre (the lime-fish juices) and adjust salt and ají." },
       { id: "s3", title: "Plate immediately", content: "Ceviche must be served the moment it is made — it keeps curing in the lime and will become rubbery if left too long. Divide into chilled bowls." },
-      { id: "s4", title: "Garnish and serve", content: "Arrange choclo rounds and sweet potato slices alongside the fish. Scatter {0009} over the top. Serve with leche de tigre left in the bowl for drinking. The contrast of cold, acid fish with sweet potato and crunchy cancha is the whole point." },
+      { id: "s4", title: "Garnish and serve", content: "Arrange choclo (or regular corn) rounds and sweet potato slices alongside the fish. Scatter {0009} (or corn nuts) over the top. Serve with leche de tigre left in the bowl for drinking. The contrast of cold, acid fish with sweet potato and crunchy cancha is the whole point." },
     ] },
   { id: "ethiopia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Injera_and_doro_wat.jpg/960px-Injera_and_doro_wat.jpg", week: 9, country: "Ethiopia", countryCode: "et", numericCode: "231", dish: "Doro Wat with Injera", prepTime: "30 min", cookTime: "1 hr 30 min", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Heavy Pot" }, "knife-board"],
     description: "Ethiopia's ceremonial spiced chicken stew — slow-cooked in a deep, complex berbere and niter kibbeh sauce — served on spongy sourdough injera flatbread. Eaten communally with the right hand.",
@@ -211,7 +211,7 @@ export const RECIPES = [
       "Score 1 kg bone-in chicken pieces deeply with a knife; rub with lemon and salt; rest 15 min",
       "Hard-boil 4 eggs, peel and score with a fork so the sauce penetrates",
       "Finely dice 4 large onions — the caramelized onion base is the foundation",
-      "Make or buy niter kibbeh (spiced clarified butter) and berbere spice blend",
+      "Make or buy niter kibbeh (spiced clarified butter) and berbere spice blend (or mix 2 parts paprika to 1 part cayenne with pinches of ground ginger, coriander, cardamom, allspice & cloves)",
     ],
     ingredients: [
       { amount: 1, unit: "kg", name: "bone-in chicken pieces, scored and rubbed with lemon" },
@@ -228,18 +228,18 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Dry-caramelize the onions", content: "Place diced onions in a dry Dutch oven (no oil) over medium-low heat. Cook, stirring often, 20–25 min until they turn a deep caramel color and almost paste-like. This step is essential — the dry method produces a richer base.", timer_seconds: 1500 },
-      { id: "s2", title: "Add fat and spices", content: "Add niter kibbeh to the caramelized onions. Stir in berbere and cook 3–4 min until the fat turns a deep red. Add garlic, ginger, and tomato paste and cook 2 min more — the kitchen will be fragrant." },
+      { id: "s2", title: "Add fat and spices", content: "Add niter kibbeh to the caramelized onions. Stir in berbere (or the paprika–cayenne blend) and cook 3–4 min until the fat turns a deep red. Add garlic, ginger, and tomato paste and cook 2 min more — the kitchen will be fragrant." },
       { id: "s3", title: "Braise the chicken", content: "Add chicken pieces, turning to coat in the sauce. Add stock, {0010}, and enough water to keep chicken partially submerged. Cover and simmer on low heat 45–50 min, turning chicken occasionally, until very tender.", timer_seconds: 3000 },
       { id: "s4", title: "Add eggs", content: "Nestle scored hard-boiled eggs into the stew. Simmer uncovered 10 min, spooning sauce over eggs, until sauce has thickened and eggs are tinged red.", timer_seconds: 600 },
-      { id: "s5", title: "Serve on injera", content: "Spread injera on a large communal platter. Spoon doro wat over it, placing eggs prominently. Tear additional injera into pieces for scooping. Eat with the right hand only — the injera is both plate and utensil." },
+      { id: "s5", title: "Serve on injera", content: "Spread injera (or thin buckwheat crêpes or warm flatbread) on a large communal platter. Spoon doro wat over it, placing eggs prominently. Tear additional injera into pieces for scooping. Eat with the right hand only — the injera is both plate and utensil." },
     ] },
   { id: "brazil", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/90/Feijoada_%C3%A0_transmontada.jpg", week: 15, country: "Brazil", countryCode: "br", numericCode: "076", dish: "Feijoada",
     prepTime: "30 min (plus overnight soaking)", cookTime: "2 hr 30 min", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Brazil's magnificent black bean and pork stew — slow-cooked with smoked sausage, pork ribs, and cured meats until the beans are silky and the broth is ink-dark. Served on Wednesdays and Saturdays with white rice, farofa, and orange slices to cut the richness.",
     miseEnPlace: [
       "Soak 500 g dried black beans overnight; drain",
-      "Soak 200 g carne seca (dried salted beef) overnight in two changes of water; drain and cube",
-      "Slice 300 g smoked linguiça or chorizo; have 300 g smoked pork ribs ready",
+      "Soak 200 g carne seca (dried salted beef) overnight in two changes of water; drain and cube; if using corned beef instead, just rinse and cube it — no soak needed",
+      "Slice 300 g smoked linguiça or chorizo; have 300 g smoked pork ribs (or a smoked ham hock) ready",
     ],
     ingredients: [
       { amount: 500, unit: "g", name: "dried black beans, soaked overnight" },
@@ -257,10 +257,10 @@ export const RECIPES = [
       { amount: 100, unit: "g", name: "farofa (toasted cassava flour), to serve (sub: cassava flour or panko toasted in butter)" },
     ],
     steps: [
-      { id: "s1", title: "Cook beans with meats", content: "Place drained black beans, carne seca, pork ribs, and bay leaves in a large pot. Cover with water by 5 cm. Bring to a boil, skim foam. Reduce heat and simmer 1 hr 30 min until beans are completely tender.", timer_seconds: 5400 },
+      { id: "s1", title: "Cook beans with meats", content: "Place drained black beans, carne seca (or corned beef), pork ribs (or ham hock), and bay leaves in a large pot. Cover with water by 5 cm. Bring to a boil, skim foam. Reduce heat and simmer 1 hr 30 min until beans are completely tender.", timer_seconds: 5400 },
       { id: "s2", title: "Fry the aromatics", content: "Heat oil in a skillet. Fry bacon until crispy. Add linguiça and brown 4 min. Add onions and cook 8 min until golden. Add garlic, cook 2 min. Ladle 2 cups of cooked beans from the pot into the skillet and mash roughly — this creates the thickening base." },
-      { id: "s3", title: "Combine and simmer", content: "Add the skillet contents back to the bean pot. Stir well. Simmer 30–40 min more until the broth is thick, dark, and velvety. Season with {0010} and {0011}.", timer_seconds: 2400 },
-      { id: "s4", title: "Serve the full spread", content: "Serve feijoada in its pot alongside: white rice, farofa, braised collard greens (couve), sliced oranges, and hot sauce (pimenta). The orange is essential — its acidity cuts the fat and cleanses the palate between bites." },
+      { id: "s3", title: "Combine and simmer", content: "Add the skillet contents back to the bean pot. Stir well. Simmer 30–40 min more until the broth is thick, dark, and velvety. If you used a ham hock, pull the meat off the bone and stir it back in. Season with {0010} and {0011}.", timer_seconds: 2400 },
+      { id: "s4", title: "Serve the full spread", content: "Serve feijoada in its pot alongside: white rice, farofa (or cassava flour or panko toasted in butter until golden), braised collard greens (couve), sliced oranges, and hot sauce (pimenta). The orange is essential — its acidity cuts the fat and cleanses the palate between bites." },
     ] },
   { id: "india", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Chicken_tikka_masala_%28cropped%29.jpg/960px-Chicken_tikka_masala_%28cropped%29.jpg", week: 11, country: "India", countryCode: "in", numericCode: "356", dish: "Chicken Tikka, Saag Paneer with Naan",
     description: "Charred yogurt-marinated chicken alongside creamy spiced spinach with cubes of paneer, scooped up with warm tandoor-baked naan. A classic North Indian combination spanning grill, curry, and bread.",
@@ -330,7 +330,7 @@ export const RECIPES = [
       "Sliced red chili, optional"
     ],
     steps: [
-      "Make the peanut sauce: combine the peanut butter, curry paste, kecap manis, sambal, salt, garlic, lime juice, coconut milk, and water in a small saucepan over medium-low heat. Simmer for 5 minutes, stirring often, until thickened. Add a little more water if it gets too thick to drizzle. Taste and adjust with more lime, salt, or sweetness as needed; cover and keep warm.",
+      "Make the peanut sauce: combine the peanut butter, curry paste, kecap manis (or equal parts soy sauce and brown sugar, simmered until syrupy), sambal, salt, garlic, lime juice, coconut milk, and water in a small saucepan over medium-low heat. Simmer for 5 minutes, stirring often, until thickened. Add a little more water if it gets too thick to drizzle. Taste and adjust with more lime, salt, or sweetness as needed; cover and keep warm.",
       "Bring a saucepan of water to a boil. Cook the potatoes for 5 minutes or until tender, then lift out with a slotted spoon.",
       "Cook the bean sprouts in the same water for 3 minutes until just wilted, then transfer to a colander and press out excess water.",
       "Submerge the spinach briefly to wilt it, then transfer to the colander and press out excess water as well.",
@@ -378,7 +378,7 @@ export const RECIPES = [
   { id: "nigeria", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Jollof_Rice_with_Stew.jpg/960px-Jollof_Rice_with_Stew.jpg", week: 16, country: "Nigeria", countryCode: "ng", numericCode: "566", dish: "Red Chicken Stew with Jollof Rice", prepTime: "20 min", cookTime: "1 hr 15 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, { icon: "🍳", label: "Wide Pot for Jollof" }, "knife-board"],
     description: "Richly spiced chicken stew in a deep tomato-pepper base, served over smoky one-pot jollof rice. A Nigerian celebration plate and the centerpiece of countless gatherings across West Africa.",
     miseEnPlace: [
-      "Blend 4 roma tomatoes + 2 red bell peppers + 1 scotch bonnet + 1 onion into a smooth purée (the tomato base)",
+      "Blend 4 roma tomatoes + 2 red bell peppers + 1 scotch bonnet (or habanero) + 1 onion into a smooth purée (the tomato base)",
       "Season 1 kg chicken pieces with thyme, curry powder, seasoning cube, salt, garlic — marinate 30 min",
       "Rinse 400 g parboiled long-grain rice",
     ],
@@ -399,7 +399,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Parboil and fry chicken", content: "Season chicken with thyme, curry powder, seasoning cube, and {0010}. Parboil in water 15 min. Drain, reserving stock. Fry parboiled chicken in hot oil until browned on all sides, about 8 min. Set aside.", timer_seconds: 1380 },
-      { id: "s2", title: "Fry the tomato base", content: "Blend tomatoes, peppers, scotch bonnet, and 1 onion smooth. In a wide pot, heat 3 tbsp oil until smoking. Add tomato paste, cook 2 min. Pour in blended tomato base. Fry on high heat, stirring constantly, 15–20 min until the raw smell is gone and the paste has dried and darkened.", timer_seconds: 1200 },
+      { id: "s2", title: "Fry the tomato base", content: "Blend tomatoes, peppers, scotch bonnet (or habanero), and 1 onion smooth. In a wide pot, heat 3 tbsp oil until smoking. Add tomato paste, cook 2 min. Pour in blended tomato base. Fry on high heat, stirring constantly, 15–20 min until the raw smell is gone and the paste has dried and darkened.", timer_seconds: 1200 },
       { id: "s3", title: "Make the chicken stew", content: "Add sliced onion to half the tomato base in one pot. Add fried chicken pieces. Add 200 ml of the reserved stock. Cover and simmer 20 min, coating chicken in the sauce.", timer_seconds: 1200 },
       { id: "s4", title: "Make jollof rice", content: "In the other pot with remaining tomato base, add remaining stock, thyme, seasoning cube, and {0010}. Bring to boil, add rinsed rice, stir once. Cover tightly with foil then lid. Cook on low heat 25–30 min without lifting the lid — the trapped steam and smoky bottom (the party jollof char) are essential.", timer_seconds: 1800 },
       { id: "s5", title: "Serve", content: "Fluff jollof rice and serve with chicken stew alongside. Add fried plantain (dodo) and coleslaw to complete the Nigerian party plate." },
@@ -407,9 +407,9 @@ export const RECIPES = [
   { id: "bangladesh", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87_%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6.jpg/960px-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87_%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6.jpg", week: 17, country: "Bangladesh", countryCode: "bd", numericCode: "050", dish: "Shorshe Ilish", prepTime: "45 min", cookTime: "20 min", servings: 5, equipment: [{ icon: "🍳", label: "Wide Skillet" }, "knife-board"],
     description: "Prized hilsa fish steamed in a pungent mustard-seed paste with green chilies, the crown jewel of Bengali cuisine. The hilsa is so culturally central it borders on national obsession, especially during monsoon and Pohela Boishakh. Eaten with reverence over steaming rice.",
     miseEnPlace: [
-      "Soak the white and black mustard seeds, salt, green chilies, and a pinch of sugar in warm water for 30 minutes.",
+      "Soak the white and black (or brown) mustard seeds, salt, green chilies, and a pinch of sugar in warm water for 30 minutes. If using hot mustard powder instead of black seeds, don't soak it — stir it into the paste after blending.",
       "Descale, clean, and pat dry the fish steaks.",
-      "Mix turmeric and salt into mustard oil, then rub over the fish and let sit for 30 minutes.",
+      "Mix turmeric and salt into mustard oil (or vegetable oil with a dab of hot mustard), then rub over the fish and let sit for 30 minutes.",
       "Slice the onion (if using) for the base.",
       "Blend the soaked mustard mixture into a smooth paste right before cooking — it turns bitter if it sits too long."
     ],
@@ -433,9 +433,9 @@ export const RECIPES = [
       "3-5 green chilies, slit, for the gravy"
     ],
     steps: [
-      "Soak the mustard seeds, salt, green chilies, warm water, and sugar for 30 minutes, then blend into a smooth, creamy paste with black and green flecks.",
-      "Rub the fish steaks with the turmeric, salt, and mustard oil marinade and let sit for 30 minutes.",
-      "Heat the oil in a wide skillet over medium heat. Add the nigella seeds and cook 30 seconds, then add the onion if using and cook until translucent.",
+      "Soak the mustard seeds, salt, green chilies, warm water, and sugar for 30 minutes, then blend into a smooth, creamy paste with black and green flecks. If using hot mustard powder instead of black seeds, stir it in after blending.",
+      "Rub the fish steaks with the turmeric, salt, and mustard oil (or vegetable oil + a dab of hot mustard) marinade and let sit for 30 minutes.",
+      "Heat the oil in a wide skillet over medium heat. Add the nigella seeds (or black sesame seeds + a pinch of dried oregano) and cook 30 seconds, then add the onion if using and cook until translucent.",
       "Stir in the turmeric and chili powder and cook until the oil separates and shimmers through the spices, adding a splash of water if needed to keep them from burning.",
       "Lay the marinated fish in a single layer in the skillet and gently sear 1-2 minutes per side — just enough to set the color, not to crisp it.",
       "Pour the mustard paste over the fish, coating both sides. If the paste tastes too sharp, stir in the coconut milk to soften it.",
@@ -509,8 +509,8 @@ export const RECIPES = [
       "Cut the pork belly into serving-sized pieces.",
       "Slice the onion and tomatoes into wedges.",
       "Cut the daikon radish and eggplant into pieces, and trim the string beans into 2-inch lengths.",
-      "Separate the water spinach leaves from the tougher lower stems and wash thoroughly.",
-      "Slice the long green peppers."
+      "Separate the water spinach leaves from the tougher lower stems and wash thoroughly. (Using regular spinach? Just wash it — there are no tough stems to separate.)",
+      "Slice the long green peppers (or Anaheim peppers)."
     ],
     ingredients: [
       "2 lb pork belly, cut into pieces",
@@ -532,9 +532,9 @@ export const RECIPES = [
       "Pour the tamarind broth into a large pot and bring to a boil. Add the onion, pork belly, and half the tomatoes.",
       "Skim off the scum that rises to the surface during the first 15 minutes — this is what keeps the broth clear rather than cloudy. Add a splash of fish sauce, cover, and simmer for about 1 hour until the pork is tender.",
       "Add the daikon radish and eggplant and cook for 5 minutes.",
-      "Add the long green peppers, string beans, remaining tomatoes, and okra. Cook for 3 minutes more.",
-      "Stir in the chopped water spinach stalks and season with fish sauce and black pepper. Cook 2 minutes.",
-      "Add the water spinach leaves, cover, and turn off the heat — the residual heat will gently finish the leaves in about 3 minutes without overcooking them.",
+      "Add the long green peppers (or Anaheim peppers), string beans, remaining tomatoes, and okra. Cook for 3 minutes more.",
+      "Stir in the chopped water spinach stalks (skip if using regular spinach) and season with fish sauce and black pepper. Cook 2 minutes.",
+      "Add the water spinach leaves (or regular spinach), cover, and turn off the heat — the residual heat will gently finish the leaves in about 3 minutes without overcooking them.",
       "Serve hot with steamed rice and a small dish of fish sauce with crushed chili on the side for dipping."
     ] },
   { id: "egypt", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Egyptian_food_Koshary.jpg/960px-Egyptian_food_Koshary.jpg", week: 22, country: "Egypt", countryCode: "eg", numericCode: "818", dish: "Koshari", prepTime: "20 min", cookTime: "1 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Saucepan" }, "knife-board"],
@@ -570,7 +570,7 @@ export const RECIPES = [
     description: "Central Africa's iconic dish: chicken slow-cooked in a rich palm butter sauce with chili and aromatics. Palm butter (moambe) gives this Congolese staple its distinctive deep, nutty flavor.",
     miseEnPlace: [
       "Joint 1 whole chicken into 8 pieces; season with salt and garlic",
-      "Open 400 g canned palm butter concentrate (or use palm cream)",
+      "Open 400 g canned palm butter concentrate (or use palm cream, or natural peanut butter loosened with a little coconut milk)",
       "Dice 1 large onion, mince 4 garlic cloves",
     ],
     ingredients: [
@@ -589,7 +589,7 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Brown chicken", content: "Heat oil in a large pot over medium-high. Season chicken with {0008} and {0009}. Brown pieces 4–5 min per side until golden. Remove and set aside." },
       { id: "s2", title: "Sauté aromatics", content: "In the same pot, sauté onion 5 min until soft. Add garlic, cook 1 min. Add bay leaves and whole scotch bonnet." },
-      { id: "s3", title: "Add palm butter", content: "Add palm butter concentrate and {0010}. Stir to combine — the palm butter will melt and create a thick, orange-red sauce. Bring to a simmer." },
+      { id: "s3", title: "Add palm butter", content: "Add palm butter concentrate (or the peanut butter mixture) and {0010}. Stir to combine — the palm butter will melt and create a thick, orange-red sauce. Peanut butter makes a tan sauce that scorches easily, so stir it often. Bring to a simmer." },
       { id: "s4", title: "Braise chicken", content: "Return chicken to the pot. Coat in the palm sauce. Cover and simmer on low heat 40–45 min, stirring occasionally and adding water if it gets too thick, until chicken is very tender.", timer_seconds: 2700 },
       { id: "s5", title: "Finish and serve", content: "Remove bay leaves and whole scotch bonnet (or crush it in if you want heat). Taste and adjust {0008}. Scatter {0010} over top. Serve with fufu, white rice, or boiled plantain." },
     ] },
@@ -605,8 +605,8 @@ export const RECIPES = [
       "Finely chop the chives and scallions together by hand into one mixture — this goes into the pan first, before the other herbs.",
       { text: "Wash, dry, and finely chop the parsley.", combineGroup: 1 },
       { text: "Wash, dry, and finely chop the cilantro.", combineGroup: 1 },
-      { text: "Measure out the dried fenugreek leaves, ready to crumble in by hand.", combineGroup: 1 },
-      "Rinse the dried Persian limes and pierce each one several times with a fork.",
+      { text: "Measure out the dried fenugreek leaves, ready to crumble in by hand. (Or a pinch of ground fenugreek, or a handful of chopped celery leaves.)", combineGroup: 1 },
+      "Rinse the dried Persian limes and pierce each one several times with a fork. (Using fresh limes instead? Just zest and juice them — they go in at the end.)",
       "Crumble the saffron threads so they're ready to bloom and stir in at the end."
     ],
     ingredients: [
@@ -633,10 +633,10 @@ export const RECIPES = [
       "Drain the soaked beans and stir them into the pot to coat in the oil. Add 4 cups water, bring to a boil, then reduce heat to medium-low, cover, and simmer for 2 hours.",
       "Meanwhile, wash and thoroughly dry the parsley and cilantro. Remove the tough stems, then finely chop the leaves and tender stems by hand or in a food processor — the finer the chop, the richer the finished stew.",
       "Separately, finely chop the chives and the whole bunch of scallions (including the green tops) by hand — these turn mushy in a food processor.",
-      "Heat the remaining ¼ cup oil in a large frying pan over medium heat. Add the scallion-chive mixture and let it wilt, stirring constantly, for about 2 minutes. Add the chopped parsley, cilantro, and fenugreek leaves (crumbling the fenugreek between your fingers as you add it).",
+      "Heat the remaining ¼ cup oil in a large frying pan over medium heat. Add the scallion-chive mixture and let it wilt, stirring constantly, for about 2 minutes. Add the chopped parsley, cilantro, and fenugreek leaves (crumbling the fenugreek between your fingers as you add it — or add just a pinch of ground fenugreek, or chopped celery leaves).",
       "Cook the herb mixture, stirring continuously, until very dark green, dry to the touch, and fragrant — about 18-20 minutes. This step builds the dish's signature color and flavor, so don't rush it.",
-      "Once the meat has simmered for 2 hours, stir in the cooked herb mixture, the dried limes, and ½ cup water. Season with salt, bring to a boil, then reduce heat, cover, and simmer for another hour, occasionally nudging the limes back under the surface if they float.",
-      "Around the 3-hour mark, check that the meat is very tender. If the stew looks thin, uncover for the last 20 minutes to let it reduce and thicken. Taste and adjust salt and pepper; for extra tang, squeeze a dried lime's juice through a sieve into the pot. Stir in the saffron — the finished stew should be deep green and thick.",
+      "Once the meat has simmered for 2 hours, stir in the cooked herb mixture, the dried limes (if using fresh limes instead, hold them for the end), and ½ cup water. Season with salt, bring to a boil, then reduce heat, cover, and simmer for another hour, occasionally nudging the limes back under the surface if they float.",
+      "Around the 3-hour mark, check that the meat is very tender. If the stew looks thin, uncover for the last 20 minutes to let it reduce and thicken. Taste and adjust salt and pepper; for extra tang, squeeze a dried lime's juice through a sieve into the pot. If using fresh limes instead, stir in their zest and juice now, to taste. Stir in the saffron — the finished stew should be deep green and thick.",
       "Serve hot over Persian rice with crispy tahdig, alongside yogurt with cucumber."
     ] },
   { id: "turkey", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Adana_kebab.jpg/960px-Adana_kebab.jpg", week: 26, country: "Turkey", countryCode: "tr", numericCode: "792", dish: "Adana Kebab", prepTime: "20 min (plus 1 hr marinating)", cookTime: "10 min", servings: 4, equipment: ["skewers", "grill", "knife-board"],
@@ -662,7 +662,7 @@ export const RECIPES = [
       "Yogurt or tahini sauce, for serving"
     ],
     steps: [
-      "In a large bowl, combine the ground lamb, grated onion, garlic, paprika, cumin, coriander, cayenne, red pepper paste, salt, pepper, and lemon juice.",
+      "In a large bowl, combine the ground lamb, grated onion, garlic, paprika, cumin, coriander, cayenne, red pepper paste (or tomato paste mixed with sweet paprika and a pinch of chili flakes), salt, pepper, and lemon juice.",
       "Mix and knead the mixture thoroughly with your hands until it becomes cohesive and slightly sticky — this binding is what holds the kebab together on the skewer without any filler.",
       "Cover and refrigerate for at least 1 hour, or overnight for the best flavor.",
       "Preheat a grill or grill pan to medium-high heat.",
@@ -673,7 +673,7 @@ export const RECIPES = [
   { id: "germany", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Heldrunger_Sauerbraten_2.JPG/960px-Heldrunger_Sauerbraten_2.JPG", week: 27, country: "Germany", countryCode: "de", numericCode: "276", dish: "Sauerbraten", prepTime: "30 min (plus 3-day marinating)", cookTime: "2 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Dutch Oven" }, "knife-board"],
     description: "Germany's slow-marinated pot roast — beef soused for days in vinegar, wine, and spices, then braised to a sweet-sour mahogany gravy. One of the oldest and most complex German dishes.",
     miseEnPlace: [
-      "Make the marinade 3 days ahead: combine 250 ml red wine vinegar, 250 ml dry red wine, 1 sliced onion, carrot, celery, bay leaves, cloves, peppercorns, juniper berries — bring to boil, cool completely",
+      "Make the marinade 3 days ahead: combine 250 ml red wine vinegar, 250 ml dry red wine, 1 sliced onion, carrot, celery, bay leaves, cloves, peppercorns, juniper berries (or a splash of gin, added once the marinade cools) — bring to boil, cool completely",
       "Submerge 1.2 kg beef top round in marinade for 3 days, refrigerated, turning daily",
       "Drain beef, pat dry, reserve marinade",
     ],
@@ -695,10 +695,10 @@ export const RECIPES = [
       { amount: 0.5, unit: "tsp", name: "black pepper" },
     ],
     steps: [
-      { id: "s1", title: "Marinate (3 days)", content: "Bring vinegar, wine, sliced onion, carrots, bay, cloves, and juniper to a boil. Cool completely. Submerge beef in marinade in a non-reactive container, covered, refrigerated for 3 days. Turn daily.", timer_seconds: 259200 },
+      { id: "s1", title: "Marinate (3 days)", content: "Bring vinegar, wine, sliced onion, carrots, bay, cloves, and juniper to a boil. Cool completely. If you skipped the juniper, stir in a splash of gin now. Submerge beef in marinade in a non-reactive container, covered, refrigerated for 3 days. Turn daily.", timer_seconds: 259200 },
       { id: "s2", title: "Brown the beef", content: "Remove beef from marinade, pat very dry. Strain and reserve marinade. Heat lard in Dutch oven over high heat. Sear beef on all sides 10–12 min until deeply browned. Remove.", timer_seconds: 720 },
       { id: "s3", title: "Build the braise", content: "In same pot, sauté diced onions 8 min until golden. Pour in strained marinade. Return beef. Bring to a simmer, cover, and braise on very low heat 2–2.5 hours until very tender, turning occasionally.", timer_seconds: 8100 },
-      { id: "s4", title: "Make the sauce", content: "Remove beef and rest under foil. Stir crumbled gingerbread, sugar, and raisins into the braising liquid. Simmer 10 min, stirring, until sauce thickens and mellows into a sweet-sour glaze. Season with {0014} and {0014}.", timer_seconds: 600 },
+      { id: "s4", title: "Make the sauce", content: "Remove beef and rest under foil. Stir crumbled gingerbread (or gingersnap cookies — taste before adding the sugar, since they're sweeter), sugar, and raisins into the braising liquid. Simmer 10 min, stirring, until sauce thickens and mellows into a sweet-sour glaze. Season with {0014} and {0014}.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Slice beef across the grain into thick rounds. Arrange on plates and ladle sauce over generously. Serve with red cabbage (Rotkohl) and potato dumplings (Kartoffelklöße) or spätzle." },
     ] },
   { id: "thailand", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pad_see_ew.jpg/960px-Pad_see_ew.jpg", week: 28, country: "Thailand", countryCode: "th", numericCode: "764", dish: "Pork Pad See Ew",
@@ -824,15 +824,15 @@ export const RECIPES = [
     steps: [
       "Heat the oven to 350°F. Spread the rice on a baking sheet and roast, stirring occasionally, until evenly golden and fragrant, about 20 minutes. Cool, then grind to a powder in a clean coffee or spice grinder.",
       "In a large pot, combine the water, lemongrass, ginger slabs, bay leaves, white pepper, and salt. Bring to a boil, then lower the heat and simmer for 15 minutes.",
-      "Carefully lower the whole catfish into the pot — it doesn't need to be fully submerged. Bring to a brisk simmer, then lower the heat and cook gently for 15 minutes. Turn the fish to cook the exposed side, then simmer 5 more minutes until the flesh pulls cleanly from the bone.",
-      "Lift the fish out and set aside to cool. Once cool enough to handle, remove the skin and pull the flesh off the bones, keeping the skeleton mostly intact. Return the skeleton to the pot.",
+      "Carefully lower the whole catfish into the pot — it doesn't need to be fully submerged. Bring to a brisk simmer, then lower the heat and cook gently for 15 minutes. Turn the fish to cook the exposed side, then simmer 5 more minutes until the flesh pulls cleanly from the bone. Using fillets instead? Poach them for just 8–10 minutes, until they flake.",
+      "Lift the fish out and set aside to cool. Once cool enough to handle, remove the skin and pull the flesh off the bones, keeping the skeleton mostly intact. Return the skeleton to the pot. (With fillets, just flake the fish — there's no skeleton to return.)",
       "Bring the pot back to a boil, then lower the heat and simmer 15 minutes more. The broth should be mildly fragrant with ginger and lemongrass and slightly cloudy. Strain through a fine-mesh strainer (you should have about 10 cups) and return the broth to the pot.",
       "Whisk the toasted rice powder with a ladleful of the warm broth until smooth, then stir it back into the pot. Simmer, stirring often, until it just starts to thicken, about 5 minutes. Reduce to a gentle simmer while you prepare the soup base.",
       "In a wok or large skillet, heat the oil over high heat. Add the minced lemongrass, garlic, and ginger and stir-fry for 1 minute.",
       "Add the cooked fish, paprika, and turmeric, mashing the fish into a coarse paste as it cooks, about 1 minute. Pick out any stray bones.",
       "Stir the fish mixture into the broth and bring back to a brisk simmer. Add the diced red onions and fish sauce, then simmer 5 more minutes. Taste — the broth should lean salty, since the noodles carry no seasoning of their own.",
       "Cook the rice noodles in a separate pot of boiling water, stirring often, for 5-6 minutes until softened. Turn off the heat and let them sit in the water 3 minutes more, then drain and rinse under cool water.",
-      "To serve, divide the noodles among bowls, ladle the hot soup over the top, and serve with sliced egg, split pea crackers, cilantro, lime wedges, and sliced red onion alongside."
+      "To serve, divide the noodles among bowls, ladle the hot soup over the top, and serve with sliced egg, split pea crackers (or crispy fried onions), cilantro, lime wedges, and sliced red onion alongside."
     ] },
   { id: "colombia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Arepitas_Food_Macro.jpg/960px-Arepitas_Food_Macro.jpg", week: 10, country: "Colombia", countryCode: "co", numericCode: "170", dish: "Beef Arepas",
     prepTime: "20 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍳", label: "Comal or Cast Iron Skillet" }, { icon: "🍲", label: "Saucepan" }, "knife-board"],
@@ -868,7 +868,7 @@ export const RECIPES = [
   { id: "uganda", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chicken_Luwombo.JPG/960px-Chicken_Luwombo.JPG", week: 35, country: "Uganda", countryCode: "ug", numericCode: "800", dish: "Luwombo", prepTime: "30 min", cookTime: "1 hr 30 min", servings: 4, equipment: [{ icon: "🍲", label: "Steamer or Large Pot" }, "knife-board"],
     description: "Uganda's royal dish: chicken, beef, or groundnuts steamed inside banana leaves with a rich mushroom-peanut sauce. Created for the Buganda king Mutesa I in the 1880s — a dish that travels from palace to everyday table.",
     miseEnPlace: [
-      "Wilt 8 large banana leaves over a flame or in hot water until pliable; pat dry",
+      "Wilt 8 large banana leaves over a flame or in hot water until pliable; pat dry (or cut large sheets of parchment and foil, one of each per parcel)",
       "Cut 700 g bone-in chicken thighs into pieces",
       "Soak and chop 30 g dried mushrooms; blend 100 g groundnut paste (peanut butter) with 200 ml stock",
     ],
@@ -888,7 +888,7 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Make groundnut sauce", content: "Heat oil in a pan. Sauté onion 6 min, add garlic and tomatoes, cook 5 min. Whisk groundnut paste into stock until smooth. Add mushrooms and groundnut-stock mixture to the pan. Simmer 8 min, stirring, until thick. Season with {0009} and {0010}." },
       { id: "s2", title: "Coat chicken", content: "Add chicken pieces to the groundnut sauce. Turn to coat all over. The chicken will finish cooking in the banana leaf bundle." },
-      { id: "s3", title: "Bundle in banana leaves", content: "Lay 2 banana leaves overlapping on a work surface. Spoon a portion of chicken and sauce into the center. Fold the leaves over tightly into a neat parcel and tie with a strip of banana leaf or kitchen twine. Repeat for all portions." },
+      { id: "s3", title: "Bundle in banana leaves", content: "Lay 2 banana leaves overlapping on a work surface. Spoon a portion of chicken and sauce into the center. Fold the leaves over tightly into a neat parcel and tie with a strip of banana leaf or kitchen twine. Repeat for all portions. No banana leaves? Fold each portion into a parchment parcel, then wrap it tightly in foil." },
       { id: "s4", title: "Steam", content: "Set bundled luwombo in a steamer over boiling water. Cover and steam 1 hr–1 hr 15 min until chicken is completely tender and sauce has thickened inside the parcels.", timer_seconds: 4500 },
       { id: "s5", title: "Serve", content: "Place banana leaf bundles on plates — diners open their own parcel at the table to release the aromatic steam. Serve with steamed matooke (green plantain) or white rice." },
     ] },
@@ -924,8 +924,8 @@ export const RECIPES = [
     prepTime: "30 min (plus overnight soaking)", cookTime: "3 hr", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Argentina's great winter stew: white corn, squash, white beans, and multiple cuts of pork and beef slow-cooked until everything dissolves into a thick, golden mass. Eaten on May 25 (national holiday) and throughout the Andean winter.",
     miseEnPlace: [
-      "Soak 200 g dried white (hominy) corn and 200 g white beans separately overnight; drain",
-      "Cut 300 g pork shoulder, 200 g beef chuck, and 200 g chorizo colorado into 3 cm pieces",
+      "Soak 200 g dried white (hominy) corn and 200 g white beans separately overnight; drain (canned hominy needs no soaking — just drain and rinse)",
+      "Cut 300 g pork shoulder, 200 g beef chuck, and 200 g chorizo colorado (or Spanish-style cured chorizo) into 3 cm pieces",
       "Cube 400 g butternut squash; slice 2 onions",
     ],
     ingredients: [
@@ -945,7 +945,7 @@ export const RECIPES = [
       { amount: 1.5, unit: "l", name: "water or stock" },
     ],
     steps: [
-      { id: "s1", title: "Pre-cook corn and beans", content: "Simmer soaked corn and beans separately in fresh water — corn 1.5 hr, beans 45 min — until just tender. Drain, reserving liquid.", timer_seconds: 5400 },
+      { id: "s1", title: "Pre-cook corn and beans", content: "Simmer soaked corn and beans separately in fresh water — corn 1.5 hr, beans 45 min — until just tender. Drain, reserving liquid. Canned hominy is already cooked, so skip it here.", timer_seconds: 5400 },
       { id: "s2", title: "Brown meats", content: "In a large pot, fry bacon until fat renders. Add pork, beef, and chorizo in batches, browning well. Remove and set aside. Cook onions 8 min in the fat, add garlic, paprika, and cumin, cook 2 min." },
       { id: "s3", title: "Combine and braise", content: "Return all meats to pot. Add corn, beans, squash, {0013}, and enough reserved liquid plus water to cover. Bring to a boil, reduce to a very low simmer. Cover and cook 1 hr 30 min.", timer_seconds: 5400 },
       { id: "s4", title: "Break down to thicken", content: "Use the back of a spoon to press some squash and beans against the pot wall, stirring the mash back in. This is what makes locro thick and golden — no flour, just the squash dissolving into the liquid. Simmer 20 more min uncovered.", timer_seconds: 1200 },
@@ -976,7 +976,7 @@ export const RECIPES = [
       { amount: 3, unit: "tbsp", name: "harissa paste, to serve" },
     ],
     steps: [
-      { id: "s1", title: "Brown lamb and aromatics", content: "Heat oil in a large pot over medium-high heat. Brown lamb pieces 8–10 min. Add onions and cook 5 min. Add ras el hanout, {0011}, and tomatoes. Stir and cook 3 min." },
+      { id: "s1", title: "Brown lamb and aromatics", content: "Heat oil in a large pot over medium-high heat. Brown lamb pieces 8–10 min. Add onions and cook 5 min. Add ras el hanout (or equal parts cumin, coriander, cinnamon & ginger with a pinch of cayenne), {0011}, and tomatoes. Stir and cook 3 min." },
       { id: "s2", title: "Simmer broth", content: "Add 1.5 L water. Bring to boil, skim foam. Add carrots and turnips. Reduce heat, cover, and simmer 40 min.", timer_seconds: 2400 },
       { id: "s3", title: "Add remaining vegetables", content: "Add potatoes, zucchini, and chickpeas. Continue simmering 25 min until all vegetables and lamb are tender. Taste broth and adjust seasoning.", timer_seconds: 1500 },
       { id: "s4", title: "Steam couscous", content: "Place couscous in a couscoussière top or fine-mesh strainer set over the broth pot. Cover and steam 15–20 min, fluffing once halfway. Turn out into a bowl, add butter, and fluff thoroughly with a fork until every grain is separate.", timer_seconds: 1200 },
@@ -1085,7 +1085,7 @@ export const RECIPES = [
       "Flatbread, for serving"
     ],
     steps: [
-      "Heat the oil in a pot and sauté the onion and garlic until softened. Add the cumin, coriander, turmeric, and hawaij, stirring until fragrant.",
+      "Heat the oil in a pot and sauté the onion and garlic until softened. Add the cumin, coriander, turmeric, and hawaij (or a little extra cumin and black pepper with a pinch of cardamom), stirring until fragrant.",
       "Add the meat and brown lightly, then pour in the water or stock. Bring to a boil, reduce heat, cover, and simmer until the meat is tender, about 45-60 minutes (add potatoes partway through if using).",
       "Season with salt to taste.",
       "While the stew simmers, make the hulbah: whisk the fenugreek powder with cold water vigorously until it becomes a thick, frothy paste, then stir in lemon juice.",
@@ -1100,7 +1100,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Cut 4 large Russet potatoes into thick fries (1.5 cm); rinse, dry completely",
       "Make gravy: roux + beef/chicken stock + Worcestershire, simmer until coating",
-      "Have fresh cheese curds at room temperature (cold curds won't squeak)",
+      "Have fresh cheese curds at room temperature (cold curds won't squeak); or tear fresh mozzarella into curd-sized pieces",
     ],
     ingredients: [
       { amount: 4, unit: null, name: "large Russet potatoes, cut into 1.5 cm fries, rinsed and dried" },
@@ -1118,7 +1118,7 @@ export const RECIPES = [
       { id: "s1", title: "Par-fry fries", content: "Heat oil to 150°C. Fry dried potatoes in batches 5–6 min until cooked through but barely colored. Drain on a rack.", timer_seconds: 360 },
       { id: "s2", title: "Make the gravy", content: "Melt butter in a saucepan over medium heat. Whisk in flour, cook 1 min. Gradually add beef stock, whisking constantly. Add Worcestershire, soy sauce, and {0009}. Simmer 8–10 min until gravy coats a spoon. Keep hot.", timer_seconds: 600 },
       { id: "s3", title: "Crisp the fries", content: "Raise oil to 190°C. Fry par-cooked fries in batches 3–4 min until deeply golden and crispy. Drain and season immediately with {0009}.", timer_seconds: 240 },
-      { id: "s4", title: "Assemble", content: "Pile hot fries into a large bowl or platter. Scatter cheese curds generously over the fries — the curds must go on before the gravy so they soften slightly without melting. Pour very hot gravy over everything immediately." },
+      { id: "s4", title: "Assemble", content: "Pile hot fries into a large bowl or platter. Scatter cheese curds (or torn fresh mozzarella) generously over the fries — the curds must go on before the gravy so they soften slightly without melting. Pour very hot gravy over everything immediately." },
       { id: "s5", title: "Eat immediately", content: "Poutine waits for no one. The gravy softens the curds just enough to make them yielding while keeping a slight squeak. Eat standing up in Quebec if possible." },
     ] },
   { id: "ukraine", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Borscht_served.jpg/960px-Borscht_served.jpg", week: 151, country: "Ukraine", countryCode: "ua", numericCode: "804", dish: "Borscht", prepTime: "30 min", cookTime: "1 hr 30 min", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
@@ -1218,17 +1218,17 @@ export const RECIPES = [
     steps: [
       "Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden and slightly caramelized, about 5 minutes.",
       "Add the garlic and cook until fragrant, then add the tomato paste and chopped tomatoes, stirring for a couple minutes.",
-      "Add the chicken or lamb to the pot along with the kabsa spice blend, dried limes, and salt. Stir to coat the meat in the spices.",
+      "Add the chicken or lamb to the pot along with the kabsa spice blend, dried limes (if using fresh lime instead, save it for the rice step), and salt. Stir to coat the meat in the spices.",
       "Pour in the water or stock, bring to a boil, then reduce heat and simmer, covered, until the meat is tender — about 25-30 minutes for chicken, longer for lamb.",
       "Remove the meat and set aside; reserve the spiced cooking liquid.",
-      "Add the drained rice to the pot with the reserved liquid (add more water if needed to reach the right ratio for your rice). Bring to a boil, then cover and simmer on low until the rice is tender and the liquid is absorbed, about 18-20 minutes.",
+      "If you skipped the dried limes, stir fresh lime zest and juice into the reserved liquid. Add the drained rice to the pot with the reserved liquid (add more water if needed to reach the right ratio for your rice). Bring to a boil, then cover and simmer on low until the rice is tender and the liquid is absorbed, about 18-20 minutes.",
       "While the rice cooks, you can brown the meat under a broiler or on a grill for extra color and flavor if desired.",
       "Fluff the rice and transfer to a large serving platter. Top with the meat, then scatter toasted almonds, raisins, and orange zest over the top."
     ] },
   { id: "angola", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Calulu.jpg/960px-Calulu.jpg", week: 46, country: "Angola", countryCode: "ao", numericCode: "024", dish: "Calulu", prepTime: "20 min", cookTime: "50 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Angola's national stew — dried fish and okra simmered in a palm oil-rich sauce with tomatoes and greens. A dish of Kongolese origin that spread across Portugal's Atlantic empire.",
     miseEnPlace: [
-      "Soak 200 g dried salted fish (bacalhau or stockfish) overnight; drain and flake into large pieces",
+      "Soak 200 g dried salted fish (bacalhau or stockfish) overnight; drain and flake into large pieces (substituting fresh fish? Skip this and buy 200 g extra fillets)",
       "Top and tail 250 g fresh okra",
       "Roughly chop a large bunch of sweet potato leaves or spinach",
     ],
@@ -1246,8 +1246,8 @@ export const RECIPES = [
       { amount: 300, unit: "ml", name: "water" },
     ],
     steps: [
-      { id: "s1", title: "Build the base", content: "Heat palm oil in a large pot over medium heat. Sauté onions 7 min until soft. Add garlic, tomatoes, and chili. Cook 8 min until tomatoes collapse into a thick sauce." },
-      { id: "s2", title: "Add dried fish", content: "Add soaked dried fish to the sauce. Stir to coat and cook 5 min, letting the fish flavor permeate the oil." },
+      { id: "s1", title: "Build the base", content: "Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a large pot over medium heat. Sauté onions 7 min until soft. Add garlic, tomatoes, and chili. Cook 8 min until tomatoes collapse into a thick sauce." },
+      { id: "s2", title: "Add dried fish", content: "Add soaked dried fish to the sauce. Stir to coat and cook 5 min, letting the fish flavor permeate the oil. No dried fish? Stir in a splash of fish sauce here instead, and add the extra fresh fish with the rest later." },
       { id: "s3", title: "Add water and okra", content: "Pour in {0010}. Bring to a simmer. Add okra and cook 10 min.", timer_seconds: 600 },
       { id: "s4", title: "Add fresh fish and greens", content: "Add fresh fish pieces and sweet potato leaves. Season with {0010}. Cook 10–12 min until fresh fish is cooked through and greens are wilted.", timer_seconds: 720 },
       { id: "s5", title: "Serve", content: "Taste and adjust salt. Serve over funge (Angolan cornmeal porridge) or white rice. The palm oil should give the stew a beautiful orange hue." },
@@ -1295,10 +1295,10 @@ export const RECIPES = [
     description: "Rice steamed in coconut milk and pandan, served with fiery sambal, fried anchovies, peanuts, cucumber, and egg, wrapped in a banana leaf. Malaysia's beloved national dish, eaten from breakfast to midnight. The fragrant rice and sambal are its soul.",
     miseEnPlace: [
       "Rinse the rice until the water runs clear, then drain.",
-      "Tie the pandan leaves into a knot.",
-      "Soak the tamarind pulp in water for 15 minutes, squeezing occasionally, then strain to get the tamarind juice.",
+      "Tie the pandan leaves into a knot. (Or bruise a lemongrass stalk with the back of a knife, or skip.)",
+      "Soak the tamarind pulp in water for 15 minutes, squeezing occasionally, then strain to get the tamarind juice. (With tamarind concentrate, just stir it into the water. Using lime instead? Skip this.)",
       "Peel the shallots and garlic for the spice paste; seed the dried chilies.",
-      "Rinse the dried anchovies and let drain.",
+      "Rinse the dried anchovies and let drain. (Skip if using crispy fried onions or extra peanuts.)",
       "Hard-boil the eggs, then peel and halve. Slice the cucumber."
     ],
     ingredients: [
@@ -1324,20 +1324,20 @@ export const RECIPES = [
       "1 small cucumber, sliced"
     ],
     steps: [
-      "Rinse the rice until the water runs clear, then drain. Add the water, coconut milk, and a pinch of salt, along with the pandan leaves, and cook in a rice cooker or pot as usual. Discard the pandan leaves once cooked.",
-      "Pound the shallots, garlic, dried chilies, and belacan together with a mortar and pestle (or blitz in a food processor) into a smooth spice paste.",
-      "Soak the tamarind pulp in water for 15 minutes, squeezing to extract the flavor, then strain and reserve the tamarind juice.",
-      "Rinse the dried anchovies and pat dry. Heat 2 cups of oil in a pan and fry until light brown and crispy, then drain on paper towels.",
+      "Rinse the rice until the water runs clear, then drain. Add the water, coconut milk, and a pinch of salt, along with the pandan leaves (or a bruised lemongrass stalk), and cook in a rice cooker or pot as usual. Discard the pandan leaves once cooked.",
+      "Pound the shallots, garlic, dried chilies, and belacan (or anchovy paste) together with a mortar and pestle (or blitz in a food processor) into a smooth spice paste.",
+      "Soak the tamarind pulp in water for 15 minutes, squeezing to extract the flavor, then strain and reserve the tamarind juice. Using concentrate? Just stir it into the water. Using lime instead? Skip this step.",
+      "Rinse the dried anchovies and pat dry. Heat 2 cups of oil in a pan and fry until light brown and crispy, then drain on paper towels. No anchovies? Skip the frying and use 2 tablespoons of fresh oil in the next step.",
       "In a separate pan, heat 2 tablespoons of the frying oil over medium-low heat. Stir-fry the spice paste until fragrant and reddish, about 3-5 minutes.",
-      "Add the onion rings and fried anchovies to the spice paste and stir well. Pour in the tamarind juice, salt, and sugar, and simmer on low heat until the sauce thickens into a sambal.",
+      "Add the onion rings and fried anchovies (leave out if substituting) to the spice paste and stir well. Pour in the tamarind juice, salt, and sugar, and simmer on low heat until the sauce thickens into a sambal. If using lime instead of tamarind, squeeze in the juice now.",
       "If using, season the small fish with salt and deep fry in the remaining oil until crisp.",
-      "To assemble, place a scoop of rice in the center of each plate. Arrange the fried fish, hard-boiled egg, roasted peanuts, and cucumber slices around it, then spoon the sambal over the rice. Serve immediately."
+      "To assemble, place a scoop of rice in the center of each plate. Arrange the fried fish, hard-boiled egg, roasted peanuts, and cucumber slices around it, plus crispy fried onions or extra peanuts if you skipped the anchovies, then spoon the sambal over the rice. Serve immediately."
     ] },
   { id: "mozambique", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/41/African_Piri_Piri_Chicken.jpg", week: 49, country: "Mozambique", countryCode: "mz", numericCode: "508", dish: "Peri-Peri Chicken", prepTime: "20 min (plus overnight marinating)", cookTime: "45 min", servings: 4, equipment: ["grill", { icon: "🍳", label: "Skillet" }, "mortar-pestle", "knife-board"],
     description: "Mozambique's gift to the world: chicken marinated in a fiery peri-peri chili sauce, grilled until charred and glossy. The Portuguese colonial encounter with African bird's eye chilies created one of the great spice traditions.",
     miseEnPlace: [
       "Spatchcock 1 whole chicken: cut out backbone, press flat",
-      "Make peri-peri sauce: blend 8 bird's eye chilies + 4 garlic cloves + 1 roasted red pepper + 3 tbsp lemon juice + 2 tbsp red wine vinegar + 1 tsp smoked paprika + 60 ml olive oil — blend smooth",
+      "Make peri-peri sauce: blend 8 bird's eye chilies (or red Thai or Fresno chiles) + 4 garlic cloves + 1 roasted red pepper + 3 tbsp lemon juice + 2 tbsp red wine vinegar + 1 tsp smoked paprika + 60 ml olive oil — blend smooth",
       "Marinate chicken overnight in sauce",
     ],
     ingredients: [
@@ -1364,7 +1364,7 @@ export const RECIPES = [
     description: "Ghana's beloved street food: stewed black-eyed peas in a rich red palm oil and tomato sauce, served with fried ripe plantain. The name comes from the double red — red palm oil and red tomatoes.",
     miseEnPlace: [
       "Soak 300 g dried black-eyed peas overnight; drain (or use 2 cans, drained)",
-      "Blend 4 tomatoes + 1 onion + 1 scotch bonnet + 1 red bell pepper into a smooth purée",
+      "Blend 4 tomatoes + 1 onion + 1 scotch bonnet (or habanero) + 1 red bell pepper into a smooth purée",
       "Slice 2 ripe (black-spotted) plantains diagonally for frying",
     ],
     ingredients: [
@@ -1381,7 +1381,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Cook black-eyed peas", content: "Cover soaked peas in fresh water, bring to boil, and simmer 40–50 min until tender but not mushy. Drain, reserving 200 ml cooking liquid. (Skip if using canned.)", timer_seconds: 3000 },
-      { id: "s2", title: "Blend and fry tomato base", content: "Blend tomatoes, onion, scotch bonnet, and bell pepper smooth. Heat palm oil in a pot over medium-high until shimmering. Pour in blended tomato purée — it will splatter. Fry 15–20 min, stirring often, until darkened, thick, and the raw smell is gone.", timer_seconds: 1200 },
+      { id: "s2", title: "Blend and fry tomato base", content: "Blend tomatoes, onion, scotch bonnet (or habanero), and bell pepper smooth. Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a pot over medium-high until shimmering. Pour in blended tomato purée — it will splatter. Fry 15–20 min, stirring often, until darkened, thick, and the raw smell is gone.", timer_seconds: 1200 },
       { id: "s3", title: "Add peas", content: "Add cooked black-eyed peas and seasoning cube to the tomato sauce. Add reserved cooking liquid to achieve a thick, saucy consistency. Simmer 10 min. Season with {0008}.", timer_seconds: 600 },
       { id: "s4", title: "Fry plantain", content: "Heat neutral oil in a skillet over medium heat. Fry plantain slices 2–3 min per side until golden-brown and caramelized. Drain on paper towels. Season with a tiny pinch of salt.", timer_seconds: 360 },
       { id: "s5", title: "Serve", content: "Ladle red red into bowls. Lay fried plantain alongside or on top. Serve with fish (grilled tilapia is traditional) and a sprinkle of dried shrimp if available." },
@@ -1478,7 +1478,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Blanch 500 g fresh bitter leaf (ndolé) or spinach in 3 changes of salted boiling water to reduce bitterness; drain and chop",
       "Grind 100 g roasted peanuts in a blender to a coarse paste",
-      "Soak 50 g dried shrimp or crayfish in water 15 min; drain",
+      "Soak 50 g dried shrimp or crayfish in water 15 min; drain (skip if using fish sauce instead)",
       "Dice 300 g beef stew meat or prawns",
     ],
     ingredients: [
@@ -1495,8 +1495,8 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Cook the meat", content: "Season beef with {0009} and simmer in stock 25 min until nearly tender. (Skip this step for prawns — add in the last 5 min.)", timer_seconds: 1500 },
-      { id: "s2", title: "Sauté aromatics", content: "Heat oil in a large pot. Sauté onions 7 min until golden. Add garlic and scotch bonnet, cook 2 min." },
-      { id: "s3", title: "Add shrimp and peanut paste", content: "Add dried shrimp and ground peanut paste. Cook 3–4 min, stirring, until fragrant and the peanut paste cooks into the oil." },
+      { id: "s2", title: "Sauté aromatics", content: "Heat oil in a large pot. Sauté onions 7 min until golden. Add garlic and scotch bonnet (or habanero), cook 2 min." },
+      { id: "s3", title: "Add shrimp and peanut paste", content: "Add dried shrimp (or a splash of fish sauce) and ground peanut paste. Cook 3–4 min, stirring, until fragrant and the peanut paste cooks into the oil." },
       { id: "s4", title: "Add greens and meat", content: "Add chopped blanched leaves and cooked beef (with its stock). Stir well. Simmer 20 min on medium-low heat until the sauce is thick and the leaves are silky.", timer_seconds: 1200 },
       { id: "s5", title: "Finish and serve", content: "Taste and adjust {0009}. Serve with plantain, miondo (fermented cassava sticks), or white rice. Ndolé is always better the next day." },
     ] },
@@ -1595,7 +1595,7 @@ export const RECIPES = [
   { id: "syria", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Kibbeh3.jpg/960px-Kibbeh3.jpg", week: 59, country: "Syria", countryCode: "sy", numericCode: "760", dish: "Kibbeh", prepTime: "40 min", cookTime: "35 min", servings: 6, equipment: ["mortar-pestle", "knife-board", "oven"],
     description: "Ground lamb and bulgur pounded into a fine paste and layered around a spiced meat-and-pine-nut filling, baked into a golden casserole. Considered a national dish of both Syria and Lebanon, with the Syrian city of Aleppo alone claiming over a dozen regional variations.",
     miseEnPlace: [
-      "Soak the fine bulgur wheat in water for 10-15 minutes, then drain and squeeze out excess water.",
+      "Soak the fine bulgur wheat (or regular bulgur pulsed fine in a food processor; give it a few extra minutes) in water for 10-15 minutes, then drain and squeeze out excess water.",
       "Finely dice the onions for both the dough and the filling.",
       "Toast the pine nuts.",
       "Have the spice blend (allspice, cinnamon, black pepper) measured out."
@@ -1686,7 +1686,7 @@ export const RECIPES = [
   { id: "sri-lanka", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chicken_Kottu.jpg/960px-Chicken_Kottu.jpg", week: 63, country: "Sri Lanka", countryCode: "lk", numericCode: "144", dish: "Kottu Roti", prepTime: "20 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Flat Griddle or Wok" }, "knife-board"],
     description: "Shredded godamba roti stir-fried on a hot griddle with vegetables, egg, and meat, chopped rhythmically with metal blades in a clatter you can hear down the street. Sri Lanka's most beloved street food, invented to use up leftover roti. Customizable, savory, and satisfying.",
     miseEnPlace: [
-      "Cook the parotta/godamba roti according to package instructions if frozen, let cool, then stack and shred into bite-sized strips.",
+      "Cook the parotta/godamba roti according to package instructions if frozen, let cool, then stack and shred into bite-sized strips. (Using flour tortillas? Crisp them briefly in a dry pan first, then shred.)",
       "Separate the chicken pieces from the curry gravy if using leftover chicken curry; chop the chicken smaller.",
       "Peel and julienne the carrots, and thinly slice the leeks.",
       "Beat the eggs for scrambling.",
@@ -1711,12 +1711,12 @@ export const RECIPES = [
     ],
     steps: [
       "Heat 1 tablespoon of oil in a large flat pan or wok over medium heat. Pour in the beaten eggs and scramble until firm and dry, 3-5 minutes. Remove and set aside.",
-      "Add the remaining oil to the pan. Add the onion and fry for 1 minute, then add the curry leaves, ginger-garlic paste, and green chilies, cooking until fragrant and the onion softens, about 5 minutes.",
+      "Add the remaining oil to the pan. Add the onion and fry for 1 minute, then add the curry leaves (or a bay leaf), ginger-garlic paste, and green chilies, cooking until fragrant and the onion softens, about 5 minutes.",
       "Add the carrots and leeks and cook for 2-3 minutes until just starting to soften.",
-      "Stir in the curry powder, chili powder, and turmeric, cooking briefly until fragrant.",
+      "Stir in the curry powder (if using regular curry powder, toast it in a dry pan until dark first), chili powder, and turmeric, cooking briefly until fragrant.",
       "Add the shredded chicken and curry gravy to the pan and mix well, letting it reduce slightly so the mixture isn't too watery.",
       "Add the shredded roti and scrambled egg to the pan. Using two flat spatulas, toss, press, and chop everything together vigorously for 2-3 minutes until the roti soaks up the gravy and everything is evenly combined — this is the signature kottu chopping motion.",
-      "Taste and adjust salt and spice as needed. If the mixture seems soggy, keep cooking it down a bit longer; the roti will absorb more liquid the longer it cooks.",
+      "Taste and adjust salt and spice as needed. If you used a bay leaf in place of curry leaves, remove it and stir in a little lime zest. If the mixture seems soggy, keep cooking it down a bit longer; the roti will absorb more liquid the longer it cooks.",
       "Serve hot with lime wedges on the side."
     ] },
   { id: "malawi", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flickr_-_ggallice_-_Nsima_%5E_chambo.jpg/960px-Flickr_-_ggallice_-_Nsima_%5E_chambo.jpg", week: 64, country: "Malawi", countryCode: "mw", numericCode: "454", dish: "Chambo with Nsima", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Skillet or Grill" }, { icon: "🍲", label: "Thick-Bottomed Pot" }, "knife-board"],
@@ -1741,7 +1741,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Season fish", content: "Rub tilapia inside and out with garlic, lemon juice, and {0004}. Make 3–4 diagonal slashes on each side to help heat penetrate." },
-      { id: "s2", title: "Make nsima", content: "Bring water to boil with {0008}. Gradually whisk in maize flour, stirring constantly. Reduce heat to very low and cook, stirring vigorously with a wooden spoon, 8–10 min until very thick and pulling away from the sides. The nsima should hold its shape when scooped.", timer_seconds: 600 },
+      { id: "s2", title: "Make nsima", content: "Bring water to boil with {0008}. Gradually whisk in maize flour (or fine white cornmeal, which may need a few extra minutes to thicken), stirring constantly. Reduce heat to very low and cook, stirring vigorously with a wooden spoon, 8–10 min until very thick and pulling away from the sides. The nsima should hold its shape when scooped.", timer_seconds: 600 },
       { id: "s3", title: "Make tomato relish", content: "Fry diced onion in oil 5 min. Add tomatoes and cook 8 min until collapsed into a saucy relish. Season with salt." },
       { id: "s4", title: "Fry fish", content: "Heat oil in a large skillet over medium-high. Fry tilapia 4–5 min per side until skin is crispy and golden and flesh is opaque throughout.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Serve nsima mounded on a communal plate or individual plates. Place whole fried chambo and tomato relish alongside. Eat nsima by pinching off a piece, forming it into a ball, making an indentation with your thumb, and using it to scoop up fish and relish." },
@@ -1835,7 +1835,7 @@ export const RECIPES = [
   { id: "romania", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/25/Sarmale_with_polenta_and_sour_cream.jpg", week: 68, country: "Romania", countryCode: "ro", numericCode: "642", dish: "Sarmale", prepTime: "45 min", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot with Lid" }, "knife-board"],
     description: "Pork and rice rolled in fermented cabbage leaves, slow-braised with smoked meat and tomato. Romania's most beloved festive dish — every grandmother has her version.",
     miseEnPlace: [
-      "Separate 20–24 leaves from 1 large head of sauerkraut (pickled cabbage); if leaves are too salty, rinse briefly",
+      "Separate 20–24 leaves from 1 large head of sauerkraut (pickled cabbage); if leaves are too salty, rinse briefly. No whole head? Blanch 20–24 fresh cabbage leaves in salted water with a splash of vinegar until pliable, and keep a jar of sauerkraut for layering the pot",
       "Finely dice 1 large onion; sauté in butter until soft and cool",
       "Mix 500 g ground pork, 100 g rice, cooled onion, dill, salt, and pepper for filling",
     ],
@@ -1856,8 +1856,8 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Make the filling", content: "Mix ground pork, uncooked rice, sautéed onion, {0004}, {0005}, and dill together by hand until well combined." },
       { id: "s2", title: "Roll the sarmale", content: "Lay a cabbage leaf flat. Place 2 tablespoons of filling at the base. Fold sides in, then roll up tightly like a small burrito. Repeat until filling is used — about 20–24 rolls." },
-      { id: "s3", title: "Prepare the pot", content: "Line the bottom of a heavy pot with leftover torn cabbage leaves and smoked pork pieces. Arrange sarmale tightly in layers on top, seam-side down." },
-      { id: "s4", title: "Braise", content: "Mix crushed tomatoes, tomato paste, and stock. Pour over sarmale until just covered. Top with more torn cabbage leaves. Bring to a simmer, cover, and cook on very low heat for 2 hours. Check occasionally and add water if drying out.", timer_seconds: 7200 },
+      { id: "s3", title: "Prepare the pot", content: "Line the bottom of a heavy pot with leftover torn cabbage leaves (or jarred sauerkraut, if you used fresh leaves) and smoked pork pieces. Arrange sarmale tightly in layers on top, seam-side down." },
+      { id: "s4", title: "Braise", content: "Mix crushed tomatoes, tomato paste, and stock. Pour over sarmale until just covered. Top with more torn cabbage leaves (or more jarred sauerkraut). Bring to a simmer, cover, and cook on very low heat for 2 hours. Check occasionally and add water if drying out.", timer_seconds: 7200 },
       { id: "s5", title: "Serve", content: "Serve sarmale directly from the pot, a few per plate with the tomato broth spooned over. Add a generous dollop of {0011} alongside. Serve with polenta (mămăligă) or crusty bread." },
     ] },
   { id: "somalia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Somali_food.jpg", week: 69, country: "Somalia", countryCode: "so", numericCode: "706", dish: "Suqaar", prepTime: "15 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Wok" }, "knife-board"],
@@ -1892,7 +1892,7 @@ export const RECIPES = [
   { id: "senegal", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Thieboudienne.JPG/960px-Thieboudienne.JPG", week: 70, country: "Senegal", countryCode: "sn", numericCode: "686", dish: "Thieboudienne", prepTime: "30 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot (Thiébou Pot)" }, "knife-board"],
     description: "Senegal's national dish: whole fish stuffed with herb paste, simmered in a rich tomato broth, then rice cooked in that same broth with vegetables. West Africa's great one-pot masterpiece — the ancestor of paella.",
     miseEnPlace: [
-      "Blend rof filling: 1 bunch parsley + 4 garlic cloves + 1 scotch bonnet + 1 tbsp tomato paste — blend into a paste",
+      "Blend rof filling: 1 bunch parsley + 4 garlic cloves + 1 scotch bonnet (or habanero) + 1 tbsp tomato paste — blend into a paste",
       "Make slits in 2 whole fish (thiof/grouper or snapper); stuff slits with rof paste",
       "Prep vegetables: cut 1 small cabbage, 3 carrots, 2 cassava, 1 eggplant into large pieces",
     ],
@@ -2006,7 +2006,7 @@ export const RECIPES = [
   { id: "cambodia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fish_Amok_with_Rice.jpg/960px-Fish_Amok_with_Rice.jpg", week: 74, country: "Cambodia", countryCode: "kh", numericCode: "116", dish: "Fish Amok", prepTime: "30 min", cookTime: "20 min", servings: 4, equipment: ["mortar-pestle", "wok", "steamer", "knife-board"],
     description: "Freshwater fish folded into a coconut-lemongrass curry mousse and steamed in banana-leaf cups. Cambodia's delicate signature dish.",
     miseEnPlace: [
-      "Slice the lemongrass, galangal, and shallots for the curry paste.",
+      "Slice the lemongrass, galangal (or fresh ginger), and shallots for the curry paste.",
       "Remove the seeds from the dried red chilies and soak briefly to soften.",
       "Cut the fish into bite-sized pieces.",
       "Beat the eggs, ready to fold into the curry mixture.",
@@ -2032,10 +2032,10 @@ export const RECIPES = [
       "Banana leaves or ramekins, for steaming"
     ],
     steps: [
-      "Pound the lemongrass, galangal, kaffir lime leaves, shallots, garlic, soaked chilies, turmeric, and shrimp paste together in a mortar and pestle (or food processor) until a smooth paste forms.",
+      "Pound the lemongrass, galangal (or ginger), kaffir lime leaves (or extra lime zest), shallots, garlic, soaked chilies, turmeric, and shrimp paste (or anchovy paste) together in a mortar and pestle (or food processor) until a smooth paste forms.",
       "Heat the oil in a wok over medium-high heat. Add the curry paste and fry, stirring almost constantly, for about 10 minutes until darkened and very fragrant.",
       "Transfer the paste to a bowl and let cool slightly, then stir in the coconut milk until smooth.",
-      "Season with the palm sugar and fish sauce, tasting and adjusting the balance of salty, sweet, and aromatic.",
+      "Season with the palm sugar (or light brown sugar) and fish sauce, tasting and adjusting the balance of salty, sweet, and aromatic.",
       "Beat the eggs and fold them into the curry mixture, then gently fold in the fish pieces and chopped herbs.",
       "Spoon the mixture into banana-leaf cups or ramekins.",
       "Steam over simmering water for 15-20 minutes, until the curry sets into a firm, custard-like mousse.",
@@ -2046,7 +2046,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Cut 600 g beef stew meat (chuck or shin) into 3 cm pieces",
       "Dice 2 large onions, 3 tomatoes",
-      "Measure 300 g white maize meal for sadza",
+      "Measure 300 g white maize meal (or fine white cornmeal) for sadza",
     ],
     ingredients: [
       { amount: 600, unit: "g", name: "beef chuck or shin, cut into 3 cm pieces" },
@@ -2091,7 +2091,7 @@ export const RECIPES = [
       { id: "s1", title: "Marinate", content: "Combine lemon juice, mustard, garlic, {0006}, {0007}. Mix with chicken pieces and sliced onions. Cover and refrigerate at least 4 hours, ideally overnight.", timer_seconds: 14400 },
       { id: "s2", title: "Separate and grill chicken", content: "Remove chicken from marinade, reserving the onions and liquid. Grill or broil chicken pieces 5–6 min per side until charred and half-cooked. Set aside." },
       { id: "s3", title: "Caramelize onions", content: "Heat oil in a Dutch oven over medium-high. Add all the marinated onions. Cook 20–25 min, stirring often, until deeply golden, caramelized, and fragrant.", timer_seconds: 1500 },
-      { id: "s4", title: "Braise together", content: "Add remaining marinade, scotch bonnet, bay leaves, and stock to the onions. Nestle grilled chicken pieces in the onion mixture. Cover and braise on medium-low heat 25 min until chicken is very tender.", timer_seconds: 1500 },
+      { id: "s4", title: "Braise together", content: "Add remaining marinade, scotch bonnet (or habanero), bay leaves, and stock to the onions. Nestle grilled chicken pieces in the onion mixture. Cover and braise on medium-low heat 25 min until chicken is very tender.", timer_seconds: 1500 },
       { id: "s5", title: "Serve", content: "Remove scotch bonnet and bay. Taste and adjust {0006}. Serve over white rice with the caramelized onion sauce poured over everything." },
     ] },
   { id: "rwanda", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Matoke_with_stew.jpg/960px-Matoke_with_stew.jpg", week: 77, country: "Rwanda", countryCode: "rw", numericCode: "646", dish: "Agatogo", prepTime: "10 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Medium Pot" }, "knife-board"],
@@ -2122,7 +2122,7 @@ export const RECIPES = [
   { id: "benin", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Un_plats_d%27amiwo_au_poisson_au_benin.jpg/960px-Un_plats_d%27amiwo_au_poisson_au_benin.jpg", week: 78, country: "Benin", countryCode: "bj", numericCode: "204", dish: "Amiwo", prepTime: "15 min", cookTime: "35 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Benin's national dish: cornmeal porridge cooked in a spiced tomato sauce instead of plain water, served with grilled chicken or fish. A flavorful Beninese staple that elevates the humble maize into something rich and aromatic.",
     miseEnPlace: [
-      "Blend 4 tomatoes + 1 onion + 1 red pepper + 1 scotch bonnet into a smooth purée",
+      "Blend 4 tomatoes + 1 onion + 1 red pepper + 1 scotch bonnet (or habanero) into a smooth purée",
       "Measure 300 g fine cornmeal (white or yellow)",
       "Season 4 chicken thighs with garlic, salt, ginger, and paprika for grilling",
     ],
@@ -2139,7 +2139,7 @@ export const RECIPES = [
       { amount: 4, unit: null, name: "bone-in chicken thighs, seasoned and grilled (to serve)" },
     ],
     steps: [
-      { id: "s1", title: "Fry tomato base", content: "Blend tomatoes, onion, red pepper, and scotch bonnet smooth. Heat palm oil in a large pot over medium-high. Pour in blended purée — it will splatter. Fry 12–15 min, stirring often, until darkened, thickened, and the raw smell has gone.", timer_seconds: 900 },
+      { id: "s1", title: "Fry tomato base", content: "Blend tomatoes, onion, red pepper, and scotch bonnet (or habanero) smooth. Heat palm oil in a large pot over medium-high. Pour in blended purée — it will splatter. Fry 12–15 min, stirring often, until darkened, thickened, and the raw smell has gone.", timer_seconds: 900 },
       { id: "s2", title: "Add water and season", content: "Add {0009} and {0008} to the fried tomato base. Season with seasoning cube and {0008}. Bring to a boil." },
       { id: "s3", title: "Cook the cornmeal", content: "Gradually whisk cornmeal into the boiling tomato broth, stirring constantly to prevent lumps. Reduce heat to very low. Cook 15–18 min, stirring vigorously every 2 min, until thick, smooth, and pulling from the pot sides.", timer_seconds: 1080 },
       { id: "s4", title: "Grill chicken", content: "While amiwo cooks, grill seasoned chicken thighs over medium-high heat 20–25 min, turning, until cooked through and charred in spots.", timer_seconds: 1500 },
@@ -2343,7 +2343,7 @@ export const RECIPES = [
   { id: "south-sudan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D9%85%D9%84%D8%A7%D8%AD_%D8%B3%D9%85%D9%83.jpg/960px-%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D9%85%D9%84%D8%A7%D8%AD_%D8%B3%D9%85%D9%83.jpg", week: 87, country: "South Sudan", countryCode: "ss", numericCode: "728", dish: "Kajaik", prepTime: "15 min", cookTime: "35 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "South Sudan's traditional dried fish stew — sun-dried Nile perch or tilapia simmered with peanuts, onion, and tomatoes into a thick, deeply flavored sauce. Served with asida (sorghum porridge).",
     miseEnPlace: [
-      "Soak 200 g dried fish (dried tilapia or Nile perch) in water 30 min; drain and break into large flakes",
+      "Soak 200 g dried fish (dried tilapia or Nile perch) in water 30 min; drain and break into large flakes; salt cod needs an overnight soak instead, and smoked trout needs none — just flake it",
       "Grind 80 g roasted peanuts coarsely",
       "Dice 2 onions, 2 tomatoes",
     ],
@@ -2360,7 +2360,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Sauté aromatics", content: "Heat oil in a pot over medium heat. Cook onions 7–8 min until golden. Add tomatoes and chili, cook 8 min until collapsed." },
-      { id: "s2", title: "Add fish", content: "Add soaked and flaked dried fish. Stir to combine with the tomato base. Cook 5 min, letting fish flavor meld into the sauce." },
+      { id: "s2", title: "Add fish", content: "Add soaked and flaked dried fish (or flaked smoked trout). Stir to combine with the tomato base. Cook 5 min, letting fish flavor meld into the sauce." },
       { id: "s3", title: "Add peanuts and water", content: "Add ground peanuts and {0008}. Stir well and bring to a simmer. Cook 15 min until the sauce is thick and fragrant. Taste before adding {0007} — dried fish can be quite salty.", timer_seconds: 900 },
       { id: "s4", title: "Serve", content: "Scatter {0008} over top. Serve with asida (thick sorghum porridge) or ugali. The stew should be thick enough to eat with the porridge as a scooping vehicle." },
     ] },
@@ -2451,7 +2451,7 @@ export const RECIPES = [
       { id: "s1", title: "Make the meatball mixture", content: "Sauté diced onion in a little butter until soft and translucent; cool. Combine ground beef and ground pork, soaked bread, cooled onion, egg, allspice, nutmeg, {0008}, and {0009}. Mix thoroughly. Roll into balls about 3 cm diameter — you should get about 28–32.", timer_seconds: 600 },
       { id: "s2", title: "Fry the meatballs", content: "Heat butter in a large skillet over medium-high heat. Fry meatballs in batches, shaking the pan to keep them round, until browned all over and cooked through, about 8–10 min per batch. Remove and set aside.", timer_seconds: 600 },
       { id: "s3", title: "Make the gravy", content: "In the same skillet, whisk flour into the remaining fat over medium heat, scraping up all the browned bits. Cook 1 min. Gradually add beef stock, whisking constantly. Pour in cream and soy sauce. Simmer 4–5 min until a smooth, glossy gravy forms. Season to taste.", timer_seconds: 300 },
-      { id: "s4", title: "Finish and serve", content: "Return meatballs to the gravy and simmer together 3 min. Serve over mashed potatoes or egg noodles, with a spoonful of {0014} and pickled cucumber slices alongside." },
+      { id: "s4", title: "Finish and serve", content: "Return meatballs to the gravy and simmer together 3 min. Serve over mashed potatoes or egg noodles, with a spoonful of {0014} (or whole-berry cranberry sauce) and pickled cucumber slices alongside." },
     ] },
   { id: "portugal", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Caldo_verde.jpg/960px-Caldo_verde.jpg", week: 91, country: "Portugal", countryCode: "pt", numericCode: "620", dish: "Caldo Verde", prepTime: "15 min", cookTime: "30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A velvety potato-and-kale soup studded with smoky chouriço slices. Portugal's most beloved comfort dish, born in the Minho region.",
@@ -2567,9 +2567,9 @@ export const RECIPES = [
       "Add the bezar spice blend and chicken, stirring until the chicken is coated and turns from pink to white.",
       "Add the garlic, ginger, salt, and half the tomato paste, and fry for a few minutes more.",
       "Add the potatoes and carrots and sauté briefly.",
-      "Stir in the remaining tomato paste, the black lime, and the water. Bring to a boil, then reduce heat and simmer until the chicken and vegetables are tender, about 45 minutes to 1 hour.",
+      "Stir in the remaining tomato paste, the black lime (if using fresh lime instead, save it for the end), and the water. Bring to a boil, then reduce heat and simmer until the chicken and vegetables are tender, about 45 minutes to 1 hour.",
       "If the stew looks too watery, mash a piece of potato into the broth to help thicken it.",
-      "Stir in chopped cilantro just before serving.",
+      "Stir in chopped cilantro (and fresh lime zest and juice, if you skipped the black lime) just before serving.",
       "Serve hot with rice or warm Emirati bread for dipping."
     ] },
   { id: "tajikistan", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kurutob_Tajikistan.JPG/960px-Kurutob_Tajikistan.JPG", week: 95, country: "Tajikistan", countryCode: "tj", numericCode: "762", dish: "Qurutob", prepTime: "30 min", cookTime: "15 min", servings: 4, equipment: [{ icon: "🍳", label: "Frying Pan" }, "knife-board"],
@@ -2675,9 +2675,9 @@ export const RECIPES = [
     description: "Togo's signature dish: eggplant and smoked fish stewed in a rich palm oil sauce with tomatoes and okra. Earthy, smoky, and deeply West African in character.",
     miseEnPlace: [
       "Cut 2 large eggplants into 3 cm cubes; salt lightly and let drain 10 min, then pat dry",
-      "Flake 150 g smoked fish (smoked mackerel or smoked catfish)",
+      "Flake 150 g smoked fish (smoked mackerel or smoked catfish — or canned kippers or smoked trout)",
       "Slice 150 g fresh okra",
-      "Blend 3 tomatoes + 1 onion + 1 scotch bonnet into a purée",
+      "Blend 3 tomatoes + 1 onion + 1 scotch bonnet (or habanero) into a purée",
     ],
     ingredients: [
       { amount: 2, unit: null, name: "large eggplants, cubed" },
@@ -2693,8 +2693,8 @@ export const RECIPES = [
       { amount: 3, unit: "tbsp", name: "fresh cilantro or parsley, chopped" },
     ],
     steps: [
-      { id: "s1", title: "Fry tomato base", content: "Blend tomatoes, onion, and scotch bonnet smooth. Heat palm oil in a large pot over medium-high. Pour in blended purée. Fry 12–15 min, stirring, until darkened and reduced.", timer_seconds: 900 },
-      { id: "s2", title: "Add smoked fish and dried shrimp", content: "Add flaked smoked fish, dried shrimp (if using), and seasoning cube. Stir into the tomato base. Cook 5 min." },
+      { id: "s1", title: "Fry tomato base", content: "Blend tomatoes, onion, and scotch bonnet (or habanero) smooth. Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a large pot over medium-high. Pour in blended purée. Fry 12–15 min, stirring, until darkened and reduced.", timer_seconds: 900 },
+      { id: "s2", title: "Add smoked fish and dried shrimp", content: "Add flaked smoked fish, dried shrimp (if using — or a splash of fish sauce), and seasoning cube. Stir into the tomato base. Cook 5 min." },
       { id: "s3", title: "Add eggplant", content: "Add cubed eggplant. Stir to coat. Add 200 ml water. Cover and cook 15 min until eggplant is completely tender and beginning to meld into the sauce.", timer_seconds: 900 },
       { id: "s4", title: "Add okra and finish", content: "Add sliced okra. Cook uncovered 8–10 min until okra is tender. Season with {0009}. The stew should be thick and rich.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Scatter {0010} over top. Serve with fufu, akplé (Togolese corn and cassava dough), or white rice." },
@@ -2702,9 +2702,9 @@ export const RECIPES = [
   { id: "sierra-leone", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Manihot_esculenta_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-090.jpg", week: 101, country: "Sierra Leone", countryCode: "sl", numericCode: "694", dish: "Cassava Leaf Stew", prepTime: "20 min", cookTime: "1 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "Sierra Leone's beloved national dish: finely pounded cassava leaves slow-cooked with chicken or beef, palm oil, and dried fish into a rich, dark stew. Eaten over rice — the heart of Sierra Leonean family cooking.",
     miseEnPlace: [
-      "Pound 500 g fresh cassava leaves very finely in a mortar (or use frozen ground cassava leaves); squeeze and drain excess liquid",
+      "Pound 500 g fresh cassava leaves very finely in a mortar (or use frozen ground cassava leaves); squeeze and drain excess liquid; or finely chop collard greens or spinach instead",
       "Cut 700 g bone-in chicken into pieces",
-      "Soak and flake 50 g dried smoked fish",
+      "Soak and flake 50 g dried smoked fish (canned kippers or smoked trout need no soaking)",
     ],
     ingredients: [
       { amount: 500, unit: "g", name: "fresh cassava leaves, very finely pounded (or frozen ground cassava leaves) (sub: finely chopped collard greens or spinach)" },
@@ -2719,16 +2719,16 @@ export const RECIPES = [
       { amount: 400, unit: "ml", name: "water or chicken stock" },
     ],
     steps: [
-      { id: "s1", title: "Prep cassava leaves", content: "If using fresh leaves, pound in batches in a large mortar until very fine. The pounding removes bitterness and creates the proper texture. Squeeze out excess moisture." },
+      { id: "s1", title: "Prep cassava leaves", content: "If using fresh leaves, pound in batches in a large mortar until very fine. The pounding removes bitterness and creates the proper texture. Squeeze out excess moisture. Using collards or spinach? Just chop them very finely — no pounding needed." },
       { id: "s2", title: "Parboil chicken", content: "Season chicken with {0009} and half the garlic. Parboil in water 15 min. Drain, reserving stock.", timer_seconds: 900 },
-      { id: "s3", title: "Build the stew", content: "Heat palm oil in a large pot over medium heat. Fry onion and remaining garlic 6 min. Add smoked fish, dried shrimp, and whole scotch bonnet. Cook 3 min." },
-      { id: "s4", title: "Add cassava leaves and simmer", content: "Add pounded cassava leaves, chicken, and reserved stock. Stir well. Bring to a simmer, cover, and cook 35–40 min on medium-low heat, stirring occasionally. The stew will turn dark green and thicken considerably.", timer_seconds: 2400 },
+      { id: "s3", title: "Build the stew", content: "Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a large pot over medium heat. Fry onion and remaining garlic 6 min. Add smoked fish, dried shrimp (or a splash of fish sauce), and whole scotch bonnet (or habanero). Cook 3 min." },
+      { id: "s4", title: "Add cassava leaves and simmer", content: "Add pounded cassava leaves, chicken, and reserved stock. Stir well. Bring to a simmer, cover, and cook 35–40 min on medium-low heat, stirring occasionally. The stew will turn dark green and thicken considerably. If using spinach, add it only for the last 10 minutes.", timer_seconds: 2400 },
       { id: "s5", title: "Finish and serve", content: "Remove scotch bonnet (or mash in for heat). Taste and adjust {0009}. Serve over heaped white rice — the dark, intensely flavored stew makes the simplest rice into a full meal." },
     ] },
   { id: "laos", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LaoFood_LarbNeua.JPG/960px-LaoFood_LarbNeua.JPG", week: 102, country: "Laos", countryCode: "la", numericCode: "418", dish: "Larb", prepTime: "15 min", cookTime: "10 min", servings: 3, equipment: ["wok", "mortar-pestle", "knife-board"],
     description: "A zesty minced-meat salad tossed with lime, fish sauce, herbs, and toasted ground rice. Widely regarded as the national dish of Laos.",
     miseEnPlace: [
-      "Toast the uncooked sticky rice in a dry pan until golden, then grind to a coarse powder in a mortar and pestle or spice grinder — this is the dish's signature crunch, don't skip it.",
+      "Toast the uncooked sticky rice (or jasmine rice) in a dry pan until golden, then grind to a coarse powder in a mortar and pestle or spice grinder — this is the dish's signature crunch, don't skip it.",
       "Thinly slice the shallots and scallions.",
       "Chop the cilantro and mint leaves.",
       "Slice the Thai chilies.",
@@ -2749,13 +2749,13 @@ export const RECIPES = [
       "Lime wedges and sticky rice, for serving (sub: jasmine rice)"
     ],
     steps: [
-      "Toast the sticky rice in a dry wok or pan over low heat, stirring continuously, until golden and fragrant, about 10 minutes. Grind to a coarse powder and set aside.",
+      "Toast the sticky rice (or jasmine rice) in a dry wok or pan over low heat, stirring continuously, until golden and fragrant, about 10 minutes. Grind to a coarse powder and set aside.",
       "Heat the wok over high heat until smoking, then add the oil and ground pork.",
       "Stir-fry the pork until browned and cooked through, breaking it up as it cooks.",
       "Add the toasted rice powder, sugar, fish sauce, and lime juice, and stir-fry for another minute to combine.",
       "Remove from heat and stir in the chilies, shallots, scallions, cilantro, and mint.",
       "Taste and adjust the balance of salty, sour, and spicy with more fish sauce, lime, or chili as needed.",
-      "Serve warm or at room temperature with lime wedges and a side of sticky rice."
+      "Serve warm or at room temperature with lime wedges and a side of sticky rice (or jasmine rice)."
     ] },
   { id: "hong-kong", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/95/Charsiu.jpg", week: 103, country: "Hong Kong", countryCode: "hk", numericCode: "344", dish: "Char Siu with Chinese Broccoli in Oyster Sauce",
     description: "Glossy red-roasted barbecued pork sliced over rice, paired with crisp Chinese broccoli glazed in oyster sauce. A staple of Hong Kong's cha chaan teng and roast-meat shops.",
@@ -2902,7 +2902,7 @@ export const RECIPES = [
     description: "Nicaragua's answer to the tamale: larger, richer, and more complex — masa enriched with lard and sour orange, filled with pork, potato, tomato, olive, and rice, wrapped in plantain leaves and boiled for hours. A weekend ritual.",
     miseEnPlace: [
       "Marinate 500 g pork shoulder pieces in sour orange (or orange + lime), achiote, garlic, salt — overnight",
-      "Soak 12 large banana or plantain leaves in hot water until pliable",
+      "Soak 12 large banana or plantain leaves in hot water until pliable (or cut 12 large sheets each of parchment and foil)",
       "Make masa: 600 g masa harina + lard + salt + sour orange + chicken broth — should be spreadable",
     ],
     ingredients: [
@@ -2924,7 +2924,7 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Marinate pork", content: "Toss pork with garlic, achiote, citrus juice, and {0012}. Marinate overnight or at least 4 hours.", timer_seconds: 14400 },
       { id: "s2", title: "Make the masa", content: "Beat lard until fluffy. Mix in masa harina, {0012}, remaining achiote, and enough warm broth to make a soft, spreadable dough — like thick hummus. Taste for salt." },
-      { id: "s3", title: "Assemble nacatamales", content: "Lay a banana leaf flat. Spread a generous layer of masa (about 150 g) in a rectangle. Layer in the center: 2–3 pieces of pork, potato slices, tomato slices, onion, a few olives, and 1 tbsp raw rice. Fold the leaf up and over tightly into a neat rectangle. Tie with strips of banana leaf or string." },
+      { id: "s3", title: "Assemble nacatamales", content: "Lay a banana leaf flat. Spread a generous layer of masa (about 150 g) in a rectangle. Layer in the center: 2–3 pieces of pork, potato slices, tomato slices, onion, a few olives, and 1 tbsp raw rice. Fold the leaf up and over tightly into a neat rectangle. Tie with strips of banana leaf or string. Using parchment? Fold it into a tight packet, then wrap snugly in foil." },
       { id: "s4", title: "Boil", content: "Stand or lay nacatamales in a large pot over a rack. Cover with boiling water. Cover pot and boil 2.5–3 hours, adding water as needed to maintain level. They are done when the leaf peels cleanly and the masa is firm.", timer_seconds: 10800 },
       { id: "s5", title: "Serve", content: "Rest 10 min. Unwrap at the table — the aroma released is part of the experience. Eat with black beans, crema, and strong Nicaraguan coffee on a Sunday morning." },
     ] },
@@ -2981,7 +2981,7 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Make curtido", content: "Toss sliced cabbage and carrot with vinegar, oregano, and {0010}. Massage lightly and rest at least 30 min at room temperature. It should taste lightly pickled and bright.", timer_seconds: 1800 },
       { id: "s2", title: "Make the dough", content: "Mix masa harina, {0003}, and warm water together. Knead 2–3 min until dough feels like soft Play-Doh — neither cracking nor sticky. If cracking, add water by the tablespoon. Rest 10 min under a damp cloth.", timer_seconds: 600 },
-      { id: "s3", title: "Stuff the pupusas", content: "Wet your hands. Roll a golf ball of dough. Flatten in your palm into a disc. Add 1 tbsp filling (cheese + beans, or cheese + chicharrón) in the center. Fold the edges over to seal, then pat gently back into a flat round disc about 1 cm thick. Repeat for all." },
+      { id: "s3", title: "Stuff the pupusas", content: "Wet your hands. Roll a golf ball of dough. Flatten in your palm into a disc. Add 1 tbsp filling (cheese + beans, or cheese + chicharrón or crumbled crisp bacon) in the center. Fold the edges over to seal, then pat gently back into a flat round disc about 1 cm thick. Repeat for all." },
       { id: "s4", title: "Cook on comal", content: "Heat a dry comal or cast iron skillet over medium-high heat. Cook pupusas 3–4 min per side until golden-brown and slightly charred in spots and the inside is hot and melted.", timer_seconds: 480 },
       { id: "s5", title: "Serve", content: "Serve immediately with a heap of curtido on top or alongside, and tomato salsa. The contrast of hot, molten pupusa with cold, tangy curtido is the whole point." },
     ] },
@@ -3052,9 +3052,9 @@ export const RECIPES = [
   { id: "denmark", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sm%C3%B8rrebr%C3%B8d_in_Copenhagen_01.jpg/960px-Sm%C3%B8rrebr%C3%B8d_in_Copenhagen_01.jpg", week: 114, country: "Denmark", countryCode: "dk", numericCode: "208", dish: "Smorrebrod", prepTime: "25 min", cookTime: "0 min", servings: 4, equipment: ["knife-board"],
     description: "Denmark's open-faced rye bread sandwiches — dense, dark rugbrød loaded with herring, smoked salmon, or roast beef, and stacked with garnishes. Architectural and delicious.",
     miseEnPlace: [
-      "Slice 8 pieces of dense Danish rye bread (rugbrød) about 1 cm thick",
+      "Slice 8 pieces of dense Danish rye bread (rugbrød, or a dense German-style rye like Mestemacher) about 1 cm thick",
       "Butter each slice generously — real softened butter all the way to the edges",
-      "Prepare 3 topping variations below",
+      "Prepare 3 topping variations below (no Danish remoulade for the roast beef? Mix mayo with chopped pickles, a little mustard and a pinch of curry powder)",
     ],
     ingredients: [
       { amount: 8, unit: null, name: "slices dense Danish rye bread (rugbrød) (sub: dense German-style rye, like Mestemacher)" },
@@ -3108,9 +3108,9 @@ export const RECIPES = [
   { id: "congo-brazzaville", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Liboke_entrouvert_03.JPG/960px-Liboke_entrouvert_03.JPG", week: 116, country: "Republic of the Congo", countryCode: "cg", numericCode: "178", dish: "Liboke", prepTime: "20 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍳", label: "Grill or Steamer" }, "knife-board"],
     description: "Congo Brazzaville's classic banana-leaf fish parcel — whole fish or prawns marinated in fresh herbs and spices, sealed in banana leaves, and grilled or steamed until perfumed and tender. Central African cooking at its most aromatic.",
     miseEnPlace: [
-      "Wilt 4 large banana leaves over a flame until pliable",
+      "Wilt 4 large banana leaves over a flame until pliable (or cut 4 large sheets each of parchment and foil)",
       "Clean 4 whole tilapia or 600 g large prawns",
-      "Make the herb paste: blend 1 bunch cilantro + 4 garlic cloves + 1 onion + 1 scotch bonnet + 2 tbsp oil + salt",
+      "Make the herb paste: blend 1 bunch cilantro + 4 garlic cloves + 1 onion + 1 scotch bonnet (or habanero) + 2 tbsp oil + salt",
     ],
     ingredients: [
       { amount: 4, unit: null, name: "whole tilapia or 600 g large prawns, cleaned" },
@@ -3125,9 +3125,9 @@ export const RECIPES = [
       { amount: 1, unit: null, name: "lemon, sliced (for stuffing)" },
     ],
     steps: [
-      { id: "s1", title: "Make herb paste", content: "Blend cilantro, garlic, onion, scotch bonnet, oil, {0008}, and {0009} into a thick paste. Taste — it should be herbaceous, garlicky, and lively." },
+      { id: "s1", title: "Make herb paste", content: "Blend cilantro, garlic, onion, scotch bonnet (or habanero), oil, {0008}, and {0009} into a thick paste. Taste — it should be herbaceous, garlicky, and lively." },
       { id: "s2", title: "Season fish", content: "Make 3–4 diagonal slashes in each fish. Rub herb paste all over and inside the cavity. Tuck lemon slices inside. For prawns, toss generously with the herb paste." },
-      { id: "s3", title: "Wrap in banana leaves", content: "Center each fish (or portion of prawns) on a banana leaf. Fold the leaf over to make a tight parcel and fold the edges under. Tie with string or secure with toothpicks. If using foil as backup, wrap again in foil." },
+      { id: "s3", title: "Wrap in banana leaves", content: "Center each fish (or portion of prawns) on a banana leaf. Fold the leaf over to make a tight parcel and fold the edges under. Tie with string or secure with toothpicks. If using foil as backup, wrap again in foil. No banana leaves? Wrap each in parchment, then foil." },
       { id: "s4", title: "Grill or steam", content: "Grill parcels over medium heat 12–15 min per side, or steam over boiling water for 25 min. The banana leaf will char and perfume the fish with its grassy, slightly sweet smoke.", timer_seconds: 1800 },
       { id: "s5", title: "Serve", content: "Bring parcels to the table unopened. Diners open their own parcel to release the herbed steam. Serve with white rice or boiled plantain." },
     ] },
@@ -3200,7 +3200,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Make meatballs", content: "Combine ground beef, garlic, egg, {0004}, and {0005}. Mix well. Roll into meatballs about 3 cm wide. Refrigerate 10 min to firm up." },
-      { id: "s2", title: "Fry tomato base", content: "Blend tomatoes, half the onion, and chili smooth. Heat palm oil in a pot over medium-high. Add remaining diced onion and cook 5 min. Add blended tomato purée. Fry 10 min until darkened.", timer_seconds: 600 },
+      { id: "s2", title: "Fry tomato base", content: "Blend tomatoes, half the onion, and chili smooth. Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a pot over medium-high. Add remaining diced onion and cook 5 min. Add blended tomato purée. Fry 10 min until darkened.", timer_seconds: 600 },
       { id: "s3", title: "Make peanut broth", content: "Whisk peanut butter into {0011} until smooth. Pour into the tomato base and stir to combine. Bring to a gentle simmer." },
       { id: "s4", title: "Poach meatballs", content: "Gently lower meatballs into the simmering peanut broth. Cover and cook on low heat 20–25 min until meatballs are cooked through and the sauce has thickened.", timer_seconds: 1500 },
       { id: "s5", title: "Serve", content: "Scatter {0011} over top. Serve over white rice or with cassava fufu." },
@@ -3240,7 +3240,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Pat the chicken pieces dry.",
       "Thinly slice the onions for caramelizing.",
-      "Mix together the spice blend: sumac, allspice, cumin, cinnamon.",
+      "Mix together the spice blend: sumac (or lemon zest mixed with a little paprika), allspice, cumin, cinnamon.",
       "Toast the pine nuts."
     ],
     ingredients: [
@@ -3258,10 +3258,10 @@ export const RECIPES = [
     ],
     steps: [
       "Preheat the oven to 400°F. Pat the chicken dry and place in a baking dish.",
-      "Mix 2 tablespoons of olive oil with 1 tablespoon sumac, allspice, cumin, cinnamon, salt, and pepper. Rub all over the chicken.",
+      "Mix 2 tablespoons of olive oil with 1 tablespoon sumac (or lemon zest with a little paprika), allspice, cumin, cinnamon, salt, and pepper. Rub all over the chicken.",
       "Roast the chicken for 35-45 minutes, until golden and cooked through. Let rest, loosely covered, for 15 minutes.",
       "Meanwhile, heat the remaining olive oil in a large pan over medium-low heat. Add the sliced onions with a pinch of salt and cook slowly, stirring often, until very soft and lightly caramelized, about 20-25 minutes.",
-      "Stir in the remaining sumac and season with salt to taste.",
+      "Stir in the remaining sumac (or more lemon zest and paprika) and season with salt to taste.",
       "Warm the flatbread, then spread a generous layer of the sumac onions over each piece.",
       "Top with a piece of roasted chicken and scatter with toasted pine nuts.",
       "Serve warm with lemon wedges, traditionally eaten by hand."
@@ -3299,8 +3299,8 @@ export const RECIPES = [
     description: "West Africa's great healing broth — goat or chicken in a clear, fiery broth seasoned with native African spices, habanero, and uziza leaves. Found from Liberia to Nigeria, always prescribed for illness, celebration, or postpartum recovery.",
     miseEnPlace: [
       "Cut 700 g bone-in goat or chicken into pieces",
-      "Blend 2 habaneros + 1 onion + 4 garlic cloves + 1 tsp crayfish powder into a smooth paste",
-      "Have West African pepper soup spice mix or substitute: 1 tsp calabash nutmeg + 1 tsp grains of selim + 0.5 tsp coriander",
+      "Blend 2 habaneros + 1 onion + 4 garlic cloves + 1 tsp crayfish powder (or a splash of fish sauce) into a smooth paste",
+      "Have West African pepper soup spice mix or substitute: 1 tsp calabash nutmeg + 1 tsp grains of selim + 0.5 tsp coriander; or, from a regular supermarket: ground nutmeg with pinches of allspice, coriander & black pepper",
     ],
     ingredients: [
       { amount: 700, unit: "g", name: "bone-in goat meat or chicken pieces" },
@@ -3316,7 +3316,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Parboil meat", content: "Place meat, diced onion, seasoning cube, {0008}, and half the pepper soup spice in a pot. Cover with water, bring to boil, skim foam, simmer 20 min. The meat should be partially cooked." },
-      { id: "s2", title: "Blend aromatics", content: "Blend habaneros, half the onion, garlic, and crayfish powder into a smooth paste." },
+      { id: "s2", title: "Blend aromatics", content: "Blend habaneros, half the onion, garlic, and crayfish powder (or a splash of fish sauce) into a smooth paste." },
       { id: "s3", title: "Add spice paste", content: "Add blended paste and remaining pepper soup spice to the parboiled meat. Stir in and continue simmering 25 min until meat is fully tender and the broth is a clear, fiery rust color.", timer_seconds: 1500 },
       { id: "s4", title: "Finish with leaves", content: "Add uziza or basil leaves in the last 2 min of cooking. They wilt quickly and add fresh herbal fragrance. Taste and adjust {0008}." },
       { id: "s5", title: "Serve", content: "Ladle into bowls with the clear broth and pieces of meat. Serve piping hot with boiled yam, white rice, or simply on its own as a clear soup. The broth should be powerfully hot and deeply aromatic." },
@@ -3447,7 +3447,7 @@ export const RECIPES = [
       "Add half the shrimp and the sliced tomato, cooking for a few minutes until the shrimp turns pink.",
       "Pour in the water and salt, bring to a boil, then add the rinsed rice. Stir, reduce heat to low, cover, and simmer until the water is absorbed and the rice is tender, about 18-20 minutes.",
       "Meanwhile, make the topping: heat oil in a separate pan and sauté the remaining sliced onion until golden.",
-      "Add the cardamom, crushed black lime, curry powder, and turmeric, stirring until fragrant.",
+      "Add the cardamom, crushed black lime (or a little grated lime zest), curry powder, and turmeric, stirring until fragrant.",
       "Add the remaining shrimp to the topping pan and sauté until just cooked through, a few minutes.",
       "Spoon the cooked rice onto a serving platter and top generously with the spiced shrimp topping. Garnish with fresh cilantro and serve."
     ] },
@@ -3505,7 +3505,7 @@ export const RECIPES = [
     steps: [
       "Season the chicken with salt and pepper. Heat 2 tablespoons of oil in a Dutch oven over medium-high heat and brown the chicken on all sides, about 8-10 minutes. Remove and set aside.",
       "Add the remaining oil to the pot and sauté the onion until softened, then add the red peppers if using and cook a few minutes more.",
-      "Stir in the tomatoes, adjika, and khmeli suneli, and cook until the tomatoes break down into a sauce, about 5-8 minutes.",
+      "Stir in the tomatoes, adjika (or harissa), and khmeli suneli, and cook until the tomatoes break down into a sauce, about 5-8 minutes.",
       "Return the chicken to the pot, cover, and simmer over low heat until the chicken is cooked through and tender, about 25-30 minutes.",
       "Stir in the garlic, chopped chili, and most of the cilantro during the last few minutes of cooking.",
       "Taste and adjust seasoning.",
@@ -3516,7 +3516,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Dice 600 g beef into 2 cm pieces (or use ground beef)",
       "Finely dice 3 large onions — the long caramelization is the foundation",
-      "Measure berbere spice blend: at least 2 tbsp",
+      "Measure berbere spice blend: at least 2 tbsp (or mix 2 parts paprika to 1 part cayenne with pinches of ground ginger, coriander, cardamom, allspice & cloves)",
     ],
     ingredients: [
       { amount: 600, unit: "g", name: "beef (chuck or stew), diced 2 cm" },
@@ -3533,10 +3533,10 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Dry-caramelize onions", content: "Place onions in a dry pot (no fat) over medium-low heat. Cook, stirring often, 20–25 min until deeply golden and almost paste-like. This step builds the depth of the stew.", timer_seconds: 1500 },
-      { id: "s2", title: "Add butter and berbere", content: "Add niter kibbeh to the caramelized onions. Stir in berbere and cook 3 min until the fat turns deep red. Add garlic and ginger, cook 1 min more." },
+      { id: "s2", title: "Add butter and berbere", content: "Add niter kibbeh to the caramelized onions. Stir in berbere (or the paprika–cayenne blend) and cook 3 min until the fat turns deep red. Add garlic and ginger, cook 1 min more." },
       { id: "s3", title: "Brown meat", content: "Add beef pieces and brown in the spiced butter 5–6 min. Add tomatoes, tomato paste, {0010}, and {0009}. Stir to combine." },
       { id: "s4", title: "Simmer", content: "Add stock. Bring to a boil, reduce to a low simmer, cover, and cook 30 min until beef is tender and sauce has thickened. Taste and adjust {0009}.", timer_seconds: 1800 },
-      { id: "s5", title: "Serve on injera", content: "Lay injera on a communal platter. Spoon zigni over it. Eat by tearing pieces of injera and scooping up the stew with your right hand. Serve with side dishes of lentils (adas) and vegetables." },
+      { id: "s5", title: "Serve on injera", content: "Lay injera (or thin buckwheat crêpes or warm flatbread) on a communal platter. Spoon zigni over it. Eat by tearing pieces of injera and scooping up the stew with your right hand. Serve with side dishes of lentils (adas) and vegetables." },
     ] },
   { id: "mongolia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Khorkhog.JPG/960px-Khorkhog.JPG", week: 132, country: "Mongolia", countryCode: "mn", numericCode: "496", dish: "Khorkhog", prepTime: "30 min", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot with Lid" }, "knife-board"],
     description: "Mutton and vegetables cooked in a sealed container with fire-heated stones tucked among the meat. A Mongolian celebratory dish.",
@@ -3600,7 +3600,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Mix 500 g ground beef and 200 g ground lamb (or all beef) by hand until smooth",
       "Season with garlic, baking soda, salt, and pepper — mix thoroughly, then refrigerate 2 hours",
-      "Prepare the accompaniments: finely dice 1 large onion; have kajmak (or sour cream) and ajvar ready",
+      "Prepare the accompaniments: finely dice 1 large onion; have kajmak (or sour cream) and ajvar (or jarred roasted red peppers blended with garlic & olive oil) ready",
     ],
     ingredients: [
       { amount: 500, unit: "g", name: "ground beef (80% lean)" },
@@ -3618,7 +3618,7 @@ export const RECIPES = [
       { id: "s1", title: "Make the mixture", content: "Combine ground beef and ground lamb. Add garlic, baking soda, {0005}, and {0006}. Knead by hand until the mixture is very smooth and cohesive, about 3–4 min. The baking soda lightens the texture. Refrigerate at least 2 hours, preferably overnight.", timer_seconds: 7200 },
       { id: "s2", title: "Roll the ćevapi", content: "Roll meat mixture into finger-sized cylinders about 8–10 cm long and 2 cm wide, pressing firmly to compact. You should get about 24–28 pieces. Wet hands help keep the shape." },
       { id: "s3", title: "Grill", content: "Grill on a hot, well-oiled grill or cast iron skillet over high heat. Cook, turning occasionally, 10–12 min until charred outside and just cooked through. Do not press down — keep them plump.", timer_seconds: 720 },
-      { id: "s4", title: "Serve", content: "Warm somun bread on the grill briefly. Stuff each piece of bread with 5–6 ćevapi. Pile raw onion inside, add a spoonful of kajmak, and serve ajvar alongside. Eat immediately." },
+      { id: "s4", title: "Serve", content: "Warm somun bread on the grill briefly. Stuff each piece of bread with 5–6 ćevapi. Pile raw onion inside, add a spoonful of kajmak, and serve ajvar (or blended roasted red peppers) alongside. Eat immediately." },
     ] },
   { id: "qatar", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tharid._%28cropped%29.JPG/960px-Tharid._%28cropped%29.JPG", week: 135, country: "Qatar", countryCode: "qa", numericCode: "634", dish: "Thareed", prepTime: "20 min", cookTime: "1 hr 15 min", servings: 5, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A hearty stew of lamb and vegetables ladled over crispy, thin layered bread that soaks up every drop of the spiced broth. Often called 'Qatari lasagne' for its layered construction, this is one of the most beloved dishes during Ramadan across the Gulf.",
@@ -3651,9 +3651,9 @@ export const RECIPES = [
     steps: [
       "Heat the oil or ghee in a large pot and sauté the onion and garlic until golden.",
       "Add the lamb and brown on all sides, then stir in the tomatoes, tomato paste, and all the spices.",
-      "Pour in the water or stock and add the black lime. Bring to a boil, then reduce heat, cover, and simmer for about 45-60 minutes, until the lamb is tender.",
+      "Pour in the water or stock and add the black lime. If using fresh lime instead, save it for the end. Bring to a boil, then reduce heat, cover, and simmer for about 45-60 minutes, until the lamb is tender.",
       "Add the potatoes and carrots and continue simmering until the vegetables are tender, about 15-20 minutes more.",
-      "Season with salt and pepper to taste.",
+      "Season with salt and pepper to taste. If you skipped the black lime, stir in fresh lime zest and juice now.",
       "To assemble, layer the crisped flatbread in the bottom of a large serving dish.",
       "Ladle the hot stew generously over the bread, making sure every layer is well soaked with broth.",
       "Arrange the meat and vegetables on top, garnish with cilantro, and serve immediately while hot."
@@ -3776,9 +3776,9 @@ export const RECIPES = [
     prepTime: "20 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, "knife-board"],
     description: "Jamaica's national dish: canned or fresh ackee fruit sautéed with flaked salted codfish, scotch bonnet, and thyme. Eaten for breakfast with bammy, fried dumplings, or breadfruit — a combination that defines the Jamaican morning.",
     miseEnPlace: [
-      "Soak 300 g salt cod overnight in several changes of water; drain, simmer 15 min, cool and flake",
-      "Drain 540 g canned ackee gently — it is delicate and breaks easily",
-      "Dice 1 onion, 1 scotch bonnet (seeds removed for less heat), 2 tomatoes; pick thyme leaves",
+      "Soak 300 g salt cod overnight in several changes of water; drain, simmer 15 min, cool and flake; fresh cod needs no soak — salt it well, simmer about 5 min, and flake",
+      "Drain 540 g canned ackee gently — it is delicate and breaks easily (no ackee? Beat 5–6 eggs to soft-scramble in at the end)",
+      "Dice 1 onion, 1 scotch bonnet or habanero (seeds removed for less heat), 2 tomatoes; pick thyme leaves",
     ],
     ingredients: [
       { amount: 300, unit: "g", name: "salt cod (saltfish), soaked overnight and flaked (sub: fresh cod, well salted — skip the soak)" },
@@ -3794,10 +3794,10 @@ export const RECIPES = [
       { amount: 0.5, unit: "tsp", name: "black pepper" },
     ],
     steps: [
-      { id: "s1", title: "Prep saltfish", content: "Soak salt cod in cold water overnight, changing water twice. Drain, cover with fresh water, simmer 15 min. Drain, cool, and flake into large pieces — removing any bones and skin.", timer_seconds: 900 },
-      { id: "s2", title: "Sauté aromatics", content: "Heat oil in a large skillet over medium heat. Cook onion and bell pepper 5 min. Add garlic, scotch bonnet, and thyme, cook 2 min." },
+      { id: "s1", title: "Prep saltfish", content: "Soak salt cod in cold water overnight, changing water twice. Drain, cover with fresh water, simmer 15 min. Drain, cool, and flake into large pieces — removing any bones and skin. Using fresh cod instead? Skip the soak: season it generously with salt, simmer about 5 min until just opaque, then flake.", timer_seconds: 900 },
+      { id: "s2", title: "Sauté aromatics", content: "Heat oil in a large skillet over medium heat. Cook onion and bell pepper 5 min. Add garlic, scotch bonnet (or habanero), and thyme, cook 2 min." },
       { id: "s3", title: "Add saltfish and tomatoes", content: "Add flaked saltfish and diced tomatoes. Cook 5–6 min, stirring, until tomatoes soften and everything is combined." },
-      { id: "s4", title: "Fold in ackee", content: "Add drained ackee to the skillet. Fold gently — ackee breaks apart like scrambled eggs if overworked. Cook 3–4 min until heated through. Season with {0010}. Taste before adding salt — the saltfish provides significant seasoning already.", timer_seconds: 240 },
+      { id: "s4", title: "Fold in ackee", content: "Add drained ackee to the skillet. Fold gently — ackee breaks apart like scrambled eggs if overworked. Cook 3–4 min until heated through. Using eggs instead? Pour in the beaten eggs and stir gently over low heat just until softly set, 1–2 min. Season with {0010}. Taste before adding salt — the saltfish provides significant seasoning already.", timer_seconds: 240 },
       { id: "s5", title: "Serve", content: "Scatter scallions over top. Serve on a large plate with fried dumplings, bammy (cassava flatbread), boiled green banana, or breadfruit. This is a Jamaican Sunday breakfast — unhurried, generous, and fragrant with thyme." },
     ] },
   { id: "albania", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg/960px-F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg", week: 141, country: "Albania", countryCode: "al", numericCode: "008", dish: "Fergese", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Oven-Safe Skillet or Earthenware Dish" }, "knife-board"],
@@ -3831,7 +3831,7 @@ export const RECIPES = [
     description: "The Gambia's beloved okra stew — whole okra simmered with smoked fish, palm oil, and a blend of aromatics into a thick, slightly slimy sauce prized for its texture. Eaten with benachin rice — the heart of Gambian home cooking.",
     miseEnPlace: [
       "Top and tail 500 g fresh okra; keep whole",
-      "Soak and flake 100 g smoked dried fish",
+      "Soak and flake 100 g smoked dried fish (canned kippers or smoked trout need no soaking)",
       "Dice 2 onions, 3 tomatoes; mince 4 garlic cloves",
     ],
     ingredients: [
@@ -3849,15 +3849,15 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Cook meat (if using)", content: "Season meat with {0010} and simmer in 200 ml water 20 min until half-cooked. Drain, reserving stock." },
-      { id: "s2", title: "Build palm oil base", content: "Heat palm oil in a large pot. Add onions and cook 7 min. Add garlic, tomatoes, and dried shrimp. Cook 8 min until tomatoes collapse." },
-      { id: "s3", title: "Add fish and liquids", content: "Add smoked fish, whole scotch bonnet, meat (if using), and reserved stock plus {0010}. Bring to a simmer." },
+      { id: "s2", title: "Build palm oil base", content: "Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a large pot. Add onions and cook 7 min. Add garlic, tomatoes, and dried shrimp (or a splash of fish sauce). Cook 8 min until tomatoes collapse." },
+      { id: "s3", title: "Add fish and liquids", content: "Add smoked fish, whole scotch bonnet (or habanero), meat (if using), and reserved stock plus {0010}. Bring to a simmer." },
       { id: "s4", title: "Add okra and cook", content: "Add whole okra to the simmering pot. Cook 18–20 min uncovered until okra is completely tender and the natural okra slick has fully integrated into the sauce, giving it a glossy, thick coating.", timer_seconds: 1200 },
       { id: "s5", title: "Serve", content: "Remove scotch bonnet. Taste and adjust {0010}. Serve over steamed white rice or benachin (Gambian jollof rice). The superkanja's texture — richly viscous from the okra — is considered a sign of skill." },
     ] },
   { id: "gabon", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Poisson_brais%C3%A9_oignons.jpg/960px-Poisson_brais%C3%A9_oignons.jpg", week: 143, country: "Gabon", countryCode: "ga", numericCode: "266", dish: "Capitaine Fish", prepTime: "15 min", cookTime: "25 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet or Grill" }, "knife-board"],
     description: "Gabon's prized Nile perch (capitaine) grilled or pan-fried with a garlicky herb crust and served with a palm oil tomato sauce. The capitaine is the most sought-after fish in Central Africa's rivers and estuaries.",
     miseEnPlace: [
-      "Score 4 capitaine (Nile perch) fillets or 2 whole fish and pat dry",
+      "Score 4 capitaine (Nile perch) fillets (or tilapia, snapper, or sea bass fillets) or 2 whole fish and pat dry",
       "Make herb rub: mince 5 garlic cloves + 1 tbsp fresh thyme + 1 tsp paprika + salt + 2 tbsp oil — rub all over fish",
       "For the sauce: dice 2 onions, 3 tomatoes",
     ],
@@ -3876,7 +3876,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Season the fish", content: "Mix garlic, thyme, paprika, oil, and {0006} into a paste. Rub all over fish fillets and into any score marks. Rest 15 min." },
-      { id: "s2", title: "Make palm oil sauce", content: "Heat palm oil in a saucepan over medium heat. Cook onions 7 min. Add tomatoes and scotch bonnet, cook 10 min until collapsed. Season with {0006}. Keep warm." },
+      { id: "s2", title: "Make palm oil sauce", content: "Heat palm oil (or neutral oil stirred with a pinch of sweet paprika) in a saucepan over medium heat. Cook onions 7 min. Add tomatoes and scotch bonnet (or habanero), cook 10 min until collapsed. Season with {0006}. Keep warm." },
       { id: "s3", title: "Pan-fry fish", content: "Heat a skillet over medium-high heat with 2 tbsp oil. Pan-fry fish 3–4 min per side without moving — a good crust forms when left alone. Fish should be golden-brown outside and just opaque through.", timer_seconds: 480 },
       { id: "s4", title: "Serve", content: "Spoon palm oil tomato sauce onto plates. Place fish on top. Scatter {0010} over everything. Serve with boiled plantain, rice, or baton de manioc (steamed cassava)." },
     ] },
@@ -3900,13 +3900,13 @@ export const RECIPES = [
       { id: "s1", title: "Boil the meat", content: "Place beef, onions, {0003}, {0004}, and water in a large pot. Bring to a boil, skim foam, reduce to a low simmer. Cover and cook 2.5–3 hours until the meat is completely falling off the bones and the liquid has reduced significantly.", timer_seconds: 10800 },
       { id: "s2", title: "Remove bones", content: "Remove all bones. Discard onions. Return shredded meat and remaining liquid to the pot." },
       { id: "s3", title: "Pound the meat", content: "Using a large wooden spoon or the butt of a rolling pin, roughly pound the meat in the pot until it is stringy and coarse — not a paste, just broken apart. It should look like pulled pork but drier and more rustic." },
-      { id: "s4", title: "Make pap", content: "Bring {0006} to boil with a pinch of salt. Gradually stir in maize meal, reduce heat, and cook 8–10 min stirring constantly until thick and pulling from the sides.", timer_seconds: 600 },
+      { id: "s4", title: "Make pap", content: "Bring {0006} to boil with a pinch of salt. Gradually stir in maize meal (or fine white cornmeal), reduce heat, and cook 8–10 min stirring constantly until thick and pulling from the sides.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Serve seswaa piled in the center of a communal platter, with pap alongside. Traditionally eaten with hands — pinch pap, make a scoop, and pick up the meat. Serve with morogo (wild spinach) for a complete traditional meal." },
     ] },
   { id: "lesotho", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Samp_and_beans_meal.jpg", week: 145, country: "Lesotho", countryCode: "ls", numericCode: "426", dish: "Likhobe", prepTime: "10 min", cookTime: "2 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Lesotho's hearty mountain dish: whole hominy corn simmered for hours with dried beans until thick and creamy. Simple, sustaining food for the Basotho highlands — often enriched with lard or meat drippings.",
     miseEnPlace: [
-      "Soak 300 g dried hominy corn (samp) and 200 g dried beans (kidney or sugar beans) separately overnight; drain",
+      "Soak 300 g dried hominy corn (samp) and 200 g dried beans (kidney or sugar beans) separately overnight; drain (canned hominy needs no soaking)",
       "The key to likhobe is time — plan for a minimum 2.5 hours of cooking",
     ],
     ingredients: [
@@ -3919,7 +3919,7 @@ export const RECIPES = [
       { amount: 0.5, unit: "tsp", name: "black pepper" },
     ],
     steps: [
-      { id: "s1", title: "Cook samp separately", content: "Drain soaked samp. Cover with fresh water in a large pot, bring to boil, and simmer 1.5 hours until soft but not falling apart. Drain.", timer_seconds: 5400 },
+      { id: "s1", title: "Cook samp separately", content: "Drain soaked samp. Cover with fresh water in a large pot, bring to boil, and simmer 1.5 hours until soft but not falling apart. Drain. Using canned hominy? Skip this step — just drain and rinse it.", timer_seconds: 5400 },
       { id: "s2", title: "Cook beans separately", content: "Drain soaked beans. Cover with fresh cold water, bring to boil, and simmer 45 min–1 hr until tender. Drain.", timer_seconds: 3600 },
       { id: "s3", title: "Combine and simmer together", content: "Add cooked samp and beans to a pot together. Add {0003}, onion, {0004}, lard, and {0006}. Add just enough water to keep from sticking — the mixture should be thick, not soupy. Simmer together 30 min, stirring occasionally, until flavors merge and the mixture becomes thick and creamy.", timer_seconds: 1800 },
       { id: "s4", title: "Serve", content: "Remove onion halves. Taste and adjust salt. Serve in bowls as a stew — likhobe is rich enough to be eaten alone or with cooked greens (morogo) and a little meat on the side." },
@@ -3945,14 +3945,14 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Build broth", content: "Heat palm oil in a large pot over medium heat. Sauté onions 7 min until soft. Add garlic, tomatoes, and peppers, cook 8 min until collapsed." },
-      { id: "s2", title: "Add water and scotch bonnet", content: "Pour in {0010}. Add whole scotch bonnet, {0008}, {0009}. Bring to a boil, then reduce to a steady simmer. Cook 10 min to develop the broth.", timer_seconds: 600 },
+      { id: "s2", title: "Add water and scotch bonnet", content: "Pour in {0010}. Add whole scotch bonnet (or habanero), {0008}, {0009}. Bring to a boil, then reduce to a steady simmer. Cook 10 min to develop the broth.", timer_seconds: 600 },
       { id: "s3", title: "Poach fish", content: "Gently lower scored fish into the broth. Cook 12–15 min until fish is cooked through and flakes at the thickest part — turn once carefully if needed.", timer_seconds: 900 },
       { id: "s4", title: "Serve", content: "Remove scotch bonnet. Scatter {0010} over top. Serve fish whole in deep bowls with plenty of broth poured over. Serve with white rice or baguette for soaking." },
     ] },
   { id: "slovenia", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Gori%C5%A1ka_jota_slovenska_jed.jpg/960px-Gori%C5%A1ka_jota_slovenska_jed.jpg", week: 147, country: "Slovenia", countryCode: "si", numericCode: "705", dish: "Jota", prepTime: "20 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "A thick, smoky Slovenian stew of sauerkraut, borlotti beans, and pork. Deeply humble and deeply satisfying — Karst peasant food at its finest.",
     miseEnPlace: [
-      "Soak 200 g dried borlotti beans overnight (or use 2 cans, drained)",
+      "Soak 200 g dried borlotti beans (or cranberry or pinto beans) overnight (or use 2 cans, drained)",
       "Dice 200 g smoked pork ribs or smoked pork belly into chunks",
       "Rinse 300 g sauerkraut under cold water and squeeze dry",
       "Peel and cube 2 medium potatoes",
@@ -3982,7 +3982,7 @@ export const RECIPES = [
     description: "Equatorial Guinea's Spanish-influenced fish soup — a rich, tomato-red fish broth with yam, plantain, and herbs. Reflecting the country's unique blend of Spanish colonial and Fang-Bantu culinary traditions.",
     miseEnPlace: [
       "Cut 600 g firm white fish (grouper or tilapia) into large pieces",
-      "Dice 1 yam and 1 green plantain into 3 cm chunks",
+      "Dice 1 yam (or yuca or white potatoes) and 1 green plantain into 3 cm chunks",
       "Dice 2 onions, 3 tomatoes; mince 4 garlic cloves",
     ],
     ingredients: [
@@ -4001,7 +4001,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Sauté and build base", content: "Heat oil in a pot over medium heat. Cook onions 7 min, add garlic and tomatoes. Cook 8 min until collapsed into a rich base." },
-      { id: "s2", title: "Add starchy vegetables", content: "Add yam, plantain, scotch bonnet, and {0011}. Season with {0009} and {0010}. Bring to a boil and cook 12 min until yam and plantain are almost tender.", timer_seconds: 720 },
+      { id: "s2", title: "Add starchy vegetables", content: "Add yam (or yuca or potatoes), plantain, scotch bonnet (or habanero), and {0011}. Season with {0009} and {0010}. Bring to a boil and cook 12 min until yam and plantain are almost tender.", timer_seconds: 720 },
       { id: "s3", title: "Add fish", content: "Add fish pieces to the simmering broth. Cook 10–12 min until fish is opaque and cooked through. Do not stir — let the fish hold together.", timer_seconds: 720 },
       { id: "s4", title: "Serve", content: "Remove scotch bonnet. Scatter {0011} over top. Ladle into deep bowls ensuring everyone gets fish, yam, plantain, and broth. Serve with baguette or crusty bread." },
     ] },
@@ -4032,7 +4032,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Soak 400 g dried tetovac or cannellini beans overnight; drain",
       "Boil beans in fresh water until just tender, about 45 min — do not add salt yet",
-      "Finely dice 2 onions, 2 roasted green peppers",
+      "Finely dice 2 onions, 2 roasted green peppers (long green peppers, or Anaheim or cubanelle)",
     ],
     ingredients: [
       { amount: 400, unit: "g", name: "dried tetovac or cannellini beans, soaked overnight" },
@@ -4134,7 +4134,7 @@ export const RECIPES = [
       { amount: 0.5, unit: "tsp", name: "black pepper" },
     ],
     steps: [
-      { id: "s1", title: "Build the base", content: "In a large pot over medium heat, combine dasheen leaves, okra, onion, garlic, scallions, scotch bonnet (whole), thyme, and {0011}. Add coconut milk and {0010}. Bring to a boil." },
+      { id: "s1", title: "Build the base", content: "In a large pot over medium heat, combine dasheen leaves, okra, onion, garlic, scallions, scotch bonnet (whole — or a habanero), thyme, and {0011}. Add coconut milk and {0010}. Bring to a boil." },
       { id: "s2", title: "Simmer", content: "Reduce heat, cover, and simmer 20–25 min until leaves and okra are completely soft and the okra has thickened the pot.", timer_seconds: 1500 },
       { id: "s3", title: "Remove scotch bonnet and blend", content: "Remove scotch bonnet and thyme stems. Use an immersion blender to blend everything until completely smooth and silky green. The okra makes it naturally thick. Return to pot over low heat." },
       { id: "s4", title: "Add crab", content: "Stir in crab meat (or add whole crabs and simmer 10 min more). Season with {0011}. The callaloo should be pourable but thick — like a velvet soup.", timer_seconds: 600 },
@@ -4299,7 +4299,7 @@ export const RECIPES = [
     description: "Guyana's national dish and Christmas morning centrepiece: beef and pork simmered in cassareep (reduced cassava juice) with cinnamon, clove, and wiri wiri peppers until the sauce is black, sticky, and intensely aromatic. Cassareep acts as a preservative — Guyanese families add to the same pot for days.",
     miseEnPlace: [
       "Cut 600 g beef stew meat and 400 g pork ribs or trotters into large pieces",
-      "Measure 150 ml cassareep (available at Caribbean grocers) — this dark, bitter-sweet liquid is non-negotiable",
+      "Measure 150 ml cassareep (available at Caribbean grocers) — this dark, bitter-sweet liquid is the heart of the dish; if you can't find it, mix molasses with a little soy sauce and Worcestershire",
       "Have cinnamon sticks, cloves, and wiri wiri or habanero peppers ready",
     ],
     ingredients: [
@@ -4318,7 +4318,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Brown the meats", content: "Heat a splash of oil in a large pot over high heat. Brown beef and pork in batches 5–6 min. Remove and set aside." },
-      { id: "s2", title: "Build the cassareep sauce", content: "In the same pot, sauté onions 5 min. Add garlic, brown sugar, cinnamon sticks, cloves, bay leaves, and whole peppers. Cook 2 min. Add cassareep and stir — the pot will immediately smell dark, sweet, and complex." },
+      { id: "s2", title: "Build the cassareep sauce", content: "In the same pot, sauté onions 5 min. Add garlic, brown sugar, cinnamon sticks, cloves, bay leaves, and whole peppers. Cook 2 min. Add cassareep (or the molasses mixture) and stir — the pot will immediately smell dark, sweet, and complex." },
       { id: "s3", title: "Return meat and braise", content: "Return browned meat to the pot. Add {0011}. The liquid should just cover the meat. Bring to a boil, then reduce to the lowest possible simmer. Cover and cook 2 hours, stirring occasionally, until meat is very tender.", timer_seconds: 7200 },
       { id: "s4", title: "Reduce and glaze", content: "Remove lid and simmer 20–30 min more until the sauce reduces to a thick, near-black glaze that coats the meat completely. Season with {0011}.", timer_seconds: 1800 },
       { id: "s5", title: "Serve", content: "Remove whole peppers (do not break them — the heat has already diffused into the sauce), cinnamon sticks, and cloves. Serve with homemade bread or plait bread for Christmas morning. Pepperpot improves for days — add new cassareep and meat to the existing pot to keep it going." },
@@ -4350,7 +4350,7 @@ export const RECIPES = [
       "Reduce the heat to low — this is important, as boiling the cheese will make it rubbery and cause it to separate. Add the crumbled cheese and stir gently.",
       "Simmer gently for 2-3 minutes, just until the cheese melts into a creamy sauce coating the chilies, without letting it come to a hard boil.",
       "Taste and adjust the salt.",
-      "Serve hot over red rice."
+      "Serve hot over red rice (or brown rice)."
     ] },
   { id: "solomon-islands", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nasi_Liwet_Solo.jpg/960px-Nasi_Liwet_Solo.jpg", week: 163, country: "Solomon Islands", countryCode: "sb", numericCode: "090", dish: "Coconut Fish",
     description: "Reef fish simmered in coconut milk with vegetables and served with root staples. A staple of the Solomon Islands.",
@@ -4359,7 +4359,7 @@ export const RECIPES = [
     description: "Luxembourg's national dish: cured smoked pork collar simmered until tender, served with broad beans in a cream sauce. Old-school luxury hiding in humble ingredients.",
     miseEnPlace: [
       "Soak 600 g cured smoked pork collar (Judd) in cold water for 12 hours to desalt; drain",
-      "Shell 500 g fresh or frozen broad beans (fava beans)",
+      "Shell 500 g fresh or frozen broad beans (fava beans) — or use frozen baby lima beans, which need no shelling",
       "Dice 1 onion; slice 2 carrots; chop 3 stalks celery",
     ],
     ingredients: [
@@ -4378,7 +4378,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Simmer the pork", content: "Place drained pork in a large pot with onion, carrots, celery, bay leaves, and peppercorns. Cover with cold water. Bring to a boil, skim foam, then reduce to a low simmer. Cook 1 hr 15 min until a skewer slides in without resistance.", timer_seconds: 4500 },
-      { id: "s2", title: "Cook beans", content: "Meanwhile, blanch broad beans in boiling salted water 3–4 min until just tender. Drain and refresh in cold water. If beans are large, peel the tough outer skins — the bright green inner bean is what you want.", timer_seconds: 240 },
+      { id: "s2", title: "Cook beans", content: "Meanwhile, blanch broad beans (or baby lima beans) in boiling salted water 3–4 min until just tender. Drain and refresh in cold water. If beans are large, peel the tough outer skins — the bright green inner bean is what you want. Lima beans don't need peeling.", timer_seconds: 240 },
       { id: "s3", title: "Make cream sauce", content: "Melt butter in a saucepan over medium heat. Whisk in flour and cook 1 min. Ladle in 300 ml of the pork cooking liquid, whisking constantly. Add {0008} and simmer 5–6 min until sauce thickens to a coating consistency. Season with {0011}.", timer_seconds: 360 },
       { id: "s4", title: "Combine beans with sauce", content: "Add cooked broad beans to the cream sauce. Stir to coat. Simmer together 2 min. Stir in {0011}." },
       { id: "s5", title: "Serve", content: "Slice pork collar into thick rounds and arrange on plates. Spoon broad beans and cream sauce alongside. Serve with boiled potatoes and crusty bread." },
@@ -4442,10 +4442,10 @@ export const RECIPES = [
     prepTime: "30 min", cookTime: "2 hr", servings: 8, equipment: [{ icon: "🍲", label: "Very Large Pot" }, "knife-board"],
     description: "French Guiana's legendary Easter stew: chicken, smoked pork, salted fish, and vegetables simmered together in a thick, orange-red broth made from the pulp of the awara palm fruit. The most communal dish in Guiana — made in enormous quantities and shared across the neighborhood.",
     miseEnPlace: [
-      "If fresh awara fruit is unavailable, use 400 ml palm fruit juice (frozen) or substitute palm cream + a little citrus",
-      "Soak 200 g salted fish overnight; drain and flake",
+      "If fresh awara fruit is unavailable, use 400 ml palm fruit juice (frozen) or substitute palm cream + a little citrus; from a regular supermarket, use canned pumpkin purée stirred with olive oil and a pinch of paprika",
+      "Soak 200 g salted fish overnight; drain and flake (fresh cod needs no soaking — cut it into chunks and salt it well)",
       "Cut 500 g bone-in chicken and 300 g smoked pork into pieces",
-      "Prepare vegetables: cube 2 plantains, 300 g sweet potato, 200 g taro",
+      "Prepare vegetables: cube 2 plantains, 300 g sweet potato, 200 g taro (or yuca or potatoes)",
     ],
     ingredients: [
       { amount: 500, unit: "g", name: "bone-in chicken pieces" },
@@ -4465,15 +4465,15 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Brown meats", content: "In a very large pot, brown chicken and smoked pork in batches 5–6 min. Remove. Sauté onions, garlic, and scallions 7 min in the remaining fat." },
-      { id: "s2", title: "Build the awara broth", content: "Return meats to the pot. Add awara palm pulp and {0013}. Stir well — the palm fruit will color the broth a vivid orange-red. Add scotch bonnet (whole) and {0012}. Bring to a boil, reduce to a simmer. Cook 40 min.", timer_seconds: 2400 },
-      { id: "s3", title: "Add root vegetables", content: "Add plantain, sweet potato, and taro. Simmer 25 min until vegetables are tender.", timer_seconds: 1500 },
-      { id: "s4", title: "Add salted fish", content: "Add flaked salted fish. Simmer 10 min more. Taste before adding {0012} — the fish may provide sufficient salt. Remove scotch bonnet.", timer_seconds: 600 },
+      { id: "s2", title: "Build the awara broth", content: "Return meats to the pot. Add awara palm pulp (or the pumpkin purée mixture) and {0013}. Stir well — the palm fruit will color the broth a vivid orange-red. Add scotch bonnet (whole — or a habanero) and {0012}. Bring to a boil, reduce to a simmer. Cook 40 min.", timer_seconds: 2400 },
+      { id: "s3", title: "Add root vegetables", content: "Add plantain, sweet potato, and taro (or yuca or potatoes). Simmer 25 min until vegetables are tender.", timer_seconds: 1500 },
+      { id: "s4", title: "Add salted fish", content: "Add flaked salted fish (or chunks of well-salted fresh cod). Simmer 10 min more. Taste before adding {0012} — the fish may provide sufficient salt. Remove scotch bonnet.", timer_seconds: 600 },
       { id: "s5", title: "Serve", content: "Scatter {0013} over top. Serve in large bowls with white rice alongside. Bouillon d'awara is always made in massive quantities — the smell of it cooking draws the whole street to the pot." },
     ] },
   { id: "cabo-verde", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cachupa_2.jpg/960px-Cachupa_2.jpg", week: 167, country: "Cabo Verde", countryCode: "cv", numericCode: "132", dish: "Cachupa", prepTime: "20 min (plus overnight soaking)", cookTime: "2 hr 30 min", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Cabo Verde's national dish and soul food: a slow-cooked stew of hominy corn, beans, and vegetables with salt pork or tuna. Every island makes it differently; every family guards their recipe. The poorest version is cachupa pobre; the richest is cachupa rica.",
     miseEnPlace: [
-      "Soak 300 g dried hominy corn (samp) and 200 g dried kidney beans separately overnight; drain",
+      "Soak 300 g dried hominy corn (samp) and 200 g dried kidney beans separately overnight; drain (canned hominy needs no soaking)",
       "Dice 200 g salt pork (salpicão) or smoked sausage; soak 1 hour in fresh water if very salty",
       "Dice 2 onions, 3 garlic cloves, 2 sweet potatoes",
     ],
@@ -4491,7 +4491,7 @@ export const RECIPES = [
       { amount: 0.5, unit: "tsp", name: "black pepper" },
     ],
     steps: [
-      { id: "s1", title: "Pre-cook corn and beans", content: "Cook soaked corn and beans separately in fresh water until just tender — corn 1.5 hours, beans 45 min. Drain, reserving liquid.", timer_seconds: 5400 },
+      { id: "s1", title: "Pre-cook corn and beans", content: "Cook soaked corn and beans separately in fresh water until just tender — corn 1.5 hours, beans 45 min. Drain, reserving liquid. Canned hominy is already cooked — skip it here and use water or stock in place of the corn liquid later.", timer_seconds: 5400 },
       { id: "s2", title: "Brown pork and aromatics", content: "Heat olive oil in a large heavy pot. Brown salt pork or sausage 5 min. Add onions and cook 7 min until golden. Add garlic and bay leaves, cook 2 min." },
       { id: "s3", title: "Combine and braise", content: "Add cooked corn, beans, sweet potatoes, and white potatoes to the pot. Pour in enough reserved corn liquid to cover by 3 cm. Season with {0010} and {0010}. Bring to a boil, reduce to low simmer, cover, and cook 45 min.", timer_seconds: 2700 },
       { id: "s4", title: "Mash and thicken", content: "Using the back of a spoon, partially mash some of the potatoes and corn against the pot sides to thicken the cachupa naturally. It should be hearty and thick — not a broth, not a mash, but somewhere in between." },
@@ -4500,7 +4500,7 @@ export const RECIPES = [
   { id: "malta", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Malta_Rabbit_fried_with_wine_and_garlic.JPG", week: 168, country: "Malta", countryCode: "mt", numericCode: "470", dish: "Stuffat tal-Fenek", prepTime: "20 min", cookTime: "1 hr 30 min", servings: 4, equipment: [{ icon: "🍲", label: "Dutch Oven or Heavy Pot" }, "knife-board"],
     description: "Malta's beloved rabbit stew, slow-braised in red wine with tomatoes, garlic, and herbs. The dish Maltese people crave when they're homesick — rich, winey, and elemental.",
     miseEnPlace: [
-      "Joint 1 whole rabbit (about 1.2 kg) into 8 pieces; pat dry",
+      "Joint 1 whole rabbit (about 1.2 kg) into 8 pieces; pat dry (or use 1.2 kg bone-in chicken thighs)",
       "Marinate rabbit in 250 ml red wine and 3 garlic cloves for at least 2 hours",
       "Dice 2 onions; crush 4 garlic cloves",
       "Have 400 g canned tomatoes ready",
@@ -4523,7 +4523,7 @@ export const RECIPES = [
       { id: "s1", title: "Marinate", content: "Place rabbit pieces in a bowl with wine and 2 of the garlic cloves. Cover and refrigerate at least 2 hours (overnight is better). Drain, reserving the marinade.", timer_seconds: 7200 },
       { id: "s2", title: "Brown the rabbit", content: "Pat rabbit dry. Heat olive oil in a Dutch oven over medium-high heat. Brown rabbit pieces in batches, 3–4 min per side until golden. Remove and set aside.", timer_seconds: 480 },
       { id: "s3", title: "Build the sauce", content: "In the same pot, add onions and cook 5 min until soft. Add remaining garlic and cook 1 min. Pour in the reserved marinade and let bubble 2 min. Add tomatoes, stock, bay leaves, and thyme." },
-      { id: "s4", title: "Braise", content: "Return browned rabbit to the pot. The liquid should come halfway up. Bring to a gentle simmer, cover, and cook on low heat for 1 hr 15 min, turning rabbit occasionally, until meat is very tender and almost falling from the bone.", timer_seconds: 4500 },
+      { id: "s4", title: "Braise", content: "Return browned rabbit to the pot. The liquid should come halfway up. Bring to a gentle simmer, cover, and cook on low heat for 1 hr 15 min, turning rabbit occasionally, until meat is very tender and almost falling from the bone. Chicken thighs need only 40–45 min.", timer_seconds: 4500 },
       { id: "s5", title: "Finish", content: "Remove bay and thyme. Taste and season with {0010} and {0011}. The sauce should be thick and deeply flavored — if thin, simmer uncovered 10 min. Scatter {0011} over top and serve with crusty Maltese ħobż bread or pasta." },
     ] },
   { id: "maldives", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mas_huni-roshi087.JPG/960px-Mas_huni-roshi087.JPG", week: 169, country: "Maldives", countryCode: "mv", numericCode: "462", dish: "Mas Huni", prepTime: "15 min", cookTime: "0 min", servings: 4, equipment: ["knife-board"],
@@ -4554,7 +4554,7 @@ export const RECIPES = [
   { id: "brunei", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ambuyat_in_Bandar_Seri_Begawan_Brunei.jpg/960px-Ambuyat_in_Bandar_Seri_Begawan_Brunei.jpg", week: 170, country: "Brunei", countryCode: "bn", numericCode: "096", dish: "Ambuyat with Cacah Dip", prepTime: "15 min", cookTime: "10 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "mortar-pestle", { icon: "🥢", label: "Chandas (Bamboo Forks)" }],
     description: "A glue-like sago starch twirled onto bamboo sticks and dipped into cacah, a tangy shrimp-and-chili sauce, alongside grilled fish or vegetables. Brunei's national dish, considered incomplete without its dip. The starch itself is nearly flavorless, so the cacah and sides carry the meal.",
     miseEnPlace: [
-      "Soak the dried shrimp briefly to soften, if using.",
+      "Soak the dried shrimp briefly to soften, if using. (Or skip it and use a splash of fish sauce.)",
       "Have the sago starch (or potato/tapioca starch substitute) measured and ready.",
       "Prepare any side dishes (grilled fish, vegetables) in advance so they're ready when the ambuyat is freshly made — ambuyat is best made just before serving and eaten immediately."
     ],
@@ -4573,8 +4573,8 @@ export const RECIPES = [
       "Place the sago starch in a large mixing bowl and loosen it with a small splash of cold water.",
       "Slowly pour in the boiling water while stirring vigorously and continuously with a wooden spoon.",
       "Keep stirring until the mixture turns glossy, sticky, and stretchy — similar to a thick, elastic glue. Set aside, keeping it warm.",
-      "For the cacah dip: pound the soaked dried shrimp, chilies, and shrimp paste together in a mortar and pestle until a fine paste forms.",
-      "Stir in the tamarind pulp or tempoyak until smooth, and season with salt.",
+      "For the cacah dip: pound the soaked dried shrimp (or skip, and add a splash of fish sauce), chilies, and shrimp paste (or anchovy paste) together in a mortar and pestle until a fine paste forms.",
+      "Stir in the tamarind pulp or tempoyak (or lime juice with a pinch of brown sugar) until smooth, and season with salt.",
       "Thin the cacah with a tablespoon or two of hot water to loosen its consistency to a dippable sauce.",
       "To serve, place the ambuyat in a communal bowl. Using a chandas (two-pronged bamboo fork) or regular fork, twirl a small portion of the ambuyat around the prongs.",
       "Dip the twirled ambuyat into the cacah sauce and eat it whole without chewing — the texture is meant to slide down, with all the flavor coming from the dip and side dishes."
@@ -4601,7 +4601,7 @@ export const RECIPES = [
       { amount: 3, unit: "tbsp", name: "fresh cilantro or culantro, chopped" },
     ],
     steps: [
-      { id: "s1", title: "Make the coconut broth", content: "In a large pot over medium heat, combine coconut milk, onion, garlic, scallions, thyme, scotch bonnet, and {0010}. Bring to a gentle simmer and cook 10 min to meld flavors.", timer_seconds: 600 },
+      { id: "s1", title: "Make the coconut broth", content: "In a large pot over medium heat, combine coconut milk, onion, garlic, scallions, thyme, scotch bonnet (or habanero), and {0010}. Bring to a gentle simmer and cook 10 min to meld flavors.", timer_seconds: 600 },
       { id: "s2", title: "Poach fish", content: "Gently lower fish into the coconut broth. Simmer 12–15 min until fish is just cooked through. Do not boil — the coconut milk will split at high heat. Remove fish and set aside.", timer_seconds: 900 },
       { id: "s3", title: "Pound the hudut", content: "Drain boiled ripe and green plantains. Pound them together in a large mortar (or mash vigorously) until smooth and combined — you want a cohesive, dense mash. Season with a pinch of {0010}. The mix of ripe and green creates a complex sweet-starchy texture." },
       { id: "s4", title: "Finish coconut stew", content: "Remove scotch bonnet and thyme from the broth. Return fish to the pot. Taste and adjust {0010}. Scatter {0010} over top." },
@@ -4611,7 +4611,7 @@ export const RECIPES = [
     prepTime: "30 min", cookTime: "0 min", servings: 4, equipment: ["knife-board"],
     description: "The Bahamas on a plate: raw conch tenderized and 'cooked' in fresh lime and sour orange juice with diced tomato, onion, pepper, and cucumber. Made to order at roadside stands and waterfront shacks across Nassau — nothing fresher exists.",
     miseEnPlace: [
-      "Pound 400 g fresh conch meat with a mallet to tenderize; dice finely",
+      "Pound 400 g fresh conch meat with a mallet to tenderize; dice finely (bay scallops or shrimp need no pounding — just dice)",
       "Dice 2 tomatoes, 1 onion, 1 green pepper, 1 cucumber into tiny, uniform pieces",
       "Juice 3 limes and 1 sour orange (or extra lime)",
     ],
@@ -4629,10 +4629,10 @@ export const RECIPES = [
       { amount: 2, unit: "tbsp", name: "fresh cilantro, chopped (optional)" },
     ],
     steps: [
-      { id: "s1", title: "Tenderize conch", content: "Place conch meat between two sheets of plastic wrap. Pound firmly with a meat mallet all over until slightly flattened. This breaks the tough fibers. Dice into very small pieces, about 5 mm." },
+      { id: "s1", title: "Tenderize conch", content: "Place conch meat between two sheets of plastic wrap. Pound firmly with a meat mallet all over until slightly flattened. This breaks the tough fibers. Dice into very small pieces, about 5 mm. Using bay scallops or shrimp? Skip the pounding and just dice them." },
       { id: "s2", title: "Dice vegetables", content: "Dice tomatoes, onion, green pepper, and cucumber all to the same small size — uniformity matters for the salad to eat well and for every bite to balance." },
       { id: "s3", title: "Combine and dress", content: "In a large bowl, combine conch, all diced vegetables, and scotch bonnet. Pour over lime juice and sour orange juice. Toss well to coat." },
-      { id: "s4", title: "Season and rest", content: "Season with {0009} and {0010}. Toss again. Let sit 10–15 min — the acid 'cooks' the conch slightly, turning it from translucent to lightly opaque.", timer_seconds: 900 },
+      { id: "s4", title: "Season and rest", content: "Season with {0009} and {0010}. Toss again. Let sit 10–15 min — the acid 'cooks' the conch slightly, turning it from translucent to lightly opaque. Scallops or shrimp need longer: 20–30 min, until opaque all the way through.", timer_seconds: 900 },
       { id: "s5", title: "Serve", content: "Taste and adjust seasoning — it should be bright, zippy, and properly spicy. Serve in a cup or bowl with crackers alongside, or eat it straight from a plastic cup at a Nassau stall with a cold Kalik beer." },
     ] },
   { id: "iceland", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kj%C3%B6ts%C3%BApa.JPG/960px-Kj%C3%B6ts%C3%BApa.JPG", week: 173, country: "Iceland", countryCode: "is", numericCode: "352", dish: "Kjotsupa", prepTime: "15 min", cookTime: "1 hr 30 min", servings: 6, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
@@ -4692,7 +4692,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Make cou-cou", content: "Bring water to boil with {0005} in a heavy pot. Add sliced okra and cook 5 min until slippery. Gradually whisk in cornmeal, stirring vigorously and constantly to prevent lumps. Reduce heat to very low. Cook 8–10 min, folding with a wooden spoon until very thick and pulling from the sides. Stir in butter.", timer_seconds: 900 },
-      { id: "s2", title: "Make the gravy", content: "Heat oil in a skillet over medium heat. Cook onion 5 min. Add garlic, scotch bonnet, tomatoes, and thyme. Cook 8 min until collapsed into a sauce. Season with {0013}." },
+      { id: "s2", title: "Make the gravy", content: "Heat oil in a skillet over medium heat. Cook onion 5 min. Add garlic, scotch bonnet (or habanero), tomatoes, and thyme. Cook 8 min until collapsed into a sauce. Season with {0013}." },
       { id: "s3", title: "Cook fish in gravy", content: "Lay seasoned fish fillets in the sauce. Cover and cook on medium-low heat 5–7 min until fish is just opaque. Do not overcook — the flying fish is thin and delicate.", timer_seconds: 420 },
       { id: "s4", title: "Mold cou-cou", content: "Use a wet cou-cou stick (or wooden spoon) to mold cou-cou into a smooth dome in individual bowls or one large serving dish." },
       { id: "s5", title: "Serve", content: "Spoon fish and gravy alongside or over the cou-cou dome. Scatter {0013} over the fish. Eat by breaking off a piece of cou-cou and using it to pick up fish and gravy." },
@@ -4702,7 +4702,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Clean and score 4 whole snapper or sea bream (about 400 g each)",
       "Make marinade: 3 tbsp lime juice + 4 garlic cloves (minced) + 1 red chili (minced) + 2 tbsp palm oil + 1 tsp salt + fresh cilantro",
-      "Peel and slice 1 large breadfruit into 2 cm rounds",
+      "Peel and slice 1 large breadfruit into 2 cm rounds (or slice starchy potatoes or green plantains the same way)",
     ],
     ingredients: [
       { amount: 4, unit: null, name: "whole red snapper or sea bream, about 400 g each, cleaned and scored" },
@@ -4718,7 +4718,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Marinate fish", content: "Mix lime juice, garlic, chili, palm oil, and {0006} into a paste. Rub all over scored fish and inside the cavity. Rest 20 min while grill heats up.", timer_seconds: 1200 },
-      { id: "s2", title: "Cook breadfruit", content: "Boil breadfruit slices in salted water 15 min until just tender, or grill directly alongside the fish. If boiling, drain and finish in a hot buttered skillet until lightly golden.", timer_seconds: 900 },
+      { id: "s2", title: "Cook breadfruit", content: "Boil breadfruit slices in salted water 15 min until just tender, or grill directly alongside the fish. Potato slices boil in about 10 min; green plantain slices can go straight on the grill. If boiling, drain and finish in a hot buttered skillet until lightly golden.", timer_seconds: 900 },
       { id: "s3", title: "Grill fish", content: "Grill fish over medium-high charcoal heat 5–7 min per side until deeply charred in spots and cooked through. A well-oiled grill grate prevents sticking.", timer_seconds: 840 },
       { id: "s4", title: "Serve", content: "Arrange grilled fish on a platter with breadfruit alongside. Scatter {0009} over everything. Squeeze {0009} over the fish. Simple, fragrant, and complete." },
     ] },
@@ -4729,7 +4729,7 @@ export const RECIPES = [
     prepTime: "20 min", cookTime: "30 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, { icon: "🍳", label: "Skillet" }, "knife-board"],
     description: "Saint Lucia's national dish: boiled unripe bananas ('green figs') tossed with sautéed salted cod, onion, peppers, and herbs. Simple, cheap, and deeply satisfying — the everyday breakfast and lunch of the island.",
     miseEnPlace: [
-      "Soak 250 g salt cod overnight; drain, simmer 15 min, cool and flake",
+      "Soak 250 g salt cod overnight; drain, simmer 15 min, cool and flake; fresh cod needs no soak — salt it well, simmer about 5 min, and flake",
       "Boil 8 unripe green bananas in skins in salted water 20 min until tender; peel and slice",
       "Dice 1 onion, 2 tomatoes, 1 green pepper; mince 3 garlic cloves",
     ],
@@ -4748,9 +4748,9 @@ export const RECIPES = [
       { amount: 2, unit: "tbsp", name: "fresh chives or parsley, chopped" },
     ],
     steps: [
-      { id: "s1", title: "Prep saltfish", content: "Soak cod overnight. Drain, cover with fresh water, simmer 15 min. Drain, cool, and flake — remove any bones.", timer_seconds: 900 },
+      { id: "s1", title: "Prep saltfish", content: "Soak cod overnight. Drain, cover with fresh water, simmer 15 min. Drain, cool, and flake — remove any bones. Using fresh cod instead? Skip the soak: season it generously with salt, simmer about 5 min until just opaque, then flake.", timer_seconds: 900 },
       { id: "s2", title: "Boil green bananas", content: "Boil green bananas in skins in well-salted water 18–20 min until a skewer pierces easily. Drain, cool slightly, peel, and slice into rounds.", timer_seconds: 1200 },
-      { id: "s3", title: "Sauté aromatics", content: "Heat oil in a large skillet over medium heat. Cook onion and pepper 6 min until soft. Add garlic, scotch bonnet (if using), and thyme. Cook 2 min." },
+      { id: "s3", title: "Sauté aromatics", content: "Heat oil in a large skillet over medium heat. Cook onion and pepper 6 min until soft. Add garlic, scotch bonnet or habanero (if using), and thyme. Cook 2 min." },
       { id: "s4", title: "Add saltfish and tomatoes", content: "Add flaked saltfish and diced tomatoes. Cook 5–6 min, stirring, until tomatoes soften. Taste before adding any salt — the cod may provide enough." },
       { id: "s5", title: "Add bananas and serve", content: "Add sliced green bananas to the pan. Fold gently to combine with the saltfish mixture. Cook 2 min to warm through. Season with {0011}. Scatter scallions and {0011} over top. Serve immediately." },
     ] },
@@ -4760,7 +4760,7 @@ export const RECIPES = [
   { id: "seychelles", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Octopuses_in_Tsukiji.JPG/960px-Octopuses_in_Tsukiji.JPG", week: 180, country: "Seychelles", countryCode: "sc", numericCode: "690", dish: "Octopus Curry", prepTime: "20 min", cookTime: "1 hr 20 min", servings: 4, equipment: [{ icon: "🍲", label: "Large Pot" }, "knife-board"],
     description: "The Seychelles' signature dish: octopus slow-braised in a coconut milk curry with turmeric, lemongrass, and chilies until meltingly tender. The islands' Creole-Indian heritage in one pot.",
     miseEnPlace: [
-      "Clean 1 kg octopus (ask fishmonger to clean, or freeze and thaw to tenderize); cut into 4 cm pieces",
+      "Clean 1 kg octopus (ask fishmonger to clean, or freeze and thaw to tenderize); cut into 4 cm pieces (or use squid, cut into rings — it needs no tenderizing)",
       "Dice 2 onions; mince 4 garlic cloves, 1 tbsp fresh ginger; slice 1 stalk lemongrass",
       "Have 400 ml coconut milk ready",
     ],
@@ -4780,20 +4780,20 @@ export const RECIPES = [
       { amount: 3, unit: "tbsp", name: "fresh cilantro, chopped" },
     ],
     steps: [
-      { id: "s1", title: "Tenderize and prep octopus", content: "If not pre-tenderized, freeze octopus overnight then thaw — this breaks down tough fibers. Alternatively, blanch in boiling water 5 min, cool, then cut. Octopus must be cooked long enough to go from tough to tender." },
+      { id: "s1", title: "Tenderize and prep octopus", content: "If not pre-tenderized, freeze octopus overnight then thaw — this breaks down tough fibers. Alternatively, blanch in boiling water 5 min, cool, then cut. Octopus must be cooked long enough to go from tough to tender. Squid needs none of this." },
       { id: "s2", title: "Sauté aromatics", content: "Heat oil in a large pot over medium heat. Cook onions 7 min until soft. Add garlic, ginger, lemongrass, and chili. Cook 2 min. Add turmeric and curry powder, stir 1 min." },
-      { id: "s3", title: "Add tomatoes and octopus", content: "Add tomatoes and cook 5 min until softened. Add octopus pieces, stir to coat in the spice base." },
-      { id: "s4", title: "Braise in coconut milk", content: "Pour in coconut milk and {0012}. Bring to a gentle simmer. Cover and cook on low heat 55–60 min until octopus is completely tender — a fork should slide in easily. If still tough, continue 15 min more.", timer_seconds: 3600 },
+      { id: "s3", title: "Add tomatoes and octopus", content: "Add tomatoes and cook 5 min until softened. Add octopus pieces (hold squid back until the end), stir to coat in the spice base." },
+      { id: "s4", title: "Braise in coconut milk", content: "Pour in coconut milk and {0012}. Bring to a gentle simmer. Cover and cook on low heat 55–60 min until octopus is completely tender — a fork should slide in easily. If still tough, continue 15 min more. Using squid? Simmer the sauce 15 min, then add the squid for just the last 2–3 min so it stays tender.", timer_seconds: 3600 },
       { id: "s5", title: "Finish and serve", content: "Remove lemongrass. Taste and adjust {0012}. Scatter {0012} over top. Serve over white rice or with roti. The octopus should be meltingly tender in the fragrant coconut sauce." },
     ] },
   { id: "grenada", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Cooking_oil_down_03.jpg/960px-Cooking_oil_down_03.jpg", week: 181, country: "Grenada", countryCode: "gd", numericCode: "308", dish: "Oil Down",
     prepTime: "25 min", cookTime: "1 hr", servings: 8, equipment: [{ icon: "🍲", label: "Large Heavy Pot with Lid" }, "knife-board"],
     description: "Grenada's national one-pot dish: breadfruit, salt meat, callaloo greens, dumplings, and whatever else is available simmered in coconut milk until all the liquid absorbs — the 'oil goes down' into the pot. Served at every beach cookout and Sunday gathering.",
     miseEnPlace: [
-      "Cut 1 medium breadfruit into 3 cm chunks (or use green banana as substitute)",
+      "Cut 1 medium breadfruit into 3 cm chunks (or use green banana, starchy potatoes, or green plantains)",
       "Soak 200 g salted pigtail or salt beef overnight; drain and cube",
       "Make dumplings: 150 g flour + water + salt → small balls",
-      "Chop 200 g callaloo or dasheen leaves",
+      "Chop 200 g callaloo or dasheen leaves (or spinach)",
     ],
     ingredients: [
       { amount: 1, unit: null, name: "medium breadfruit, peeled, cored, and chunked (sub: starchy potatoes or green plantains)" },
@@ -4811,7 +4811,7 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Make flour dumplings", content: "Mix flour, a pinch of salt, and enough cold water to form a stiff dough. Roll into small balls or cylinders. Set aside." },
-      { id: "s2", title: "Layer the pot", content: "In a large heavy pot, layer: salted pork on the bottom, then breadfruit chunks, then callaloo, then dumplings on top. Scatter onion, garlic, scotch bonnet, thyme, and scallions over everything. Sprinkle with turmeric and {0011}." },
+      { id: "s2", title: "Layer the pot", content: "In a large heavy pot, layer: salted pork on the bottom, then breadfruit (or potato or plantain) chunks, then callaloo (or spinach), then dumplings on top. Scatter onion, garlic, scotch bonnet (or habanero), thyme, and scallions over everything. Sprinkle with turmeric and {0011}." },
       { id: "s3", title: "Add coconut milk", content: "Pour coconut milk over everything. It should come about halfway up the layers. Bring to a boil over medium heat." },
       { id: "s4", title: "Simmer until oil goes down", content: "Reduce to a steady medium-low simmer. Cover tightly and cook 40–45 min without stirring. The coconut milk will slowly absorb into the breadfruit and the coconut oil will separate and rise. You will hear a distinctive sizzling when the liquid is nearly all absorbed — the pot is ready.", timer_seconds: 2700 },
       { id: "s5", title: "Serve", content: "Remove scotch bonnet and thyme. Serve directly from the pot, giving everyone a share of every layer. The pot bottom is prized for its caramelized coconut crust." },
@@ -4823,8 +4823,8 @@ export const RECIPES = [
     prepTime: "15 min", cookTime: "50 min", servings: 4, equipment: ["grill", { icon: "🍳", label: "Skillet" }, "knife-board"],
     description: "Saint Vincent's most iconic meal: a whole breadfruit roasted directly over fire until charred outside and steamy inside, served with sautéed salted jackfish (or herring) with onions and peppers. The taste of old Vincentian countryside.",
     miseEnPlace: [
-      "Soak 300 g salted jackfish or herring overnight; drain, simmer 10 min, flake",
-      "Have 1 whole breadfruit ready — do not peel",
+      "Soak 300 g salted jackfish or herring overnight; drain, simmer 10 min, flake (salt cod is prepped the same way; canned kippers just need draining and flaking)",
+      "Have 1 whole breadfruit ready — do not peel (or use large starchy potatoes or green plantains)",
     ],
     ingredients: [
       { amount: 1, unit: null, name: "whole medium breadfruit (about 1 kg), unpeeled (sub: starchy potatoes or green plantains)" },
@@ -4840,9 +4840,9 @@ export const RECIPES = [
       { amount: 2, unit: "tbsp", name: "fresh chives or parsley, chopped" },
     ],
     steps: [
-      { id: "s1", title: "Roast breadfruit", content: "Place whole unpeeled breadfruit directly on hot charcoal coals or on a gas flame trivet. Roast 35–45 min, turning every 10 min with tongs, until the skin is completely blackened all over and a skewer slides in easily through the center. The char is intentional — it keeps the inside steamy.", timer_seconds: 2700 },
-      { id: "s2", title: "Prep saltfish", content: "Drain soaked jackfish. Simmer in fresh water 10 min, drain, and flake into large pieces." },
-      { id: "s3", title: "Sauté jackfish", content: "Heat oil in a skillet over medium heat. Cook onion and green pepper 6 min. Add garlic, scotch bonnet, and thyme. Cook 2 min. Add tomatoes, cook 5 min. Add jackfish, toss to combine, cook 4–5 min. Season with {0010}." },
+      { id: "s1", title: "Roast breadfruit", content: "Place whole unpeeled breadfruit directly on hot charcoal coals or on a gas flame trivet. Roast 35–45 min, turning every 10 min with tongs, until the skin is completely blackened all over and a skewer slides in easily through the center. The char is intentional — it keeps the inside steamy. Starchy potatoes roast the same way in 45–60 min; green plantains take 20–30 min, skins on.", timer_seconds: 2700 },
+      { id: "s2", title: "Prep saltfish", content: "Drain soaked jackfish. Simmer in fresh water 10 min, drain, and flake into large pieces. (Skip this for canned kippers.)" },
+      { id: "s3", title: "Sauté jackfish", content: "Heat oil in a skillet over medium heat. Cook onion and green pepper 6 min. Add garlic, scotch bonnet (or habanero), and thyme. Cook 2 min. Add tomatoes, cook 5 min. Add jackfish (or salt cod or kippers), toss to combine, cook 4–5 min. Season with {0010}." },
       { id: "s4", title: "Cut the breadfruit", content: "Once roasted, scrape off the charred skin with a knife or the back of a spoon to reveal the white flesh beneath. Cut into wedges, removing the central core." },
       { id: "s5", title: "Serve", content: "Arrange breadfruit wedges on a plate with sautéed jackfish alongside. Scatter {0010} over fish. The contrast of the smoky breadfruit and salty, savory fish is one of the great simple pleasures of the Caribbean." },
     ] },
@@ -4852,7 +4852,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Grate 500 g sweet potato; mix with 100 g grated coconut, 50 g sugar, 0.5 tsp cinnamon, 0.5 tsp vanilla, 100 g flour, and pinch of salt — form into firm balls",
       "Wrap each ball in banana leaf or foil",
-      "Soak 250 g salt cod overnight; drain, simmer, and flake",
+      "Soak 250 g salt cod overnight; drain, simmer, and flake; fresh cod needs no soak — salt it well, simmer about 5 min, and flake",
     ],
     ingredients: [
       { amount: 500, unit: "g", name: "sweet potato, peeled and grated" },
@@ -4872,8 +4872,8 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Make ducana mixture", content: "Squeeze excess moisture from grated sweet potato. Mix with grated coconut, sugar, cinnamon, vanilla, flour, and a pinch of salt until combined into a firm, cohesive mixture." },
       { id: "s2", title: "Steam ducana", content: "Shape into balls about the size of a tennis ball. Wrap each tightly in banana leaf or foil. Steam in a large pot over boiling water 30 min until firm.", timer_seconds: 1800 },
-      { id: "s3", title: "Prep saltfish", content: "Drain soaked cod, cover with fresh water, simmer 15 min, drain and flake." },
-      { id: "s4", title: "Sauté saltfish", content: "Heat oil in a skillet. Cook onion 5 min. Add scotch bonnet and tomatoes, cook 6 min. Add flaked saltfish. Cook 5–6 min. Season with {0012}. Taste before salting — salt cod is already seasoned." },
+      { id: "s3", title: "Prep saltfish", content: "Drain soaked cod, cover with fresh water, simmer 15 min, drain and flake. Using fresh cod instead? Skip the soak: season it generously with salt, simmer about 5 min until just opaque, then flake." },
+      { id: "s4", title: "Sauté saltfish", content: "Heat oil in a skillet. Cook onion 5 min. Add scotch bonnet (or habanero) and tomatoes, cook 6 min. Add flaked saltfish. Cook 5–6 min. Season with {0012}. Taste before salting — salt cod is already seasoned." },
       { id: "s5", title: "Serve", content: "Unwrap ducana at the table and serve alongside sautéed saltfish. Scatter {0012} over saltfish. The sweet, dense dumpling against the salty, spiced fish is the whole flavor point." },
     ] },
   { id: "andorra", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Trinxat_1.jpg/960px-Trinxat_1.jpg", week: 185, country: "Andorra", countryCode: "ad", numericCode: "020", dish: "Trinxat", prepTime: "15 min", cookTime: "35 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, { icon: "🥔", label: "Pot" }, "knife-board"],
@@ -4904,7 +4904,7 @@ export const RECIPES = [
     description: "Dominica's hearty provision soup: a clear broth loaded with ground provisions — yam, dasheen (taro), green banana, dumplings — with chicken, pork, or salted meat. The ultimate Dominican comfort, especially on a Sunday morning after church.",
     miseEnPlace: [
       "Cut 500 g bone-in chicken or pork into pieces; season with garlic, thyme, and lime",
-      "Peel and chunk: 1 yam, 2 dasheen (taro), 1 green banana, 1 potato — keep in cold water to prevent browning",
+      "Peel and chunk: 1 yam, 2 dasheen (taro), 1 green banana, 1 potato (yuca or extra potatoes can stand in for the yam and dasheen) — keep in cold water to prevent browning",
       "Make flour dumplings: flour + water + salt — small cylinders",
     ],
     ingredients: [
@@ -4925,9 +4925,9 @@ export const RECIPES = [
       { amount: 3, unit: "tbsp", name: "fresh flat-leaf parsley, chopped" },
     ],
     steps: [
-      { id: "s1", title: "Brown meat and build broth", content: "Brown seasoned chicken/pork in a large pot with a little oil over high heat, 5–6 min. Add onion, garlic, thyme, scallions, and scotch bonnet. Pour in {0014}. Season with {0012} and {0013}. Bring to a boil, skim foam. Simmer 25 min.", timer_seconds: 1500 },
+      { id: "s1", title: "Brown meat and build broth", content: "Brown seasoned chicken/pork in a large pot with a little oil over high heat, 5–6 min. Add onion, garlic, thyme, scallions, and scotch bonnet (or habanero). Pour in {0014}. Season with {0012} and {0013}. Bring to a boil, skim foam. Simmer 25 min.", timer_seconds: 1500 },
       { id: "s2", title: "Make dumplings", content: "Mix flour, pinch of salt, and enough water to form a stiff dough. Roll into small cylinders or balls — they don't need to be pretty." },
-      { id: "s3", title: "Add ground provisions", content: "Add yam, dasheen, green banana, and potato to the simmering broth. Add dumplings. Cook 25–30 min until all provisions are completely tender.", timer_seconds: 1800 },
+      { id: "s3", title: "Add ground provisions", content: "Add yam and dasheen (or yuca or extra potatoes), green banana, and potato to the simmering broth. Add dumplings. Cook 25–30 min until all provisions are completely tender.", timer_seconds: 1800 },
       { id: "s4", title: "Finish", content: "Remove scotch bonnet (whole, not pierced) and thyme stems. Taste and adjust {0012}. The broth should be clear and savory, deeply flavored from the starchy provisions." },
       { id: "s5", title: "Serve", content: "Ladle into deep bowls ensuring every bowl gets meat, at least 3 different provisions, and a dumpling. Scatter {0014} over top. Serve with crusty bread for mopping." },
     ] },
@@ -4935,7 +4935,7 @@ export const RECIPES = [
     prepTime: "20 min", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "Saint Kitts's national dish: a rich, spiced goat stew — cloves, mace, marjoram, and scotch bonnet in a dark broth. Often called the national soup, Goat Water is served at every celebration and crisis across the two-island federation.",
     miseEnPlace: [
-      "Cut 1 kg bone-in goat meat into 4 cm pieces; marinate in garlic, lime juice, cloves, and salt",
+      "Cut 1 kg bone-in goat meat (or lamb shoulder) into 4 cm pieces; marinate in garlic, lime juice, cloves, and salt",
       "Dice 2 onions; slice 3 garlic cloves",
       "Have whole spices ready: cloves, mace, marjoram",
     ],
@@ -4958,7 +4958,7 @@ export const RECIPES = [
     steps: [
       { id: "s1", title: "Brown goat", content: "Heat oil in a large heavy pot over high heat. Season goat with {0010} and {0011}. Brown in batches 6–8 min. Remove and set aside." },
       { id: "s2", title: "Build the pot", content: "In same pot, cook onions 7 min. Add garlic, tomato paste, and all spices (cloves, mace, marjoram). Cook 2 min until fragrant." },
-      { id: "s3", title: "Add goat and water", content: "Return goat to pot. Add scotch bonnet (whole) and {0012}. Bring to a boil, skim foam. Reduce to a low simmer. Cover and cook 1 hr 30 min–2 hr until goat is completely tender and pulling from the bones.", timer_seconds: 7200 },
+      { id: "s3", title: "Add goat and water", content: "Return goat to pot. Add scotch bonnet (whole — or a habanero) and {0012}. Bring to a boil, skim foam. Reduce to a low simmer. Cover and cook 1 hr 30 min–2 hr until goat is completely tender and pulling from the bones. Lamb is usually tender at the 1 hr 30 min mark.", timer_seconds: 7200 },
       { id: "s4", title: "Thicken (optional)", content: "For a thicker broth, whisk flour with 3 tbsp cold water until smooth. Stir into simmering soup and cook 5 min. Remove scotch bonnet and whole cloves." },
       { id: "s5", title: "Serve", content: "Season to taste. Scatter {0013} over top. Serve in deep bowls with dumplings or crusty bread on the side. On Saint Kitts, Goat Water is serious — do not dilute it or add ketchup." },
     ] },
@@ -5022,8 +5022,8 @@ export const RECIPES = [
   { id: "san-marino", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Fagioli_e_cotiche.jpg/960px-Fagioli_e_cotiche.jpg", week: 191, country: "San Marino", countryCode: "sm", numericCode: "674", dish: "Fagioli con le Cotiche", prepTime: "15 min (plus overnight soaking)", cookTime: "2 hr", servings: 6, equipment: [{ icon: "🍲", label: "Large Heavy Pot" }, "knife-board"],
     description: "San Marino's peasant classic: borlotti beans braised with pork rind (cotiche) in tomato and rosemary. Ancient mountain cooking from the world's oldest republic.",
     miseEnPlace: [
-      "Soak 300 g dried borlotti beans overnight; drain",
-      "Scrape 200 g pork rind (cotiche) clean; cut into 3 cm squares and blanch 5 min",
+      "Soak 300 g dried borlotti beans (or cranberry or pinto beans) overnight; drain",
+      "Scrape 200 g pork rind (cotiche) clean; cut into 3 cm squares and blanch 5 min (using pork belly or a ham hock instead? Skip the scraping and blanching)",
       "Dice 1 onion, 2 garlic cloves, 1 carrot, 1 celery stalk",
     ],
     ingredients: [
@@ -5042,10 +5042,10 @@ export const RECIPES = [
     ],
     steps: [
       { id: "s1", title: "Pre-cook beans", content: "Cover drained beans with fresh water and simmer 45–50 min until just barely tender. Drain, reserving liquid.", timer_seconds: 3000 },
-      { id: "s2", title: "Blanch pork rind", content: "Cover pork rind squares with cold water, bring to boil, simmer 10 min, drain. This removes bitterness and softens the rind.", timer_seconds: 600 },
-      { id: "s3", title: "Build the pot", content: "Heat olive oil in a heavy pot. Sauté onion, carrot, celery 7 min until softened. Add garlic and rosemary, cook 1 min. Add tomatoes and blanched cotiche. Simmer together 10 min." },
+      { id: "s2", title: "Blanch pork rind", content: "Cover pork rind squares with cold water, bring to boil, simmer 10 min, drain. This removes bitterness and softens the rind. Skip this step if using pork belly or a ham hock.", timer_seconds: 600 },
+      { id: "s3", title: "Build the pot", content: "Heat olive oil in a heavy pot. Sauté onion, carrot, celery 7 min until softened. Add garlic and rosemary, cook 1 min. Add tomatoes and blanched cotiche (or diced pork belly or the ham hock). Simmer together 10 min." },
       { id: "s4", title: "Add beans and braise", content: "Add pre-cooked beans and enough reserved bean liquid to keep everything moist. Season with {0010} and {0011}. Cover and simmer on low heat 50–60 min until cotiche is completely tender and beans are creamy. Stir gently occasionally, adding liquid if needed.", timer_seconds: 3600 },
-      { id: "s5", title: "Finish and serve", content: "Remove rosemary. Scatter {0011} over top. Serve as a hearty main with grilled bread rubbed with garlic. Best the next day — reheat gently." },
+      { id: "s5", title: "Finish and serve", content: "Remove rosemary. If you used a ham hock, pull its meat off the bone and return it to the pot. Scatter {0011} over top. Serve as a hearty main with grilled bread rubbed with garlic. Best the next day — reheat gently." },
     ] },
   { id: "palau", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Laing_with_Coconut_Milk.jpg/960px-Laing_with_Coconut_Milk.jpg", week: 192, country: "Palau", countryCode: "pw", numericCode: "585", dish: "Demok",
     description: "Taro leaves slow-cooked with coconut milk and crab or fish into a creamy green dish. A Palauan staple.",
