@@ -4270,7 +4270,7 @@ export const RECIPES = [
     miseEnPlace: [
       "Cube 1 lb mahi mahi fillet into bite-size pieces",
       "Juice 4 limes and 2 lemons — you want about 1 cup, enough to submerge the fish",
-      "Finely dice the shallots, red onion, both bell peppers, cucumber, chilies, and tomatoes",
+      "Finely dice the shallots, red onion, both bell peppers, cucumber, chilies (or red Fresno chiles), and tomatoes",
       "Finely chop the cilantro",
     ],
     ingredients: [
@@ -4292,7 +4292,7 @@ export const RECIPES = [
       { id: "s1", title: "Cure the fish", content: "Place the cubed mahi mahi in a large glass mixing bowl. Pour the mixed lime and lemon juice over the fish until it is fully submerged." },
       { id: "s2", title: "Chill", content: "Cover the bowl with plastic wrap and refrigerate for at least 2 hours, ideally 8–12 hours. The fish is ready when it is opaque all the way through.", timer_seconds: 7200 },
       { id: "s3", title: "Add coconut milk", content: "Drain off the excess citrus juice and pour in {0003}." },
-      { id: "s4", title: "Mix in the vegetables", content: "Add the shallots, red onion, bell peppers, cucumber, chilies, tomatoes, and cilantro. Mix well and season with salt and pepper to taste." },
+      { id: "s4", title: "Mix in the vegetables", content: "Add the shallots, red onion, bell peppers, cucumber, chilies (or red Fresno chiles), tomatoes, and cilantro. Mix well and season with salt and pepper to taste." },
       { id: "s5", title: "Serve", content: "Serve cold in a coconut shell, a hollowed-out pineapple half, or lettuce cups." },
     ] },
   { id: "comoros", dishImageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Grilled_Lobster_%288558909573%29.jpg/960px-Grilled_Lobster_%288558909573%29.jpg", week: 160, country: "Comoros", countryCode: "km", numericCode: "174", dish: "Langouste a la Vanille", prepTime: "15 min", cookTime: "20 min", servings: 4, equipment: [{ icon: "🍳", label: "Large Skillet" }, "knife-board"],
