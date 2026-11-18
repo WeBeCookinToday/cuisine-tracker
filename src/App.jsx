@@ -165,7 +165,7 @@ export function App() {
       <button key={r.id} data-numeric={r.numericCode} onClick={() => openRecipe(r.id)}
         onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = SHADOW.tileHover; setMapHighlight(r.numericCode); }}
         onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = SHADOW.tile; setMapHighlight(null); }}
-        style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `3px solid ${C.acc}` : `1px solid ${C.line}`, outline: cooked ? `3px solid ${C.accSoft}` : "none", borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
+        style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `4px solid ${C.acc}` : `1px solid ${C.line}`, outline: cooked ? `4px solid ${C.accSoft}` : "none", borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
         <DishImage recipe={r} photo={log[r.id]?.photo} showLabel={false} thumbWidth={500} />
         {/* Bottom scrim + country/dish labels (+ rating/date for cooked) */}
         <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "10px 12px", background: "linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.05) 78%, transparent)", pointerEvents: "none" }}>
@@ -190,7 +190,7 @@ export function App() {
     );
   };
 
-  const gridStyle = { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(152px, 1fr))", gap: 14 };
+  const gridStyle = { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(152px, 1fr))", gap: "clamp(14px, 2vw, 26px)" };
 
   const adminDot = isAdmin && (
     <div title="Admin mode" style={{ position: "fixed", top: 14, right: 14, width: 11, height: 11, borderRadius: "50%", background: "#FF5A5F", boxShadow: "0 0 0 4px rgba(255,90,95,0.25)", zIndex: 1000 }} />
