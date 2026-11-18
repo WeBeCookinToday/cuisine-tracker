@@ -214,7 +214,7 @@ export function App() {
       {/* Header — title + progress chip */}
       <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, marginBottom: 18 }}>
         <div>
-          <h1 onClick={handleTitleTap} style={{ fontSize: 30, fontWeight: 800, color: C.ink, lineHeight: 1, marginBottom: 7, cursor: "default", userSelect: "none" }}>Cuisine Tracker</h1>
+          <h1 onClick={handleTitleTap} style={{ fontSize: 30, fontWeight: 800, color: C.ink, lineHeight: 1, marginBottom: 7, cursor: "default", userSelect: "none" }}>Justin's Global Cooking Tracker</h1>
           <p style={{ fontSize: 13, color: C.inkMute, fontWeight: 500 }}>One iconic dish per country · no repeats</p>
         </div>
         <div style={{ textAlign: "center", background: C.card, borderRadius: 18, padding: "14px 18px", boxShadow: SHADOW.card, border: `1px solid ${C.line}`, flexShrink: 0 }}>
