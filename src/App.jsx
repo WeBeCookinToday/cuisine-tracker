@@ -128,7 +128,7 @@ export function App() {
         onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = SHADOW.tileHover; setMapHighlight(r.numericCode); }}
         onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = SHADOW.tile; setMapHighlight(null); }}
         style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `3px solid ${C.acc}` : `1px solid ${C.line}`, outline: cooked ? `3px solid ${C.accSoft}` : "none", borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
-        <DishImage recipe={r} photo={log[r.id]?.photo} showLabel={false} />
+        <DishImage recipe={r} photo={log[r.id]?.photo} showLabel={false} thumbWidth={500} />
         {/* Bottom scrim + country/dish labels (+ rating/date for cooked) */}
         <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "10px 12px", background: "linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.05) 78%, transparent)", pointerEvents: "none" }}>
           <span style={{ fontSize: 10, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: "rgba(255,255,255,0.82)", lineHeight: 1.2 }}>{r.country}</span>
