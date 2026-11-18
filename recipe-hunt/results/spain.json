@@ -1,0 +1,115 @@
+{
+  "id": "spain",
+  "country": "Spain",
+  "dish": "Paella Valenciana",
+  "aliases": [
+    "Paella Valenciana",
+    "Paella valenciana",
+    "Valencian paella",
+    "paella de la huerta"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://spanishsabores.com/traditional-spanish-paella-recipe/",
+    "title": "Spanish Paella Recipe (Paella Valenciana)",
+    "source": "Spanish Sabores",
+    "score": 74,
+    "scores": {
+      "authenticity": 20,
+      "precision": 18,
+      "testing": 15,
+      "photos": 9,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Chicken, flat green beans, butter beans/garrafon, grated tomato, saffron, water (no stock), Senia/Bomba/Calasparra rice, socarrat step. Rabbit optional; the pork-ribs option is a non-traditional variant.",
+      "precision": "Toothpick water-level method to hit exactly 5 cups of liquid (2.5-3:1 water/rice); 22-inch pan named; rice by weight (14.1 oz); sensory cues in 7 of 11 steps (golden, faint ticking from the bottom rice, burning smell warning); few temperatures and only 4 of 13 ingredients with weights.",
+      "testing": "Explains the water-ratio logic, why browned bits flavor the pot, why to stir minimally and what the crackling sound means. 5.0 rating from 51 ratings. Not a test kitchen.",
+      "photos": "97 images on page, none in the structured step data. Could not confirm per-step process photos.",
+      "efficiency": "About 75 min stated. Meat browning is listed as 20 min and broth building is long, but it is a realistic time.",
+      "access": "Notes Bomba/Senia/Calasparra rice and gives canned butter beans for garrafon. Rabbit is optional."
+    },
+    "why": "Ties on total score with the runner-up but wins the tie-break on Precision, thanks to the toothpick water-level method, the cues on most steps and the named pan size."
+  },
+  "runnerUp": {
+    "url": "https://www.recipesfromeurope.com/paella-valenciana/",
+    "title": "Paella Valenciana",
+    "source": "Recipes From Europe (Alba Luna Meyer)",
+    "score": 74,
+    "scores": {
+      "authenticity": 22,
+      "precision": 14,
+      "testing": 13,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Chicken, rabbit, garrofo, flat green beans, tomato, saffron, rosemary, water not stock. Author is from southeast Spain. No seafood.",
+      "precision": "Weights for 6 of 13 ingredients; no pan size; times given, with few cues (browned, 'water absorbed').",
+      "testing": "Explains the saffron infusion, why not to stir and why to use water, and gives a thorough substitutions list.",
+      "photos": "Per WebFetch, a photo for each main stage from cutting beans to the finished dish.",
+      "efficiency": "60 min stated, serves 2 and is compact. Saffron infuses in parallel.",
+      "access": "Full substitution list for garrofo, rabbit, saffron, rice and rosemary."
+    },
+    "why": "Has better process photos and background, but is less precise (no pan size, fewer cues and quantities, and the '1 tablespoon saffron threads' listing looks like an error)."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://spanishsabores.com/traditional-spanish-paella-recipe/",
+      "source": "Spanish Sabores",
+      "score": 74
+    },
+    {
+      "url": "https://www.recipesfromeurope.com/paella-valenciana/",
+      "source": "Recipes From Europe",
+      "score": 74
+    },
+    {
+      "url": "https://tienda.com/blogs/recipes/paella-valenciana",
+      "source": "La Tienda",
+      "score": 62
+    },
+    {
+      "url": "https://www.visitvalencia.com/en/what-to-do-valencia/gastronomy/what-to-eat/paella-valenciana-recipe",
+      "source": "Visit Valencia",
+      "score": 52
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/paella-valenciana-recipe-2009662",
+      "source": "Food Network",
+      "score": 48
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/1978-paella",
+      "source": "America's Test Kitchen",
+      "score": 45,
+      "disqualified": "Not the dish: chorizo, shrimp and mussels in a Dutch oven. This is a westernized mixed paella, not Valenciana."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"paella valenciana\"",
+    "paella valenciana authentic recipe",
+    "receta paella valenciana auténtica",
+    "Spain on a Fork paella valenciana recipe rabbit chicken garrofó",
+    "paella valenciana recipe step by step photos socarrat Valencian cook"
+  ],
+  "notes": "Test-kitchen paellas from NYT, ATK, Serious Eats and BBC Good Food are all mixed, seafood or chorizo versions, so none is Paella Valenciana. The two top picks are tied at 74 and pick-able either way: take Recipes From Europe for photos and an exact tested-style substitution list, or Spanish Sabores for the water-level method. The Spanish Sabores 22-inch pan is very large for the 4 servings stated. The meat choice there is chicken plus ribs or rabbit. Visit Valencia (official tourism site) had no pan size and artichokes in a step but not the ingredients list.",
+  "verification": {
+    "state": "warn",
+    "reason": "HTTP 403 (likely bot-blocked) — open it by hand",
+    "checkedAt": "2026-11-18T19:24:05.869Z",
+    "winner": {
+      "state": "warn",
+      "reason": "HTTP 403 (likely bot-blocked) — open it by hand",
+      "status": 403
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Paella Valenciana"
+    }
+  }
+}

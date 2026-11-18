@@ -1,0 +1,148 @@
+{
+  "id": "peru",
+  "country": "Peru",
+  "dish": "Ceviche",
+  "aliases": [
+    "Cebiche",
+    "Seviche",
+    "Ceviche clásico",
+    "Ceviche peruano",
+    "Ceviche de pescado"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/classic-peruvian-style-fish-ceviche-recipe",
+    "title": "Classic Peruvian-Style Fish Ceviche",
+    "source": "Serious Eats (J. Kenji López-Alt)",
+    "score": 70,
+    "scores": {
+      "authenticity": 15,
+      "precision": 14,
+      "testing": 18,
+      "photos": 8,
+      "efficiency": 10,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Titled Peruvian-style; fish, citrus, red onion, cilantro, chile, served with boiled corn and sweet potato. Uses jalapeno instead of aji limo and lacks leche de tigre. Author is not Peruvian.",
+      "precision": "Read signals: 6 ingredients, 1 with a weight (1 lb fish, 1/4-inch slices, 1/2 cup juice, 1 small red onion). The single step gives a 5-minute minimum marinade and points to a marinating-time chart by fish type. No sensory cues in the step text.",
+      "testing": "Food Lab / Serious Eats test kitchen. Linked Food Lab article covers the science of acid marinades, and the page has a time chart. I could not load the chart text (WebFetch is blocked for seriouseats.com), so this is from the page's step text and known context.",
+      "photos": "imagesOnPage 52, stepImagesInSchema 0. The page refers to a chart and image for marinating times. I could not confirm process photos, so this is scored conservatively.",
+      "efficiency": "10 minutes total, with no wasted steps.",
+      "access": "Everything is at a US grocery. Fish, citrus or jalapeno are all easy to find."
+    },
+    "why": "It has the clearest tested reasoning (marinating-time guidance by fish type) and is the fastest, cleanest method. It edges out ATK's snapper version, which is a more modern adaptation."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/11063-peruvian-fish-ceviche-with-radishes-and-orange",
+    "title": "Red Snapper Ceviche with Radishes and Orange",
+    "source": "America's Test Kitchen (Andrew Janjigian)",
+    "score": 67,
+    "scores": {
+      "authenticity": 13,
+      "precision": 16,
+      "testing": 18,
+      "photos": 9,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "URL slug says Peruvian, and it uses lime, aji amarillo paste, a leche de tigre style blended sauce from fish scraps, and corn nuts and popcorn standing in for cancha. Radish and orange make it a modern take.",
+      "precision": "Fish cut 1/2-inch strips then 1/8-inch slices; 1 lb fish; salt by teaspoon; marinate 30-40 min, or 45 min-1 hr for more opaque fish; 2 sensory cues; blender time given.",
+      "testing": "ATK test kitchen. Salting fish before the sauce goes on, and keeping the reserved fish for the blended leche de tigre, show tested reasoning. Full explanatory text is hidden behind the login.",
+      "photos": "Step images are not in the schema (paywalled). Not marked down for that, per the rubric.",
+      "efficiency": "Total 1 hr 5 min. The salting and the sauce run in parallel.",
+      "access": "Aji amarillo paste and corn nuts need a Latin or specialty shop. No substitutions are shown."
+    },
+    "why": "Higher precision than the winner, but a modern variation with a long marinade and a harder ingredient list."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/classic-peruvian-style-fish-ceviche-recipe",
+      "source": "Serious Eats (Kenji)",
+      "score": 70
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/11063-peruvian-fish-ceviche-with-radishes-and-orange",
+      "source": "ATK",
+      "score": 67
+    },
+    {
+      "url": "https://www.eatperu.com/ceviche-recipe/",
+      "source": "Eat Peru",
+      "score": 60
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1017722-ceviche-a-la-minute",
+      "source": "NYT Cooking (Florence Fabricant, from Chez Wong, Lima)",
+      "score": 58
+    },
+    {
+      "url": "https://www.ciafoodies.com/ceviche-tradicional-con-leche-de-tigre-peruvian-ceviche-with-leche-de-tigre/",
+      "source": "CIA Foodies",
+      "score": 58
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/classic-ceviche-ceviche-clasico/b35nm9xbb",
+      "source": "SBS Food (Gaston Acurio)",
+      "score": 57
+    },
+    {
+      "url": "https://picachef.com/recipes/classic-peruvian-ceviche",
+      "source": "Picachef (Consulate General of Peru)",
+      "score": 56
+    },
+    {
+      "url": "https://chasingfoxes.com/wprm_print/authentic-peruvian-ceviche-with-leche-de-tigre",
+      "source": "Chasing Foxes (Grace Moser)",
+      "score": 52
+    },
+    {
+      "url": "https://www.afar.com/magazine/the-lure-of-lima",
+      "source": "Afar (Gregory Dicum, adapted from Acurio)",
+      "score": 54
+    },
+    {
+      "url": "https://www.tasteofhome.com/recipes/peruvian-ceviche/",
+      "source": "Taste of Home",
+      "score": 48,
+      "disqualified": "Not disqualified, but adds evaporated milk and a fish soak that depart from the traditional dish"
+    },
+    {
+      "url": "https://www.finedininglovers.com/explore/recipes/peruvian-ceviche-original-recipe-tigers-milk-leche-de-tigre",
+      "source": "Fine Dining Lovers",
+      "score": 45,
+      "disqualified": "Fusion style: tuna, prawns, cucumber and ginger. Not the classic dish"
+    },
+    {
+      "url": "https://www.saveur.com/peru-street-cart-ceviche-recipe",
+      "source": "Saveur",
+      "score": 50
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Ceviche\"",
+    "Peruvian ceviche clásico recipe",
+    "ceviche peruano receta tradicional leche de tigre",
+    "Ceviche recipe",
+    "authentic Peruvian ceviche recipe Peruvian chef blog ají limo choclo cancha leche de tigre step by step photos"
+  ],
+  "notes": "No test-kitchen recipe is both traditional and detailed. Peruvian-authored versions (Acurio, the Consulate, CIA) are authentic but thin on cues, reasoning and photos. The winner's score rests partly on content I could not load: WebFetch is blocked for seriouseats.com, so the marinating chart and photos are unconfirmed. Its authenticity is limited because it uses jalapeno and has no leche de tigre. For a more traditional cook, consider the Acurio/SBS version (score 57, below the 60 floor) or the Eat Peru version (score 60, step photos but a 30-min marinade). Serious Eats also has a Food Lab article on ceviche marinades, but it has no recipe schema, so it was not scored.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:53.748Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Classic Peruvian-Style Fish Ceviche"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Red Snapper Ceviche with Radishes and Orange",
+      "rating": 4.6,
+      "ratingCount": 21
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "greece",
+  "country": "Greece",
+  "dish": "Moussaka",
+  "aliases": [
+    "Μουσακάς",
+    "Mousakas",
+    "Musakka"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/moussaka-6361068",
+    "title": "Moussaka Recipe",
+    "source": "Serious Eats (Kristina Razon)",
+    "score": 85,
+    "scores": {
+      "authenticity": 20,
+      "precision": 23,
+      "testing": 16,
+      "photos": 14,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional layout: fried potato and eggplant, lamb/beef sauce with cinnamon, clove, bay, oregano, egg-enriched kefalotyri bechamel. Author is not Greek and the page snippet gave little regional history.",
+      "precision": "Weights/volumes on 15 of 24 ingredient lines; 375F oil and oven temps; 9x13 dish; 3/4-inch and 1/4-inch slice thickness; 21 sensory cues across 8 steps (golden brown, silky glaze, coats back of spoon); rest time stated.",
+      "testing": "Serious Eats test-kitchen recipe with technique reasoning (potato masher to break up meat, plastic against bechamel to stop skin, resting before slicing). Only 7 ratings (4.2).",
+      "photos": "Image attached to all 8 steps in schema (58 images on page).",
+      "efficiency": "3.5 hrs stated. Meat sauce simmers while the vegetables fry. Deep-frying two vegetables is slow but traditional.",
+      "access": "Kefalotyri is the only unusual item and the recipe has a note on it (see note). Everything else is standard US grocery."
+    },
+    "why": "Most traditional and most precise of the recipes read, with a photo at every step, where ATK's shortcut bakes the eggplant and microwaves the potatoes and has no visible step photos."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/15034-moussaka",
+    "title": "Moussaka",
+    "source": "America's Test Kitchen (Steve Dunn)",
+    "score": 70,
+    "scores": {
+      "authenticity": 18,
+      "precision": 15,
+      "testing": 18,
+      "photos": 6,
+      "efficiency": 9,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Layered potato, eggplant, spiced beef, kasseri bechamel; oven-roasted eggplant and microwaved potatoes are a test-kitchen adaptation.",
+      "precision": "Only 2 ingredients with weights; 20 sensory cues; 13x9 dish; oven temps given.",
+      "testing": "ATK test-kitchen process, 306 ratings at 4.2; why-it-works text not visible.",
+      "photos": "No step images in schema; hidden behind login so scored neutrally low.",
+      "efficiency": "3 hrs; roasting and microwaving avoid deep-frying.",
+      "access": "Kasseri cheese is the only unusual item, and it is found in many US stores."
+    },
+    "why": "Lower precision (few weights) and fewer visible photos, though it is easier since it avoids frying."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/moussaka-6361068",
+      "source": "Serious Eats",
+      "score": 85
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/15034-moussaka",
+      "source": "America's Test Kitchen",
+      "score": 70
+    },
+    {
+      "url": "https://www.recipetineats.com/moussaka-greek-eggplant-beef-bake/",
+      "source": "RecipeTin Eats",
+      "score": 58
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1813-moussaka",
+      "source": "NYT Cooking (Amanda Hesser / David Rosengarten)",
+      "score": 57
+    },
+    {
+      "url": "https://www.deliciousmagazine.co.uk/how-to-make-moussaka/",
+      "source": "Delicious magazine",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://www.themediterraneandish.com/wprm_print/moussaka-recipe-greek-eggplant-lasagna",
+      "source": "The Mediterranean Dish",
+      "score": 0,
+      "disqualified": "no structured data and WebFetch returned HTTP 403, so it could not be read or scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Moussaka\"",
+    "Moussaka recipe",
+    "Μουσακάς συνταγή"
+  ],
+  "notes": "RecipeTin Eats (58) omits potatoes, uses parmesan and Vegeta, and has little precision. NYT Hesser (57) is a lamb recipe of a Rosengarten adaptation with large yield (15 servings) and minimal weights. I did not read the kefalotyri note text itself in the Serious Eats structured data, so the claim that it names substitutes is inferred from the '(see note)' marker. The Mediterranean Dish and Delicious both blocked fetches.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:49.864Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Moussaka Recipe",
+      "rating": 4.2,
+      "ratingCount": 7
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Moussaka",
+      "rating": 4.2,
+      "ratingCount": 306
+    }
+  }
+}

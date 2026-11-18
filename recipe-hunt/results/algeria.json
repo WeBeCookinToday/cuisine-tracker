@@ -1,0 +1,187 @@
+{
+  "id": "algeria",
+  "country": "Algeria",
+  "dish": "Couscous with Lamb Stew",
+  "aliases": [
+    "Couscous bil lham",
+    "Kesksou bel lham",
+    "Couscous à l'agneau (couscous algérien)",
+    "Algerian lamb couscous",
+    "كسكسي بلحم الخروف",
+    "كسكس باللحم"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://thematbakh.com/algerian-lamb-shoulder-stew-with-couscous/",
+    "title": "Algerian Lamb Shoulder Stew With Couscous",
+    "source": "The Matbakh (Lily Guidry; recipe from her friend Farida, a descendant of the Berber of Kabylia)",
+    "score": 65,
+    "scores": {
+      "authenticity": 20,
+      "precision": 11,
+      "testing": 10,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Algerian lamb and vegetable couscous with the couscous steamed twice, uncovered, in the steamer tray above the simmering stew (the traditional method). The page carries Farida's note on Kabylia, Yennayer and hand-rolled couscous. Lily Guidry describes herself as an American Lebanese in Texas, not Algerian, and the recipe card lists the cuisine as 'Middle Eastern'. No smen or ras el hanout; green beans and mint are included.",
+      "precision": "Only 1 of 21 ingredients has a weight (2.2 lb lamb, 1 lb couscous), plus water volumes (4.25 cups / 1 L; 1.5 cups and 1 cup for the couscous). Produce sizing is adjective-only ('1 large onion', '2 large carrots', '2 medium turnips'). No pan size, no temperatures. Cues: 'steam will start to come off the couscous' then a 5-minute timer, 'fluffy and tender', green beans boiled until cooked. The 1-hour lamb simmer has no tenderness cue. Signals: sensoryCuesInSteps 3, panSizesInSteps 0.",
+      "testing": "Blog developer recipe with a 5-star rating from 4 votes and 4 comments; no test kitchen. It gives some reasoning: steaming above the stew gives ultra-fluffy, flavorful couscous; the bone adds flavor to the broth; large chunks finish in about the time the couscous steams; keep the couscous uncovered. It does not explain why the couscous is steamed twice or why it stays uncovered.",
+      "photos": "Nine stage photos in the post body, plus ingredient layouts. Stew: browning the lamb, adding the vegetables, stew ready to simmer, stew in the steamer pot. Couscous: dry couscous with oil, adding water, pouring into the steamer, grains in the top tray, rubbing the grains apart. The recipe card has one image; stepImagesInSchema is 0.",
+      "efficiency": "One pot: the stew simmers about 1 hour while the couscous soaks and steams twice above it. Green beans are boiled separately in parallel. Stated 15 min prep and 60 min cook is realistic. Minor waste: the couscous is hand-rolled between steams, which is the traditional technique.",
+      "access": "Needs a couscous steamer pot (couscoussier or a steamer insert), which is the main hard-to-find item in a US kitchen. The page says to cook the stew separately and follow package directions if using instant couscous. Veal can replace lamb, oil can replace ghee, and dried mint can replace fresh. Everything else is at a normal grocery."
+    },
+    "why": "It is the only Algerian-attributed recipe I read that has amounts for the lamb and couscous, a full steam-over-the-stew method, and stage photos, while the other Algerian versions are vague, have no photos or are content farms."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/1270-couscous-with-vegetables-and-lamb",
+    "title": "Couscous With Vegetables and Lamb",
+    "source": "NYT Cooking (Florence Fabricant)",
+    "score": 55,
+    "scores": {
+      "authenticity": 14,
+      "precision": 16,
+      "testing": 10,
+      "photos": 5,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Traditional couscoussier method: steam over the stew, sealed with a damp cloth, in two rounds with water sprinkled in between and the grains left to dry. The flavorings (saffron, cinnamon sticks, raisins, pumpkin) are a Moroccan or general Maghreb style, not specifically Algerian. The author is a NYT food writer, and the structured data has no roots or regional context.",
+      "precision": "2.5 lb lamb, 4 cups couscous (about 1.5 lb), water in cups, produce sized ('4 large carrots, 3-inch lengths', '1 pound fresh pumpkin, in 2-inch chunks'). Cues: 'when the steam starts rising', lamb 'should be tender' after about 2 hours, couscous 'light, fluffy and tender'. No pan size beyond 'large flat pan'; no temperatures.",
+      "testing": "NYT editorial recipe with 14 ratings averaging 4 stars. No reasoning text is visible in the structured data. The 17 cups of water and the 'drain' step for the couscous are not explained.",
+      "photos": "Hidden behind the paywall; the structured data has no step images. Judged from NYT's usual format (a hero photo), not marked down further.",
+      "efficiency": "About 3 hours. The couscous is prepared while the lamb simmers, but the drying rest of up to an hour is long.",
+      "access": "Saffron, fresh pumpkin and a couscoussier with cheesecloth. Only canned tomatoes are offered as a substitute."
+    },
+    "why": "It is a sound traditional method with better weights than the winner, but it is Moroccan-style rather than Algerian, has no roots context or visible photos, and scores under 60."
+  },
+  "companions": [
+    {
+      "part": "couscous (no-couscoussier fallback; scored as a stand-alone couscous side, not as the full dish)",
+      "url": "https://www.seriouseats.com/how-to-cook-couscous-recipe-8771679",
+      "title": "Simple Fluffy Couscous",
+      "source": "Serious Eats (Nargisse Benkabbou)",
+      "score": 77,
+      "why": "Use it if you have no steamer pot: gram weights (510 g couscous, 360 g liquid), a 9 by 13-inch dish, doneness cues, 4 step photos, and 45 minutes. Its oven method replaces the traditional steaming.",
+      "check": "pass"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://thematbakh.com/algerian-lamb-shoulder-stew-with-couscous/",
+      "source": "The Matbakh (Lily Guidry)",
+      "score": 65
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1270-couscous-with-vegetables-and-lamb",
+      "source": "NYT Cooking (Florence Fabricant)",
+      "score": 55
+    },
+    {
+      "url": "https://viaja-en-mi-cocina-english.blogspot.com/2018/02/algerian-couscous.html",
+      "source": "Travelling Kitchen (duriart)",
+      "score": 50
+    },
+    {
+      "url": "https://cookpad.com/eng/recipes/2134777",
+      "source": "Cookpad (Missilda)",
+      "score": 48
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/lamb-stew-with-couscous-couscous-bidaoui-belghanmi/i9s6nvib5",
+      "source": "SBS Food (Hassan M'Souli)",
+      "score": 44
+    },
+    {
+      "url": "https://theeverydaymagazine.co.uk/food-1/lamb-semoule-couscous",
+      "source": "The Everyday Magazine (Raphael Lenain)",
+      "score": 44
+    },
+    {
+      "url": "https://archive.jamesbeard.org/recipes/lamb-couscous",
+      "source": "James Beard Foundation archive (James Beard)",
+      "score": 44
+    },
+    {
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Couscous_with_Meat_and_Vegetables",
+      "source": "Wikibooks (no named author)",
+      "score": 42
+    },
+    {
+      "url": "https://www.seriouseats.com/how-to-cook-couscous-recipe-8771679",
+      "source": "Serious Eats (Nargisse Benkabbou)",
+      "score": 77,
+      "disqualified": "Not a candidate for the full dish: couscous side only, used as a companion."
+    },
+    {
+      "url": "https://thematbakh.com/how-to-cook-couscous-perfectly-fluffy-using-a-steamer/",
+      "source": "The Matbakh",
+      "score": 0,
+      "disqualified": "Not scored as a candidate: couscous-only steaming method with the same wording as the winner's couscous steps."
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1025904-friday-couscous",
+      "source": "NYT Cooking (Nargisse Benkabbou)",
+      "score": 0,
+      "disqualified": "Not the dish: Moroccan vegetable-only couscous with no lamb."
+    },
+    {
+      "url": "https://algerienomades.com/couscous-agneau-ramadan/",
+      "source": "algerienomades.com (Assia B)",
+      "score": 0,
+      "disqualified": "No amounts for the lamb, semolina or vegetables. Otherwise a genuine Algerian Ramadan lamb couscous with cultural context."
+    },
+    {
+      "url": "https://cookpad.com/eng/recipes/9217094",
+      "source": "Cookpad (zeroual narimane)",
+      "score": 0,
+      "disqualified": "No amounts for the lamb or couscous ('as needed'); 3 steps with no photos."
+    },
+    {
+      "url": "https://forkandsalt.com/recipes/algerian/couscous-with-lamb",
+      "source": "Fork & Salt (Emily Wu)",
+      "score": 0,
+      "disqualified": "SEO content farm: filler prose, an author bio unrelated to the cuisine, no process photos, couscous soaked in boiling water, not steamed."
+    },
+    {
+      "url": "https://inarecipes.com/couscous-a-beginner-friendly-guide-to-algerias-national-dish/",
+      "source": "Ina Recipes (Ina)",
+      "score": 0,
+      "disqualified": "Appears to be a generic content-farm guide: no author bio, no process photos in the schema, couscous steamed over plain water, not the stew. Not scored in full."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Couscous with Lamb Stew\"",
+    "node scripts/recipe-hunt.mjs sites \"Algerian couscous\"",
+    "Algerian couscous with lamb stew recipe",
+    "couscous bil lham Algerian recipe",
+    "Couscous with Lamb Stew recipe",
+    "couscous algérien à l'agneau recette traditionnelle",
+    "Algerian couscous lamb recipe step by step photos tfaya OR \"couscous with lamb\" Algerian blog",
+    "كسكسي بلحم الخروف الجزائري وصفة",
+    "Algerian couscous lamb recipe Saveur OR \"Food52\" OR \"Spruce Eats\" OR \"Daring Gourmet\" OR \"Chef Lola\"",
+    "kesksou bel lham Algerian couscous steamed three times recipe Algerian cook",
+    "Algerian couscous lamb recipe cookbook author Algerian-born \"couscous\" lamb shoulder chickpeas steamed twice home cook"
+  ],
+  "notes": "Weak field: only one candidate reached 60, and the 65 winner is a modest pass. The best-regarded Algerian sources I found either had no ingredient amounts (algerienomades.com, Cookpad) or could not be read (International Cuisine 'Lahm Lhalou' returned 403, Afrik.com 'Couscous algérois' returned 403, All African Recipes returned 503, Cooks Without Borders returned 404); none of those URLs are recorded as candidates. No Serious Eats, ATK or BBC Good Food recipe covers Algerian lamb couscous. Serious Eats has Moroccan lamb tagines, and NYT's Tagine-Style Lamb Stew and Mrouzia Lamb Shanks are Moroccan stews I did not read. The winner scores low on Precision (almost no weights, no pan size, no lamb doneness cue), so a cook should judge the lamb by tenderness after the 1-hour simmer. The traditional Algerian method has the couscous steamed two or three times; the winner steams it twice. If the user has no couscoussier, a steamer insert, a colander over a pot, or the Serious Eats companion plus a separately simmered stew are the practical fallbacks.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:41.749Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Algerian Lamb Shoulder Stew With Couscous",
+      "rating": 5,
+      "ratingCount": 4
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Couscous With Vegetables and Lamb",
+      "rating": 4,
+      "ratingCount": 14
+    }
+  }
+}

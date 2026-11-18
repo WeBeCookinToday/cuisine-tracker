@@ -1,0 +1,235 @@
+{
+  "id": "kenya",
+  "country": "Kenya",
+  "dish": "Nyama Choma",
+  "aliases": [
+    "Nyama choma",
+    "Mbuzi choma (goat)",
+    "Kenyan grilled meat",
+    "Kenyan roast meat",
+    "Kenyan barbecue"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://foreignfork.com/nyama-choma/",
+    "title": "Nyama Choma",
+    "source": "The Foreign Fork (Alexandria Drzazgowski; recipe credited to Sheila Mathu of Kenya)",
+    "score": 64,
+    "scores": {
+      "authenticity": 20,
+      "precision": 15,
+      "testing": 7,
+      "photos": 10,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Recipe credited to a Kenyan cook. Goat ribs with a light garlic, ginger, salt and pepper paste, which is close to the classic minimal seasoning. Reserved rib juices go back over the meat, and the meat is spritzed with salted water on the grill, which is the traditional Kenyan baste. A Recipe Origin section covers the Maasai link and the Swahili meaning. The oven foil-steam step before grilling is an adaptation for US kitchens. The author is not Kenyan herself.",
+      "precision": "Volumes for everything: 2 lb goat ribs, 3 tbsp olive oil, 1 tbsp each garlic and ginger paste, 1/2 tbsp plus 1 tsp salt, 1 tbsp pepper. Oven 350F for 25-30 min. Grill at medium heat for 30-35 min, turning every 15 min. Target internal temperature of 190-203F. No weights beyond the meat, no grill or pan size, and heat is only 'medium'. Signals: 1 ingredient with weight, 2 temperatures, 4 sensory cues.",
+      "testing": "No test kitchen. The page has 1 rating (5 stars) and no explanation of why the foil wrap, the juice reuse or the salt spritz work. The only reasoning is 'marinate overnight for best results'.",
+      "photos": "WebFetch (via alt text) shows 6 process photos, two each for marinating, baking and grilling, plus an ingredients shot. They are stage photos, not doneness close-ups. Schema step images: 0.",
+      "efficiency": "Stated total is 4h15 (15 min prep, 60 min cook, plus marinating of at least 3 hours), which is realistic. The oven pre-cook means the grill session is only about 35 min. No wasted steps.",
+      "access": "Goat ribs are the hard item, found at halal butchers, Latin markets or online. Beef ribs are named as a substitute, plus lamb or chicken. Ginger and garlic paste can be swapped for fresh or ground. Nothing else is unusual."
+    },
+    "why": "It beat the runner-up with a simpler, more traditional seasoning, the salted-water baste, an internal-temperature target and six process photos, while the runner-up has a stock-cube, rosemary and honey marinade and a stated time that understates the real 5 hours or more."
+  },
+  "runnerUp": {
+    "url": "https://weeatatlast.com/the-ultimate-nyama-choma-recipe",
+    "title": "Mbuzi Nyama Choma",
+    "source": "We Eat At Last (Kate Hahnel)",
+    "score": 61,
+    "scores": {
+      "authenticity": 17,
+      "precision": 14,
+      "testing": 13,
+      "photos": 7,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "The author writes 'my fellow Kenyans', so she appears to be Kenyan. Goat leg grilled slowly in foil. The marinade is heavy (stock cubes, cumin, paprika, rosemary, chilli, honey glaze), which departs from the salt-forward classic. Roots coverage is thin: it explains nyama and choma and the occasions but not the history.",
+      "precision": "5.5 lb (2.5 kg) goat, 2-inch slits, 3 min sear per side, medium-low heat for 1.5 h, then 15-30 min until browned and juices run clear, rest 10-20 min. Produce is vague ('1 red or white onion (large)', '1/3 piece ginger'). The oven temperature is inconsistent (170C vs 365F) and no internal temperature is given. Signals: 0 ingredients with weights, 3 temperatures, 3 sensory cues.",
+      "testing": "Notes explain several whys: foil retains moisture, slow cooking breaks down connective tissue, the water tray evens the cooking, resting keeps juices in, slits help the marinade penetrate. 5 stars from 14 votes, with 9 author replies to comments.",
+      "photos": "Four photos, all from the prep stage: gashes in the meat, marinating, meat on foil, meat covered in foil. None show the sear, the baste, the glaze or doneness. Schema step images: 0.",
+      "efficiency": "Stated total of 160 min leaves out the 2 h or longer marinade and the 1 h tempering. Real elapsed time is 5 h or more, and 7 h or more for the oven method (4.5 h roast).",
+      "access": "5.5 lb goat leg is hard to find. Other meats are suggested, and lime can replace lemon. No substitute is given for stock cubes."
+    },
+    "why": "Better explanations and more reviews, but it lost on photos, the misleading stated time, a marinade-heavy departure from the classic and no internal-temperature cue."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://foreignfork.com/nyama-choma/",
+      "source": "The Foreign Fork",
+      "score": 64
+    },
+    {
+      "url": "https://weeatatlast.com/the-ultimate-nyama-choma-recipe",
+      "source": "We Eat At Last",
+      "score": 61
+    },
+    {
+      "url": "https://festival.si.edu/2014/kenya/nyama-choma-with-kachumbari-and-ugali/smithsonian",
+      "source": "Smithsonian Folklife Festival 2014 (tested by staff in a US kitchen, from Kenyan cooks)",
+      "score": 54
+    },
+    {
+      "url": "https://thedomesticman.com/2020/08/27/nyama-choma-simple-kenyan-grilled-meat-with-kachumbari-salad/",
+      "source": "The Domestic Man (Russ Crandall)",
+      "score": 52
+    },
+    {
+      "url": "https://borderlesskitchenseries.com/journal/kenyan-nyama-choma-grilled-meat-guide-recipe",
+      "source": "Borderless Kitchen (Sebastian Dri)",
+      "score": 51
+    },
+    {
+      "url": "https://www.triedandtruerecipe.com/ugali-and-nyama-choma-with-kachumbari/",
+      "source": "Tried & True Recipe (Marcus Njuguna)",
+      "score": 49
+    },
+    {
+      "url": "https://www.nkosiagro.com/en/blogs/blog-and-recipes/recette-nyama-choma",
+      "source": "NKOSI (retailer blog, no individual author)",
+      "score": 45
+    },
+    {
+      "url": "https://www.how.co.ke/how-to-make-the-best-nyama-choma/",
+      "source": "how.co.ke (Jubert)",
+      "score": 45
+    },
+    {
+      "url": "https://cheflolaskitchen.com/?p=33854",
+      "source": "Chef Lola's Kitchen (Lola Osinkolu)",
+      "score": 56
+    },
+    {
+      "url": "https://fauziaskitchenfun.com/?p=2836",
+      "source": "Fauzia's Kitchen Fun",
+      "score": 42
+    },
+    {
+      "url": "https://www.bmc.org/recipes/nyama-choma-roasted-meat",
+      "source": "Boston Medical Center recipes (no author)",
+      "score": 40
+    },
+    {
+      "url": "https://www.lg.com/eastafrica/b2c/blog-list/how-to-make-nyama-choma-in-the-oven",
+      "source": "LG East Africa blog (oven version)",
+      "score": 40
+    },
+    {
+      "url": "https://lowcarbafrica.com/nyama-choma-kenyan-grilled-meat/",
+      "source": "Low Carb Africa (Tayo Oredola)",
+      "score": 40
+    },
+    {
+      "url": "https://www.standardmedia.co.ke/evewoman/living/article/2000140075/tender-mbuzi-choma-ribs",
+      "source": "The Standard EveWoman (Wambui Kuria)",
+      "score": 39
+    },
+    {
+      "url": "https://www.dbenational.org/recipes/ugali-nyama-choma-na-kachumbari",
+      "source": "DBE recipes (Guest User)",
+      "score": 37,
+      "disqualified": "Borderline: the page gives no weight or amount for the meat, only salt water amounts, and it has no photos. It is the origin of the ingmar.app copy."
+    },
+    {
+      "url": "https://www.standardmedia.co.ke/evewoman/food/article/2001549873/easy-recipe-nyama-choma-at-home",
+      "source": "The Standard EveWoman (Chef Ali Mandhry)",
+      "score": 36
+    },
+    {
+      "url": "https://www.whats4eats.com/meats/nyama-choma-recipe",
+      "source": "Whats4eats (chefgod)",
+      "score": 31
+    },
+    {
+      "url": "https://aroundtheworldrecipes.com/recipe/kenyan-nyama-choma/",
+      "source": "Around the World Recipes (Ryan N)",
+      "score": 32
+    },
+    {
+      "url": "https://culturedcuisine.co.uk/nyama-choma/",
+      "source": "Cultured Cuisine",
+      "score": 30,
+      "disqualified": "No author and no amounts for the main spices. Scored 30 for the record."
+    },
+    {
+      "url": "https://www.the-star.co.ke/sasa/food/2023-03-10-how-to-make-mouth-watering-nyama-choma/",
+      "source": "The Star (Kenya)",
+      "score": 0,
+      "disqualified": "No ingredient amounts and no named author."
+    },
+    {
+      "url": "https://kenyanfoodjournal.com/nyama-choma-recipe-kenyan-grilled-meat/",
+      "source": "Kenyan Food Journal",
+      "score": 58,
+      "disqualified": "Suspected content farm. The byline says 'Yilmaz' while the bio says 'Yash', and there are only 2 generic images. Its salt-only, charcoal, 75C method is the closest to the classic dish, but it is not backed by an identifiable cook. Would score 58 and could not win either way."
+    },
+    {
+      "url": "https://world.food/recipes/kenya/nyama-choma",
+      "source": "world.food",
+      "score": 0,
+      "disqualified": "Likely AI-generated: author is just the site name, generic text with parenthetical ingredient notes, no photos. The method is salt-only on 1.5 kg ribs."
+    },
+    {
+      "url": "https://afrifoodnetwork.com/recipes/nyama-choma/",
+      "source": "African Food Network ('AFN Snr Chef')",
+      "score": 0,
+      "disqualified": "Copy of the We Eat At Last recipe: identical ingredient list and steps. The intro claims a salt-only classic, which the recipe itself contradicts."
+    },
+    {
+      "url": "https://travelfoodatlas.com/kenyan-nyama-choma-recipe",
+      "source": "Travel Food Atlas",
+      "score": 0,
+      "disqualified": "Copy of the We Eat At Last recipe: identical ingredients and steps, reformatted."
+    },
+    {
+      "url": "https://cupofyum.com/recipes/mbuzi-nyama-choma",
+      "source": "Cup of Yum (Willa Gonzalez)",
+      "score": 0,
+      "disqualified": "Word-for-word copy of the We Eat At Last recipe, with typos added. Its 42 ratings do not change that."
+    },
+    {
+      "url": "https://ingmar.app/blog/recipe-the-national-dish-of-kenya-ugali-nyama-choma-na-kachumbari/",
+      "source": "Ingmar (recipe aggregator)",
+      "score": 0,
+      "disqualified": "Aggregator copy of the DBE recipe."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Nyama Choma\"",
+    "node scripts/recipe-hunt.mjs sites \"Kenyan goat\"",
+    "node scripts/recipe-hunt.mjs sites \"mbuzi choma\"",
+    "node scripts/recipe-hunt.mjs sites \"Kenyan grilled meat\"",
+    "Nyama Choma recipe",
+    "Kenyan nyama choma grilled goat recipe kachumbari ugali",
+    "mbuzi choma Kenyan roast goat recipe charcoal salt traditional",
+    "nyama choma recipe Kenyan chef authentic dry-fry salt brine goat ribs how to grill",
+    "Immaculate Bites OR Jikoni Magic OR Kenyan Foodie nyama choma recipe",
+    "Saveur OR \"Food & Wine\" OR Epicurious OR Food52 nyama choma Kenya grilled goat recipe",
+    "nyama choma ugali kachumbari recipe Kenyan-born author cookbook family recipe",
+    "Kaluhi's Kitchen nyama choma OR \"mbuzi choma\" recipe",
+    "\"nyama choma\" recipe Kenyan food blog step by step photos goat leg charcoal grill temperature"
+  ],
+  "notes": "Serious Eats, NYT Cooking, ATK and BBC Good Food have no nyama choma recipe (4 site searches came back empty or off-topic). The field is all blogs, with a thin spread: top score is 64 and the next is 61, so this is a moderate win and not a strong one. The classic Kenyan method is salt (plus lemon or pepper), charcoal, a salt-water baste and foil-steaming. Most English-language recipes add a garlic, ginger and spice marinade. The salt-only versions found (Kenyan Food Journal, world.food, Borderless Kitchen) are either suspected content farms or promotional pages with no process photos, so they were not used. Foreign Fork is a hybrid: it keeps the light seasoning and the salt-water spritz, but pre-cooks the ribs in a foil packet in the oven, which suits a US kitchen. Its grill heat is only 'medium' with no temperature given. The Tried & True recipe (Marcus Njuguna, Kenyan) also covers ugali and kachumbari, but it gives no grilling time. The Smithsonian page (staff-tested, Kenyan source cooks) is a good cultural reference. Companions is empty because the dish is a single component. Not WebFetched or read successfully: yummy-africa.com (fetch failed), kokiafrique.com (HTTP 403), pikachakula.com and funtimesmagazine.com (read failed). None of those are used.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:52.796Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Nyama Choma",
+      "rating": 5,
+      "ratingCount": 1
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Mbuzi Nyama Choma",
+      "rating": 5,
+      "ratingCount": 14
+    }
+  }
+}
