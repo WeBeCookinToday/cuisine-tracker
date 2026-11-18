@@ -1,6 +1,19 @@
-import { FLAGS } from "../data/flags.js";
+// Flags are static SVGs in public/flags/ (one small request per visible tile)
+// rather than base64 inlined into the JS bundle, which made it ~1.8 MB larger.
+const FLAG_CODES = new Set("ad ae af ag al am ao aq ar at au az ba bb bd be bf bg bh bi bj bn bo br bs bt bw by bz ca cd cf cg ch ci cl cm cn co cr cu cv cy cz de dj dk dm do dz ec ee eg eh er es et fi fj fk fm fr ga gb gd ge gh gl gm gn gq gr gt gw gy hk hn hr ht hu id ie il in iq ir is it jm jo jp ke kg kh ki km kn kp kr kw kz la lb lc li lk lr ls lt lu lv ly ma mc md me mg mh mk ml mm mn mr mt mu mv mw mx my mz na nc ne ng ni nl no np nr nz om pa pe pg ph pk pl pr ps pt pw py qa ro rs ru rw sa sb sc sd se sg sh si sk sl sm sn so sr ss st sv sy sz td tg th tj tk tl tm tn to tr tt tv tw tz ua ug us uy uz va vc ve vn vu ws ye za zm zw".split(" "));
+export const flagUrl = (code) => (FLAG_CODES.has(code) ? `${import.meta.env.BASE_URL}flags/${code}.svg` : "");
 
-export const flagUrl = (code) => FLAGS[code] || "";
+// Wikimedia serves pre-scaled thumbnails at fixed widths. Grid tiles are
+// ~150–250px wide, so a 500px thumb stays sharp on retina screens while being a
+// fraction of the 960px / full-resolution files stored in recipes.js.
+export function wikimediaThumb(url, width) {
+  if (!url || !url.startsWith("https://upload.wikimedia.org/wikipedia/commons/")) return url;
+  const thumb = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/.+\/)\d+px-([^/]+)$/);
+  if (thumb) return `${thumb[1]}${width}px-${thumb[2]}`;
+  const orig = url.match(/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/([0-9a-f]\/[0-9a-f]{2}\/([^/]+))$/);
+  if (orig) return `https://upload.wikimedia.org/wikipedia/commons/thumb/${orig[1]}/${width}px-${orig[2]}`;
+  return url;
+}
 export const p2 = (n) => String(n).padStart(2, "0");
 export const fd = (iso) => { try { return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }); } catch { return ""; } };
 
