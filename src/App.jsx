@@ -97,8 +97,19 @@ export function App() {
   // Combine search + status filter; this is what actually gets grouped by continent
   const visible = filtered.filter(matchesStatus);
 
-  // Collapse-all support: which continents are currently shown, and are they all collapsed?
-  const shownContinents = CONTINENT_ORDER.filter(cont => visible.some(r => CONTINENTS[r.id] === cont));
+  // Most recently cooked dishes across every region (they also stay in their own region below)
+  const RECENT_KEY = "Recently cooked";
+  const RECENT_LIMIT = 6;
+  const recent = visible
+    .filter(r => log[r.id]?.cooked && log[r.id]?.cookedDate)
+    .sort((a, b) => new Date(log[b.id].cookedDate) - new Date(log[a.id].cookedDate))
+    .slice(0, RECENT_LIMIT);
+
+  // Collapse-all support: which sections are currently shown, and are they all collapsed?
+  const shownContinents = [
+    ...(recent.length > 0 ? [RECENT_KEY] : []),
+    ...CONTINENT_ORDER.filter(cont => visible.some(r => CONTINENTS[r.id] === cont)),
+  ];
   const allCollapsed = shownContinents.length > 0 && shownContinents.every(c => collapsedRegions[c]);
   const setAllCollapsed = (collapse) => {
     if (collapse) {
@@ -109,6 +120,39 @@ export function App() {
       setCollapsedRegions({});
     }
   };
+
+  const renderCard = (r) => {
+    const cooked = !!log[r.id]?.cooked;
+    return (
+      <button key={r.id} data-numeric={r.numericCode} onClick={() => setSel(r.id)}
+        onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = SHADOW.tileHover; setMapHighlight(r.numericCode); }}
+        onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = SHADOW.tile; setMapHighlight(null); }}
+        style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `3px solid ${C.acc}` : `1px solid ${C.line}`, outline: cooked ? `3px solid ${C.accSoft}` : "none", borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
+        <DishImage recipe={r} photo={log[r.id]?.photo} showLabel={false} />
+        {/* Bottom scrim + country/dish labels (+ rating/date for cooked) */}
+        <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "10px 12px", background: "linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.05) 78%, transparent)", pointerEvents: "none" }}>
+          <span style={{ fontSize: 10, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: "rgba(255,255,255,0.82)", lineHeight: 1.2 }}>{r.country}</span>
+          <span style={{ fontSize: 13, fontWeight: 600, color: "white", lineHeight: 1.25, textShadow: "0 1px 3px rgba(0,0,0,0.4)" }}>{r.dish}</span>
+          {cooked && log[r.id]?.rating > 0 && (
+            <div style={{ display: "flex", gap: 1, marginTop: 4 }}>
+              {[1,2,3,4,5].map(n => (
+                <StarFill key={n} fill={Math.min(1, Math.max(0, log[r.id].rating - (n - 1)))} size={11} emptyColor="rgba(255,255,255,0.35)" />
+              ))}
+            </div>
+          )}
+          {cooked && log[r.id]?.cookedDate && (
+            <div style={{ fontSize: 9, fontWeight: 500, letterSpacing: "0.04em", color: "rgba(255,255,255,0.78)", marginTop: 3 }}>{fd(log[r.id].cookedDate)}</div>
+          )}
+        </div>
+        {/* Cooked checkmark badge */}
+        {cooked && (
+          <span style={{ position: "absolute", top: 8, right: 8, width: 22, height: 22, background: C.secondary, color: "white", borderRadius: "50%", fontSize: 12, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 5px rgba(0,0,0,0.3)", zIndex: 2 }}>✓</span>
+        )}
+      </button>
+    );
+  };
+
+  const gridStyle = { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(152px, 1fr))", gap: 14 };
 
   const adminDot = isAdmin && (
     <div title="Admin mode" style={{ position: "fixed", top: 14, right: 14, width: 11, height: 11, borderRadius: "50%", background: "#FF5A5F", boxShadow: "0 0 0 4px rgba(255,90,95,0.25)", zIndex: 1000 }} />
@@ -201,7 +245,28 @@ export function App() {
                 : "No dishes to show."}
             </div>
           ) : (
-            CONTINENT_ORDER.filter(cont => visible.some(r => CONTINENTS[r.id] === cont)).map(continent => {
+            <>
+            {recent.length > 0 && (() => {
+              const collapsed = !!collapsedRegions[RECENT_KEY];
+              return (
+                <div style={{ marginBottom: 40 }}>
+                  <button
+                    onClick={() => toggleRegion(RECENT_KEY)}
+                    style={{ width: "100%", background: "none", border: "none", padding: 0, cursor: "pointer", textAlign: "left", fontFamily: "inherit", display: "flex", alignItems: "center", gap: 16, marginBottom: collapsed ? 0 : 20, paddingBottom: 12 }}
+                  >
+                    <h2 style={{ fontSize: 22, fontWeight: 800, color: C.ink, flexShrink: 0 }}>{RECENT_KEY}</h2>
+                    <div style={{ flex: 1, height: 1, background: C.divider }} />
+                    <span style={{ fontSize: 16, color: C.inkMute, transition: "transform 0.2s", transform: collapsed ? "rotate(-90deg)" : "rotate(0deg)", display: "inline-block", flexShrink: 0 }}>▾</span>
+                  </button>
+                  {!collapsed && (
+                    <div style={gridStyle}>
+                      {recent.map(renderCard)}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+            {CONTINENT_ORDER.filter(cont => visible.some(r => CONTINENTS[r.id] === cont)).map(continent => {
               const group = visible
                 .filter(r => CONTINENTS[r.id] === continent)
                 .slice()
@@ -231,42 +296,14 @@ export function App() {
                     <span style={{ fontSize: 16, color: C.inkMute, transition: "transform 0.2s", transform: collapsed ? "rotate(-90deg)" : "rotate(0deg)", display: "inline-block", flexShrink: 0 }}>▾</span>
                   </button>
                   {!collapsed && (
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(152px, 1fr))", gap: 14 }}>
-                    {group.map((r) => {
-                      const cooked = !!log[r.id]?.cooked;
-                      return (
-                        <button key={r.id} data-numeric={r.numericCode} onClick={() => setSel(r.id)}
-                          onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = SHADOW.tileHover; setMapHighlight(r.numericCode); }}
-                          onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = SHADOW.tile; setMapHighlight(null); }}
-                          style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `3px solid ${C.acc}` : `1px solid ${C.line}`, outline: cooked ? `3px solid ${C.accSoft}` : "none", borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
-                          <DishImage recipe={r} photo={log[r.id]?.photo} showLabel={false} />
-                          {/* Bottom scrim + country/dish labels (+ rating/date for cooked) */}
-                          <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "10px 12px", background: "linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.05) 78%, transparent)", pointerEvents: "none" }}>
-                            <span style={{ fontSize: 10, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: "rgba(255,255,255,0.82)", lineHeight: 1.2 }}>{r.country}</span>
-                            <span style={{ fontSize: 13, fontWeight: 600, color: "white", lineHeight: 1.25, textShadow: "0 1px 3px rgba(0,0,0,0.4)" }}>{r.dish}</span>
-                            {cooked && log[r.id]?.rating > 0 && (
-                              <div style={{ display: "flex", gap: 1, marginTop: 4 }}>
-                                {[1,2,3,4,5].map(n => (
-                                  <StarFill key={n} fill={Math.min(1, Math.max(0, log[r.id].rating - (n - 1)))} size={11} emptyColor="rgba(255,255,255,0.35)" />
-                                ))}
-                              </div>
-                            )}
-                            {cooked && log[r.id]?.cookedDate && (
-                              <div style={{ fontSize: 9, fontWeight: 500, letterSpacing: "0.04em", color: "rgba(255,255,255,0.78)", marginTop: 3 }}>{fd(log[r.id].cookedDate)}</div>
-                            )}
-                          </div>
-                          {/* Cooked checkmark badge */}
-                          {cooked && (
-                            <span style={{ position: "absolute", top: 8, right: 8, width: 22, height: 22, background: C.secondary, color: "white", borderRadius: "50%", fontSize: 12, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 5px rgba(0,0,0,0.3)", zIndex: 2 }}>✓</span>
-                          )}
-                        </button>
-                      );
-                    })}
+                  <div style={gridStyle}>
+                    {group.map(renderCard)}
                   </div>
                   )}
                 </div>
               );
-            })
+            })}
+            </>
           )}
         </div>
       </div>
