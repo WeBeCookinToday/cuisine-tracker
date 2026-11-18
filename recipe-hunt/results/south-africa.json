@@ -1,0 +1,125 @@
+{
+  "id": "south-africa",
+  "country": "South Africa",
+  "dish": "Bobotie",
+  "aliases": [
+    "bobotie",
+    "bobotjie",
+    "Cape Malay bobotie",
+    "boboti"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://thecinnamonjar.com/easy-south-african-bobotie/",
+    "title": "Traditional South African Bobotie",
+    "source": "The Cinnamon Jar (Maretha Corbett)",
+    "score": 74,
+    "scores": {
+      "authenticity": 21,
+      "precision": 15,
+      "testing": 14,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional build: soaked bread, curry, fruit chutney, apricot jam, sultanas, bay leaves, turmeric egg custard. Author calls herself a fellow South African and gives her family's version. Origins section is brief (Cape Malay link, every family differs).",
+      "precision": "Metric and US units for milk, mince (1 kg) and sultanas. Onions given as 'medium'. 30x20 cm dish. Cues: onions 'soft and translucent', mince 'lost its pinkness', custard 'just set and golden', 10-15 min rest. Only 1 ingredient has a true weight, and spices are in spoons. Oven temperature given in C and F.",
+      "testing": "Rating 4.99 from 181 ratings. Troubleshooting covers scrambled custard (cool the mince 5-10 min first), dry bobotie (use medium-fat mince, keep the bread) and too sweet. Explains that the egg stirred into the mince gives a sliceable texture. Home-cook testing, not a test kitchen.",
+      "photos": "Per WebFetch, most steps have a photo, from soaking the bread through pouring the custard and placing the bay leaves. Schema has no step images.",
+      "efficiency": "Bread soaks while the mince cooks. Single pan plus one dish. About 1h20 total, realistic. One extra step: the egg stirred into the mince.",
+      "access": "Mrs Ball's chutney is the classic choice, but mango or peach chutney works. Apricot jam and Worcestershire sauce are in any US grocery. No hard-to-find items."
+    },
+    "why": "It has the most traditional method, a large base of positive reviews (181 at 4.99), real troubleshooting and step photos, which the runner-up and the weighted-metric Pants Down recipe lack in combination."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/4926-bobotie",
+    "title": "Bobotie",
+    "source": "NYT Cooking (Marian Burros, Gramadoelas restaurant)",
+    "score": 70,
+    "scores": {
+      "authenticity": 22,
+      "precision": 12,
+      "testing": 14,
+      "photos": 10,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Recipe from Gramadoelas, a well-known Johannesburg restaurant. Classic lamb, curry, bread, apple, raisins, almonds, bay leaves, milk and egg topping.",
+      "precision": "Cups and spoons only. '1 Granny Smith apple', no dish size. Cues such as 'soft and translucent' and 'browned and firm' are present, and the oven is at 350 F.",
+      "testing": "99 ratings at 5.0 and NYT editorial process.",
+      "photos": "Not visible through read. NYT content may be hidden behind the login, so this was not marked down heavily.",
+      "efficiency": "Concise 1-hour recipe. The bread-squeeze step is standard.",
+      "access": "Everything is at a US grocery."
+    },
+    "why": "Authentic and well rated, but it has fewer doneness cues and no dish size, and its photos can't be confirmed."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://thecinnamonjar.com/easy-south-african-bobotie/",
+      "source": "The Cinnamon Jar",
+      "score": 74
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/4926-bobotie",
+      "source": "NYT Cooking (Burros)",
+      "score": 70
+    },
+    {
+      "url": "https://www.pantsdownapronson.com/south-african-bobotie-recipe/",
+      "source": "PantsDownApronsOn (Charle Visser)",
+      "score": 66
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/769017919-bobotie-meat-and-egg-casserole",
+      "source": "NYT Cooking (Komolafe)",
+      "score": 63
+    },
+    {
+      "url": "https://drizzleanddip.com/2018/09/26/traditional-south-african-bobotie-with-fragrant-yellow-rice/",
+      "source": "Drizzle and Dip (Sam Linsell)",
+      "score": 62
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/bobotie",
+      "source": "BBC Good Food",
+      "score": 61
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1558-bobotie-the-boschendals-recipe",
+      "source": "NYT Cooking (Boschendal)",
+      "score": 57
+    },
+    {
+      "url": "https://www.panningtheglobe.com/bobotie/",
+      "source": "Panning the Globe",
+      "score": 55
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Bobotie\"",
+    "Bobotie recipe",
+    "traditional South African bobotie recipe Cape Malay"
+  ],
+  "notes": "Searches were English only. The dish name is the same in South Africa, so no separate native-language search was run. Most English versions agree on the core: curried mince, bread soaked in milk, fruit and chutney, bay leaves and a custard top. Pants Down (66) has weights for 20 ingredients and a yellow rice recipe, but its step order is muddled and its photos could not be confirmed. If a yellow rice companion is wanted, that page covers it. The NYT Komolafe version uses garam masala and a larger egg custard, so it is a looser variant.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:56.322Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Traditional South African Bobotie",
+      "rating": 4.99,
+      "ratingCount": 181
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Bobotie",
+      "rating": 5,
+      "ratingCount": 99
+    }
+  }
+}

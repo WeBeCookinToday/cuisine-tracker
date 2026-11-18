@@ -1,0 +1,192 @@
+{
+  "id": "uganda",
+  "country": "Uganda",
+  "dish": "Luwombo",
+  "aliases": [
+    "Oluwombo",
+    "Oluwombo (Luganda)",
+    "Chicken luwombo",
+    "Groundnut luwombo",
+    "Ugandan steamed banana-leaf stew"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://worldof-cooking.blogspot.com/2012/03/day-184-uganda-chicken-luwombo-up-next.html",
+    "title": "Day 184! Uganda ~ Chicken Luwombo",
+    "source": "What's Cooking in Your World? (Sarah Commerford), on worldof-cooking.blogspot.com",
+    "score": 55,
+    "scores": {
+      "authenticity": 15,
+      "precision": 9,
+      "testing": 8,
+      "photos": 11,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Groundnut-sauce luwombo (ground peanuts, tomato, onion, mushrooms, optional smoked fish) wrapped in banana leaf, tied and steamed, with plantains steamed alongside and mashed as the starch, which matches the Buganda format. The dish was chosen by the author's Ugandan friend Josh and adapted from the Uganda Visit and Travel Guide. The author is a US blogger, not Ugandan. The page gives general Ugandan food background, not the dish's Buganda/royal roots. The charcoal steam is replaced by a casserole with a trivet.",
+      "precision": "Volumes and weights: 2 lb meat, 1 cup ground unsalted peanuts, 1 cup mushrooms, 4 plantains, 1 stock cube. Onions and tomatoes are counted (2, 4) with no sizes. No pan sizes and no temperatures. The only cues are 'browned but not fully cooked', 'smooth sauce', 'tie carefully so leaves don't tear' and 'steam at least one hour'. There is no doneness check for the meat or plantains.",
+      "testing": "The author cooked it herself, and the photos show it. Her notes explain a few choices: unsalted peanuts or natural peanut butter, semi-ripe plantains because they are sweeter, and packed leaves to save prep. There is no test-kitchen rigor and no troubleshooting. The page has no reader comments.",
+      "photos": "13 images, 11 of them captioned step photos: chicken thighs, ground peanuts, tomato-onion sauce, sliced mushrooms, plantains, leaves and string, meat mound on leaf, folded packet, tied packet, steamer basket in the pot, and the opened packet served on mashed plantain. The key assembly and steaming stages are covered.",
+      "efficiency": "About 1 hour of steaming. Meat is pre-browned, and plantains cook in the same pot as the packets. No prep or total time is stated. It uses stove or oven-friendly equipment, with no charcoal and no hours-long steam.",
+      "access": "Banana leaves are the only hard item. The page gives subs (dock leaves, greaseproof paper) and names packed Goya leaves. Smoked fish and mushrooms are optional, and natural peanut butter can replace the ground peanuts."
+    },
+    "why": "It is the only recipe I read that is a real groundnut-style luwombo with step-by-step photos of the wrapping and steaming, but it still falls short of 60 on Precision and Testing."
+  },
+  "runnerUp": {
+    "url": "https://ethnicfoodsrus.com/chicken-luwombo-ugandan-style-recipe",
+    "title": "Chicken Luwombo Ugandan Style Recipe",
+    "source": "Ethnic Foods R Us (Marvin Wilson)",
+    "score": 50,
+    "scores": {
+      "authenticity": 15,
+      "precision": 14,
+      "testing": 7,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Same groundnut, mushroom and smoked-fish format, in palm oil. States that chicken is the most traditional version and that banana leaves are needed for authentic flavor. The author is not Ugandan, and the method reads as an adaptation of the Commerford recipe.",
+      "precision": "2 lb chicken, 1 lb smoked fish, 1 cup peanuts, 2 medium onions, 4 blanched tomatoes, 3 plantains in 1-inch chunks. It gives heat levels (medium-high, medium, 'lively simmer'), times (onions 8-10 min, mushrooms 5 min, steam 1 hour) and cues (browned but not cooked, caramelized, thick smooth sauce, leaves pliable). No pan sizes.",
+      "testing": "Explains wrapping in two or three layers for safety. Three positive reader comments, with no star ratings.",
+      "photos": "One finished-dish photo only.",
+      "efficiency": "About 1 hour of steaming. Plantains go in the packets.",
+      "access": "Foil replaces banana leaves, and packaged pre-trimmed leaves are mentioned."
+    },
+    "why": "Its cues are somewhat clearer than the winner's, but it has no process photos and is itself a derivative of the same recipe."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://worldof-cooking.blogspot.com/2012/03/day-184-uganda-chicken-luwombo-up-next.html",
+      "source": "What's Cooking in Your World? (Sarah Commerford)",
+      "score": 55
+    },
+    {
+      "url": "https://ethnicfoodsrus.com/chicken-luwombo-ugandan-style-recipe",
+      "source": "Ethnic Foods R Us (Marvin Wilson)",
+      "score": 50
+    },
+    {
+      "url": "https://togetherwomenrise.org/the-proven-platter-ugandan-luwombo/",
+      "source": "Together Women Rise (Linda McElroy), adapted from What's Cooking in Your World",
+      "score": 47
+    },
+    {
+      "url": "https://news.kiu.ac.ug/kiu-cuisine-luwombo-will-drive-your-tastebuds-insane",
+      "source": "KIU News, credited to Slow Foods Uganda",
+      "score": 45
+    },
+    {
+      "url": "https://www.saffronkitchenproject.org/journal/kimuli-s-luwombo-chicken",
+      "source": "Saffron Kitchen Project (credited to Chef Kimuli)",
+      "score": 44
+    },
+    {
+      "url": "https://globalpressjournal.com/africa/uganda/steamed-perfection-luwombo-healthy-dish-touch-home/",
+      "source": "Global Press Journal (Edna Namara)",
+      "score": 43
+    },
+    {
+      "url": "https://www.food.com/recipe/oluwombo-455208",
+      "source": "Food.com (Studentchef)",
+      "score": 38
+    },
+    {
+      "url": "https://pearlandclassicza.blogspot.com/2013/09/how-to-prepare-uganda-luwombo-recipe.html",
+      "source": "Pearl and Classicza blog (author unknown)",
+      "score": 36,
+      "disqualified": "Copy of the Send a Cow / Commerford recipe, and the quantities look wrong (800 g peanut butter to 1 kg meat). Scored for reference only."
+    },
+    {
+      "url": "https://cupofyum.com/recipes/luwombo",
+      "source": "Cup of Yum (Heidi Matthews)",
+      "score": 36,
+      "disqualified": "Re-post of the same recipe; no process photos in the schema; 2 ratings."
+    },
+    {
+      "url": "https://travelfoodatlas.com/ugandan-luwombo-meat-in-banana-leaves-recipe",
+      "source": "Travel Food Atlas",
+      "score": 33,
+      "disqualified": "No amounts on any ingredient (counts only), and it uses Royco and margarine with pre-roasted chicken."
+    },
+    {
+      "url": "https://nilepost.co.ug/news/37860/how-to-make-the-royal-dish-of-luwombo",
+      "source": "Nile Post (Nabukenya Aminah)",
+      "score": 33,
+      "disqualified": "No amounts for most ingredients; 6-hour steam with no cues."
+    },
+    {
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Luwombo_(Ugandan_Steamed_Meat_and_Vegetables)",
+      "source": "Wikibooks (no named author)",
+      "score": 32,
+      "disqualified": "Fusion version (coconut milk, cassava, eggplant), and it steams the stew before wrapping. It has no photos."
+    },
+    {
+      "url": "https://ensubuga22.medium.com/how-to-enjoy-the-luwombo-a-ugandan-chicken-curry-recipe-a8bb1498278a",
+      "source": "Medium (Enock Nsubuga)",
+      "score": 31,
+      "disqualified": "Curry-masala and garam-masala chicken with potatoes, with no groundnut sauce. It is more a variant of the dish than the classic."
+    },
+    {
+      "url": "https://jentastingtheworldrecipes.blogspot.com/2014/01/luwombo-uganda.html",
+      "source": "Jen Tasting the World",
+      "score": 28,
+      "disqualified": "Grapevine leaves and oven-baked at 110 degrees, with no unit; the author is unsure of the method."
+    },
+    {
+      "url": "https://theafrikanstore.com/blogs/recipes/ugandan-luwombo-banana-leaf-recipe",
+      "source": "The Afrikan Store",
+      "score": 25,
+      "disqualified": "No ingredient amounts except 1 cup groundnut paste."
+    },
+    {
+      "url": "https://nexusmedia.ug/preparing-delicious-chicken-luwombo-in-buganda",
+      "source": "Nexus Media (Our Reporter)",
+      "score": 30,
+      "disqualified": "No ingredient amounts."
+    },
+    {
+      "url": "https://afrotools.com/tools/afrokitchen/recipes/luwombo/",
+      "source": "AfroTools / AfroKitchen",
+      "score": 36,
+      "disqualified": "Likely generated content on a tool site: no human author, and raw ingredients are mixed straight into the parcels."
+    },
+    {
+      "url": "https://nationaldishrecipes.com/national-dish-uganda-luwombo-recipe/",
+      "source": "National Dish Recipes (Axel)",
+      "score": 30,
+      "disqualified": "Likely a content farm: generic text, 1-2 servings, and a 'steam 1-2 hours' step with no cues."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Luwombo\"",
+    "node scripts/recipe-hunt.mjs sites \"oluwombo\"",
+    "node scripts/recipe-hunt.mjs sites \"Ugandan chicken banana leaf\"",
+    "Luwombo recipe Uganda",
+    "Luwombo steamed banana leaf chicken groundnut sauce Buganda recipe",
+    "oluwombo recipe groundnut chicken banana leaf Ugandan food blog",
+    "Immaculate Bites OR \"Chef Lola's Kitchen\" OR \"African Bites\" luwombo chicken groundnut banana leaves recipe",
+    "luwombo how to make step by step photos Ugandan cook blog steam banana leaf parcels foil substitute",
+    "\"What's Cooking in Your World\" Uganda Luwombo",
+    "luwombo recipe binyeebwa groundnut sauce chicken banana leaf parcels step by step Ugandan chef",
+    "Ugandan chicken luwombo recipe blog groundnut paste matooke steamed banana leaf \"luwombo\" cups grams"
+  ],
+  "notes": "No luwombo recipe reaches 60. Serious Eats, NYT Cooking, ATK and BBC Good Food have no luwombo recipe; the sites search for 'Luwombo' and 'oluwombo' returned nothing. Many web recipes trace back to one source: the Sarah Commerford / What's Cooking in Your World recipe, which was itself adapted from a Send a Cow / Uganda Visit and Travel Guide text. Togetherwomenrise, Saffron Kitchen Project, Pearl and Classicza, Food.com, Cup of Yum and Ethnic Foods R Us carry near-identical methods. The winner is the version with the process photos. I could not confirm that worldof-cooking.blogspot.com is the blog's original home: the page credits Commerford and the blog name, but lists the poster as 'asd'. The more traditional Ugandan sources (KIU/Slow Foods Uganda, GPJ, Nile Post) use a fuller method: smoked or sun-wilted leaves, a 3-6 hour steam over a charcoal stove, and often no groundnut. They give few amounts, no doneness cues and no process photos. If the user wants a more authentic result, the best route is to cook the Commerford recipe and adopt the KIU leaf-prep notes (wilt, smoke over dried leaves, remove the midrib, keep a spare leaf). Several pages could not be verified and are left out of the candidates: the Daily Monitor 'Tasty chicken luwombo' and the dispatch.ug recipes returned 404; thepearlmagazine.com did not resolve; funtimesmagazine.com and ugandaholidayguide.com failed to fetch; a Ugandan traditional-foods cookbook PDF at eresourcesforhealth.org loaded but was unreadable binary. Those may hold better Ugandan-authored recipes if a human can open them.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-18T21:18:02.352Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

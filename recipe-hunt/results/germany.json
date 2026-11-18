@@ -1,0 +1,174 @@
+{
+  "id": "germany",
+  "country": "Germany",
+  "dish": "Sauerbraten",
+  "aliases": [
+    "Rheinischer Sauerbraten",
+    "Sauerbraten nach rheinischer Art",
+    "Soorbrode",
+    "German pot roast",
+    "marinated pot roast"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.daringgourmet.com/authentic-german-sauerbraten/",
+    "title": "Authentic Sauerbraten",
+    "source": "The Daring Gourmet (Kimberly Killebrew)",
+    "score": 76,
+    "scores": {
+      "authenticity": 22,
+      "precision": 15,
+      "testing": 16,
+      "photos": 11,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Traditional wine-and-vinegar marinade with juniper, cloves, bay, leek and root vegetables; marinates 4 to 7 days (notes traditionally up to 2 weeks); gravy built from the strained marinade, raisins, honey and crushed gingersnaps. Author grew up in southern Germany and cooked it with her mother and grandmother (per WebFetch of the page). Post covers history (horse meat originally, beef now standard) and how the sweetener varies by region (gingersnaps, raisins, honey, sugar beet syrup, Lebkuchen).",
+      "precision": "Exact volumes for all liquids (2 1/2 cups wine, 1 cup vinegar, 1 1/2 cups water); roast in pounds (4 lb) and gingersnaps in ounces (3 oz), so only 2 of 21 ingredients carry weights. Produce sized only as 'large' (onions, carrots, leek). Doneness cues: 'generously brown on all sides', fork-tender, internal temperature 190-200 F, simmer 2-4 hours and check periodically. No pot size (heavy stock pot or Dutch oven) and no oven temperature (low stovetop simmer). Vegetable and flour steps are time-only (5-7 min, 1-2 min).",
+      "testing": "Author explains why the cut is tough/traditional (rump, bottom round), why connective tissue needs 190-200 F, why a longer marinade shortens cook time, why sweet balances sour, why gingersnaps thicken. Limited troubleshooting (dilute if too sour, cornstarch slurry if too thin). Schema shows 4.98 average from 313 ratings; WebFetch reported about 500 comments.",
+      "photos": "About 9 step-by-step process photos (marinade prep, marinating, straining, browning, gravy, slicing) plus 5-6 hero shots, per WebFetch estimate from image filenames and alt text. Not eyeballed myself. Schema has 0 step images; page has 44 images.",
+      "efficiency": "Roughly 30-45 minutes of hands-on work spread over a 4 to 7 day marinade; one pot; 2-4 hour braise. Stated times are realistic and honestly flagged as variable. Minor extra work: rinsing the pot between marinating and searing, optional bacon step.",
+      "access": "Everything is at a US supermarket. Notes give substitutions: omit juniper berries if unavailable, chuck roast for round/rump, Lebkuchen or honey cake in place of gingersnaps, sugar beet syrup in place of honey, cornstarch in place of flour."
+    },
+    "why": "It scores about the same on authenticity as the runner-up but has an internal-temperature doneness cue (190-200 F) and 313 ratings averaging 4.98, where Plated Cravings has no ratings and a time-only braise."
+  },
+  "runnerUp": {
+    "url": "https://platedcravings.com/sauerbraten/",
+    "title": "German Sauerbraten Recipe",
+    "source": "Plated Cravings (Julia Foerster)",
+    "score": 74,
+    "scores": {
+      "authenticity": 23,
+      "precision": 14,
+      "testing": 14,
+      "photos": 12,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Franconian family recipe from an author who says she grew up in Franconia, Bavaria. 3 to 5 day wine-and-vinegar marinade with juniper, allspice, cloves and celery root; sauce flavored with German gingerbread spice (Sossenlebkuchen style) and optionally thickened with German bread; deliberately avoids gingersnaps. Compares Rhineland (sweeter, raisins, beet syrup) with Franconian style.",
+      "precision": "6-quart Dutch oven; oven 320 F / 160 C; 3 lb roast; vegetables cut in 1-inch chunks; sear 'until nicely browned'; reduce gravy about 5 minutes. Only 1 ingredient with a weight and onions sized only as 'medium'. The braise steps in the schema are time-only (2 hours, then 1 more hour). WebFetch reports a fork-tender cue in the prose, which I did not see in the step text. Metric amounts are behind a toggle, not in the text.",
+      "testing": "States why: 4:1 wine to vinegar keeps it tender without too much acid, why chuck, why not balsamic, why no gingersnaps; troubleshooting for sour sauce, thin sauce, marinade submersion, and a 5-day marinade limit. Page shows no ratings or reviews.",
+      "photos": "About 8 process photos, one per step, plus a finished-plate shot and about 3 hero shots (WebFetch estimate, not eyeballed). Schema has 0 step images.",
+      "efficiency": "60 min prep and 3.5 hours cook are stated; oven braise means little active work. Marinade is boiled then cooled, which is slightly more work than a cold marinade.",
+      "access": "Sossenlebkuchen-style gingerbread spice is hard to find in the US, but a homemade blend is given in the notes. Celery root has a parsley-root or omit substitute. No substitute is given for juniper berries."
+    },
+    "why": "Slightly better on authenticity and photos, but it loses on precision (time-only braise steps) and has no reader ratings to back it."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.daringgourmet.com/authentic-german-sauerbraten/",
+      "source": "The Daring Gourmet",
+      "score": 76
+    },
+    {
+      "url": "https://platedcravings.com/sauerbraten/",
+      "source": "Plated Cravings",
+      "score": 74
+    },
+    {
+      "url": "https://mydinner.co.uk/sauerbraten/",
+      "source": "My Dinner (Marita Sinden)",
+      "score": 72
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/6175-german-pot-roast-sauerbraten",
+      "source": "America's Test Kitchen",
+      "score": 67
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/6503-rhineland-sauerbraten",
+      "source": "NYT Cooking (Mimi Sheraton)",
+      "score": 66
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/sauerbraten1-2131081",
+      "source": "Food Network (Molly Stevens)",
+      "score": 62
+    },
+    {
+      "url": "https://www.quick-german-recipes.com/sauerbraten-recipe.html",
+      "source": "Quick German Recipes (Gerhild Fulson)",
+      "score": 58
+    },
+    {
+      "url": "https://thepeasantsdaughter.net/german-sauerbraten-roast/",
+      "source": "The Peasant's Daughter",
+      "score": 57
+    },
+    {
+      "url": "https://altonbrown.com/recipes/sauerbraten/",
+      "source": "Alton Brown (Aidas Ciziunas)",
+      "score": 54
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/pickled-beef-roast-sauerbraten/cw5fo01lt",
+      "source": "SBS Food (Angela Nahas)",
+      "score": 52
+    },
+    {
+      "url": "https://kitchenproject.com/german/recipes/Sauerbraten/Rheinischer-Sauerbraten/PF.htm",
+      "source": "Kitchen Project",
+      "score": 50
+    },
+    {
+      "url": "https://www.lecker.de/rheinischer-sauerbraten-27161.html",
+      "source": "Lecker (German)",
+      "score": 48
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/9431-sauerbraten",
+      "source": "NYT Cooking (Stephen Kinzer, Berghoff)",
+      "score": 39
+    },
+    {
+      "url": "https://www.koeln.de/leben/ll/koelsche-rezepte/rheinischer-sauerbraten-soorbrode/",
+      "source": "koeln.de (Brauhaus zum Prinzen)",
+      "score": 39
+    },
+    {
+      "url": "https://dinnerthendessert.com/german-sauerbraten/",
+      "source": "Dinner, then Dessert",
+      "score": 38
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/4562-sauerbraten",
+      "source": "NYT Cooking (Moira Hodgson)",
+      "score": 33
+    },
+    {
+      "url": "https://magazine.cologne-tourism.com/culinary/rheinischer-sauerbraten-reloaded-recipe-by-pottkind-chef-enrico-sablotny/",
+      "source": "Cologne Tourism magazine",
+      "score": 0,
+      "disqualified": "Not the dish: a modern ox-cheek ragout 'reloaded' version served with pasta, and marinade is overnight only."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Sauerbraten\"",
+    "Sauerbraten recipe",
+    "Rheinischer Sauerbraten Rezept",
+    "authentic German sauerbraten recipe Germany-born cook marinade days gingersnap gravy tested",
+    "Sauerbraten Oma recipe German-born blogger step by step photos marinade 3 days",
+    "Sauerbraten Saveur OR \"Bon Appétit\" OR \"Food & Wine\" OR \"Epicurious\" recipe",
+    "Sauerbraten Rezept Omas Beize Schritt für Schritt Bilder Soßenlebkuchen"
+  ],
+  "notes": "Top three are close (76 / 74 / 72), so any of them would be a defensible pick; Daring Gourmet wins on its internal-temperature cue and its 313 ratings. None of the three gives an oven temperature and pot size together with doneness cues for the braise. Photo counts for Daring Gourmet, Plated Cravings and My Dinner are WebFetch estimates from image filenames and alt text, not confirmed by eye. Serious Eats and BBC Good Food have no Sauerbraten. ATK's version cuts the marinade to 4-24 hours and adds prunes, so it is a shortcut; the NYT Hodgson and Kinzer versions use soy, Worcestershire, tomato puree or Kitchen Bouquet and are Americanized. Several sites returned 403, 404 or 410 to `read` and were left out because they could not be scored: View from Great Island, House of Nash Eats, Dirndl Kitchen, Sip and Feast, International Cuisine, Chef's Pencil and Kitchen Stories. For the app, ingredient-line substitutions worth adding: juniper berries (omit, or a little crushed black pepper), gingersnaps or Biscoff for Lebkuchen/Sossenlebkuchen, and sugar beet syrup (honey).",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:48.866Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Authentic Sauerbraten",
+      "rating": 4.98,
+      "ratingCount": 313
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "German Sauerbraten Recipe"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "dr-congo",
+  "country": "DR Congo",
+  "dish": "Moambe Chicken",
+  "aliases": [
+    "Poulet à la Moambé",
+    "Poulet Moambé",
+    "Poulet Moambe",
+    "Mwambe",
+    "Moamba",
+    "Muamba de galinha (Angola)",
+    "Poulet Nyembwe (Gabon)",
+    "Muamba nsusu / Mwambe Nsusu (peanut version, Congo-Brazzaville)"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://explorers.kitchen/recipes/mains/moambe-chicken/",
+    "title": "Moambe Chicken (Poulet à la Moambé)",
+    "source": "Explorers Kitchen (Patrick Jaszewski)",
+    "score": 56,
+    "scores": {
+      "authenticity": 14,
+      "precision": 17,
+      "testing": 11,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Peanut-butter version (adapted from Margarita's International Recipes) cooked in red palm oil, so it is the Mwambe Nsusu variant rather than the palm-nut-cream original. The author is a Minnesota-born home cook, not Congolese. His post separates DR Congo from Republic of Congo, notes French and Belgian influence and the starch-plus-sauce meal pattern, and includes a Dec 2016 update after a reader (Elena) pointed out that palm oil/palm nut cream is the moambe and peanuts are less common than he assumed.",
+      "precision": "Metric given for 6 of 11 ingredients (88 ml palm oil, 170 g paste, 411 g tomatoes, 237 ml water, 125 g peanut butter, 1.4-2 kg chicken). Onions sized only as '2 medium'. A cue or time on all 9 steps: oil 'shimmering, almost smoking', sear 4-5 min per side until golden, onions golden, garlic 30 sec until fragrant, paste 3 min until it darkens, 20 min covered, 10 min uncovered to 165F (74C). The only vessel named is a heavy Dutch oven, with no size. There is a typo ('2.5mm' ginger).",
+      "testing": "A personal blog with no test kitchen. It does give reasons: very hot palm oil for colour, wiping the pot between batches so drippings don't burn, stirring the paste so the garlic doesn't scorch, mixing the peanut butter into a cup of hot sauce first so it blends, and an instant-read check at 165F. The author revised the post after reader feedback.",
+      "photos": "Two images (a featured shot and one by the palm oil paragraph), no step photos. The author says he will add palm nut cream photos later, but none are there.",
+      "efficiency": "States 15 min prep and 30 min cook (45 min total). Realistically about 55-60 min, since two batches of searing take roughly 20 min. No wasted steps; one pot.",
+      "access": "Red palm oil is named with a US source (Nutiva Organic Red Palm Oil, Amazon or a co-op). Peanut oil is given as a substitute. The rest is ordinary US grocery stock."
+    },
+    "why": "It has the most metric amounts, a cue on every step with a 165F finish, and a reason for each key move, though no candidate reached 60 because every English recipe swaps in peanut butter or gives few cues."
+  },
+  "runnerUp": {
+    "url": "https://sixtocarreon.com/recipes/congolese-chicken-moambe/",
+    "title": "Congolese Chicken Moambe — Palm-Nut Chicken Stew",
+    "source": "Sixto Carreon",
+    "score": 45,
+    "scores": {
+      "authenticity": 13,
+      "precision": 17,
+      "testing": 4,
+      "photos": 1,
+      "efficiency": 8,
+      "access": 2
+    },
+    "evidence": {
+      "authenticity": "Uses real palm-nut concentrate (500 g) as the sauce base, with no peanut butter, so the method is closer to traditional moambe. The author is a Filipino chef based in Singapore, with no Congolese background shown. The page gives no cultural context or dish history.",
+      "precision": "Grams or ml for 9 of 10 ingredients (1,200 g chicken, 500 g concentrate, 250 g onion, 20 g garlic, 300 g tomato, 700 ml liquid, 10 g salt). Only 5 steps, with cues such as 'until pulpy', 'tender and fully cooked' and 'sauce coats the chicken'. No pan size, no temperatures, no heat levels.",
+      "testing": "Labelled 'chef-tested', but the notes are thin: use concentrate not palm oil, stir so the thick sauce doesn't catch, reduce uncovered if loose. The reasoning is barely explained, and the authorship and provenance are not verifiable.",
+      "photos": "One styled plated shot of chicken with rice and saka-saka, no process photos.",
+      "efficiency": "20 min prep and 60 min cook, with a simple one-pot method.",
+      "access": "Palm-nut concentrate or palm butter is the key item. The page says it has no exact substitute and gives no US source."
+    },
+    "why": "It matches the traditional palm-nut sauce method with excellent amounts, but it loses to Explorers Kitchen on cues, reasoning, and access, and its provenance is thin."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://explorers.kitchen/recipes/mains/moambe-chicken/",
+      "source": "Explorers Kitchen (Patrick Jaszewski)",
+      "score": 56
+    },
+    {
+      "url": "https://sixtocarreon.com/recipes/congolese-chicken-moambe/",
+      "source": "Sixto Carreon",
+      "score": 45
+    },
+    {
+      "url": "https://www.nkosiagro.com/en/blogs/blog-and-recipes/recette-moambe",
+      "source": "NKOSI (African grocery retailer blog)",
+      "score": 43
+    },
+    {
+      "url": "https://eatshistory.com/poulet-chicken-moambe-recipe-and-the-tragic-story-of-congos-colonial-past/",
+      "source": "Eats History (Donnie Dodson)",
+      "score": 40
+    },
+    {
+      "url": "https://togetherwomenrise.org/the-proven-platter-democratic-republic-of-congo-drc/",
+      "source": "Together Women Rise (Vinola V. Munyon)",
+      "score": 38
+    },
+    {
+      "url": "https://marga.org/food/int/congo/mwamba.html",
+      "source": "Margarita's International Recipes",
+      "score": 35
+    },
+    {
+      "url": "https://lowcarbafrica.com/moambe-chicken-congo-poulet-moambe/",
+      "source": "Low Carb Africa (Tayo Oredola)",
+      "score": 31
+    },
+    {
+      "url": "https://denvergreenchili.com/recipes/main-courses/chicken/congo-chicken-moambe/",
+      "source": "Denver Green Chili (Anita Edge)",
+      "score": 30
+    },
+    {
+      "url": "https://travelfoodatlas.com/?p=63008",
+      "source": "Travel Food Atlas",
+      "score": 0,
+      "disqualified": "Ingredients and method are near-verbatim from Margarita's / Explorers Kitchen, with no named author"
+    },
+    {
+      "url": "https://martymadeit.com/2017/05/15/039-democratic-republic-of-the-congo-poulet-a-la-moambe/",
+      "source": "Marty Made It",
+      "score": 0,
+      "disqualified": "Credits and copies the food.com recipe (aggregator copy); no process photos"
+    },
+    {
+      "url": "https://eathealthy365.com/authentic-poulet-moambe/",
+      "source": "Flavor365 ('Silas')",
+      "score": 0,
+      "disqualified": "Templated SEO content farm: near-identical sibling titles, unverifiable author, no Congo context; also a fusion (palm concentrate plus peanut butter plus eggplant, bell pepper, scotch bonnet)"
+    },
+    {
+      "url": "https://www.slurrp.com/recipes/poulet-nyembwe-1611331627",
+      "source": "Slurrp",
+      "score": 0,
+      "disqualified": "Generic content-farm text with duplicated steps and no ingredient amounts ('2 cup palm nuts', no chicken weight); 3.9 rating"
+    },
+    {
+      "url": "https://recidemia.com/recipe/MT.004.0680.001",
+      "source": "Recidemia",
+      "score": 0,
+      "disqualified": "Aggregator copy of the Congo Cookbook recipe; 'a very small amount of oil', no real amounts"
+    },
+    {
+      "url": "https://alpharecipes.blogspot.com/2011/09/poulet-moambe-poulet-nyembwe.html",
+      "source": "Alphabetical Recipes (Rossana)",
+      "score": 0,
+      "disqualified": "Copy of the Congo Cookbook text, labelled Gabon; no oil, chile or pan amounts, no photos"
+    },
+    {
+      "url": "https://cookycooky.com/moambe-chicken/",
+      "source": "CookyCooky (Brandi Oshea)",
+      "score": 0,
+      "disqualified": "Mash-up of the Denver Green Chili and Explorers Kitchen texts (palm concentrate, peanut butter and green chiles all together); 1 rating"
+    },
+    {
+      "url": "https://eatthisny.com/recipe/poulet-moambe-from-congo/",
+      "source": "Eat This NY (Brian Hoffman)",
+      "score": 0,
+      "disqualified": "Structured data has no method steps and vague amounts ('1 onion', '2 lb bone-in chicken'); not scored"
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/palm-nut-chicken-curry",
+      "source": "BBC Good Food (Spinach Agushi)",
+      "score": 0,
+      "disqualified": "Not the dish: Ghanaian palm nut and chicken curry (abenkwan-style)"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Moambe Chicken\"",
+    "node scripts/recipe-hunt.mjs sites \"Poulet Moambe\"",
+    "node scripts/recipe-hunt.mjs sites \"moambe\"",
+    "node scripts/recipe-hunt.mjs sites \"palm nut chicken\"",
+    "Moambe Chicken recipe",
+    "poulet à la moambe recette traditionnelle",
+    "Congolese chicken moambe palm nut sauce",
+    "authentic poulet moambé Congolese cook recipe sauce graine palm nut cream grams",
+    "Chicken Moambe Congo national dish recipe Saveur OR Food52 OR \"Afrolems\" OR \"Immaculate Bites\"",
+    "Muamba de galinha OR \"poulet nyembwe\" recipe palm butter Dutch oven step by step photos",
+    "Congolese-born cook poulet moambé recipe \"palm butter\" canned tutorial blog",
+    "congocookbook.com poulet à la moambé chicken moambe",
+    "\"moambé\" poulet recette congolaise maman Kinshasa étapes cuisson photos",
+    "mwambe poulet moambe recipe \"sauce graine\" ingredients 400 g chicken 1.5 kg simmer until oil rises",
+    "moambe chicken recipe African food blogger \"Congolese\" authentic palm nut concentrate step-by-step",
+    "Moambe chicken recipe Congo palm nut cream \"poulet moambé\" site:africanbites.com OR site:cheflolaskitchen.com OR site:allrecipes.com OR site:epicurious.com",
+    "Chicken Moambe Congolese recipe Yewande Komolafe OR \"Tasting Table\" OR \"Whats4Eats\" OR \"Global Table Adventure\""
+  ],
+  "notes": "No recipe reaches 60. Serious Eats, NYT, ATK and BBC Good Food have no moambe recipe (BBC's palm nut chicken curry is Ghanaian). The English-language web is peanut-butter versions copied from one another (Margarita's -> Explorers Kitchen -> Travel Food Atlas, or food.com -> Denver Green Chili / Marty Made It), or palm-nut-concentrate recipes with thin precision (NKOSI, Sixto Carreon). Congolese cooks say the palm nut cream is the moambe; peanut butter makes the Mwambe Nsusu variant. None of the pages carries process photos, and none names a pan size. Pages that did not load, so they are unscored: internationalcuisine.com, afrik.com and 54flavours.com returned 403; congocookbook.com (the original that Recidemia and Alphabetical Recipes copy), bonvoyageurs.com and arousingappetites.com failed to fetch. The Congo Cookbook and 54 Flavours pages are worth checking by hand, since the palm-nut recipes there may score higher. NKOSI's read URL redirects to /congolese-moambe-recipe-chicken-in-palm-nut-sauce. It is a retailer page with one hero photo, a 400 g can of sauce graine, and a 'red oil rises to the surface' cue, but no US source or substitute. If the user will accept a palm-nut version and sources sauce graine from an African grocer, NKOSI's method pairs well with Explorers Kitchen's searing and tomato-paste steps. Winner score is 56, so status is none-found.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:46.432Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Moambe Chicken (Poulet à la Moambé)"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Congolese Chicken Moambe — Palm-Nut Chicken Stew"
+    }
+  }
+}

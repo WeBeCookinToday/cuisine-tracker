@@ -1,0 +1,163 @@
+{
+  "id": "turkey",
+  "country": "Turkey",
+  "dish": "Adana Kebab",
+  "aliases": [
+    "Adana kebap",
+    "Adana kebabı",
+    "Adana dürüm (wrapped in lavash)",
+    "Turkish ground lamb kebab"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.americastestkitchen.com/recipes/15644-grilled-adana-style-kebabs",
+    "title": "Grilled Adana-Style Kebabs",
+    "source": "America's Test Kitchen (Matthew Fairman)",
+    "score": 77,
+    "scores": {
+      "authenticity": 16,
+      "precision": 21,
+      "testing": 19,
+      "photos": 10,
+      "efficiency": 6,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Titled 'Adana-style'. Ground lamb with food-processed onion and garlic, mild biber salcasi (Turkish pepper paste), sumac, cumin, paprika, cayenne. Pressed onto wide flat skewers with thumb ridges, served on lavash with a sumac-onion-parsley salad. No tail fat or hand-chopping, and the author is not Turkish. The shape, flavors and service are recognizably Adana kebab, so it is a US test-kitchen adaptation of the dish, not a different dish.",
+      "precision": "Main meat in pounds (1.5 lb), not grams, and 0 of 19 ingredients have gram weights. Sizes are specific: 6 balls of about 5 oz each, a 9-inch-long kebab, 12 x 13 inch foil, 12-inch skewers, a 1-inch-wide flat skewer, 45-degree angle on the grate. Cues on 8 of 8 steps: onion and garlic pulsed 15 to 20 times 'finely chopped but not pureed'; knead about 1 minute; freeze 15 to 30 minutes if the mixture warms up; grate brushed until 'black and glossy'; 3 to 4 minutes per side until 'well browned and meat easily releases from grill'; 5 minute rest. No internal temperature.",
+      "testing": "ATK test kitchen. The 'Why This Recipe Works' text, visible to a logged-out reader, gives reasons for the foil-wrapped 'makeshift shishes' (five bamboo skewers folded into one wide skewer), the chilling (keeps kebabs intact), the oiled grates (no sticking) and resting on the lavash (juices soak into the bread). Rated 4.6 to 5 across 30 ratings with 14 comments.",
+      "photos": "Only one finished-dish photo is visible to a logged-out reader, and the schema has 0 step images. The rubric says not to mark ATK down for hidden content, so this is a neutral 10 and the true score may be higher.",
+      "efficiency": "Stated 2h45m total: 1h45 plus a mandatory 1 hour chill. Building 6 foil-wrapped skewers from 30 bamboo skewers is fiddly. The salad is made while the kebabs rest on the lavash, so the parallel work is good. The long stated time is realistic.",
+      "access": "'Before You Begin' gives subs: no biber salcasi means 3 Tbsp tomato paste plus 4 tsp paprika. 80 percent lean ground beef can replace the lamb, and pita can replace the lavash. Bamboo skewers and a food processor are standard. Everything else is at a US grocery."
+    },
+    "why": "It beat the more traditional Vidar Bergum recipe because it has a test-kitchen explanation of why each technique matters, a cue or size at every key step, and published substitutions for everything hard to find, even though it gives up tail fat and hand-chopping."
+  },
+  "runnerUp": {
+    "url": "https://vidarbergum.com/recipe/adana-kebab",
+    "title": "Adana kebab",
+    "source": "A kitchen in Istanbul (Vidar Bergum)",
+    "score": 74,
+    "scores": {
+      "authenticity": 23,
+      "precision": 17,
+      "testing": 15,
+      "photos": 5,
+      "efficiency": 9,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Author is a food writer based in Turkey (about a decade of work on Turkish and Middle Eastern cuisine). Explains that Adana kebab is the benchmark minced-meat kebab of Adana, that the authentic version is hand-chopped with a zirh from lamb and fat-tailed sheep tail fat, that it takes a lot of salt and fat, and that onion and pepper are debated. Cites Musa Dagdeviren's clarified-butter tip. The home version adds a little onion and parsley and uses butter to reach about 30% total fat.",
+      "precision": "Gram weights for 4 ingredients (50 g onion, 15 g parsley, 400 g lamb, 50 to 75 g butter). Targets total fat near 30%: more butter for 15% mince, less for 20%. Cues: knead 2 to 3 minutes until homogeneous; shape a thin layer with no air in the middle; wet hands. Weaker on cooking, which is 'browned at the edges and cooked through, 5-15 minutes' with only 'a large cast iron grill pan' for equipment.",
+      "testing": "Explains why: regular mince is not fatty enough, salt needs to exceed meatball levels, thin skewers drop the meat, warm meat gets hard to handle, and dripping fat smokes heavily indoors. Gives a fix for kebabs that keep falling off: rest them on a rack. Rating 4.86 over 7 ratings. A single-author blog, not a test kitchen.",
+      "photos": "Per WebFetch, only 2 photos show cooking stages: shaping onto a flat skewer, and vegetables on a grill pan. No mixing or kneading photo. The rest are plated shots or portraits.",
+      "efficiency": "30 minutes total, with no chill step required. Peppers and tomatoes are skewered and grilled alongside the kebabs.",
+      "access": "Subs given for tail fat (melted or clarified butter, or chopped lamb fat), mince (lamb, beef or a mix at 15% fat or more), Turkish green peppers (any mild long pepper) and lavash (any flatbread). Pul biber is the only specialty item."
+    },
+    "why": "It is the most authentic recipe in English with solid reasoning and sub advice, but it lost 3 points to ATK on precision of cooking cues, process photos and test-kitchen rigor."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.americastestkitchen.com/recipes/15644-grilled-adana-style-kebabs",
+      "source": "America's Test Kitchen (Matthew Fairman)",
+      "score": 77
+    },
+    {
+      "url": "https://vidarbergum.com/recipe/adana-kebab",
+      "source": "A kitchen in Istanbul (Vidar Bergum)",
+      "score": 74
+    },
+    {
+      "url": "https://cookingorgeous.com/blog/adana-kebap/",
+      "source": "Cooking Gorgeous (Ayla Clulee, UK-based Cordon Bleu-trained chef)",
+      "score": 71
+    },
+    {
+      "url": "https://www.seriouseats.com/adana-kebab-turkish-ground-lamb-kebab-recipe",
+      "source": "Serious Eats (J. Kenji Lopez-Alt)",
+      "score": 70
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/adana-kebab",
+      "source": "BBC Good Food (Meliz Berg)",
+      "score": 66
+    },
+    {
+      "url": "https://turkishstylecooking.com/adana-kebab-recipe.html",
+      "source": "Turkish Style Cooking",
+      "score": 60
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/adana-kebab/gvk3onv3p",
+      "source": "SBS Food (Somer Sivrioglu, from Food Safari Fire)",
+      "score": 59
+    },
+    {
+      "url": "https://www.themediterraneandish.com/adana-kebabs/",
+      "source": "The Mediterranean Dish",
+      "score": 50
+    },
+    {
+      "url": "https://www.turkeysforlife.com/2024/02/adana-kebab-recipe.html",
+      "source": "Turkey's For Life",
+      "score": 50
+    },
+    {
+      "url": "https://www.anediblemosaic.com/adana-kebab-recipe/",
+      "source": "An Edible Mosaic (Faith Gorsky)",
+      "score": 48
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/5735-adana-kebabs",
+      "source": "NYT Cooking (Marian Burros)",
+      "score": 48
+    },
+    {
+      "url": "https://myhomediaryinturkey.blogspot.com/2017/08/adana-kebab-best-and-authentic-recipe.html?m=1",
+      "source": "Citra's Home Diary (read with WebFetch, no structured data)",
+      "score": 46
+    },
+    {
+      "url": "https://www.lezzet.com.tr/en/recipe/adana-kebab",
+      "source": "Lezzet.com.tr",
+      "score": 46
+    },
+    {
+      "url": "https://www.chasingthedonkey.com/how-to-make-turkish-adana-kebab-recipe/",
+      "source": "Chasing the Donkey",
+      "score": 32
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1026328-adana-meatballs",
+      "source": "NYT Cooking (Sue Li)",
+      "score": 45,
+      "disqualified": "Not the dish. Baked meatballs with bell pepper, cumin and garlic yogurt, described as 'a take on classic Turkish kebabs'."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Adana Kebab\"",
+    "node scripts/recipe-hunt.mjs sites \"Adana kebap\"",
+    "Adana Kebab recipe",
+    "Adana kebabı tarifi",
+    "authentic Turkish Adana kebab lamb tail fat skewers recipe"
+  ],
+  "notes": "Margin is narrow: ATK 77, Vidar Bergum 74, Cooking Gorgeous 71, Serious Eats 70. If strict tradition matters more than testing, use Vidar Bergum. Cooking Gorgeous is the only English recipe that hand-chops lamb with real tail fat, and it gives subs. SBS (Somer Sivrioglu) is Turkish-authored and traditional but lacks reasoning and photos, and it needs tail fat. Serious Eats WebFetch was blocked, so its score rests on the read output (6 step images in schema, 70 images on page). Its rating is 4.2 over 5 ratings. NYT 'Adana Meatballs' (796 ratings) is not the dish. The giverecipe.com page returned HTTP 403 and was not used. The Lezzet page looks machine-translated (180 g of meat for 6 servings), so treat its quantities with caution. A hand-chopped (zirh) kebab with tail fat is the traditional form but few US cooks can make it. Every English recipe adapts it with ground lamb plus added fat, or butter in Vidar Bergum's case.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:18:00.238Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Grilled Adana-Style Kebabs",
+      "rating": 4.6,
+      "ratingCount": 30
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Adana kebab",
+      "rating": 4.86,
+      "ratingCount": 7
+    }
+  }
+}
