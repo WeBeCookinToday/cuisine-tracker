@@ -35,7 +35,45 @@ export function App() {
       return next;
     });
   };
-  const [sel, setSel] = useState(null);
+  // The open recipe lives in the URL hash (#kazakhstan) with its own history
+  // entry, so the browser's back button and the phone back-swipe gesture close
+  // the recipe and return to the list instead of leaving the site.
+  const recipeFromHash = () => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    return RECIPES.some((r) => r.id === id) ? id : null;
+  };
+  const [sel, setSel] = useState(recipeFromHash);
+  const listScrollY = useRef(0);
+  const openRecipe = (id) => {
+    listScrollY.current = window.scrollY;
+    window.history.pushState({ recipe: id }, "", `#${encodeURIComponent(id)}`);
+    setSel(id);
+  };
+  const closeRecipe = () => {
+    // Opened from the list: step back through history like the gesture does.
+    // Landed straight on a recipe link: there's no list entry behind it, so swap one in.
+    if (window.history.state?.recipe) window.history.back();
+    else {
+      window.history.replaceState(null, "", window.location.pathname + window.location.search);
+      setSel(null);
+    }
+  };
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+    // Landing on a recipe link: put the list underneath it in history so back returns there
+    const initial = recipeFromHash();
+    if (initial && !window.history.state?.recipe) {
+      window.history.replaceState(null, "", window.location.pathname + window.location.search);
+      window.history.pushState({ recipe: initial }, "", `#${encodeURIComponent(initial)}`);
+    }
+    const onPop = () => setSel(recipeFromHash());
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+  // Recipe opens at the top; the list comes back where you left it
+  useEffect(() => {
+    window.scrollTo(0, sel ? 0 : listScrollY.current);
+  }, [sel]);
   const [mapHighlight, setMapHighlight] = useState(null);
   const mousePos = useRef({ x: -1, y: -1 });
 
@@ -124,7 +162,7 @@ export function App() {
   const renderCard = (r) => {
     const cooked = !!log[r.id]?.cooked;
     return (
-      <button key={r.id} data-numeric={r.numericCode} onClick={() => setSel(r.id)}
+      <button key={r.id} data-numeric={r.numericCode} onClick={() => openRecipe(r.id)}
         onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = SHADOW.tileHover; setMapHighlight(r.numericCode); }}
         onMouseLeave={e => { e.currentTarget.style.transform = "none"; e.currentTarget.style.boxShadow = SHADOW.tile; setMapHighlight(null); }}
         style={{ position: "relative", aspectRatio: "152 / 128", background: C.card, border: cooked ? `3px solid ${C.acc}` : `1px solid ${C.line}`, outline: cooked ? `3px solid ${C.accSoft}` : "none", borderRadius: 22, overflow: "hidden", cursor: "pointer", textAlign: "left", padding: 0, transition: "transform 0.15s ease-out, box-shadow 0.15s ease-out", fontFamily: "inherit", boxShadow: SHADOW.tile }}>
@@ -162,7 +200,7 @@ export function App() {
     <div style={{ fontFamily: FONT, background: C.bg, minHeight: "100vh", padding: 20 }}>
       {adminDot}
       <div style={{ maxWidth: 860, margin: "0 auto" }}>
-        <DetailView recipe={selected} entry={log[sel] || {}} onBack={() => setSel(null)} onUpdate={update} isAdmin={isAdmin} />
+        <DetailView recipe={selected} entry={log[sel] || {}} onBack={closeRecipe} onUpdate={update} isAdmin={isAdmin} />
       </div>
     </div>
   );
@@ -212,7 +250,7 @@ export function App() {
       <div>
         {/* Map card — white surface, deepest shadow */}
         <div style={{ position: "relative", background: C.card, border: `1px solid ${C.line}`, borderRadius: 22, boxShadow: SHADOW.map, padding: "24px 20px 18px", marginBottom: 28, overflow: "hidden" }}>
-          <WorldMap recipes={RECIPES} log={log} onSelect={setSel} highlightId={mapHighlight} />
+          <WorldMap recipes={RECIPES} log={log} onSelect={openRecipe} highlightId={mapHighlight} />
         </div>
 
         {/* Bottom: scrollable recipe card grid */}
