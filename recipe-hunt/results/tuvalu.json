@@ -1,0 +1,112 @@
+{
+  "id": "tuvalu",
+  "country": "Tuvalu",
+  "dish": "Pulaka with Coconut Fish",
+  "aliases": [
+    "pulaka",
+    "tulolo",
+    "fekei",
+    "pulaka ma ika",
+    "swamp taro with fish in coconut cream"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://thespinoff.co.nz/kai/08-10-2022/tuvalus-finger-licking-baked-taro-dish",
+    "title": "Tuvalu's finger-licking baked taro dish (talo tokotokoi)",
+    "source": "The Spinoff (Marama T-Pole with Aunty Fulu; written by Sela Jane Hopgood)",
+    "score": 54,
+    "scores": {
+      "authenticity": 17,
+      "precision": 12,
+      "testing": 8,
+      "photos": 8,
+      "efficiency": 6,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Shared by a Tuvaluan-descent cook and her aunty with cultural context; real Tuvaluan taro + coconut cream dish, but uses pink taro (not pulaka), is sweetened, and has no fish, so it is only the pulaka-and-coconut-cream half of the dish",
+      "precision": "400ml coconut cream, 2 pink taro, 1 cup sugar, 180 degrees, prep 20 min / cook 1h30; cues: taro smell fills kitchen, crack lines, cream has no small bubbles and thickens; no pan sizes, no taro weights",
+      "testing": "Family recipe with some reasoning (peeling tip, stirring direction lore); no test kitchen",
+      "photos": "Photo captions for baking taro and finished dish; not full process coverage",
+      "efficiency": "Cream stirred 30 min while taro bakes; sensible parallel work",
+      "access": "Pink taro from Samoa/Fiji available at Pacific/Asian markets; no substitute stated; no fish component"
+    },
+    "why": "It is the only Tuvaluan-sourced recipe with real quantities and cues, but it lacks the fish and uses pink taro, so it does not satisfy the dish."
+  },
+  "runnerUp": {
+    "url": "https://globaltableadventure.com/recipe/tuvalu-tuna/print",
+    "title": "Tuvalu Tuna",
+    "source": "Global Table Adventure",
+    "score": 31,
+    "scores": {
+      "authenticity": 8,
+      "precision": 8,
+      "testing": 2,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Tuna in coconut milk, but with curry powder, soy sauce and cucumber; a Pacific-style adaptation, no pulaka",
+      "precision": "Volume amounts, but 'done to preference', 'large skillet or wok', no authorship",
+      "testing": "No reasoning or testing shown",
+      "photos": "Single hero image",
+      "efficiency": "Simple 8-step, quick",
+      "access": "All US grocery items"
+    },
+    "why": "Gives the coconut fish half only, with no pulaka and loose precision."
+  },
+  "candidates": [
+    {
+      "url": "https://thespinoff.co.nz/kai/08-10-2022/tuvalus-finger-licking-baked-taro-dish",
+      "source": "The Spinoff",
+      "score": 54
+    },
+    {
+      "url": "https://globaltableadventure.com/recipe/tuvalu-tuna/print",
+      "source": "Global Table Adventure",
+      "score": 31
+    },
+    {
+      "url": "https://www.thecoconet.tv/coco-cookbook/coco-cooking/ika-lolo-fijian-fish-in-coconut-cream/",
+      "source": "The Coconet",
+      "score": 22,
+      "disqualified": "Fijian dish (ika lolo), not Tuvaluan; no amounts for fish, coconut cream or oil"
+    },
+    {
+      "url": "https://travelfoodatlas.com/tuvaluan-food",
+      "source": "Travel Food Atlas",
+      "score": 0,
+      "disqualified": "Overview page only; no recipe amounts or steps for pulaka or coconut fish"
+    },
+    {
+      "url": "https://ethnicfoodsrus.com/around-the-world-recipes/smallest-countries-worldwide-cuisines/tuvaluan-cuisine/tuvalu-coconut-tuna",
+      "source": "Ethnic Foods R Us",
+      "score": 0,
+      "disqualified": "Recipe text could not be read (page truncated, no structured data); likely a copy of the Tuvalu Tuna recipe"
+    }
+  ],
+  "searches": [
+    "Tuvalu pulaka with coconut fish recipe",
+    "Tuvaluan pulaka recipe giant swamp taro coconut cream fish",
+    "Tuvalu traditional food pulaka fekei recipe",
+    "taro root with coconut cream and fish Pacific island recipe Tuvalu Kiribati pulaka babai",
+    "Tuvalu recipe fekei OR tulolo OR \"ika tunu\" coconut cream taro recipe ingredients"
+  ],
+  "notes": "No tested web recipe exists for pulaka served with coconut fish. Sources describe tulolo (beaten pulaka with coconut cream), fekei, and boiled pulaka with coconut cream alongside fish, but give no measurements. Best path may be to compose the dish: a tested taro recipe (e.g. the Spinoff method, or boiled taro) plus a coconut fish recipe, with taro as the pulaka substitute (fresh pulaka is not sold in the US). Consider retrying with a different dish name such as tulolo or kakakai.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-18T19:20:44.151Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "mongolia",
+  "country": "Mongolia",
+  "dish": "Khorkhog",
+  "aliases": [
+    "Хорхог",
+    "Mongolian hot-stone barbecue",
+    "stone-boiled barbecue",
+    "Boodog (related, different dish)"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.mongolfood.info/en/recipes/khorkhog.html",
+    "title": "Khorkhog (Mongolian Meat Cooked with Hot Stones)",
+    "source": "mongolfood.info (no named author)",
+    "score": 59,
+    "scores": {
+      "authenticity": 20,
+      "precision": 8,
+      "testing": 8,
+      "photos": 13,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Sheep only, caraway/salt/pepper, milk-can vessel, stones passed around and rubbed; goat noted as variant. Mongolia-focused site but no named author.",
+      "precision": "Water 3-5 dl, 10-20 fist-sized stones, stone heating about 1 hour. Meat amount vague ('0.5-1 p.'), vegetables 3-6 kg, seasoning unmeasured, no fixed cook time (judged by sound and smell), no vessel size.",
+      "testing": "Explains steam from water, stone heat plus stove heat, pressure-lock warning, stones turning glossy black as a doneness sign. No test-kitchen process.",
+      "photos": "About 11 step photos: meat cut, fire, stones in can, closed can, open can, finished dish.",
+      "efficiency": "Stones heat while prep happens; no wasted steps, but no stated total time.",
+      "access": "Lamb or goat and river stones are obtainable; two stacked pots work as a vessel. No subs needed beyond goat or lamb."
+    },
+    "why": "Most traditional and best illustrated of the pages read, but the vague quantities and timing keep it just under 60."
+  },
+  "runnerUp": {
+    "url": "https://food.nomadicboys.com/mongolian-khorkhog-recipe/",
+    "title": "Mongolian Khorkhog",
+    "source": "Nomadic Boys (Sebastien)",
+    "score": 50,
+    "scores": {
+      "authenticity": 18,
+      "precision": 8,
+      "testing": 3,
+      "photos": 11,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Learned from nomadic families; goat with ribs, potatoes, carrots, stones passed around.",
+      "precision": "Metric quantities (5 kg goat, 300 ml water, 10-15 stones) but no doneness cues, no pan size, only 'cook 1.5 hours'.",
+      "testing": "Little reasoning beyond 'stones spread heat'.",
+      "photos": "Photos of cooking with a nomadic family and stones among the meat.",
+      "efficiency": "Stones heated while prepping; 5 kg batch is impractical for home.",
+      "access": "Goat can be swapped for mutton or lamb."
+    },
+    "why": "Clear steps and context, but time-only cooking, an oversized batch and no doneness cues."
+  },
+  "candidates": [
+    {
+      "url": "https://www.mongolfood.info/en/recipes/khorkhog.html",
+      "source": "mongolfood.info",
+      "score": 59
+    },
+    {
+      "url": "https://food.nomadicboys.com/mongolian-khorkhog-recipe/",
+      "source": "Nomadic Boys",
+      "score": 50
+    },
+    {
+      "url": "https://travelfoodatlas.com/mongolian-khorkhog-recipe",
+      "source": "Travel Food Atlas",
+      "score": 40,
+      "disqualified": "Near-verbatim copy of the Nomadic Boys recipe; no process photos in schema"
+    },
+    {
+      "url": "https://ourfamilyfoodadventures.com/2012/05/08/mongolia-rocks/",
+      "source": "Our Family Food Adventures",
+      "score": 35,
+      "disqualified": "No ingredient amounts; wok, white wine, honey and lemon make it an adaptation"
+    },
+    {
+      "url": "https://ethnicfoodsrus.com/around-the-world-recipes/asian-cuisine/mongolian-cuisine/traditional-mongolian-khorkhog-recipe/",
+      "source": "Ethnic Foods R Us",
+      "score": 0,
+      "disqualified": "Page text could not be read (recipe body not extracted); not scored"
+    }
+  ],
+  "searches": [
+    "Khorkhog Mongolian lamb recipe",
+    "Хорхог recipe Mongolian hot stone barbecue lamb",
+    "khorkhog recipe pressure cooker or pot hot stones",
+    "khorkhog Mongolian lamb (cooking.nytimes.com)",
+    "khorkhog Mongolian lamb (americastestkitchen.com)"
+  ],
+  "notes": "No test-kitchen or ATK/NYT recipe exists for khorkhog. Web versions are travel-blog or reference pages with vague timings. Saveur's feature was found but timed out in read. KQED covers pressure-cooker (Mongolian American) khorkhog but is an article, not read as a recipe. Some search hits were AI-generated or scraper pages and were ignored.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-18T19:20:41.768Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

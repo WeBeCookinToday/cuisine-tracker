@@ -7,3 +7,6 @@ dist
 .env
 .env.*
 !.env.example
+
+# Recipe hunt: publishers' recipe text saved by verify (keep out of the public repo)
+recipe-hunt/cache/
