@@ -4,7 +4,7 @@ import { CONTINENTS, CONTINENT_ORDER } from "./data/continents.js";
 import { AREA_KM2 } from "./data/areas.js";
 import { C, FONT, SHADOW } from "./lib/theme.js";
 import { fd } from "./lib/format.jsx";
-import { fetchCookingLog, saveCookingLog } from "./lib/supabase.js";
+import { fetchCookingLog, saveCookingLog, LOG_COLUMNS } from "./lib/supabase.js";
 import { WorldMap } from "./components/WorldMap.jsx";
 import { DetailView } from "./components/DetailView.jsx";
 import { DishImage } from "./components/DishImage.jsx";
@@ -13,11 +13,90 @@ import { StarFill } from "./components/StarRating.jsx";
 export function App() {
   const [log, setLog] = useState({});
 
-  // Load the cooking log from Supabase on startup — it's the only source of truth.
-  useEffect(() => {
+  // ── Saving ──────────────────────────────────────────────────────────────
+  // Edits are saved field by field through a per-recipe queue: one request per
+  // recipe at a time, so saves land in the order they were made, and edits made
+  // while a request is out (notes typing) are batched into the next one. A
+  // failed save keeps its fields queued and retries, and the status pill says
+  // so instead of the change quietly disappearing.
+  const queued = useRef({});   // recipeId -> fields waiting to be sent
+  const sending = useRef({});  // recipeId -> fields in the request now out
+  const retryTimer = useRef(null);
+  const savedTimer = useRef(null);
+  const [saveState, setSaveState] = useState("idle"); // idle | saving | saved | error
+
+  const hasUnsaved = () => Object.keys(queued.current).length > 0 || Object.keys(sending.current).length > 0;
+  const flushSave = async (id) => {
+    if (sending.current[id] || !queued.current[id]) return;
+    const fields = queued.current[id];
+    delete queued.current[id];
+    sending.current[id] = fields;
+    clearTimeout(savedTimer.current);
+    setSaveState("saving");
+    try {
+      await saveCookingLog(id, fields);
+      delete sending.current[id];
+      if (queued.current[id]) return flushSave(id);
+      if (!hasUnsaved()) {
+        setSaveState("saved");
+        savedTimer.current = setTimeout(() => setSaveState("idle"), 2000);
+      }
+    } catch (e) {
+      console.error("Save failed:", e);
+      delete sending.current[id];
+      // Put the fields back underneath anything edited since, and try again shortly
+      queued.current[id] = { ...fields, ...(queued.current[id] || {}) };
+      setSaveState("error");
+      clearTimeout(retryTimer.current);
+      retryTimer.current = setTimeout(flushAllSaves, 5000);
+    }
+  };
+  const flushAllSaves = () => Object.keys(queued.current).forEach(flushSave);
+
+  const updateEntry = (id, updates) => {
+    setLog((prev) => ({ ...prev, [id]: { ...(prev[id] || {}), ...updates } }));
+    // Only cooking-log fields go to the database; checked ingredients etc. stay local
+    const fields = {};
+    for (const key of Object.keys(LOG_COLUMNS)) if (key in updates) fields[key] = updates[key];
+    if (Object.keys(fields).length === 0) return;
+    queued.current[id] = { ...(queued.current[id] || {}), ...fields };
+    flushSave(id);
+  };
+
+  // Load the cooking log from Supabase — it's the only source of truth. Reload it
+  // whenever the tab comes back into view, so a tab left open on one device
+  // picks up what you changed on another instead of showing (and later saving
+  // over) stale data. Unsaved local edits and local-only fields win over the
+  // fetched copy.
+  const refreshLog = () => {
     fetchCookingLog().then(remote => {
-      if (remote) setLog(remote);
-    });
+      setLog(prev => {
+        const next = {};
+        for (const id of new Set([...Object.keys(prev), ...Object.keys(remote)])) {
+          const local = { ...(prev[id] || {}) };
+          for (const key of Object.keys(LOG_COLUMNS)) delete local[key];
+          next[id] = { ...local, ...(remote[id] || {}), ...(sending.current[id] || {}), ...(queued.current[id] || {}) };
+        }
+        return next;
+      });
+    }).catch(e => console.error("Loading the cooking log failed:", e));
+  };
+  useEffect(() => {
+    refreshLog();
+    const onVisible = () => {
+      if (document.visibilityState !== "visible") return;
+      flushAllSaves();
+      refreshLog();
+    };
+    const onShow = (e) => { if (e.persisted) onVisible(); }; // restored from the back/forward cache
+    document.addEventListener("visibilitychange", onVisible);
+    window.addEventListener("pageshow", onShow);
+    window.addEventListener("online", flushAllSaves);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisible);
+      window.removeEventListener("pageshow", onShow);
+      window.removeEventListener("online", flushAllSaves);
+    };
   }, []);
   const [isAdmin, setIsAdmin] = useState(false);
   const [tapCount, setTapCount] = useState(0);
@@ -117,14 +196,7 @@ export function App() {
   const cookedCount = RECIPES.filter((r) => log[r.id]?.cooked).length;
   const pct = Math.round((cookedCount / RECIPES.length) * 100);
   const selected = sel ? RECIPES.find((r) => r.id === sel) : null;
-  const update = (updates) => {
-    setLog((prev) => {
-      const merged = { ...(prev[sel] || {}), ...updates };
-      // Persist to Supabase (fire-and-forget)
-      saveCookingLog(sel, merged).catch(e => console.error("Save failed:", e));
-      return { ...prev, [sel]: merged };
-    });
-  };
+  const update = (updates) => updateEntry(sel, updates);
 
   const filtered = query.trim() === ""
     ? RECIPES
@@ -192,8 +264,23 @@ export function App() {
 
   const gridStyle = { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(152px, 1fr))", gap: "clamp(14px, 2vw, 26px)" };
 
-  const adminDot = isAdmin && (
-    <div title="Admin mode" style={{ position: "fixed", top: 14, right: 14, width: 11, height: 11, borderRadius: "50%", background: "#FF5A5F", boxShadow: "0 0 0 4px rgba(255,90,95,0.25)", zIndex: 1000 }} />
+  const SAVE_PILL = {
+    saving: { text: "Saving…", bg: C.ink },
+    saved: { text: "Saved ✓", bg: C.secondary },
+    error: { text: "Couldn't save — retrying…", bg: "#D64545" },
+  }[saveState];
+  // Rendered on both the list and the recipe page (alongside the admin dot)
+  const adminDot = (
+    <>
+      {isAdmin && (
+        <div title="Admin mode" style={{ position: "fixed", top: 14, right: 14, width: 11, height: 11, borderRadius: "50%", background: "#FF5A5F", boxShadow: "0 0 0 4px rgba(255,90,95,0.25)", zIndex: 1000 }} />
+      )}
+      {SAVE_PILL && (
+        <div role="status" style={{ position: "fixed", bottom: 18, left: "50%", transform: "translateX(-50%)", background: SAVE_PILL.bg, color: "white", fontFamily: FONT, fontSize: 12.5, fontWeight: 600, padding: "8px 16px", borderRadius: 99, boxShadow: "0 4px 14px rgba(0,0,0,0.25)", zIndex: 1000, whiteSpace: "nowrap" }}>
+          {SAVE_PILL.text}
+        </div>
+      )}
+    </>
   );
 
   if (selected) return (

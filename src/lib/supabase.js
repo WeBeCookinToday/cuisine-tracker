@@ -24,7 +24,8 @@ const _supa = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 export async function uploadPhoto(recipeId, dataUrl) {
   const blob = await (await fetch(dataUrl)).blob();
   const path = `${recipeId}/${Date.now()}.jpg`;
-  const { error } = await _supa.storage.from("recipe-photos").upload(path, blob, { contentType: "image/jpeg", upsert: true });
+  // Paths are unique, so no upsert: that way only the bucket's INSERT policy is needed
+  const { error } = await _supa.storage.from("recipe-photos").upload(path, blob, { contentType: "image/jpeg" });
   if (error) throw error;
   const { data } = _supa.storage.from("recipe-photos").getPublicUrl(path);
   return data.publicUrl;
@@ -67,7 +68,8 @@ export async function addComment(recipeId, author, body) {
 
 // Cooking log: fetch all entries as a keyed object
 export async function fetchCookingLog() {
-  const { data } = await _supa.from("cooking_log").select("*");
+  const { data, error } = await _supa.from("cooking_log").select("*");
+  if (error) throw error;
   const out = {};
   (data || []).forEach(r => {
     out[r.recipe_id] = {
@@ -81,15 +83,26 @@ export async function fetchCookingLog() {
   return out;
 }
 
-// Save one recipe's log entry (upsert)
-export async function saveCookingLog(recipeId, entry) {
-  await _supa.from("cooking_log").upsert({
-    recipe_id: recipeId,
-    cooked: entry.cooked ?? false,
-    cooked_date: entry.cookedDate ?? null,
-    rating: entry.rating ?? null,
-    notes: entry.notes ?? null,
-    photo: entry.photo ?? null,
-    updated_at: new Date().toISOString(),
-  });
+// Log fields that live in the cooking_log table, mapped to their column names.
+// Anything else on an entry (checked ingredients, the 2× toggle) is local-only.
+export const LOG_COLUMNS = {
+  cooked: "cooked",
+  cookedDate: "cooked_date",
+  rating: "rating",
+  notes: "notes",
+  photo: "photo",
+};
+
+// Save the given fields of one recipe's log entry. Only the columns passed in
+// are written — upsert leaves every other column as it is — so a save from one
+// device can't overwrite a field another device changed (and a rating tap no
+// longer re-sends the photo). Throws on failure; supabase-js reports errors in
+// the result instead of throwing, which used to make failed saves silent.
+export async function saveCookingLog(recipeId, fields) {
+  const row = { recipe_id: recipeId, updated_at: new Date().toISOString() };
+  for (const [key, col] of Object.entries(LOG_COLUMNS)) {
+    if (key in fields) row[col] = fields[key] ?? null;
+  }
+  const { error } = await _supa.from("cooking_log").upsert(row);
+  if (error) throw error;
 }
