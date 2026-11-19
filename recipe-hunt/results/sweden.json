@@ -1,0 +1,108 @@
+{
+  "id": "sweden",
+  "country": "Sweden",
+  "dish": "Swedish Meatballs",
+  "aliases": [
+    "Köttbullar",
+    "Svenska köttbullar"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/the-best-swedish-meatballs-recipe",
+    "title": "Swedish Meatballs With Rich Gravy",
+    "source": "Serious Eats (Daniel Gritzer)",
+    "score": 86,
+    "scores": {
+      "authenticity": 18,
+      "precision": 22,
+      "testing": 18,
+      "photos": 15,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Beef and pork, milk-soaked bread, sauteed onion, allspice and white pepper, brown butter-flour gravy, served with potatoes and lingonberry jam. Author is not Swedish. Soy sauce and cider vinegar in the gravy are modern tweaks. Mild deduction.",
+      "precision": "Weights for 9 of 17 ingredients, with fat percentages for the meat and a 1/2-inch bread dice. Oil at 350F, oven at 200F, 4 temperatures in total. 13 sensory cues, such as bread softened, onion golden, raw flour smell gone, gravy thickened. Ball size given (slightly smaller than a golf ball). Pan is only 'wide skillet'.",
+      "testing": "Serious Eats test-kitchen recipe that explains the tinkering behind the mix (bread panade, paddle-beating). Rating 4.8 from only 15 ratings.",
+      "photos": "7 of 7 steps have images in the schema.",
+      "efficiency": "50 minutes total. Bread soaks while the onion cooks. Frying in batches is the main cost.",
+      "access": "All ingredients are at a US grocery. Lingonberry jam is optional (available at IKEA)."
+    },
+    "why": "Beat the ATK runner-up with weights, temperatures and cues on nearly every step, and a photo for every step."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/4595-swedish-meatballs",
+    "title": "Swedish Meatballs",
+    "source": "America's Test Kitchen",
+    "score": 72,
+    "scores": {
+      "authenticity": 17,
+      "precision": 17,
+      "testing": 18,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Pork and beef, cream-soaked bread, grated onion, nutmeg and allspice, cream gravy. Baking powder, brown sugar and lemon juice are test-kitchen changes.",
+      "precision": "Only 2 of 20 ingredients have weights. 10-inch straight-sided pan, oil at 350F, 13 sensory cues.",
+      "testing": "ATK test-kitchen process, rating 4 from 378 ratings.",
+      "photos": "No step images in the schema. Step photos may be hidden behind the login, so I did not mark this down heavily.",
+      "efficiency": "Only 4 steps, but shallow-frying all the meatballs in about 1 1/4 cups of oil is slow.",
+      "access": "All ingredients are at a US grocery."
+    },
+    "why": "Strong testing, but fewer weights and no visible process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/the-best-swedish-meatballs-recipe",
+      "source": "Serious Eats",
+      "score": 86
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/4595-swedish-meatballs",
+      "source": "America's Test Kitchen",
+      "score": 72
+    },
+    {
+      "url": "https://www.recipetineats.com/swedish-meatballs/comment-page-7/",
+      "source": "RecipeTin Eats (Nagi)",
+      "score": 58
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1018534-swedish-meatballs",
+      "source": "NYT Cooking (Melissa Clark)",
+      "score": 54
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/5706-kottbullar-swedish-meatballs",
+      "source": "NYT Cooking (Craig Claiborne)",
+      "score": 44
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Swedish Meatballs\"",
+    "Swedish meatballs recipe",
+    "köttbullar recept klassiska"
+  ],
+  "notes": "The RecipeTin Eats URL is its comment-page-7 variant, as returned by WebSearch. It loaded with HTTP 200. The canonical page is the same recipe. The NYT Clark recipe has 3,189 ratings but broils the meatballs and uses brandy flambe, which is less traditional. No Swedish-authored recipe was read, because the native-language search returned only Swedish TV and German or other-language sites.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:16.534Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Swedish Meatballs With Rich Gravy",
+      "rating": 4.8,
+      "ratingCount": 15
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Swedish Meatballs",
+      "rating": 4,
+      "ratingCount": 378
+    }
+  }
+}

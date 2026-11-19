@@ -1,0 +1,108 @@
+{
+  "id": "belgium",
+  "country": "Belgium",
+  "dish": "Moules-Frites",
+  "aliases": [
+    "Moules frites",
+    "Mosselen met friet",
+    "Mosselen-friet",
+    "Moules et frites"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/moules-frites-recipe-8600223",
+    "title": "Moules Frites",
+    "source": "Serious Eats (Genevieve Yam)",
+    "score": 72,
+    "scores": {
+      "authenticity": 15,
+      "precision": 17,
+      "testing": 15,
+      "photos": 11,
+      "efficiency": 9,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Classic shallot, garlic and white wine steam with lemon and parsley, served with fries and mayo, which is the standard bistro form. Author is not Belgian and the page text I read gives no Belgian history. It is closer to a French marinière.",
+      "precision": "6 of 12 ingredients have weights, including mussels at 1.8 kg (about 60), shallots at 85 g, and butter at 113 g. Pot size is given as 6 to 8 quarts. Doneness cues: shallots softened but not browned, wine reduced by half, mussels opened. No temperatures. Only 2 steps, so each step is dense.",
+      "testing": "Serious Eats test kitchen. Salt is given by Diamond Crystal weight and conversion. The page has a notes section on mussel handling. I could not fetch the page to read it.",
+      "photos": "The schema shows 2 step images, one for each step. The page has 44 images, which may include ads. This covers the key stages but is not a detailed sequence.",
+      "efficiency": "25 minutes total, with no wasted steps. Fries are a separate linked recipe, or frozen fries are allowed.",
+      "access": "Everything is at a US grocery. Mussels are widely sold, and the fries are a Serious Eats recipe or frozen."
+    },
+    "why": "It has the most precise measurements, a test-kitchen process and step photos, and a classic wine-steamed method, which beat the cream-based Grantourismo version."
+  },
+  "runnerUp": {
+    "url": "https://grantourismotravels.com/moules-frites-recipe-belgian-steamed-mussels-with-fries/",
+    "title": "Moules Frites Recipe for Belgian Steamed Mussels with Fries",
+    "source": "Grantourismo Travels (Lara Dunston and Terence Carter)",
+    "score": 57,
+    "scores": {
+      "authenticity": 15,
+      "precision": 13,
+      "testing": 6,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Belgian-style creamy white wine sauce, drawn from the authors' Brussels bistro experience. Star anise and a mixed-herb sachet are not traditional.",
+      "precision": "4 of 12 ingredients have weights (1 kg mussels, 25 g butter, 200 ml wine, 200 ml cream). 5 sensory cues, such as mussels opening. No pot size.",
+      "testing": "Travel bloggers. No test process or explanation of why.",
+      "photos": "The schema has no step images. The page has 16 images, not confirmed as process photos.",
+      "efficiency": "30 minutes. Fries are only mentioned for serving and have no recipe on the page.",
+      "access": "All ingredients are easy to find."
+    },
+    "why": "It has a Belgian-style cream sauce but less precision, no testing, and no fries method."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/moules-frites-recipe-8600223",
+      "source": "Serious Eats",
+      "score": 72
+    },
+    {
+      "url": "https://grantourismotravels.com/moules-frites-recipe-belgian-steamed-mussels-with-fries/",
+      "source": "Grantourismo Travels",
+      "score": 57
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/moules-frites",
+      "source": "BBC Good Food (Gordon Ramsay)",
+      "score": 50
+    },
+    {
+      "url": "https://www.rtbf.be/article/les-recettes-de-carlo-de-pascale-les-moules-frites-11446940",
+      "source": "RTBF (Carlo de Pascale)",
+      "score": 50
+    },
+    {
+      "url": "https://thomassixt.de/en/recipe/moules-frites/",
+      "source": "Thomas Sixt",
+      "score": 0,
+      "disqualified": "HTTP 410"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Moules-Frites\"",
+    "Moules-Frites recipe Belgian mussels and fries",
+    "moules frites recette belge traditionnelle",
+    "mosselen met frieten recept"
+  ],
+  "notes": "The winner is a wine-and-butter recipe from a non-Belgian author, and it has no Belgian context. The RTBF recipe by Belgian presenter Carlo de Pascale is the most authentic, with Zeeland mussels, leek, celery and butter. It scored 50 because it has no fries method, vague herb amounts, no photos and no testing. BBC Good Food (Ramsay) includes fries and mayo, but with a Pernod and creme fraiche variation. The Serious Eats page links to its own fries recipe, but I did not read it, so there are no companions. The SE candidate has only 2 steps, and I could not confirm photo details because WebFetch was blocked for that site.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:49.775Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Moules Frites"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Moules Frites Recipe for Belgian Steamed Mussels with Fries"
+    }
+  }
+}

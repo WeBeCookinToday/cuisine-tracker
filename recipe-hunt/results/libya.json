@@ -1,0 +1,123 @@
+{
+  "id": "libya",
+  "country": "Libya",
+  "dish": "Sharba Libiya",
+  "aliases": [
+    "Shorba Libiya",
+    "Sharba Libya",
+    "Libyan soup",
+    "Chorba Libya",
+    "شربة ليبية"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.cuisine.co.nz/recipe/chorba-with-lamb-dried-mint-region-libya/",
+    "title": "Chorba With Lamb & Dried Mint / Region: Libya",
+    "source": "Cuisine NZ (Jeff Koehler, The North African Cookbook, Phaidon)",
+    "score": 62,
+    "scores": {
+      "authenticity": 23,
+      "precision": 16,
+      "testing": 9,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Traditional lamb, tomato, chickpea, orzo and dried-mint soup. Author Jeff Koehler is a recognized North African cuisine authority. Page notes it is a national dish, served nearly nightly in Ramadan, with dried mint at the end as a constant.",
+      "precision": "Metric weights/volumes (175 g lamb, 1 cm pieces, 100 g chickpeas, 100 g orzo, 750 ml + 500 ml water); doneness cues on 3 steps (meat browned and onion softening, meat tender, pasta tender); no pot size; produce counts but not weights.",
+      "testing": "Edited cookbook extract by an established author; little explanation of why beyond the note that mint is the constant.",
+      "photos": "Finished-dish photo only; no process photos.",
+      "efficiency": "Seven steps, about 15 min prep and 1 hr 20 cook. Straightforward, but the stated windows are wide (15-30 min).",
+      "access": "Everything is at a US grocery. Orzo stands in for lisan asfour."
+    },
+    "why": "Written by a North African cuisine authority with weights and several doneness cues, and it beat the Libyan Food blog on precision."
+  },
+  "runnerUp": {
+    "url": "https://libyanfood.blogspot.com/2011/08/libyan-soup-sharba-libiya.html",
+    "title": "Libyan Soup with Lamb and Mint (Sharba Libiya)",
+    "source": "Libyan Food Blog (libyanfood.blogspot.com)",
+    "score": 60,
+    "scores": {
+      "authenticity": 22,
+      "precision": 12,
+      "testing": 6,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Libyan home-cook source with a lamb, orzo (lisan asfour), whole-spice and mixed-spice base, mint crumbled in at the end, served with tanoor bread and lemon. Explains regional variants such as Benghazi coriander.",
+      "precision": "Volumes and some grams (200 g lamb, 1.5 L water, 1/2 cup orzo); onion and tomato unsized; times given but few doneness cues; no pot size.",
+      "testing": "Some reasoning in comment replies, such as why coriander is left out. No formal testing.",
+      "photos": "Photos of several stages (oil and lamb, spices and chickpeas, finished soup).",
+      "efficiency": "Six steps, about 1 hour. Efficient.",
+      "access": "Mixed spice and shaiba (dagad phool) are hard to find, but the whole spices are marked optional."
+    },
+    "why": "Has more authentic context and process photos, but it has fewer doneness cues and no named author."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.cuisine.co.nz/recipe/chorba-with-lamb-dried-mint-region-libya/",
+      "source": "Cuisine NZ (Jeff Koehler)",
+      "score": 62
+    },
+    {
+      "url": "https://libyanfood.blogspot.com/2011/08/libyan-soup-sharba-libiya.html",
+      "source": "Libyan Food Blog",
+      "score": 60
+    },
+    {
+      "url": "https://www.177milkstreet.com/recipes/libyan-beef-and-chickpea-soup-sharba-libiya",
+      "source": "Milk Street (Diane Unger)",
+      "score": 55,
+      "disqualified": "Not disqualified, but the full ingredients and steps are paywalled, and it is a meatball adaptation with fresh mint rather than the traditional version."
+    },
+    {
+      "url": "https://www.food.com/recipe/shorba-libiya-libyan-lamb-chickpea-soup-385870",
+      "source": "Food.com (Um Safia)",
+      "score": 53
+    },
+    {
+      "url": "https://www.thelibyankitchen.com/2011/11",
+      "source": "The Libyan Kitchen (Assia)",
+      "score": 30,
+      "disqualified": "No method steps on the page."
+    },
+    {
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Sharba_Libya_(Libyan_Soup)",
+      "source": "Wikibooks",
+      "score": 0,
+      "disqualified": "Loaded (HTTP 200) but was not scored. It is a wiki page, and better-sourced versions were available."
+    },
+    {
+      "url": "https://blogs.transparent.com/arabic/how-to-make-libyan-soup-sharba/",
+      "source": "Transparent Language Arabic blog",
+      "score": 0,
+      "disqualified": "HTTP 504 on read."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Sharba Libiya\" (no matches on any site)",
+    "Sharba Libiya recipe",
+    "Libyan soup shorba arabiya lamb recipe",
+    "شربة ليبية وصفة"
+  ],
+  "notes": "No recipe from a test kitchen was found. Scores are close and all in the low 60s or below. The Cuisine NZ and Libyan Food blog versions differ in method: Koehler browns the meat first and uses cilantro and cinnamon, while the blog does not brown and uses mixed spice. Food.com's version has no pasta, and Milk Street's is paywalled. Use the Libyan Food blog if process photos matter more than doneness cues.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:05.552Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

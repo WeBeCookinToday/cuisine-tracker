@@ -1,0 +1,110 @@
+{
+  "id": "portugal",
+  "country": "Portugal",
+  "dish": "Caldo Verde",
+  "aliases": [
+    "Caldo-verde",
+    "Portuguese green soup",
+    "Portuguese potato and kale soup",
+    "sopa caldo verde"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/caldo-verde-portuguese-potato-kale-soup-recipe",
+    "title": "Caldo Verde (Portuguese Potato and Kale Soup With Sausage) Recipe",
+    "source": "Serious Eats (J. Kenji López-Alt)",
+    "score": 78,
+    "scores": {
+      "authenticity": 17,
+      "precision": 20,
+      "testing": 16,
+      "photos": 11,
+      "efficiency": 9,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Recognizable caldo verde from northern Portugal with potato, greens, linguica and olive oil. Departures: butter plus olive oil, chicken stock instead of water, kale instead of couve galega, and the soup is thickened by breaking down russet potatoes, not by pureeing. Author is not Portuguese.",
+      "precision": "8 of 11 ingredients have weights, with slice thickness for potatoes and sausage and onion size in grams. Cues in the steps: onion 'softened but not browned', russet 'completely broken down', Yukon Golds tender, soup creamy. 25-30 min range. Pan is only 'large Dutch oven or saucepan'. Only 2 steps, so cues are thin on the sausage and greens.",
+      "testing": "Serious Eats test-kitchen recipe by Kenji, with notes on sausage and stock choices (the page refers to a note) and the reason for mixing russet and Yukon Gold. Rating 3.8 from only 8 ratings.",
+      "photos": "Both steps have images in the schema, with 46 images on the page. Not confirmed how many are true process shots.",
+      "efficiency": "45 min total, one pot, no wasted steps.",
+      "access": "Linguica or any garlicky pork sausage, with kale as the green. All at a US grocery."
+    },
+    "why": "Highest precision (weights for most ingredients, size and cue detail) and a test-kitchen process, which outweighed ATK's less traditional Spanish chorizo and blended-oil approach."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/7486-caldo-verde",
+    "title": "Caldo Verde",
+    "source": "America's Test Kitchen (Lan Lam)",
+    "score": 71,
+    "scores": {
+      "authenticity": 15,
+      "precision": 17,
+      "testing": 19,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Uses Spanish-style chorizo, red pepper flakes, white wine vinegar and collards. Partly pureed and finished with blended olive oil. A sound adaptation, not a traditional method.",
+      "precision": "Only 3 of 11 ingredients have weights, but cues are in most steps ('shimmering', 'lightly browned', 'just tender', 'very smooth'). Times are given for each step. Pan is 'Dutch oven'.",
+      "testing": "ATK test-kitchen recipe, rating 4.2 from 269 ratings. The description addresses the problem of the soup's thin body.",
+      "photos": "No step images in the schema. 21 images on the page. Hidden content is not penalized.",
+      "efficiency": "About 1 hour. Slightly longer than the winner because of the separate browning and blending steps.",
+      "access": "Spanish chorizo, collards and vinegar are all at a US grocery."
+    },
+    "why": "Well tested, but Spanish chorizo and the blending method move it further from the traditional dish, and it has fewer weights."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/caldo-verde-portuguese-potato-kale-soup-recipe",
+      "source": "Serious Eats (J. Kenji López-Alt)",
+      "score": 78
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/7486-caldo-verde",
+      "source": "America's Test Kitchen (Lan Lam)",
+      "score": 71
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1023801-caldo-verde-potato-and-greens-soup-with-sausage",
+      "source": "NYT Cooking (Kay Chun)",
+      "score": 61
+    },
+    {
+      "url": "https://www.saveur.com/recipes/caldo-verde-recipe/",
+      "source": "Saveur (Kitty Greenwald, from Lisbon cook Olivia Ferreira)",
+      "score": 61
+    },
+    {
+      "url": "https://www.daringgourmet.com/caldo-verde-portuguese-green-soup/",
+      "source": "The Daring Gourmet",
+      "score": 57
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Caldo Verde\"",
+    "Caldo Verde recipe",
+    "caldo verde receita tradicional portuguesa"
+  ],
+  "notes": "Saveur is the most traditional (Lisbon home cook, pureed potato and onion, blanched greens, chouriço) but has no sausage weight, no substitutions, no step photos and a vague pan size. Choose it if authenticity matters more than precision. The Mediterranean Dish page loaded but had no structured data, and I did not score it. No candidate uses couve galega or water-only broth. NYT has 1,199 ratings at 4.0 but only one ingredient with a weight.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:10.488Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Caldo Verde (Portuguese Potato and Kale Soup With Sausage) Recipe",
+      "rating": 3.8,
+      "ratingCount": 8
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Caldo Verde",
+      "rating": 4.2,
+      "ratingCount": 269
+    }
+  }
+}

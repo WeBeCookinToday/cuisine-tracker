@@ -1,0 +1,119 @@
+{
+  "id": "belarus",
+  "country": "Belarus",
+  "dish": "Draniki",
+  "aliases": [
+    "драники",
+    "дзеркі (dzerki)",
+    "deruny",
+    "Belarusian potato pancakes"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://europeankitchen.org/2020/07/28/draniki",
+    "title": "Draniki",
+    "source": "European Kitchen (Jen)",
+    "score": 69,
+    "scores": {
+      "authenticity": 20,
+      "precision": 18,
+      "testing": 10,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Traditional potato-onion draniki with the classic mushroom filling sandwiched between potato layers; explains the name (Belarusian word 'to tear'), per-capita potato consumption, breakfast origins, and traditional serving (sour cream, machanka, kvass). Author is not Belarusian.",
+      "precision": "Potatoes by weight (700 g / about 4 medium); dried vs fresh mushroom weights; doneness cues: oil ready when a drop of mixture sizzles, about 4 min per side until golden, mixture should resemble apple sauce, spoon off starchy liquid. Pan size is only 'large frying pan'; no temperatures.",
+      "testing": "No test kitchen, but gives tips: flip sparingly, food processor gives worse texture, how to manage starchy liquid, vegan egg swaps.",
+      "photos": "Three uncaptioned step photos plus finished dish (seen via WebFetch); not clear they match key stages.",
+      "efficiency": "Mushroom filling prepared while nothing waits; 20 min prep and 10-20 min cook is realistic, though 'difficult' rating is odd.",
+      "access": "Everything at a US grocery; dried wild mushrooms are optional with fresh mushrooms given."
+    },
+    "why": "Most traditional version with the best history context and gram weights plus clear doneness cues, edging out the chicken-stuffed Splendid Table version."
+  },
+  "runnerUp": {
+    "url": "https://www.splendidtable.org/recipes/draniki",
+    "title": "Draniki",
+    "source": "The Splendid Table (Chef David Nayfeld, via The Inherited Plate)",
+    "score": 65,
+    "scores": {
+      "authenticity": 17,
+      "precision": 20,
+      "testing": 12,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Belarusian-style potato pancake stuffed with chicken (meat-stuffed variant); chef author, Jewish-roots interview linked; Russian sour cream suggested.",
+      "precision": "2 lb Yukon Gold (4-5 large), 1/3 cup batter per pancake, 1/2 inch thick, 1/4 inch oil, 400F oven; cues: shimmering oil, fluffy dark golden about 4 min, add flour tbsp at a time if water pools. No pan size.",
+      "testing": "Explains that salt draws out liquid while batter rests so keep adding flour; tasting a cooked bite of filling.",
+      "photos": "One hero photo only.",
+      "efficiency": "Fry plus oven finish; reasonable, no stated total time.",
+      "access": "Standard ingredients; meat grinder optional with food-processor alternative."
+    },
+    "why": "Very precise and well reasoned, but a stuffed-with-chicken variant with only a hero photo."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://europeankitchen.org/2020/07/28/draniki",
+      "source": "European Kitchen",
+      "score": 69
+    },
+    {
+      "url": "https://www.splendidtable.org/recipes/draniki",
+      "source": "The Splendid Table",
+      "score": 65
+    },
+    {
+      "url": "https://nomadparadise.com/draniki-deruny-potato-pancakes-recipe",
+      "source": "Nomad Paradise",
+      "score": 55
+    },
+    {
+      "url": "https://polkadotpassport.com/draniki-recipe-potato-cakes-mushroom-belarus/",
+      "source": "Polkadot Passport",
+      "score": 43
+    },
+    {
+      "url": "https://foreignfork.com/potato-pancakes/",
+      "source": "The Foreign Fork",
+      "score": 40
+    },
+    {
+      "url": "https://daryazorka.substack.com/p/belarusian-draniki-potato-pancakes",
+      "source": "From My Heart (Darya Zorka)",
+      "score": 0,
+      "disqualified": "Recipe is paywalled; no ingredients or steps visible"
+    },
+    {
+      "url": "https://belarus.by/en/about-belarus/cuisine/draniki",
+      "source": "belarus.by",
+      "score": 0,
+      "disqualified": "HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites Draniki (no matches on any site)",
+    "Draniki Belarusian potato pancakes recipe",
+    "дзеркi драники belarusian recipe картофельные"
+  ],
+  "notes": "Sites search found nothing. Best option from Darya Zorka (Belarusian author) is paywalled, so unusable. Nomad Paradise gives a simple flour-and-egg version with weights (700 g) and a lid step. Plain potato-only versions are less well documented than the mushroom-stuffed ones; the Belarus tourism page says the traditional recipe is just potato, onion, oil and salt.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:37:53.699Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

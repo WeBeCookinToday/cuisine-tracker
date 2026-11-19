@@ -1,0 +1,122 @@
+{
+  "id": "guinea",
+  "country": "Guinea",
+  "dish": "Poulet Yassa",
+  "aliases": [
+    "Chicken Yassa",
+    "Yassa au poulet",
+    "Yassa poulet",
+    "Poulet au yassa"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/chicken-yassa-senegalese-braised-chicken-with-caramelized-onions-5215703",
+    "title": "Chicken Yassa (Senegalese Braised Chicken With Caramelized Onions)",
+    "source": "Serious Eats (Amethyst Ganaway)",
+    "score": 81,
+    "scores": {
+      "authenticity": 19,
+      "precision": 21,
+      "testing": 17,
+      "photos": 13,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional yassa method: onion and citrus marinade, browned chicken, long-caramelized onions, braise, Scotch bonnet, Dijon optional. Senegalese origin, and the dish is also Guinea's national favorite. The intro explains the dish's structure. Author Amethyst Ganaway writes on African diaspora cooking.",
+      "precision": "Weights for 11 of 17 ingredients (900 g chicken, 170 g onion, 225 g onions); 12 sensory cues in steps (shimmering oil, dark brown onions, falling from the bone); Dutch oven named but no size; no temperatures.",
+      "testing": "Serious Eats test-kitchen recipe with explicit browning and caramelization cues; only 7 ratings (4.4).",
+      "photos": "4 of 5 steps have images in the schema (browning, onions, braise).",
+      "efficiency": "Total time listed as 10 hours, but most of that is the 8-12 hour marinade; active work is about 40 minutes plus a 1 hour braise.",
+      "access": "Scotch bonnet or habanero (habanero is given as the sub); everything else is at a US grocery."
+    },
+    "why": "It has the best mix of weights, doneness cues and step photos, and it is closer to the traditional long-braised caramelized-onion yassa than the ATK version."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/16064-chicken-yassa-senegalese-braised-chicken-with-caramelized-onion-and-lemon",
+    "title": "Chicken Yassa (Senegalese Braised Chicken with Caramelized Onion and Lemon)",
+    "source": "America's Test Kitchen (Erica Turner)",
+    "score": 76,
+    "scores": {
+      "authenticity": 18,
+      "precision": 17,
+      "testing": 20,
+      "photos": 10,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Lemon-mustard marinade, caramelized onions, habanero, braised thighs; the garlic is whole cloves and the marinade is short.",
+      "precision": "Only 2 ingredients with weights; 9 sensory cues (sauce like heavy cream, fork slips in and out); Dutch oven named, no size.",
+      "testing": "ATK test kitchen, 327 ratings at 4.1; the reasoning text is behind the login.",
+      "photos": "Step images are hidden behind the login, so not marked down; scored on ATK's usual practice.",
+      "efficiency": "2h15m total, with a short 30 to 60 minute marinade.",
+      "access": "Habanero and Dijon; both at US grocery stores."
+    },
+    "why": "It is the strongest tested alternative and has a much faster marinade, but it gives fewer weights and has no visible step photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/chicken-yassa-senegalese-braised-chicken-with-caramelized-onions-5215703",
+      "source": "Serious Eats (Amethyst Ganaway)",
+      "score": 81
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/16064-chicken-yassa-senegalese-braised-chicken-with-caramelized-onion-and-lemon",
+      "source": "America's Test Kitchen (Erica Turner)",
+      "score": 76
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1021053-chicken-yassa",
+      "source": "NYT Cooking (Alexa Weibel, from Pierre Thiam, Dakar-born)",
+      "score": 71
+    },
+    {
+      "url": "https://www.africanbites.com/?p=921",
+      "source": "Immaculate Bites",
+      "score": 62
+    },
+    {
+      "url": "https://cheflolaskitchen.com/?p=14512",
+      "source": "Chef Lola's Kitchen",
+      "score": 56
+    },
+    {
+      "url": "https://boroughmarket.org.uk/recipes/poulet-yassa",
+      "source": "Borough Market (Zoe Adjonyoh)",
+      "score": 0,
+      "disqualified": "No Recipe structured data; ingredients and steps not read, so not scored"
+    },
+    {
+      "url": "https://martymadeit.com/2017/06/10/069-guinea-poulet-yassa/",
+      "source": "martymadeit",
+      "score": 25,
+      "disqualified": "Copy of a food.com recipe, no amounts for salt and peppers, steps incomplete, no process photos"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Poulet Yassa\"",
+    "Poulet Yassa recipe",
+    "poulet yassa Guinée recette traditionnelle"
+  ],
+  "notes": "Yassa is Senegalese in origin and is also a national dish in Guinea. No English-language recipe from a Guinean cook with weights was found, so all candidates are Senegalese or pan-West African versions. The Guinean variants seen use cider vinegar, Maggi, and sometimes cabbage and carrots, but only an untested, incomplete copy of a food.com recipe was found. The Immaculate Bites and NYT scores are estimates from the page data.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:57.939Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Yassa (Senegalese Braised Chicken With Caramelized Onions)",
+      "rating": 4.4,
+      "ratingCount": 7
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Yassa (Senegalese Braised Chicken with Caramelized Onion and Lemon)",
+      "rating": 4.1,
+      "ratingCount": 327
+    }
+  }
+}

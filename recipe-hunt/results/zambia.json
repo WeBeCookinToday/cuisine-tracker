@@ -1,0 +1,121 @@
+{
+  "id": "zambia",
+  "country": "Zambia",
+  "dish": "Ifisashi",
+  "aliases": [
+    "Ifisashi",
+    "Ifishashi",
+    "V'sachy",
+    "groundnut sauce",
+    "greens in peanut sauce",
+    "Nshima ne Ifisashi"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.tastesfromtheroad.com/recipes/ifisashi-with-nshima-from-zambia",
+    "title": "Ifisashi with Nshima",
+    "source": "Tastes from the Road (Ben Pierce Jones)",
+    "score": 51,
+    "scores": {
+      "authenticity": 16,
+      "precision": 12,
+      "testing": 6,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 6
+    },
+    "evidence": {
+      "authenticity": "Traditional greens-plus-ground-peanut method with background on the name and communal cooking; author is a travel blogger, not Zambian. Adds garlic and a bouillon cube.",
+      "precision": "Volumes only, no weights ('2 bunches greens', '1 medium onion'); doneness cues on onion, tomato, greens, sauce; no pan size ('large pot'). Bouillon and salt are in the ingredients but missing from the steps.",
+      "testing": "No test kitchen and little explanation of why; some notes on substitutions.",
+      "photos": "One photo of the finished dish; no process photos.",
+      "efficiency": "Prep 10 min and cook 30 min, realistic and no wasted steps.",
+      "access": "Spinach, kale, peanut butter all easy to find; pumpkin leaves optional."
+    },
+    "why": "Best balance of traditional method, per-step doneness cues and realistic timing, but still under 60 because of no weights, no pan size and no process photos."
+  },
+  "runnerUp": {
+    "url": "https://cathslittlekitchen.wordpress.com/2019/04/19/zambia-ifisashi-or-vsachy/",
+    "title": "Zambia - Ifisashi or V'sachy",
+    "source": "Cath's Little Kitchen (Catherine Robbe)",
+    "score": 47,
+    "scores": {
+      "authenticity": 16,
+      "precision": 10,
+      "testing": 5,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Simple traditional pumpkin-leaf, peanut, tomato, onion version served with nshima; author is not Zambian but cooks through countries.",
+      "precision": "Peanuts given as 125 g; no water amounts; vague cues ('well cooked', paste like a spread); no pan size.",
+      "testing": "Little reasoning.",
+      "photos": "One photo.",
+      "efficiency": "25 minutes total.",
+      "access": "Swiss chard or other greens, peanut butter sub given."
+    },
+    "why": "Only recipe with a peanut weight, but vaguer cues and no water quantities."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.tastesfromtheroad.com/recipes/ifisashi-with-nshima-from-zambia",
+      "source": "Tastes from the Road",
+      "score": 51
+    },
+    {
+      "url": "https://cathslittlekitchen.wordpress.com/2019/04/19/zambia-ifisashi-or-vsachy/",
+      "source": "Cath's Little Kitchen",
+      "score": 47
+    },
+    {
+      "url": "https://fullbellyfarm.com/?p=6213",
+      "source": "Full Belly Farm (credited to a Zambian woman via FINCA)",
+      "score": 43
+    },
+    {
+      "url": "https://www.worldfoodwine.com/node/2632",
+      "source": "World Food and Wine",
+      "score": 42
+    },
+    {
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Ifisashi_(Zambian_Peanut_and_Spinach_Stew)",
+      "source": "Wikibooks",
+      "score": 35
+    },
+    {
+      "url": "https://experiencetwaala.wordpress.com/2015/11/11/dry-pumpkin-leaves-in-peanut-butter-sauce-ifishashi-of-chibwawa/",
+      "source": "Experience Twaala (anonymous Zambian blog)",
+      "score": 38
+    },
+    {
+      "url": "https://www.crsricebowl.org/?p=8610",
+      "source": "CRS Rice Bowl",
+      "score": 0,
+      "disqualified": "Page fetched as a homepage with no recipe content"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Ifisashi\" (no matches)",
+    "Ifisashi recipe Zambian greens peanut sauce",
+    "ifisashi Zambia traditional recipe",
+    "ifisashi nshima recipe Zambian cook blog step by step photos pumpkin leaves peanut butter"
+  ],
+  "notes": "No test-kitchen version exists on the four main sites. Every web recipe is a simple blog or community post with volume measures, no pan sizes and at most one photo, so none reaches 60. The Zambian-sourced Full Belly Farm and Experience Twaala versions are the most traditional but the least precise. The Wikibooks version adds bell peppers, cumin and cayenne, which are not traditional. The Experience Twaala author is not named. Full Belly Farm's text is cooked 15 to 60 minutes with only a 'thick stew' cue. For nshima, a separate recipe would be needed (not read). Tastes from the Road and Cath's pages had no Recipe schema, so I read them with WebFetch.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:25:40.081Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

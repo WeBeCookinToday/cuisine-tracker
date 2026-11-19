@@ -1,0 +1,117 @@
+{
+  "id": "mali",
+  "country": "Mali",
+  "dish": "Maafe",
+  "aliases": [
+    "Mafé",
+    "Maffé",
+    "Tigadèguèna",
+    "Tigadegue-na",
+    "Tiga diga naa",
+    "Peanut stew",
+    "Groundnut stew",
+    "Domoda (Gambia)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.saveur.com/recipes/lamb-mafe/",
+    "title": "Lamb Mafé (Senegalese Peanut Stew)",
+    "source": "Saveur (Bintou N'Daw, Senegalese-born chef)",
+    "score": 64,
+    "scores": {
+      "authenticity": 22,
+      "precision": 17,
+      "testing": 12,
+      "photos": 3,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Written by a Senegalese-born chef who learned it from her mother; gives the Senegalese name (mafé yapp) and context; classic base of onion, pepper, celery, tomato paste, okra thickener, peanuts blended with cooking liquid, rice. Senegalese rather than Malian variant, which is allowed as a regional variant.",
+      "precision": "Volumes and cut sizes (2-inch lamb cubes, 3 lb, 8 cups stock); no grams. Doneness cues for lamb sear (golden), tomato paste (darkens, sticks to pot), lamb (pulls apart with a fork), sauce (red oil rises after resting). Pan size only 'large heavy pot'. No Recipe schema, so read via WebFetch.",
+      "testing": "Author explains why for searing, tomato-paste browning, dawadawa umami, okra as thickener, and peanut vs peanut butter. Saveur editorial. No test-kitchen claims.",
+      "photos": "One finished-dish photo only; no step photos.",
+      "efficiency": "3.5 hours total, mostly braise time for lamb; 30-minute rest is a real step. Reasonable for the dish but long.",
+      "access": "Dawadawa is hard to find, but balsamic vinegar is given as a substitute. Natural peanut butter accepted for roasted peanuts. Lamb leg, okra and habanero are available in US stores."
+    },
+    "why": "It is the only candidate with an authentic author, specific doneness cues and explained technique, while the Malian-named Foreign Fork version has fewer cues and no author expertise."
+  },
+  "runnerUp": {
+    "url": "https://foreignfork.com/west-african-peanut-stew/",
+    "title": "West African Peanut Stew (Tigadegue-Na or Maafe)",
+    "source": "The Foreign Fork",
+    "score": 51,
+    "scores": {
+      "authenticity": 15,
+      "precision": 12,
+      "testing": 6,
+      "photos": 8,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Names the Malian tigadegue-na and uses a tomato and peanut butter base with beef and root vegetables; author is not from Mali and the recipe is a simplified home version.",
+      "precision": "Only 2 of 14 ingredients have weights; cues are 'until brown', 'vegetables cooked', and 'oil renders on top'. No pan size.",
+      "testing": "Little reasoning given beyond a note on the oil rendering as the doneness sign.",
+      "photos": "32 images on the page, but none in the schema steps and not confirmed as process photos.",
+      "efficiency": "110 minutes; the final 30-minute uncovered simmer is a sensible reduction.",
+      "access": "All ingredients are at a US grocery."
+    },
+    "why": "Less precise and less well explained than the Saveur recipe, though it is closer to the Malian name and is faster."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.saveur.com/recipes/lamb-mafe/",
+      "source": "Saveur (Bintou N'Daw)",
+      "score": 64
+    },
+    {
+      "url": "https://foreignfork.com/west-african-peanut-stew/",
+      "source": "The Foreign Fork",
+      "score": 51
+    },
+    {
+      "url": "https://www.africanbites.com/maafe-west-african-peanut-soup/",
+      "source": "Immaculate Bites",
+      "score": 51
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/west-african-peanut-stew-mafe/a186vrmf9",
+      "source": "SBS Food (Leanne Kitchen)",
+      "score": 46
+    },
+    {
+      "url": "https://tarasmulticulturaltable.com/tigadegena-west-african-peanut-stew/",
+      "source": "Tara's Multicultural Table",
+      "score": 39
+    },
+    {
+      "url": "https://www.au-senegal.com/le-mafe,3446",
+      "source": "au-senegal.com",
+      "score": 29
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"maafe\"",
+    "maafe recipe West African peanut stew",
+    "mafé malien sauce arachide recette",
+    "Malian maafe tigadèguèna recipe shea butter peanut sauce"
+  ],
+  "notes": "Saveur's winner is Senegalese; no tested recipe in a Malian tradition (shea butter, thinner sauce) was found in English. ATK's 'Maafe-Inspired Fonio' was found by sites search but is an adaptation and was not read. Serious Eats, NYT and BBC Good Food have no maafe recipe. The sites command was not re-run with 'mafé' or 'tigadegue'. Scores for non-winners are brief and come from the read output.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:25:30.926Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "West African Peanut Stew (Tigadegue-Na or Maafe)"
+    }
+  }
+}

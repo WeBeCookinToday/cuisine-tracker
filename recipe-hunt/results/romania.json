@@ -1,0 +1,102 @@
+{
+  "id": "romania",
+  "country": "Romania",
+  "dish": "Sarmale",
+  "aliases": [
+    "Sarmale in foi de varza murata",
+    "Romanian cabbage rolls",
+    "Sarmalute",
+    "Romanian stuffed cabbage"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.bbcgoodfood.com/recipes/sarmale-romanian-cabbage-rolls",
+    "title": "Sarmale (Romanian cabbage rolls)",
+    "source": "BBC Good Food (Irina Georgescu)",
+    "score": 72,
+    "scores": {
+      "authenticity": 23,
+      "precision": 18,
+      "testing": 14,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Written by Irina Georgescu, a Romanian cook and author. Uses sauerkraut leaves, pork mince, smoked pork, and a slow braise. Served with polenta, soured cream and pickled chillies. Calls it a celebration dish.",
+      "precision": "Grams for the main items (pancetta 150 g, rice 50 g, pork 400 g). Teaspoon measures for spices. Cues include onion 'soft, golden and starting to caramelise', rice 'just al dente', and rolls 'very tender'. Roll size is given (about 1 tbsp filling, 5 cm sausage). No pan size beyond 'large, wide ovenproof casserole'. No temperatures except the oven finish. 3 hour simmer.",
+      "testing": "Good Food test kitchen recipe. Explains why: leaves stay damp so they roll easily, bread in the filling, a snug circular arrangement so rolls hold shape, and tighter rolling if loose. Notes it tastes better the next day.",
+      "photos": "No step photos in the schema. About 11 images on the page, not confirmed as process shots. Scored as mostly a hero shot.",
+      "efficiency": "Onion and rice cook in parallel while the filling cools. Stated total of 4h25 matches the 3h simmer. Makes 34-36 rolls.",
+      "access": "Vacuum-packed sauerkraut leaves are sold in US Eastern European and some mainstream grocers. Smoked pancetta can be swapped for smoked bacon. The page has a tip about the leaves."
+    },
+    "why": "It is written by a Romanian author, has the best doneness cues and gram weights of the three, and comes from a test kitchen, so it beat Primal Gourmet's less precise but similar version."
+  },
+  "runnerUp": {
+    "url": "https://cookprimalgourmet.com/recipes/sarmale-romanian-cabbage-rolls/",
+    "title": "Sarmale (Romanian Cabbage Rolls)",
+    "source": "Primal Gourmet",
+    "score": 66,
+    "scores": {
+      "authenticity": 21,
+      "precision": 15,
+      "testing": 11,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Sour cabbage, pork and beef, rice, parsley root, dill and smoked bacon. Cooked in a pot with a plate to weigh the rolls down. Not a Romanian author.",
+      "precision": "US cup and spoon measures. Produce sizes given (medium red onion, large parsley root). Cues include 'fork-tender around 2 hours', 'shimmering' and 'soft and translucent'. No pan size or temperatures.",
+      "testing": "Some technique reasoning, such as the plate on top. No test kitchen.",
+      "photos": "About 31 images on the page and a video. No step images in the schema.",
+      "efficiency": "3 hours total. The filling base is cooked first, then the rolls simmer.",
+      "access": "Sour cabbage by St. Jacob's brand. Parsley root has a parsnip substitute."
+    },
+    "why": "Strong cues and a good filling, but US measures only, a non-Romanian author, and less explanation than the BBC recipe."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/sarmale-romanian-cabbage-rolls",
+      "source": "BBC Good Food",
+      "score": 72
+    },
+    {
+      "url": "https://cookprimalgourmet.com/recipes/sarmale-romanian-cabbage-rolls/",
+      "source": "Primal Gourmet",
+      "score": 66
+    },
+    {
+      "url": "https://www.chefspencil.com/sarmale-romanian-cabbage-rolls/",
+      "source": "Chef's Pencil",
+      "score": 57
+    },
+    {
+      "url": "https://globaltableadventure.com/recipe/recipe-romanian-stuffed-cabbage-leaves-sarmale/print",
+      "source": "Global Table Adventure",
+      "score": 0,
+      "disqualified": "No Recipe structured data; not read or scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Sarmale\"",
+    "Sarmale recipe Romanian stuffed cabbage rolls",
+    "sarmale în foi de varză rețetă tradițională"
+  ],
+  "notes": "Photos score for the winner is unconfirmed, since no WebFetch check was made. Sarmale is made with sauerkraut leaves, so the US cook needs pickled whole leaves. The Chef's Pencil version has no onion in the filling and is the thinnest on cues. Romanian-language sources (Antena 3, BZI) were seen in search but not read.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:35.899Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Sarmale (Romanian cabbage rolls)"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Sarmale (Romanian Cabbage Rolls)"
+    }
+  }
+}

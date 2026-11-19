@@ -1,0 +1,116 @@
+{
+  "id": "senegal",
+  "country": "Senegal",
+  "dish": "Thieboudienne",
+  "aliases": [
+    "Thiéboudiène",
+    "Ceebu jën",
+    "Ceebu jen",
+    "Thiebou dieune",
+    "Tiep",
+    "Riz au poisson"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1024610-thieboudienne",
+    "title": "Thieboudienne",
+    "source": "NYT Cooking (Yewande Komolafe)",
+    "score": 75,
+    "scores": {
+      "authenticity": 20,
+      "precision": 17,
+      "testing": 17,
+      "photos": 10,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional structure: rof herb marinade stuffed into fish steaks, nokoss base (onion, bell pepper, tomato), broken rice, dawadawa, cassava, cabbage, okra, Scotch bonnet. Author is a Nigerian-American West African cuisine authority, not Senegalese. Intro frames it as the national dish of Senegal with reach across West Africa.",
+      "precision": "Fish steak thickness given (1.5 to 1.75 inch), vegetable cut sizes, 16 sensory cues in steps (oil rising to the surface, vegetables pierced with a fork, rice just tender), 3 pan mentions (Dutch oven or wide skillet). Only 2 ingredients with weights, mostly volumes or counts. Some produce sizing is vague.",
+      "testing": "NYT Cooking test process; 317 ratings, avg 4.0. Explains why vegetables go in by cook time and that scorched rice on the bottom is fine.",
+      "photos": "No step images in schema, 47 images on page (not confirmed as process shots). NYT step photos may be hidden, so not marked down for that.",
+      "efficiency": "2 hours total (30 min prep, 1.5 hr cook). Marinate while the sauce base is prepped. Searing the fish and the batch-cooked vegetables add some steps.",
+      "access": "Broken rice and dawadawa powder are hard to find. The page has a Tip for dawadawa. Red snapper or striped bass is available at US grocers."
+    },
+    "why": "Best precision and cues, test-kitchen backing and 317 ratings, and the most traditional method among sources readable in full."
+  },
+  "runnerUp": {
+    "url": "https://www.sbs.com.au/food/recipes/thieboudienne",
+    "title": "Thieboudienne",
+    "source": "SBS Food (Aissatou Ba, Food Safari Water)",
+    "score": 58,
+    "scores": {
+      "authenticity": 23,
+      "precision": 12,
+      "testing": 10,
+      "photos": 4,
+      "efficiency": 6,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Senegalese author. Whole fish stuffed with parsley paste, nokkos, steamed broken rice, tamarind, netetou, with a note on what netetou is.",
+      "precision": "One block of method text, 6 sensory cues, few weights, whole fish given as 1.5 to 2 kg. Many times, few doneness cues.",
+      "testing": "TV show recipe, little reasoning given beyond seasoning tips.",
+      "photos": "12 images on page, likely a hero shot with no process steps (not confirmed).",
+      "efficiency": "About 2h20 total. Rice is pre-steamed while vegetables cook.",
+      "access": "Sea snail is optional (noted as Senegal-only). Netetou is explained but no substitute is named. Broken or jasmine rice is allowed."
+    },
+    "why": "More authentic voice, but the single-paragraph method and lack of cues leave it below the NYT version."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1024610-thieboudienne",
+      "source": "NYT Cooking (Yewande Komolafe)",
+      "score": 75
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipes/thieboudienne",
+      "source": "SBS Food (Aissatou Ba)",
+      "score": 58
+    },
+    {
+      "url": "https://www.saveur.com/article/Recipes/Senegal-Fish-Rice/",
+      "source": "Saveur",
+      "score": 54
+    },
+    {
+      "url": "https://www.yummymedley.com/?p=1418",
+      "source": "Yummy Medley",
+      "score": 51
+    },
+    {
+      "url": "https://africanbites.com/thieboudienne-ceebu-jen-poisson-au-riz",
+      "source": "Immaculate Bites",
+      "score": 49
+    },
+    {
+      "url": "https://www.au-senegal.com/ceebu-jen-riz-au-poisson,3443.html?lang=fr",
+      "source": "au-senegal.com",
+      "score": 0,
+      "disqualified": "No structured data; not scored in full. Loaded with HTTP 200 but I did not fetch it, so it was not evaluated."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Thieboudienne\"",
+    "Thieboudienne recipe",
+    "thiéboudiène ceebu jën recette sénégalaise"
+  ],
+  "notes": "NYT page is paywalled but the full recipe came through the schema. Photos for Yummy Medley, Immaculate Bites and SBS were not confirmed with WebFetch. Saveur has no named author and one hero photo, uses basmati and fish sauce, and has long times (45 min rice). au-senegal.com was not evaluated. Recipe uses volume measures, so a cook should weigh broken rice on first attempt.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:36.917Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Thieboudienne",
+      "rating": 4,
+      "ratingCount": 317
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Thieboudienne"
+    }
+  }
+}

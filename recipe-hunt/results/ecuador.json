@@ -1,0 +1,110 @@
+{
+  "id": "ecuador",
+  "country": "Ecuador",
+  "dish": "Encebollado",
+  "aliases": [
+    "Encebollado de pescado",
+    "Encebollado de albacora",
+    "Encebollado ecuatoriano",
+    "Ecuadorian tuna and yuca soup"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+    "title": "{Encebollado de pescado} Ecuadorian tuna fish soup",
+    "source": "Laylita's Recipes (Layla Pujol, Ecuadorian-born)",
+    "score": 61,
+    "scores": {
+      "authenticity": 22,
+      "precision": 11,
+      "testing": 10,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Traditional method: refrito of onion, tomato, cumin and chili, fresh albacore poached, same broth reused to cook yuca, tuna and yuca returned to the pot, topped with curtido de cebolla y tomate, served with chifles and tostado. Author is Ecuadorian and the page is the one Wikipedia links. No blending, no foreign additions.",
+      "precision": "Only 1 of 13 ingredients has a weight in the schema (2 lbs tuna, 1 lb yuca); tomatoes and onion unsized; no pan size; 3 sensory cues (fully cooked, tender but firm, strings removed); no temperatures. Pickled onion is a linked sub-recipe.",
+      "testing": "Individual blog author, not a test kitchen. Rating 4.87 from 241 reviews, with 5 pages of comments. Some explanation (keep broth for yuca, remove yuca strings), but little on why.",
+      "photos": "33 images on the page, but 0 step images in the schema. I did not confirm process photos with WebFetch, so this is scored conservatively.",
+      "efficiency": "Sequential: tuna, then yuca in the same broth. Stated 90 minutes total. Reusing the broth is sensible and the times are realistic. Yuca could be started in parallel, so this isn't full marks.",
+      "access": "Fresh albacore, or any similar tuna, is available. Yuca is sold frozen at US grocery and Latin stores. Chili powder is easy to find. Everything is obtainable."
+    },
+    "why": "It is the most traditional preparation, from an Ecuadorian author, with 241 positive reviews; the Food Network version blends the broth and is an adaptation, and the rest are copies or too thin."
+  },
+  "runnerUp": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/encebollado-ecuadorian-fish-stew-24914206",
+    "title": "Encebollado (Ecuadorian Fish Stew)",
+    "source": "Food Network Kitchen (Amanda Neal)",
+    "score": 59,
+    "scores": {
+      "authenticity": 12,
+      "precision": 16,
+      "testing": 14,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "The page itself says 'inspired by Ecuadorian Encebollado'. It uses a blended broth with bell peppers, celery, parsley and store-bought fish stock, which is not the traditional form.",
+      "precision": "10 sensory cues, 2 pan or size cues, tuna fillet specified as 1 lb and 3/4 inch thick, poach time of 5-6 min with an opaque-center cue. Only 2 weights.",
+      "testing": "Food Network Kitchen test process; the page gives a Cook's Note and a blending rationale. No rating counts were returned.",
+      "photos": "87 images on the page but 0 step images in the schema. Not confirmed.",
+      "efficiency": "Yuca boils in parallel with the broth. Stated 50 min total.",
+      "access": "Needs ají para seco and frozen yuca, with a Cook's Note on subs. Fish stock is also needed."
+    },
+    "why": "It is tighter on precision and cues, but it is an adapted, blended 'inspired by' version, so it loses on authenticity."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+      "source": "Laylita's Recipes",
+      "score": 61
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/encebollado-ecuadorian-fish-stew-24914206",
+      "source": "Food Network Kitchen",
+      "score": 59
+    },
+    {
+      "url": "https://travelfoodatlas.com/ecuadorian-encebollado-de-pescado-recipe",
+      "source": "Travel Food Atlas",
+      "score": 40,
+      "disqualified": "Near-verbatim copy of the Laylita recipe, with 'a handful' sizing and a single rating"
+    },
+    {
+      "url": "https://www.internationalcuisine.com/ecuador-fish-soup/",
+      "source": "International Cuisine",
+      "score": 42,
+      "disqualified": "Copy of the Laylita recipe with the same ingredient list; typos in the ingredients"
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/onion-fish-soup-encebollado-de-pescado/mwdgt23uh",
+      "source": "SBS Food (Maribel Lara)",
+      "score": 38
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Encebollado\" (only a Puerto Rican bistec encebollado turned up, which is a different dish)",
+    "Encebollado Ecuadorian fish soup recipe",
+    "encebollado de albacora receta ecuatoriana"
+  ],
+  "notes": "Winner is borderline at 61. Laylita is the original that several copies (Travel Food Atlas, International Cuisine) reproduce. Tastes from the Road and El Comercio loaded but have no structured data, and I did not WebFetch them, so they are not scored. The Spanish-language results (Cookpad, El Comercio, OkDiario) were not scored either. Process photos on the winner were not verified. Serious Eats, NYT, ATK and BBC have no real encebollado; the Serious Eats hit was Puerto Rican bistec encebollado, a different dish. The Food Network page says 'inspired by', which is a rule-4 concern.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:56.834Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "{Encebollado de pescado} Ecuadorian tuna fish soup",
+      "rating": 4.87,
+      "ratingCount": 241
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Encebollado (Ecuadorian Fish Stew)"
+    }
+  }
+}

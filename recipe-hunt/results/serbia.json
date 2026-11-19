@@ -1,0 +1,117 @@
+{
+  "id": "serbia",
+  "country": "Serbia",
+  "dish": "Karadjordjeva Snicla",
+  "aliases": [
+    "Karađorđeva šnicla",
+    "Karađorđe's schnitzel",
+    "Karadjordje's steak",
+    "Karageorge schnitzel",
+    "Караџорџева шницла"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://bonapeti.com/recipes/r-221031-Karadjordjeva_Schnitzel",
+    "title": "Karadjordjeva Schnitzel",
+    "source": "Bonapeti.com (Yordanka Kovacheva)",
+    "score": 57,
+    "scores": {
+      "authenticity": 13,
+      "precision": 12,
+      "testing": 12,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Rolled, breaded, fried pork cutlet, recognizably the dish. Author is Bulgarian, not Serbian. Filling is cream, pickle, yellow cheese and optional ham, with no kajmak. No history given.",
+      "precision": "3 of 11 ingredients have weights (500 g pork, 70 g cheese, 60 g pickles); cups and tbsp for the rest. Cues: warm the meat 30 min so it cooks through, fry slowly over moderate heat, turn several times for even color, butterfly the fillet 'like a book'. No oil temperature or pan size; 7 sensory cues in steps.",
+      "testing": "Author explains why: tenderloin stays juicy, meat must be at room temperature so it cooks through during frying, slow frying so the crumbs do not brown before the meat is done, seal the filling in the middle. No test kitchen.",
+      "photos": "Page shows a 10-photo gallery, but I could not confirm that it covers process stages. No step images in the schema.",
+      "efficiency": "Stated 20 min prep plus 12 min cook. The 30 min rest is real and is not counted in the total, so the time is slightly understated.",
+      "access": "Everything is available at a US grocery. Sour cream and yellow cheese stand in for kajmak."
+    },
+    "why": "It is the only English-language candidate that explains why it does each step (butterfly, rest, fry slowly) and gives some weights and doneness cues; the others are time-only or have no reasoning."
+  },
+  "runnerUp": {
+    "url": "https://informer.rs/magazin/recepti/914184/recepto-titovog-kuvara",
+    "title": "Karađorđeva šnicla (Recept Titovog kuvara)",
+    "source": "Informer.rs",
+    "score": 44,
+    "scores": {
+      "authenticity": 15,
+      "precision": 12,
+      "testing": 4,
+      "photos": 2,
+      "efficiency": 6,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Serbian publication, credits Mića Stojanović, Tito's cook. Uses pavlaka, not kajmak, and the text mentions kajmak in one step. History is brief and unsourced.",
+      "precision": "Grams for cutlets (150 g each), cream (200 g), flour (100 g) and breadcrumbs (100 g). Fry 5-7 min per side to golden and crisp. No oil temperature or pan size.",
+      "testing": "No reasoning and no sign of testing.",
+      "photos": "Two Shutterstock stock photos, none of the process.",
+      "efficiency": "Simple and direct. No times given for prep.",
+      "access": "Pavlaka can be replaced with heavy cream."
+    },
+    "why": "It is more authentic but has no explanation, no process photos, and is in Serbian only."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://bonapeti.com/recipes/r-221031-Karadjordjeva_Schnitzel",
+      "source": "Bonapeti.com",
+      "score": 57
+    },
+    {
+      "url": "https://informer.rs/magazin/recepti/914184/recepto-titovog-kuvara",
+      "source": "Informer.rs",
+      "score": 44
+    },
+    {
+      "url": "https://tastesfromtheroad.com/post/karadjordjeva-snicla-from-serbia",
+      "source": "Tastes from the Road (Ben Pierce Jones)",
+      "score": 42
+    },
+    {
+      "url": "https://sandraseasycooking.com/2015/04/serbian-breaded-rolled-cutle.html",
+      "source": "Sandra's Easy Cooking",
+      "score": 41
+    },
+    {
+      "url": "https://www.all-thats-jas.com/serbian-famous-stuffed-cutlet-recipe/",
+      "source": "All that's Jas",
+      "score": 40
+    },
+    {
+      "url": "https://martymadeit.com/2019/05/11/153-serbia-karadordeva-snicla/",
+      "source": "Marty Made It",
+      "score": 38
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Karadjordjeva Snicla\"",
+    "node scripts/recipe-hunt.mjs sites \"Karadjordje's steak\"",
+    "Karađorđeva šnicla recipe",
+    "Karadjordjeva snicla Serbian rolled stuffed cutlet recipe",
+    "Karađorđeva šnicla recept kajmak teleći file 200 g pohovanje",
+    "Karadjordje's schnitzel kajmak recipe Balkan blog step by step"
+  ],
+  "notes": "The sites search found no Serious Eats, NYT, ATK or BBC recipe for this dish. serbiancookbook.com returned HTTP 403 to WebFetch and could not be read or scored. A Kitchen Stories result returned HTTP 410. The best score is 57, just under the 60 bar, so the status is none-found. Bonapeti is the best fallback. The Tastes from the Road page gives clear kajmak substitutions and history but has no amounts for flour, crumbs or oil. If a better recipe is needed, look for a Serbian-language blog with grams and kajmak. Check Bonapeti's 10 gallery photos by hand.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:12.359Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Karadjordjeva Schnitzel",
+      "rating": 5,
+      "ratingCount": 1
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

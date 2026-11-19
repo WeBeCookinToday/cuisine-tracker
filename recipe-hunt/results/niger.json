@@ -1,0 +1,114 @@
+{
+  "id": "niger",
+  "country": "Niger",
+  "dish": "Dambou",
+  "aliases": [
+    "Dambu",
+    "Dambun couscous",
+    "Dambun shinkafa (Hausa rice variant)",
+    "Couscous de mil aux feuilles de moringa"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.nkosiagro.com/en/blogs/blog-and-recipes/recette-dambou",
+    "title": "Dambou: the Nigerien recipe with millet couscous and moringa leaves",
+    "source": "NKOSI (commercial African-food brand blog, Equipe NKOSI)",
+    "score": 49,
+    "scores": {
+      "authenticity": 17,
+      "precision": 12,
+      "testing": 5,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Names Zarma and Songhai origin, millet couscous steamed, then mixed with boiled leaves, onion, chili; but main leaf is spinach with moringa as the alternate, uses stock cube, and the author is a brand team, not a Nigerien cook.",
+      "precision": "Grams for 2 of 8 ingredients (400 g couscous, 250 g leaves); 10 cl oil; 'tender' cue on steaming; no temps, no pan sizes; onion and chili unsized.",
+      "testing": "No sign of testing and no explanation of why; short origin blurb only.",
+      "photos": "0 step images in schema; 57 images on page are likely site chrome and products.",
+      "efficiency": "45 minutes total, no wasted steps; leaves boil while couscous steams.",
+      "access": "Millet couscous needs an African grocery or online order and has no sub; spinach and dried moringa are offered as options."
+    },
+    "why": "It is the only candidate that is actually Nigerien dambou with weights, beating the Hausa rice variant from Nigeria (BusinessDay) on authenticity and precision, though it still falls short of 60."
+  },
+  "runnerUp": {
+    "url": "https://businessday.ng/culinary-delights/article/dambun-shinkafa-a-delicious-healthy-rice-dish-from-northern-nigeria/",
+    "title": "Dambun Shinkafa, a Northern Nigerian rice dish",
+    "source": "BusinessDay (Lehle Balde; recipe by chef Halima Zawiya, Kano)",
+    "score": 44,
+    "scores": {
+      "authenticity": 14,
+      "precision": 10,
+      "testing": 6,
+      "photos": 4,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Hausa dambun shinkafa from Nigeria by a Kano chef; rice grits with moringa, a related regional variant rather than the Zarma millet dambou.",
+      "precision": "Cup measures for most items, a big bowl of moringa, no weights; cues only 'half-cooked' then 'completely cooked'; Maggi cube unquantified.",
+      "testing": "Some reasoning: broken rice softens best, moringa on the rack prevents overcooking; no testing.",
+      "photos": "One finished-dish photo.",
+      "efficiency": "Two 20-minute steams, sensible.",
+      "access": "Rice grits, atarugu peppers, and zogale have no subs given."
+    },
+    "why": "A newspaper feature with cup measures and little cue detail, and a Hausa rice variant, so it ranks below NKOSI."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.nkosiagro.com/en/blogs/blog-and-recipes/recette-dambou",
+      "source": "NKOSI",
+      "score": 49
+    },
+    {
+      "url": "https://businessday.ng/culinary-delights/article/dambun-shinkafa-a-delicious-healthy-rice-dish-from-northern-nigeria/",
+      "source": "BusinessDay",
+      "score": 44
+    },
+    {
+      "url": "https://www.chefadora.com/recipe/dambun-couscous-antngglfcr",
+      "source": "Chefadora",
+      "score": 26
+    },
+    {
+      "url": "https://www.theflavorvortex.com/international-cooking-food-from-niger/",
+      "source": "The Flavor Vortex",
+      "score": 22
+    },
+    {
+      "url": "https://www.afrik.com/dambou",
+      "source": "Afrik.com",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://northpad.ng/dambun-shinkafa-recipe/",
+      "source": "Northpad",
+      "score": 0,
+      "disqualified": "could not be fetched (fetch failed, ENOTFOUND)"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites Dambou (no matches on any site)",
+    "Dambou Niger recipe",
+    "dambou Niger millet couscous moringa recipe Zarma",
+    "dambu shinkafa recipe Nigerian rice couscous moringa"
+  ],
+  "notes": "No test-kitchen or authority recipe for Nigerien dambou exists in English. Afrik.com (French; 500 g semoule, 300 g spinach or moringa, 1 onion) blocked reads with 403, so a later retry with a different fetch method might find a better original. Chefadora and Flavor Vortex have no amounts. All candidates fall under 60.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:32.721Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Dambou: the Nigerien recipe with millet couscous and moringa leaves"
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

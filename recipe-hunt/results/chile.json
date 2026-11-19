@@ -1,0 +1,108 @@
+{
+  "id": "chile",
+  "country": "Chile",
+  "dish": "Cazuela",
+  "aliases": [
+    "Cazuela de vacuno",
+    "Cazuela chilena",
+    "Cazuela de ave",
+    "Chilean beef and vegetable soup"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.sbs.com.au/food/recipe/beef-stew-cazuela-de-vacuno/7ooehr4me",
+    "title": "Beef stew (cazuela de vacuno)",
+    "source": "SBS Food (Cecilia Cortes)",
+    "score": 61,
+    "scores": {
+      "authenticity": 20,
+      "precision": 15,
+      "testing": 11,
+      "photos": 3,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Chilean author; intro about her grandmother's cazuela, using bones for flavor and leaving vegetables whole with skins on. Traditional beef, pumpkin, corn, potato, long slow simmer. Uses angel hair pasta instead of rice and spring onion; no zapallo/chuchoca variants noted.",
+      "precision": "Grams for beef (4 x 200 g chuck), 2 cm pumpkin slices, 1.5 L water; cues like 'until fragrant', 'browned', 'meat tender', 'potatoes tender'; ingredientsWithWeights 2, sensory cues 9. Whole method is a single paragraph step; no pot size beyond 'large stockpot'; 'carrots, grated' unsized.",
+      "testing": "Magazine recipe (Feast / SBS); author explains why the bones and unpeeled-in-the-pot vegetables matter. No test-kitchen notes.",
+      "photos": "One finished-dish photo only; no process photos.",
+      "efficiency": "About 3h25m, mostly unattended simmer, which is realistic for chuck. Single-pot, though it can't be staged in parallel.",
+      "access": "Chuck steak, pumpkin, corn, angel hair, all at US grocery; butternut can stand in for pumpkin (my note, not on page)."
+    },
+    "why": "Realistic long-simmer method with weights and cues from a Chilean author, beating the runner-up's implausible 20-minute beef cook time despite fewer photos."
+  },
+  "runnerUp": {
+    "url": "https://www.chileanfoodandgarden.com/chilean-beef-cazuela/",
+    "title": "Chilean Beef Cazuela",
+    "source": "Pilar's Chilean Food & Garden (Pilar Hernandez)",
+    "score": 57,
+    "scores": {
+      "authenticity": 21,
+      "precision": 9,
+      "testing": 6,
+      "photos": 12,
+      "efficiency": 5,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Chilean author; traditional ingredients (corn with crown, red potatoes, cornmeal/rice, Mexican oregano, cumin); bone-in beef.",
+      "precision": "ingredientsWithWeights 1 (2 lb beef); 'handfuls', 'large onion'; 2 L water; one cue ('make sure the potato is cooked'). No temps or pan size.",
+      "testing": "No reasoning given; 1 rating (5 stars).",
+      "photos": "5 of 6 steps have photos in schema.",
+      "efficiency": "States 40 minutes total, but bone-in short rib or brisket will not be tender in 20 minutes of cooking, so the time is understated.",
+      "access": "Fresh corn with crown, red potatoes; cornmeal and chuchoca not common but rice is offered."
+    },
+    "why": "Better photos but the 20-minute cook time is understated for the beef and measurements are vague."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.sbs.com.au/food/recipe/beef-stew-cazuela-de-vacuno/7ooehr4me",
+      "source": "SBS Food",
+      "score": 61
+    },
+    {
+      "url": "https://www.chileanfoodandgarden.com/chilean-beef-cazuela/",
+      "source": "Pilar's Chilean Food & Garden",
+      "score": 57
+    },
+    {
+      "url": "https://cocinachilena.cl/cazuela-de-vacuno/",
+      "source": "La Cocina Chilena de Pilar Hernandez (Spanish)",
+      "score": 53
+    },
+    {
+      "url": "https://www.tasteofhome.com/recipes/cazuela/",
+      "source": "Taste of Home (Christabel Lobo)",
+      "score": 48
+    },
+    {
+      "url": "https://www.southamericatotheworld.com/cazuela-de-vacuno/",
+      "source": "South America to the World blog",
+      "score": 38
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Cazuela chilean\"",
+    "Chilean cazuela recipe",
+    "cazuela de vacuno chilena receta"
+  ],
+  "notes": "Only the 'sites' command's NYT hits were Puerto Rican or Spanish cazuelas, not Chilean, and were not scored. The Radio Agricultura and midiariodecocina.com pages had no structured data and WebFetch of the latter returned no recipe, so neither was scored. Scores are close to the 60 threshold; no candidate has a test kitchen, process photos plus weights, or realistic times together. The cocinachilena.cl and Taste of Home (chicken, drumsticks, canned broth) scores are rough estimates from the read output.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:26.356Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Beef stew (cazuela de vacuno)"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chilean Beef Cazuela",
+      "rating": 5,
+      "ratingCount": 1
+    }
+  }
+}

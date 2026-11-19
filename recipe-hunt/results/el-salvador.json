@@ -1,0 +1,116 @@
+{
+  "id": "el-salvador",
+  "country": "El Salvador",
+  "dish": "Pupusas",
+  "aliases": [
+    "Pupusas salvadoreñas",
+    "Pupusas revueltas",
+    "Pupusas de queso",
+    "Pupusa"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.americastestkitchen.com/recipes/11732-pupusas",
+    "title": "Pupusas",
+    "source": "America's Test Kitchen (Steve Dunn)",
+    "score": 77,
+    "scores": {
+      "authenticity": 16,
+      "precision": 19,
+      "testing": 19,
+      "photos": 10,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Stuffed masa cakes pressed to 4 inches, cooked in a skillet and served with curtido and salsa. Uses cotija and Monterey Jack instead of quesillo, and has no bean or chicharron filling. Reasonable adaptation, not an authority from the cuisine.",
+      "precision": "Masa harina in ounces and cups, cheese balls of about 1 1/4 oz each, 4-inch circle template, 12-inch nonstick skillet. 8 sensory cues in steps, including a dough hydration test (cracks over 1/4 inch mean add water 2 tsp at a time), spotty brown 2 to 4 min per side, and a food processor texture cue (wet sand, then wet oatmeal). Only 3 of 6 ingredients carry weights, and no temperatures.",
+      "testing": "ATK test kitchen. Boiling water for the dough, a 20 minute rest, a hydration test, a zip-lock bag press trick, and freeze-ahead instructions. The page's 'why this works' text is behind the login. Rated 4.5 from 101 ratings.",
+      "photos": "No step images in the schema and the full text is paywalled. ATK normally has step photos, and a companion 'how to make pupusas' article exists. Not marked down for hidden content.",
+      "efficiency": "1h15 total. Makes 8, and the dough rests while the cheese is prepared. The bag-press shaping adds a few steps.",
+      "access": "Masa harina, cotija and Monterey Jack are all sold at US grocery stores."
+    },
+    "why": "Beat King Arthur on tested technique and specific doneness cues with far less overhead, and it beat the NYT recipe on testing depth and precision."
+  },
+  "runnerUp": {
+    "url": "https://www.kingarthurbaking.com/recipes/pupusas-recipe",
+    "title": "Pupusas",
+    "source": "King Arthur Baking (Molly Marzalek-Kelly)",
+    "score": 68,
+    "scores": {
+      "authenticity": 15,
+      "precision": 21,
+      "testing": 15,
+      "photos": 8,
+      "efficiency": 5,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Beans, cheese and curtido are traditional. Pickled jalapeno and chipotle black beans are an adaptation, and the dough is dry-fried. Notes that pupusas are the national dish and explains masa harina.",
+      "precision": "Weights for 16 ingredients, 85 g dough balls, 100F water, 350F griddle, browned and speckled cue, dough crack test. No pan size is given.",
+      "testing": "Explains nixtamalization, why cornmeal does not substitute, and how to fix dough that is too wet or too dry.",
+      "photos": "39 images on the page, but the schema has no step images. I did not confirm process photos.",
+      "efficiency": "4h29 total, mostly chilling. The recipe makes a double batch of beans and jalapenos. Dough and assembly take under an hour.",
+      "access": "Uses Oaxaca, Jack or mozzarella and canned beans, but it needs chipotle chili powder."
+    },
+    "why": "Strongest precision, but it is long and adapts the fillings away from the classic."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.americastestkitchen.com/recipes/11732-pupusas",
+      "source": "America's Test Kitchen",
+      "score": 77
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/pupusas-recipe",
+      "source": "King Arthur Baking",
+      "score": 68
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1017183-cheese-pupusas",
+      "source": "NYT Cooking (Francis Lam, adapted from Janet Lainez)",
+      "score": 67
+    },
+    {
+      "url": "https://www.seriouseats.com/cheese-bean-pupuses-curtido-recipe",
+      "source": "Serious Eats (Lauren Rothman)",
+      "score": 60
+    },
+    {
+      "url": "https://www.aspicyperspective.com/how-to-make-pupusas/",
+      "source": "A Spicy Perspective",
+      "score": 45
+    },
+    {
+      "url": "https://www.chilipeppermadness.com/recipes/pupusas",
+      "source": "Chili Pepper Madness",
+      "score": 42
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites Pupusas",
+    "pupusas recipe",
+    "pupusas salvadoreñas receta auténtica revueltas",
+    "Salvadoran pupusas recipe by Salvadoran cook abuela curtido salsa roja quesillo loroco"
+  ],
+  "notes": "No Salvadoran-authored recipe was read. The Taras Multicultural Table, Smithsonian Folklife (pupusas de chicharron) and Karla Vasquez (GMA, loroco) pages showed up in search and could be read if more authenticity is wanted. All English tested recipes swap quesillo for Jack or mozzarella. ATK also has a bean-and-cheese version (recipes/11733) that I did not read. Curtido is not in the ATK recipe itself. Pair it with a separate curtido recipe, such as the King Arthur one.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:37:55.981Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Pupusas",
+      "rating": 4.5,
+      "ratingCount": 101
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Pupusas",
+      "rating": 4.2,
+      "ratingCount": 5
+    }
+  }
+}

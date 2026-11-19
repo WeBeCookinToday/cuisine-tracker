@@ -1,0 +1,105 @@
+{
+  "id": "jordan",
+  "country": "Jordan",
+  "dish": "Mansaf",
+  "aliases": [
+    "منسف",
+    "Jordanian Mansaf",
+    "Mansaf with jameed",
+    "Mansaf Urduni"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/mansaf-recipe-6888919",
+    "title": "Mansaf (Spiced Lamb With Rice and Yogurt Sauce)",
+    "source": "Serious Eats (Reem Kassis)",
+    "score": 88,
+    "scores": {
+      "authenticity": 22,
+      "precision": 21,
+      "testing": 17,
+      "photos": 13,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional jameed-based sauce, lamb shanks, shrak/markook bread, rice with turmeric, toasted almonds. Author Reem Kassis is a Palestinian food writer and cookbook author. Headnote describes Bedouin roots. Small deductions: shanks and Calrose or jasmine rice, where Jordanian cooks usually use shoulder and Egyptian rice.",
+      "precision": "Weights for 11 of 21 ingredients (shanks 1.5 kg, onion 226 g, rice 453 g, jameed 1 kg). Sensory cues in 14 steps (very tender but not falling off the bone, sauce consistency between whole milk and half-and-half, whisk constantly to avoid curdling, and a fix if it does). Pan sizes and temperatures are not given.",
+      "testing": "Serious Eats editorial process. Explains why to blanch the shanks, why to whisk continuously, why to add cornstarch, and how to rescue curdled sauce. Only 8 ratings (4.3).",
+      "photos": "All 11 steps have step images in the schema.",
+      "efficiency": "About 2.5 hours total. The sauce and rice are made while the lamb simmers.",
+      "access": "Liquid jameed is sold in Tetra Paks (Kasih, Ziyad) at Middle Eastern groceries or online. A reconstitution method for dried jameed discs is given. Shrak and markook are available at Middle Eastern stores, and the page's note gives alternatives."
+    },
+    "why": "Beat the runner-up with full process photos, gram weights, a doneness cue on nearly every step, and an author from the region."
+  },
+  "runnerUp": {
+    "url": "https://www.hungrypaprikas.com/mansaf/",
+    "title": "Jordanian Mansaf (Lamb with Jameed)",
+    "source": "Hungry Paprikas",
+    "score": 66,
+    "scores": {
+      "authenticity": 20,
+      "precision": 12,
+      "testing": 9,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Lamb shoulder, Egyptian rice, liquid jameed and markook, all traditional. The author is a food blogger and not an authority on Jordanian cooking.",
+      "precision": "Weights for 1 of 19 ingredients. 7 sensory cues, no temperatures or pan sizes, and 'large pot' sizing.",
+      "testing": "Blogger notes only, with little reasoning. 2 ratings.",
+      "photos": "No step images in the schema. 51 images on the page, and I did not confirm they show process stages.",
+      "efficiency": "3 hours total. Reasonable.",
+      "access": "Needs liquid jameed, and the page has notes on it."
+    },
+    "why": "Fewer weights, no process photos, and a thinner explanation of technique."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/mansaf-recipe-6888919",
+      "source": "Serious Eats",
+      "score": 88
+    },
+    {
+      "url": "https://www.hungrypaprikas.com/mansaf/",
+      "source": "Hungry Paprikas",
+      "score": 66
+    },
+    {
+      "url": "https://foreignfork.com/jordanian-mansaf-recipe/",
+      "source": "The Foreign Fork",
+      "score": 55
+    },
+    {
+      "url": "https://www.saveur.com/mansaf-recipe/",
+      "source": "Saveur",
+      "score": 52
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Mansaf\"",
+    "Mansaf recipe Jordanian lamb jameed",
+    "منسف أردني طريقة عمل"
+  ],
+  "notes": "Foreign Fork scored 55: weights on 3 of 15 ingredients, no step photos in the schema, and it uses 'maqluba spice'. Saveur scored 52: no author on the page, no process photos, no roots, no jameed substitute. Saveur has a good overnight jameed method but is vague on quantities. Candidate scores for Foreign Fork and Saveur are estimates from the read output. I did not run a full per-criterion breakdown for them. Jameed is the one hard-to-find item, and the winner covers it.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:59.795Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Mansaf (Spiced Lamb With Rice and Yogurt Sauce)",
+      "rating": 4.3,
+      "ratingCount": 8
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Jordanian Mansaf (Lamb with Jameed)",
+      "rating": 5,
+      "ratingCount": 2
+    }
+  }
+}

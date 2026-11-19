@@ -1,0 +1,105 @@
+{
+  "id": "lebanon",
+  "country": "Lebanon",
+  "dish": "Mujadara",
+  "aliases": [
+    "Mujaddara",
+    "Mudardara",
+    "مجدرة",
+    "مدردرة"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1026528-mujadara-lentils-and-rice-with-fried-onions",
+    "title": "Mujadara (Lentils and Rice With Fried Onions)",
+    "source": "NYT Cooking (Naz Deravian)",
+    "score": 75,
+    "scores": {
+      "authenticity": 21,
+      "precision": 17,
+      "testing": 17,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Traditional method: par-cooked lentils, deeply browned onions as the base, rice cooked in the lentil liquid, optional fried onion topping. Intro frames it as a Levantine staple and mentions the bulgur variant. Author is a respected Persian-American cookbook author, not Levantine.",
+      "precision": "No gram weights. Sized produce is limited to 'large' onions. 12-inch lidded pan, oil at 350F, 1 inch oil depth, rice rinsed until water runs clear. Sensory cues in 9 spots (lentils al dente, onions golden at edges then rich golden brown, liquid absorbed, rest 10 min).",
+      "testing": "NYT Cooking test process. 889 ratings averaging 5 stars. Explains why to cook onions without stirring, why to save the lentil cooking water, and why to check lentils often so they do not overcook.",
+      "photos": "Hidden behind the login and not marked down. Schema shows no step images; page has 46 images, unverified.",
+      "efficiency": "Lentils and onions run in parallel, and the fried topping is made while the pot cooks. Stated total of 2 hours is slightly long, with 55 to 60 minutes of onion browning.",
+      "access": "Everything is at a US grocery. Lentil type is flexible."
+    },
+    "why": "It gives the most precise method (pan size, oil temperature, doneness cues, reserved lentil water) and has 889 five-star ratings, ahead of Cookie and Kate, which uses brown rice."
+  },
+  "runnerUp": {
+    "url": "https://cookieandkate.com/mujaddara-recipe/",
+    "title": "Mujadara (Lentils and Rice with Caramelized Onions)",
+    "source": "Cookie and Kate",
+    "score": 71,
+    "scores": {
+      "authenticity": 17,
+      "precision": 16,
+      "testing": 15,
+      "photos": 10,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Calls it a classic Arabic dish, but the default is brown basmati and the recipe adds garlic, bay and green onions. Author is not from the cuisine.",
+      "precision": "No gram weights. 12-inch skillet, medium-to-large onions, sensory cues in 7 steps (onions sizzle test, deeply caramelized and crisping at edges).",
+      "testing": "Blogger-tested, 4.7 stars over 314 ratings. Includes notes on rice and lentil options and the towel-covered rest.",
+      "photos": "Page has 52 images, but I could not confirm process photos because WebFetch returned 403. Schema shows no step images.",
+      "efficiency": "Rice and lentils cook together while the onions brown. Stated 1 hour total is realistic.",
+      "access": "All ingredients are at a US grocery."
+    },
+    "why": "Slightly less traditional because it uses brown rice, and its precision cues are weaker than the NYT recipe."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1026528-mujadara-lentils-and-rice-with-fried-onions",
+      "source": "NYT Cooking (Naz Deravian)",
+      "score": 75
+    },
+    {
+      "url": "https://cookieandkate.com/mujaddara-recipe/",
+      "source": "Cookie and Kate",
+      "score": 71
+    },
+    {
+      "url": "https://www.themediterraneandish.com/mujadara-lentils-and-rice-with-crispy-onions/",
+      "source": "The Mediterranean Dish",
+      "score": 65
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/aarti-sequeira/lebanese-lentils-rice-and-caramelized-onions-mujadara-recipe-1925439",
+      "source": "Food Network (Aarti Sequeira)",
+      "score": 56
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Mujadara\"",
+    "Mujadara recipe lentils rice caramelized onions",
+    "مجدرة لبنانية وصفة"
+  ],
+  "notes": "No recipe lists gram weights. The Mediterranean Dish version uses black lentils and a 40 minute onion browning. Food Network's version adds cinnamon, cayenne and pine nuts, which departs from the classic. Other NYT versions seen but not read: One-Pot Mujadara With Leeks and Greens (Melissa Clark, 2632 ratings, a variation), Bulgur Mujadara (Reem Kassis, 256 ratings, bulgur variant by a Palestinian author). Reem Kassis' bulgur version may suit if a more Levantine author is wanted. The Food Network and Mediterranean Dish scores are my estimates from the schema and not from page photos.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:03.898Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Mujadara (Lentils and Rice With Fried Onions)",
+      "rating": 5,
+      "ratingCount": 889
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Mujadara (Lentils and Rice with Caramelized Onions)",
+      "rating": 4.7,
+      "ratingCount": 314
+    }
+  }
+}

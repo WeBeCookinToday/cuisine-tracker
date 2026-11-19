@@ -1,0 +1,138 @@
+{
+  "id": "australia",
+  "country": "Australia",
+  "dish": "Grilled Barramundi",
+  "aliases": [
+    "Barbecued barramundi",
+    "BBQ barramundi",
+    "Barra on the barbie",
+    "Paperbark barramundi"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.dadcooksdinner.com/grilled-barramundi-with-avocado-orange-salsa",
+    "title": "Grilled Barramundi Recipe",
+    "source": "DadCooksDinner (Mike Vrobel)",
+    "score": 59,
+    "scores": {
+      "authenticity": 11,
+      "precision": 18,
+      "testing": 12,
+      "photos": 8,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "US blogger; plain direct-heat grilling of barramundi, which is recognizably the dish, but the avocado-orange salsa is a modern American topping. Intro notes barramundi is an Australian favorite. No Australian authorship or regional context.",
+      "precision": "Fillet size given (6 oz, 1 inch thick, 2-3 inches wide); salt 1/2 tsp per fillet; 145 F internal temp; 5 sensory cues (browned bottom, opaque in thickest part, check along seams with paring knife, skin protects fish); gas and charcoal setups described; no gram weights.",
+      "testing": "Author explains why (oil the grate, skin side protects flesh, how to test doneness). Single author, no test kitchen; 1 rating.",
+      "photos": "52 images on page, but WebFetch returned 403 so process photos could not be confirmed. Scored on the image count only.",
+      "efficiency": "36 minutes total; the salsa is made while the grill preheats. The 15-minute preheat is described.",
+      "access": "Barramundi is sold frozen at US grocers (Trader Joe's, Whole Foods, Costco). No substitute given, but any firm white fish would work. Everything else is common."
+    },
+    "why": "It had the highest Precision of the candidates (internal temp, thickness, doneness cues), but it is a Westernized preparation and its score is under 60 once authenticity and unconfirmed photos are counted."
+  },
+  "runnerUp": {
+    "url": "https://www.sbs.com.au/food/the-cook-up-with-adam-liaw/recipe/paperbark-barramundi-with-lemon-myrtle-butter/tstlmct1p",
+    "title": "Paperbark barramundi with lemon myrtle butter",
+    "source": "SBS Food (Samantha Martin, Bush Tukka Woman)",
+    "score": 53,
+    "scores": {
+      "authenticity": 20,
+      "precision": 12,
+      "testing": 8,
+      "photos": 3,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Written by an Indigenous Australian bush-food expert; whole baby barramundi on the barbecue with paperbark and lemon myrtle, a genuinely Australian method.",
+      "precision": "Fish weight given (550-650 g), butter 40 g; time-based steps (10 min, turn, 10 min) with 'until cooked through' as the only cue; no temperatures; rice step has a missing number ('a further minutes').",
+      "testing": "Expert author, but no reasoning for steps. Not a test kitchen.",
+      "photos": "No step images in schema; 12 images on the page, probably hero and promotional.",
+      "efficiency": "Rice cooks while the fish is prepped; 40 minutes total.",
+      "access": "Paperbark, lemon myrtle and lemon aspen are hard to find in the US. Foil and baking paper alone would do for wrapping, but no substitutes are given."
+    },
+    "why": "Most authentic of the candidates, but time-only steps and hard-to-find paperbark and lemon myrtle with no substitutes kept it below the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.dadcooksdinner.com/grilled-barramundi-with-avocado-orange-salsa",
+      "source": "DadCooksDinner",
+      "score": 59
+    },
+    {
+      "url": "https://www.sbs.com.au/food/the-cook-up-with-adam-liaw/recipe/paperbark-barramundi-with-lemon-myrtle-butter/tstlmct1p",
+      "source": "SBS Food",
+      "score": 53
+    },
+    {
+      "url": "https://www.sbs.com.au/food/the-cook-up-with-adam-liaw/recipe/eucalyptus-baked-whole-barramundi/ai4chjc7a",
+      "source": "SBS Food (Baker Boy)",
+      "score": 50
+    },
+    {
+      "url": "https://www.lifeasastrawberry.com/grilled-barramundi/",
+      "source": "Life As A Strawberry",
+      "score": 46
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipes/whole-barbecued-fish-lime-and-chilli",
+      "source": "SBS Food (Justine Schofield)",
+      "score": 38,
+      "disqualified": "Southeast Asian style (makrut lime, shaoxing, soy), not a traditional Australian grilled barramundi; single paragraph step"
+    },
+    {
+      "url": "https://tastingtable.com/737951/easy-grilled-barramundi-recipe",
+      "source": "Tasting Table",
+      "score": 37
+    },
+    {
+      "url": "https://tuckerbush.com.au/barramundi-cooked-over-paperbark-and-lemon-myrtle/",
+      "source": "Tucker Bush (recipe from CAVEAU)",
+      "score": 35,
+      "disqualified": "No weights for the fish, vague times, inconsistent ingredient/step (flowers vs leaves), one photo; needs native plants (karkalla, saltbush)"
+    },
+    {
+      "url": "https://www.bellybelly.com.au/cooking/bbq-grilled-barramundi/",
+      "source": "BellyBelly",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://www.thebetterfish.com/recipe/grilled-barramundi-radish-top-pesto/",
+      "source": "The Better Fish",
+      "score": 0,
+      "disqualified": "read returned HTTP 404"
+    },
+    {
+      "url": "https://www.costco.com.au/blog/barbecued-barramundi",
+      "source": "Costco Australia",
+      "score": 0,
+      "disqualified": "No Recipe structured data; retailer blog, not scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Grilled Barramundi\"",
+    "Grilled Barramundi recipe",
+    "Australian barbecued barramundi whole fish lemon myrtle butter"
+  ],
+  "notes": "No candidate reached 60. Serious Eats and NYT had nothing on barramundi; the NYT hit was striped bass. The best Australian-authored recipes (SBS, Tucker Bush) are time-only and need paperbark or lemon myrtle. Only 7 recipes were read successfully, from 5 sites. No native-language search was run because the dish is English-named. A RETRY could look for an RecipeTin Eats or Taste.com.au barramundi recipe, or a Gourmet Traveller one (https://www.gourmettraveller.com.au/recipe/chefs-recipes/barramundi-8073/ appeared in search but was not read). A simple Australian-style fillet with lemon and herb butter would likely score above 60.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:22.178Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Grilled Barramundi Recipe",
+      "rating": 5,
+      "ratingCount": 1
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Paperbark barramundi with lemon myrtle butter"
+    }
+  }
+}

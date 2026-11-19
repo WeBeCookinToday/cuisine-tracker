@@ -1,0 +1,116 @@
+{
+  "id": "kazakhstan",
+  "country": "Kazakhstan",
+  "dish": "Beshbarmak",
+  "aliases": [
+    "Besbarmak",
+    "Beshparmak",
+    "Бешбармак",
+    "Бесбармақ",
+    "Et (et asu, tabak et)",
+    "Five fingers"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://about-kazakhstan.com/beshbarmak/",
+    "title": "Beshbarmak Recipe: How Kazakh Et Is Served",
+    "source": "About Kazakhstan (Tugelbay Konabayev)",
+    "score": 61,
+    "scores": {
+      "authenticity": 22,
+      "precision": 16,
+      "testing": 13,
+      "photos": 0,
+      "efficiency": 8,
+      "access": 2
+    },
+    "evidence": {
+      "authenticity": "Kazakh author. Traditional method: bone-in meat simmered in cold water with foam skimmed, onion tuzdyk steeped in hot broth, egg dough zhaima in broth, sorpa served alongside. Covers the name's origin, the historical term 'et', and regional variants (fish in Atyrau, potato, fermented dairy broth).",
+      "precision": "Meat weight given (1.5-2 kg bone-in), 400 g flour, 2 eggs, 120-160 ml water, about 3 L water. Cues: meat done when it separates easily, onion soft and not browned, test one dough piece, even thickness. No pan sizes (only 'large pot'). No temperatures. Dough thickness not given in mm.",
+      "testing": "Explains why: add salt lightly at first, even thickness matters more than shape, add broth so noodles stay supple. No test-kitchen process.",
+      "photos": "No process photos in the article (checked via WebFetch).",
+      "efficiency": "About 3 h for the meat plus about 30 min dough rest and assembly. Dough is made while the meat cooks. Times are realistic.",
+      "access": "Metric only, no US conversions. 'Plain flour' is not translated. Horse meat and kazy are optional, and lamb or beef is the stated substitute."
+    },
+    "why": "It is the most authentic English-language write-up with a Kazakh author, a weighed dough and a real reasoning layer. Flavor365 has more US-friendly units but has no named expertise in the cuisine and no step photos."
+  },
+  "runnerUp": {
+    "url": "https://www.nur.kz/family/food/1604632-beshbarmak-recept-klassicheskiy/",
+    "title": "Бешбармак: рецепт приготовления с фото",
+    "source": "Nur.kz (Ярослав Боженко)",
+    "score": 60,
+    "scores": {
+      "authenticity": 24,
+      "precision": 8,
+      "testing": 6,
+      "photos": 14,
+      "efficiency": 7,
+      "access": 1
+    },
+    "evidence": {
+      "authenticity": "Kazakh national outlet. Full festive version: 3 kg horse meat, kazy, karta, shuzhuk, kurt, and unleavened dough boiled until it puffs up.",
+      "precision": "Only 3 ingredients have weights. No temperatures. Only 'until it puffs up' as a cue for the dough. Mostly time-based.",
+      "testing": "Little reasoning beyond salting the meat days ahead.",
+      "photos": "7 of 7 steps have images in the schema.",
+      "efficiency": "About 2h55m total. Sensible parallel cooking of sausages, meat and potatoes.",
+      "access": "Russian-language page. Horse meat, kazy, karta and kurt are essentially unobtainable at US grocery stores, and no substitutes are given."
+    },
+    "why": "It has the best photos and the most traditional meats, but it is in Russian, has weak precision, and relies on horse meat and sausages with no substitutes."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://about-kazakhstan.com/beshbarmak/",
+      "source": "About Kazakhstan",
+      "score": 61
+    },
+    {
+      "url": "https://www.nur.kz/family/food/1604632-beshbarmak-recept-klassicheskiy/",
+      "source": "Nur.kz",
+      "score": 60
+    },
+    {
+      "url": "https://eathealthy365.com/authentic-beshbarmak/",
+      "source": "Flavor365",
+      "score": 59
+    },
+    {
+      "url": "https://www.internationalcuisine.com/kazakh-beshbarmak",
+      "source": "International Cuisine",
+      "score": 46
+    },
+    {
+      "url": "https://foreignfork.com/beshbarmak/",
+      "source": "The Foreign Fork",
+      "score": 38
+    },
+    {
+      "url": "https://gastroguide.borjomi.com/en/recipes/beshbarmak",
+      "source": "Borjomi Gastro Guide",
+      "score": 30,
+      "disqualified": "Restaurant-style recipe with sous-vide and horse-meat components. It is not home-cookable and has no dough or broth quantities."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Beshbarmak\" (no results on any of the four sites)",
+    "Beshbarmak recipe",
+    "бешбармак рецепт классический"
+  ],
+  "notes": "The top three are within 2 points, and none is strong. Flavor365 (https://eathealthy365.com/authentic-beshbarmak/) is the most cook-friendly: it uses US units and gives 1.5 mm dough thickness, a 2-inch strip size and noodle doneness cues (floating, 3-5 min), plus useful why-text. However, it has no step photos, the author is a general food blogger, and it adds carrot. It could be a better pick if you prefer US units over authority. Foreign Fork uses lasagna sheets, which is a shortcut that changes the dish. cookingcounty.com/?p=6154 from the search results returned 404 and was not used. No test-kitchen recipe exists on Serious Eats, NYT, ATK or BBC Good Food. Winner score is only just above the 60 cutoff.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:25:30.017Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page recipe is \"Бешбармак: рецепт приготовления с фото\" — check it is the right dish",
+      "status": 200,
+      "name": "Бешбармак: рецепт приготовления с фото"
+    }
+  }
+}

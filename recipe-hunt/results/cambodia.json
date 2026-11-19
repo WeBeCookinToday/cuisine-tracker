@@ -1,0 +1,121 @@
+{
+  "id": "cambodia",
+  "country": "Cambodia",
+  "dish": "Fish Amok",
+  "aliases": [
+    "Amok trey",
+    "Fish amok",
+    "អាម៉ុកត្រី",
+    "Steamed fish curry"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://grantourismotravels.com/cambodian-fish-amok-recipe/",
+    "title": "Cambodian Fish Amok Recipe – an Authentic Steamed Fish Curry in the Old Style",
+    "source": "Grantourismo Travels (Terence Carter)",
+    "score": 74,
+    "scores": {
+      "authenticity": 24,
+      "precision": 15,
+      "testing": 14,
+      "photos": 10,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional old-style recipe from an older generation of cooks; yellow kroeung, prahok, noni leaves under the filling, coconut-shell/banana-leaf/ramekin vessels, family-style serving; explains Khmer Empire/royal roots. Author is a travel food writer, not Khmer.",
+      "precision": "Metric/volume amounts for 13 ingredients (500 g fish, 3 tbsp kroeung, 1/2 cup coconut milk); taste-test step (fry or microwave a spoonful) with flavor-balance cues; doneness cue 'firm to touch but still moist, not dry'; 20-30 min steam. No pan or steamer size; kroeung quantities are on a linked page.",
+      "testing": "Explains the texture choice (chunky vs smooth by stirring), why to taste-test the raw mix, and what dryness means; rating 5 from 17 votes. No test kitchen.",
+      "photos": "About 90 images on the page; stepImagesInSchema 0, so process photos not confirmed via WebFetch.",
+      "efficiency": "Steps are sensible; kroeung must be made from a separate linked recipe; stated 60 min total is realistic.",
+      "access": "Hard items (prahok, noni leaves, palm sugar, kaffir lime) all have substitutes given (shrimp paste, lime zest, brown sugar); noni leaves just omit-able."
+    },
+    "why": "Most authentic, with a taste-test step and a clear doneness cue, beating Chef Nak's more precise but thinly explained version."
+  },
+  "runnerUp": {
+    "url": "https://www.chefnak.com/cambodian-fish-amok",
+    "title": "Cambodian Fish Amok",
+    "source": "CHEF NAK (Rotanak Ros)",
+    "score": 64,
+    "scores": {
+      "authenticity": 23,
+      "precision": 17,
+      "testing": 9,
+      "photos": 4,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Khmer author; snakehead, kroeung, banana-leaf cups with shiny sides out, Cambodian rice recommended.",
+      "precision": "Grams for 7 of 11 ingredients, cube size 2-3 cm, leaf size 15 cm, fill 80%, steam 10+2 min; but kroeung amount is vague, no doneness cue for the steam, and the 'dried cubanelle pepper paste' is hard to source.",
+      "testing": "Rest time given; little explanation of why.",
+      "photos": "Only about 6 images on the page.",
+      "efficiency": "Short, tight method.",
+      "access": "Kroeung and pepper paste not explained or substituted."
+    },
+    "why": "More precise measurements but weaker doneness cues, explanation and photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://grantourismotravels.com/cambodian-fish-amok-recipe/",
+      "source": "Grantourismo Travels",
+      "score": 74
+    },
+    {
+      "url": "https://www.chefnak.com/cambodian-fish-amok",
+      "source": "CHEF NAK",
+      "score": 64
+    },
+    {
+      "url": "https://authenticfoodquest.com/fish-amok-recipe-cambodia/",
+      "source": "Authentic Food Quest",
+      "score": 61
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipes/steamed-curried-fish-wrapped-banana-leaves-amok-trey",
+      "source": "SBS Food (Leanne Kitchen, Liep Yong)",
+      "score": 60
+    },
+    {
+      "url": "https://www.carolinescooking.com/cambodian-fish-amok-trey",
+      "source": "Caroline's Cooking",
+      "score": 55
+    },
+    {
+      "url": "https://thehappyfoodie.co.uk/recipes/steamed-fish-curry-with-coconut-turmeric-lemongrass-and-kaffir-lime-leaves-amok-trey/",
+      "source": "The Happy Foodie",
+      "score": 45,
+      "disqualified": "Not traditional: cooked paste with peanuts and star anise, inspired by Rick Stein; Western adaptation"
+    },
+    {
+      "url": "https://asiasociety.org/blog/asia/fish-amok-cambodias-national-dish",
+      "source": "Asia Society",
+      "score": 0,
+      "disqualified": "Loaded (200) but no Recipe structured data; not scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Fish Amok\"",
+    "Fish Amok recipe Cambodia",
+    "amok trey recipe kroeung banana leaf",
+    "អាម៉ុកត្រី រូបមន្ត"
+  ],
+  "notes": "The sites search found no Serious Eats, ATK or BBC recipe for amok, and NYT returned only unrelated fish recipes. SBS recipe has only 1 big step and a 40 min steam; Caroline's Cooking is a 2-serving version with no weights. Grantourismo's yellow kroeung is on a separate linked page, which the cook must also open. Asia Society page was not read via WebFetch.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:53.107Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Cambodian Fish Amok Recipe – an Authentic Steamed Fish Curry in the Old Style",
+      "rating": 5,
+      "ratingCount": 17
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Cambodian Fish Amok"
+    }
+  }
+}

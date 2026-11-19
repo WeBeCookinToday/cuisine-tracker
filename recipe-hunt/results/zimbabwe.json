@@ -1,0 +1,117 @@
+{
+  "id": "zimbabwe",
+  "country": "Zimbabwe",
+  "dish": "Sadza ne Nyama",
+  "aliases": [
+    "Sadza nenyama",
+    "Sadza with meat",
+    "Sadza ne nyama yemombe",
+    "Sadza and beef stew"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://zimbokitchen.com/how-to-make-plain-sadza",
+    "title": "Plain Sadza (Zimbabwean Mealie-Meal Porridge)",
+    "source": "ZimboKitchen (Rumbie)",
+    "score": 75,
+    "scores": {
+      "authenticity": 22,
+      "precision": 17,
+      "testing": 14,
+      "photos": 11,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Zimbabwean author; traditional cold-water paste then boiling water, then add meal in stages; uses Shona terms (rakukwata, mona sadza); notes refined vs unrefined (mugaiwa) meal.",
+      "precision": "7 scoops (about 50 g each per author comment), 1 cup cold water, 750 ml boiling water; cues: full boil, smooth not grainy; no pan size; thickness left to preference.",
+      "testing": "Each step has a stated reason (lumps, cooking through, control of thickness); troubleshooting for grainy texture in author notes. Home cook, not a test kitchen.",
+      "photos": "Pictorial steps: lettered photos for steps 1 and 3, step 2 photos, plus finished shot (confirmed via WebFetch).",
+      "efficiency": "About 25 minutes, no wasted steps.",
+      "access": "Needs white maize meal (mealie-meal); no US substitute given, though fine white cornmeal or maize flour from US grocery or African/Latin markets works."
+    },
+    "why": "It is the only candidate for the first-named component (sadza) with a Zimbabwean author, stated reasons per step and process photos; the others were Westernized or lacked cues."
+  },
+  "runnerUp": {
+    "url": "https://www.dontmissmyplate.com/how-to-cook/2021/2/13/sadza-nenyama-corn-meal-beef-kale-stew",
+    "title": "Sadza Nenyama (Beef and Kale Stew)",
+    "source": "dontmissmyplate",
+    "score": 52,
+    "scores": {
+      "authenticity": 14,
+      "precision": 13,
+      "testing": 6,
+      "photos": 4,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Covers both sadza and stew in one recipe with background, but uses kale, yellow cornmeal, butter, chili flakes and garlic powder; Westernized.",
+      "precision": "US volumes, times per step, only 'large pot'; doneness cues limited to 'tender' and 'firm enough to shape'; no weights.",
+      "testing": "Little explanation of why; no ratings.",
+      "photos": "No step-by-step sequence evident.",
+      "efficiency": "About 1 hour total, sensible.",
+      "access": "Royco Usavi is optional with a spice-blend substitute."
+    },
+    "why": "Only single-page full dish, but adapted and less precise than the ZimboKitchen pair."
+  },
+  "companions": [
+    {
+      "part": "nyama (beef stew)",
+      "url": "https://zimbokitchen.com/traditional-zimbabwean-beef-stew",
+      "title": "Traditional Zimbabwean Beef Stew",
+      "source": "ZimboKitchen (Rumbie)",
+      "score": 63,
+      "why": "Authentic everyday Zimbabwean relish with 600 g beef and 3 stages of photos, but vague onion and tomato sizes and no tenderness time; soup powder needs a sub (Royco or stock cube plus cornstarch from comments).",
+      "check": "warn"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://zimbokitchen.com/how-to-make-plain-sadza",
+      "source": "ZimboKitchen",
+      "score": 75
+    },
+    {
+      "url": "https://zimbokitchen.com/traditional-zimbabwean-beef-stew",
+      "source": "ZimboKitchen",
+      "score": 63
+    },
+    {
+      "url": "https://www.dontmissmyplate.com/how-to-cook/2021/2/13/sadza-nenyama-corn-meal-beef-kale-stew",
+      "source": "dontmissmyplate",
+      "score": 52
+    },
+    {
+      "url": "https://weeatatlast.com/sadza-recipe",
+      "source": "We Eat At Last",
+      "score": 52
+    },
+    {
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Nyama_Yemombe_(Zimbabwean_Beef_Stew)",
+      "source": "Wikibooks",
+      "score": 42
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Sadza ne Nyama\" (no matches on any site)",
+    "Sadza ne Nyama recipe Zimbabwe",
+    "sadza and beef stew Zimbabwean recipe how to make"
+  ],
+  "notes": "No test-kitchen recipe exists. Best answer is the ZimboKitchen sadza paired with the ZimboKitchen beef stew (same author, 2012). We Eat At Last sadza read via structured data: no weights, 0 step images in schema. Native-language search was covered by the 'ne Nyama' queries; no separate Shona-only query was run.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:31:05.039Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

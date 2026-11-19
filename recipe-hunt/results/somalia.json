@@ -1,0 +1,117 @@
+{
+  "id": "somalia",
+  "country": "Somalia",
+  "dish": "Suqaar",
+  "aliases": [
+    "Suqaar",
+    "Sukaar",
+    "Hilib Suqaar (beef)",
+    "Suqaar Digaag (chicken)",
+    "Somali meat and vegetable saute"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1023981-suqaar-digaag-spiced-chicken-and-vegetable-saute",
+    "title": "Suqaar Digaag (Spiced Chicken and Vegetable Sauté)",
+    "source": "NYT Cooking (Ifrah F. Ahmed)",
+    "score": 72,
+    "scores": {
+      "authenticity": 22,
+      "precision": 16,
+      "testing": 13,
+      "photos": 8,
+      "efficiency": 9,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Somali author; uses xawaash, names chicken (digaag) and beef/camel (hilib) variants, serves with anjero or sabaayad. Chicken thighs are a common, accepted variant.",
+      "precision": "Doneness cues on most steps (onion soft 6-7 min, garlic softens, chicken undisturbed 4-5 min then browned and cooked through, peppers tender 10-15 min). Medium onion and peppers, but no gram weights (1 of 14 with weights) and no pan size beyond 'large nonstick skillet'.",
+      "testing": "NYT test process; 484 ratings averaging 5 stars. Lemon-spice marinade and the undisturbed sear explained in the steps.",
+      "photos": "No step images in schema; NYT step photos are not visible without login, so not marked down heavily.",
+      "efficiency": "30 minutes total; marinates the chicken while the onion cooks.",
+      "access": "Xawaash is specialty, but the page has a Tip with a homemade blend. Everything else is at a US grocery."
+    },
+    "why": "It has far more reviews (484 at 5 stars) and tighter cues and parallel prep than the beef version, which scored a couple of points lower."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/1025188-hilib-suqaar-beef-and-vegetable-saute",
+    "title": "Hilib Suqaar (Beef and Vegetable Sauté)",
+    "source": "NYT Cooking (Ifrah F. Ahmed)",
+    "score": 70,
+    "scores": {
+      "authenticity": 23,
+      "precision": 15,
+      "testing": 12,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Somali author, beef stew meat (closer to the traditional hilib), xawaash, served with muufo or rice.",
+      "precision": "1/2-inch cube size, sensory cues on each step (onion softened, meat browned, tender, potatoes tender); 'handful' of cilantro and no weights or pan size.",
+      "testing": "NYT test process; 127 ratings averaging 4 stars.",
+      "photos": "No step images visible in schema.",
+      "efficiency": "1 hour, mostly braising time, which the meat needs.",
+      "access": "Xawaash tip with homemade blend."
+    },
+    "why": "Slightly more traditional, but fewer ratings, a 'handful' measure and less parallel work."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1023981-suqaar-digaag-spiced-chicken-and-vegetable-saute",
+      "source": "NYT Cooking",
+      "score": 72
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1025188-hilib-suqaar-beef-and-vegetable-saute",
+      "source": "NYT Cooking",
+      "score": 70
+    },
+    {
+      "url": "https://tarasmulticulturaltable.com/suqaar-digaag-somali-chicken-suqaar/",
+      "source": "Tara's Multicultural Table",
+      "score": 58
+    },
+    {
+      "url": "https://www.foodnetwork.com/fnk/recipes/ma-halimas-beef-suqaar-10035275",
+      "source": "Food Network (Hawa Hassan)",
+      "score": 54
+    },
+    {
+      "url": "https://globaltableadventure.com/recipe/recipe-beef-suqaar/",
+      "source": "Global Table Adventure (Sasha Martin)",
+      "score": 42
+    },
+    {
+      "url": "https://prod.177milkstreet.com/recipes/somali-style-beef-vegetables-suqaar",
+      "source": "Milk Street",
+      "score": 25,
+      "disqualified": "Ingredients and steps paywalled; only partial content readable, scored provisionally"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Suqaar\"",
+    "Suqaar recipe Somali",
+    "Somali suqaar beef cubes recipe step by step"
+  ],
+  "notes": "Scores for the Tara's, Food Network, Global Table Adventure and Milk Street candidates are quick estimates from the read output, not full write-ups. Native-language search was not run separately because Suqaar is already the Somali name. No Somali recipe uses gram weights. Food.com, Instructables and bigoven results were seen in search but not read (aggregator or user-submitted). The ATK result is Suugo Suqaar, a different dish (pasta sauce), and was not used.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:37.884Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Suqaar Digaag (Spiced Chicken and Vegetable Sauté)",
+      "rating": 5,
+      "ratingCount": 484
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Hilib Suqaar (Beef and Vegetable Sauté)",
+      "rating": 4,
+      "ratingCount": 127
+    }
+  }
+}
