@@ -1,0 +1,121 @@
+{
+  "id": "bolivia",
+  "country": "Bolivia",
+  "dish": "Pique Macho",
+  "aliases": [
+    "Pique a lo macho",
+    "Pique lo macho",
+    "Piqué macho"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://boliviancookbook.com/2014/02/01/pique-a-lo-macho-pique-macho/",
+    "title": "Pique a lo Macho (Pique Macho)",
+    "source": "Bolivian Cookbook (Rommy Holman)",
+    "score": 73,
+    "scores": {
+      "authenticity": 21,
+      "precision": 14,
+      "testing": 11,
+      "photos": 14,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Bolivian-cuisine specialist blog; names Cochabamba as origin and best place for the dish, cites La Casa del Gordo; classic beef, hot dogs, wedge fries, egg, tomato/onion/pepper salad, llajua on the side; notes regional variation. Author is a US-based Bolivia cookbook author, not a native.",
+      "precision": "US cups/lbs, 2 cm beef cubes, 8 large potatoes, 4 hot dogs; cues such as fries crispy outside and slightly soft inside, hot dogs browned and crispy at edges (about 1 min), beer reduced about 1 min on gas, serve immediately. No grams, no pan size ('a skillet'), no oil temperature.",
+      "testing": "Explains small choices (reduce beer briefly so alcohol cooks off without drying the meat, gas vs electric heat, why this version is simple). No test kitchen and no star ratings; 7 comments, some positive.",
+      "photos": "About 20 step photos covering prep, frying, searing and plating (seen via WebFetch).",
+      "efficiency": "Fries and eggs run in parallel with the meat; no wasted steps. No total time stated.",
+      "access": "Locoto is optional with jalapeno as the stated sub; everything else is at a US grocery."
+    },
+    "why": "Only candidate with a Bolivia-focused author, real process photos and doneness cues for the key steps, plus a stated locoto substitute."
+  },
+  "runnerUp": {
+    "url": "https://chipabythedozen.com/en/pique-macho-bolivia/",
+    "title": "Pique Macho (Bolivian Recipe)",
+    "source": "Chipa by the Dozen (Valentina Arteaga)",
+    "score": 54,
+    "scores": {
+      "authenticity": 19,
+      "precision": 12,
+      "testing": 6,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional components (steak, chorizo, sausage, fries, locoto, egg); South American author.",
+      "precision": "Oil temps 160C then 180C for double-fried fries; some metric weights for meat and sausage; vague onion and tomato sizes; few doneness cues for the meat.",
+      "testing": "No explanation of why; 5 ratings only.",
+      "photos": "23 images on the page but none in the recipe schema; not confirmed as process photos.",
+      "efficiency": "Fine overall; the fries step is clear but slow.",
+      "access": "Locoto has no stated substitute."
+    },
+    "why": "Good fry temperatures, but fewer meat cues, no reasoning and unconfirmed process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://boliviancookbook.com/2014/02/01/pique-a-lo-macho-pique-macho/",
+      "source": "Bolivian Cookbook",
+      "score": 73
+    },
+    {
+      "url": "https://chipabythedozen.com/en/pique-macho-bolivia/",
+      "source": "Chipa by the Dozen",
+      "score": 54
+    },
+    {
+      "url": "https://cupofyum.com/recipes/pique-macho-pique-a-lo-macho",
+      "source": "Cup of Yum (Erin Shaw)",
+      "score": 45
+    },
+    {
+      "url": "https://en.cocina-boliviana.com/recetas/main-course/pique-a-lo-macho",
+      "source": "Recipes from Bolivia",
+      "score": 38
+    },
+    {
+      "url": "https://travelfoodatlas.com/bolivian-pique-macho-recipe",
+      "source": "Travel Food Atlas",
+      "score": 30,
+      "disqualified": "Reads as generic/AI-style content; adds soy sauce, vinegar, parsley and tosses everything in a sauce, which changes the dish"
+    },
+    {
+      "url": "https://eathealthy365.com/authentic-pique-a-lo-macho/",
+      "source": "Flavor365 / eathealthy365",
+      "score": 35,
+      "disqualified": "No author, content-farm style, and a beer-braised stew that is not the traditional pan-seared dish"
+    },
+    {
+      "url": "https://www.tastesfromtheroad.com/post/pique-macho-from-bolivia",
+      "source": "Tastes from the Road",
+      "score": 0,
+      "disqualified": "Page loads but no recipe structured data and WebFetch returned only a title, so it could not be read"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Pique Macho\"",
+    "Pique Macho recipe",
+    "pique macho boliviano receta tradicional"
+  ],
+  "notes": "Serious Eats, NYT and BBC have no pique macho recipe (BBC hit was 'Macho peas'). ATK's 'Pique' hit is unrelated. en.paulinacocina.net could not be fetched. The winner has no weights or pan size and no star ratings. Its score is based on my own read of its precision and testing.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:30:51.098Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Pique Macho (Bolivian Recipe)",
+      "rating": 5,
+      "ratingCount": 5
+    }
+  }
+}

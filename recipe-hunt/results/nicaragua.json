@@ -1,0 +1,130 @@
+{
+  "id": "nicaragua",
+  "country": "Nicaragua",
+  "dish": "Nacatamal",
+  "aliases": [
+    "Nacatamales",
+    "Nicaraguan tamale",
+    "nacatamal nicaragüense"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://jenaroundtheworld.com/authentic-nicaraguan-nacatamales/",
+    "title": "Authentic Nicaraguan Nacatamales",
+    "source": "Jen Around the World (Jennifer)",
+    "score": 46,
+    "scores": {
+      "authenticity": 15,
+      "precision": 8,
+      "testing": 8,
+      "photos": 5,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Traditional components: pork marinated in sour orange and annatto, lard masa, rice, potato, tomato, onion, bell pepper, mint, banana leaf. Author is not Nicaraguan; recipe comes from a Nicaraguan friend. Masa is cooked on the stove before assembly, which is traditional. Little on the dish's roots.",
+      "precision": "Only 1 of 20 ingredients has a weight. Volume amounts are given (3 cups masa, 1 cup lard, 2 1/4 cups water), but sizes are vague ('1 onion', '3 small tomatoes', '1/2 bottle of sour orange'). Wrapper size is given (12x12 in) and potato slices are 1/4 in. Doneness cues are thin: 'cook until thick', 'don't stop stirring', and 3 hours with no cue for the tamale being done. No pan size. Signals: 0 temperatures, 2 sensory cues.",
+      "testing": "No test kitchen. Author gives some reasons and tips: stir constantly or the masa burns, wipe the leaves, crisscross two leaves for a sturdier pocket. Rating 4.3 from only 10 ratings.",
+      "photos": "Schema has 0 step images and the page shows 28 images. WebFetch could not confirm step-by-step photos (only one clear image).",
+      "efficiency": "Marinate 1 hr or overnight, then 3 hr steam. Stated times are realistic. Soaking potatoes and rice is done in parallel. No major wasted steps.",
+      "access": "Sour orange, annatto and banana leaves are hard to find. No substitutes are given for sour orange or annatto. Author does say to buy banana leaves in season and freeze them, or order them online, and to use foil or parchment as the outer wrap."
+    },
+    "why": "Narrowly beat International Cuisine because it follows a more traditional masa, with annatto, sour orange and a cooked masa, and has more explanatory tips. Neither reaches 60."
+  },
+  "runnerUp": {
+    "url": "https://www.internationalcuisine.com/nicaraguan-nacatamales/",
+    "title": "Nicaraguan Nacatamales (Nicaraguan style Tamale)",
+    "source": "International Cuisine",
+    "score": 45,
+    "scores": {
+      "authenticity": 14,
+      "precision": 11,
+      "testing": 4,
+      "photos": 6,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Masa harina, lard, sour orange, pork, rice, potato, olives, prunes, raisins and capers, wrapped in banana leaf. This is a recognisable nacatamal. Author is not from Nicaragua. No regional context. The masa is not pre-cooked, and the filling meat is not marinated.",
+      "precision": "Cut sizes are given (1/4 in rounds, 10x10 in leaf squares, 3 in water), and the wrapping folds are described in detail. Only 1 ingredient has a weight. Doneness cues are almost absent: it just says 3 to 4 hours of steaming. No pan size.",
+      "testing": "No test-kitchen reasoning. Rating 3.83 from 130 ratings.",
+      "photos": "17 images on the page, 0 in schema. Not confirmed as process shots.",
+      "efficiency": "Total 5 hr, stated honestly. Wrapping steps are verbose but not wasteful.",
+      "access": "Sour orange (bottled substitute mentioned), banana leaves (foil given as an alternative wrapper). Other items are at a normal grocery."
+    },
+    "why": "Clearer wrapping and sizes, but weaker authenticity and no reasoning, with a middling 3.83 rating."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://jenaroundtheworld.com/authentic-nicaraguan-nacatamales/",
+      "source": "Jen Around the World",
+      "score": 46
+    },
+    {
+      "url": "https://www.internationalcuisine.com/nicaraguan-nacatamales/",
+      "source": "International Cuisine",
+      "score": 45
+    },
+    {
+      "url": "https://recetasdenicaragua.com/recipes/nicaraguan-cuisine/nacatamal-recipe/",
+      "source": "Recetas de Nicaragua",
+      "score": 44,
+      "disqualified": "Not disqualified, but no author, no process photos, dough method missing and some ingredient names garbled by translation. Precision low. Very traditional (banana leaf, burillo ties, 5 hr boil)."
+    },
+    {
+      "url": "https://www.food.com/recipe/nacatamales-any-banana-leaf-wrapped-central-american-tamales-397321",
+      "source": "Food.com (Chef Sarita in Aust)",
+      "score": 43,
+      "disqualified": "Not disqualified, but the author says it is a generic Central American banana leaf tamale, uses bouillon, chipotle salsa and microwaved rice, and lists 24 hr prep. Only 2 ratings."
+    },
+    {
+      "url": "https://www.thefooddictator.com/the-hirshon-nicaraguan-pork-nacatamal/",
+      "source": "The Food Dictator",
+      "score": 42,
+      "disqualified": "Not disqualified, but heavily modified (liquid smoke, cumin, peanuts, habanero, pita), no weights, and the author is a blogger with no Nicaraguan link shown."
+    },
+    {
+      "url": "https://cookipedia.co.uk/recipes_wiki/Nacatamal_(Nicaraguan_tamales)",
+      "source": "Cookipedia (Jerry Pank)",
+      "score": 40,
+      "disqualified": "Not disqualified, but masa contains mashed potato and milk and the wrap is foil. Metric weights but no reasoning and no photos. 1 rating."
+    },
+    {
+      "url": "https://www.baconismagic.ca/nicaragua/nicaraguas-take-on-tamales/",
+      "source": "Bacon is Magic",
+      "score": 0,
+      "disqualified": "Travel post with no ingredient amounts or steps."
+    },
+    {
+      "url": "https://www.tastesfromtheroad.com/post/nacatamales-from-nicaragua",
+      "source": "Tastes from the Road",
+      "score": 0,
+      "disqualified": "Loaded but no structured data, and WebFetch returned only the title and navigation, so it could not be read or scored."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Nacatamal\" (no results from any site)",
+    "Nacatamal recipe Nicaragua",
+    "nacatamales nicaragüenses receta tradicional"
+  ],
+  "notes": "No test-kitchen version exists (Serious Eats, NYT, ATK and BBC Good Food returned nothing). All English versions are blog recipes with volume measures and almost no doneness cues. nicaraguanrecipes.com/?p=70 and ?p=228 failed to fetch, quericavida.com redirected to a General Mills page, and the Tastes from the Road page could not be read, so none were scored. getrecipecart copy of the International Cuisine recipe was skipped as an aggregator. Possible retry: a Nicaraguan-authored blog with grams, or the INCAP PDF (bvssan.incap.int Nacatamal_ENG.pdf), which was found in search but not read.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:06.102Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Authentic Nicaraguan Nacatamales",
+      "rating": 4.3,
+      "ratingCount": 10
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Nicaraguan Nacatamales (Nicaraguan style Tamale)",
+      "rating": 3.83,
+      "ratingCount": 130
+    }
+  }
+}

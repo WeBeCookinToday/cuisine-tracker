@@ -1,0 +1,124 @@
+{
+  "id": "burkina-faso",
+  "country": "Burkina Faso",
+  "dish": "Riz Gras",
+  "aliases": [
+    "Riz au gras",
+    "Fat rice",
+    "Riz gras burkinabè"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://eatthisny.com/2022/02/02/web-series/riz-gras-fat-rice-from-burkina-faso-around-the-world-in-one-kitchen/",
+    "title": "Riz Gras (Fat Rice) from Burkina Faso",
+    "source": "Eat This NY (Brian Hoffman)",
+    "score": 55,
+    "scores": {
+      "authenticity": 17,
+      "precision": 10,
+      "testing": 10,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Explains national-dish status, French name, link to Senegalese tiebou djen, party dish, why the oil is generous. Traditional tomato/onion/rice one-pot with habanero and bouillon. Author is a US food writer, not from the cuisine; adds curry powder, cinnamon, bay.",
+      "precision": "Cups/lb for most items; 'large saucepan' with no size; doneness cues on only a few steps (fragrant, tomato water reduced, rice cooked); 3 carrots and 3 tomatoes unsized. No temperatures.",
+      "testing": "Author cooked it and gives tips: garlic burns so lower heat, use a heavy hand with oil, habanero was milder than expected. No test-kitchen process.",
+      "photos": "Some photos in the article (finished dish, a mixing shot) but not clearly one per stage. Not confirmed as full process coverage.",
+      "efficiency": "Single pot, about 30 minutes active and cook time; no wasted steps. No total time stated.",
+      "access": "Habanero and Maggi are easy to find in the US. Article gives Maggi as the bouillon alternative and notes that meat and heat can be changed."
+    },
+    "why": "Only candidate with real dish context, tested tips and sensible one-pot method, but it still falls under 60 on precision and photos."
+  },
+  "runnerUp": {
+    "url": "https://polkadotpassport.com/?p=1651",
+    "title": "One-pot Spicy Tomato Rice (Riz Gras)- Burkina Faso",
+    "source": "Polkadot Passport (Nicola Easterby)",
+    "score": 43,
+    "scores": {
+      "authenticity": 9,
+      "precision": 9,
+      "testing": 7,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Author admits adding spices not typical of Burkinabe riz gras (garam masala, mustard, fennel) and cutting the oil, which removes the 'fat' idea.",
+      "precision": "Cup and tbsp measures, no weights; 1 sensory cue; no pan size or temperatures.",
+      "testing": "Little reasoning shown; 4.2 rating from 6 ratings.",
+      "photos": "18 images on page, none in the recipe schema steps; not confirmed as process shots.",
+      "efficiency": "35 minutes total, one pot, realistic.",
+      "access": "Mostly pantry items; chillies and spices are easy to find."
+    },
+    "why": "Easy to cook but strays from the traditional preparation, so it ranks below the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://eatthisny.com/2022/02/02/web-series/riz-gras-fat-rice-from-burkina-faso-around-the-world-in-one-kitchen/",
+      "source": "Eat This NY",
+      "score": 55
+    },
+    {
+      "url": "https://polkadotpassport.com/?p=1651",
+      "source": "Polkadot Passport",
+      "score": 43
+    },
+    {
+      "url": "https://thestoriedrecipe.com/?p=449",
+      "source": "The Storied Recipe (Ivorian riz au gras via Liz Zunon)",
+      "score": 40
+    },
+    {
+      "url": "https://www.food.com/recipe/riz-gras-fat-rice-burkina-faso-483120",
+      "source": "Food.com (GiddyUpGo, Travel by Stove)",
+      "score": 37
+    },
+    {
+      "url": "https://martymadeit.com/2017/05/14/027-burkina-faso-riz-gras/",
+      "source": "Marty Made It",
+      "score": 0,
+      "disqualified": "Copy of the Travel by Stove recipe; no process photos"
+    },
+    {
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Riz_Gras_(West_African_Fried_Rice)",
+      "source": "Wikibooks",
+      "score": 0,
+      "disqualified": "Not the dish: Chinese-style fried rice with soy and sesame oil; ingredient list inconsistent with steps"
+    },
+    {
+      "url": "https://www.bonvoyageurs.com/?p=5057",
+      "source": "Bon Voyageurs",
+      "score": 0,
+      "disqualified": "Page has no recipe"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Riz Gras\"",
+    "Riz Gras Burkina Faso recipe",
+    "riz gras burkinabè recette",
+    "riz gras Burkina Faso recipe African blog West African tomato rice authentic",
+    "riz gras recette cuisine africaine poulet riz tomate carottes étapes",
+    "Burkinabe riz gras recipe Immaculate Bites OR \"Chef Lola\" OR \"Low Carb Africa\" OR \"African Food Network\""
+  ],
+  "notes": "No test-kitchen or Serious Eats/NYT/BBC/ATK recipe exists for this dish (sites search returned only unrelated items). The afrik.com Burkina page returned HTTP 403 and funtimesmagazine.com failed to fetch, so neither was scored. The compassion.com and hellskitchen pages and Wikipedia were not scored. Eat This NY is the best available and is usable with caution, but is under the 60 threshold. A retry would need a Burkinabe or West African authority blog.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:25:24.299Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "One-pot Spicy Tomato Rice (Riz Gras)- Burkina Faso",
+      "rating": 4.2,
+      "ratingCount": 6
+    }
+  }
+}

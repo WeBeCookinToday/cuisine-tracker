@@ -1,0 +1,118 @@
+{
+  "id": "north-korea",
+  "country": "North Korea",
+  "dish": "Pyongyang Naengmyeon",
+  "aliases": [
+    "평양냉면",
+    "Pyongyang cold noodles",
+    "mul naengmyeon",
+    "물냉면",
+    "Pyongyang mul naengmyeon"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1024870-naengmyeon-cold-noodles-in-chilled-beef-broth",
+    "title": "Naengmyeon (Cold Noodles in Chilled Beef Broth)",
+    "source": "NYT Cooking (Eric Kim)",
+    "score": 71,
+    "scores": {
+      "authenticity": 21,
+      "precision": 17,
+      "testing": 15,
+      "photos": 7,
+      "efficiency": 6,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Eric Kim is a Korean-American authority. Recipe is the beef yuksu plus dongchimi-or-water mul naengmyeon, described as the North Korean cold noodle dish. Short rib broth is chilled, de-fatted and re-simmered with radish, pear, onion and daepa, then slushed. Uses dry naengmyeon noodles, as most home cooks must.",
+      "precision": "Only 1 of 22 ingredients has a weight (radish 1 lb), but sizes are specific (3 1/2 lb short ribs, 1 to 2 inches thick; 22 oz noodle package; 2 quarts broth yield). Cues in steps: skim foam, broth rich and meaty, darker and more fragrant, 'assertively seasoned' because served cold, slushied, noodles rinsed until not sticky. Dutch oven or stockpot, no exact pan size.",
+      "testing": "NYT Cooking test process. Headnote explains why: the water and freezing to slush make a savory cold broth, why to over-season for cold service, and gives dongchimi vs tap water options. 64 ratings, 4.0 average.",
+      "photos": "No step images in schema; page has 46 images but process photos not confirmed (login-hidden content, not marked down heavily).",
+      "efficiency": "About 5 hours of simmering plus overnight chill and 1-2 hours freezing. Long but the double-simmer is for flavor. Cucumber and radish pickle in parallel with the noodles.",
+      "access": "Korean radish, Korean pear, daepa, yangjo vinegar and maesil cheong all have US subs listed (daikon, Bosc, scallions, distilled white vinegar, maesil optional). Dry naengmyeon is in H Mart and many Asian grocers."
+    },
+    "why": "Only candidate that makes the full beef-and-radish broth the traditional way with test-kitchen reasoning and specific cues, ahead of Korean Bapsang, which is thinner on explanation and has only 3 weights."
+  },
+  "runnerUp": {
+    "url": "https://www.koreanbapsang.com/naengmyeon-cold-noodles",
+    "title": "Naengmyeon (Cold Noodles)",
+    "source": "Korean Bapsang (Hyosun)",
+    "score": 68,
+    "scores": {
+      "authenticity": 20,
+      "precision": 15,
+      "testing": 13,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Korean author. Brisket broth with optional dongchimi, sweet and sour radish, vinegar and hot mustard on the side. Also covers bibim naengmyeon, which is Hamhung style.",
+      "precision": "Brisket 230 g, 14 cups water, 5 cups broth for 2; cues: meat tender, broth slushy, cucumber wilted, noodles very cold. Only 3 weights, no pan sizes.",
+      "testing": "Established blog with 4.82 rating over 33 ratings. Some reasoning on dongchimi substitution and seasoning.",
+      "photos": "93 images on page, none in schema; photos not confirmed as process shots.",
+      "efficiency": "About 1 hour of simmering plus 1-2 hours freezing, quick.",
+      "access": "Needs Korean radish, soup soy sauce and Korean pear, with few subs given."
+    },
+    "why": "Faster and well liked, but less detailed than the NYT recipe on broth building and seasoning."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1024870-naengmyeon-cold-noodles-in-chilled-beef-broth",
+      "source": "NYT Cooking (Eric Kim)",
+      "score": 71
+    },
+    {
+      "url": "https://www.koreanbapsang.com/naengmyeon-cold-noodles",
+      "source": "Korean Bapsang",
+      "score": 68
+    },
+    {
+      "url": "https://www.maangchi.com/recipe/naengmyeon",
+      "source": "Maangchi",
+      "score": 66
+    },
+    {
+      "url": "https://mykoreankitchen.com/mul-naengmyeon-korean-cold-noodle-soup/",
+      "source": "My Korean Kitchen",
+      "score": 61
+    },
+    {
+      "url": "https://kimchimari.com/mul-naengmyeon-korean-cold-noodle-soup/",
+      "source": "Kimchimari",
+      "score": 57
+    },
+    {
+      "url": "https://www.thefooddictator.com/the-hirshon-north-korean-mul-naengmyeon-%EB%AC%BC%EB%83%89%EB%A9%B4/",
+      "source": "The Food Dictator",
+      "score": 48,
+      "disqualified": "Not disqualified outright, but it copies Korean Bapsang text, swaps in pheasant, has no process photos and no dongchimi method."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Pyongyang Naengmyeon\"",
+    "Pyongyang naengmyeon recipe",
+    "평양냉면 레시피 메밀면 육수",
+    "mul naengmyeon buckwheat noodles cold broth recipe"
+  ],
+  "notes": "Every English recipe uses dried naengmyeon noodles, which are often part starch. True Pyongyang noodles are mostly buckwheat and hand-pressed, so none is perfectly traditional. Maangchi's main version uses packaged broth and only the variation is traditional. Maangchi and the Food Dictator pages had no structured data, so I read them with WebFetch. NYT page is paywalled in part, so the photos and testing scores are judged from the publisher's process. The Korean 10000recipe results were not read.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:34.345Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Naengmyeon (Cold Noodles in Chilled Beef Broth)",
+      "rating": 4,
+      "ratingCount": 64
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Naengmyeon (Cold Noodles)",
+      "rating": 4.82,
+      "ratingCount": 33
+    }
+  }
+}

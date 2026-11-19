@@ -1,0 +1,109 @@
+{
+  "id": "tajikistan",
+  "country": "Tajikistan",
+  "dish": "Qurutob",
+  "aliases": [
+    "Kurutob",
+    "Qurutob",
+    "Курутоб",
+    "Қурутоб",
+    "Tajik bread salad"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://foodperestroika.com/2013/10/15/qurutob-tajikistans-national-dish/",
+    "title": "Qurutob, Tajikistan's National Dish",
+    "source": "Food Perestroika (Florian Pinel)",
+    "score": 75,
+    "scores": {
+      "authenticity": 18,
+      "precision": 21,
+      "testing": 14,
+      "photos": 12,
+      "efficiency": 5,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Layered fatir flatbread, home-made qurut, onions in a qurut sauce, optional lamb; explains it is one of two Tajik national dishes and that Tajiks usually buy fatir and qurut at market. Author is not Tajik, but a Tajik reader commented and the author engaged with the correction.",
+      "precision": "Weights in oz for flour, fat, onion, water, lamb; salt as 2.5 g; oven temps (450F, 300F); dough 6x12 in, disc 7 in x 1/2 in; doneness cues for fatir (golden), qurut (firm, crumbly), onions (golden brown), sauce (thick, lumpy, pourable), lamb (pulls from bone). No pan size for the skillet.",
+      "testing": "Author explains the adaptation (quick qurut baked from yogurt), warns the fatir will be dense and dry and why the dough sticks. No test-kitchen process, but clearly cooked by hand.",
+      "photos": "Per WebFetch, the post has photos of fatir rolling, layering and shaping, qurut solids, lamb before and after roasting, and the finished dish. Not every stage of the final assembly is shown.",
+      "efficiency": "Long: fatir needs 1 h chill plus 30 min rest plus 30 min bake; qurut needs 2 h in the oven; optional lamb needs 3 h. Components can run in parallel, but it is a project.",
+      "access": "No hard-to-find items. Qurut is made from whole-milk yogurt, and lamb fat can be replaced by butter."
+    },
+    "why": "It is the only candidate with weights, doneness cues for every component and process photos, and it makes a true qurut and layered fatir; the others are shortcut versions or lack photos."
+  },
+  "runnerUp": {
+    "url": "https://www.vice.com/en/article/qurutob/",
+    "title": "Qurutob",
+    "source": "VICE Munchies (Florian Pinel)",
+    "score": 53,
+    "scores": {
+      "authenticity": 16,
+      "precision": 18,
+      "testing": 9,
+      "photos": 0,
+      "efficiency": 5,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Same recipe as the Food Perestroika original, republished for VICE with less background.",
+      "precision": "US volumes plus some oz weights; same oven temperatures and doneness cues; yield scaled down to 1 cup flour.",
+      "testing": "No test statement or explanation beyond the dryness warning.",
+      "photos": "No process photos, only unrelated thumbnails.",
+      "efficiency": "Same long timeline as the original.",
+      "access": "No hard-to-find items."
+    },
+    "why": "It is a republication of the winner's recipe with less context and no process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://foodperestroika.com/2013/10/15/qurutob-tajikistans-national-dish/",
+      "source": "Food Perestroika",
+      "score": 75
+    },
+    {
+      "url": "https://www.vice.com/en/article/qurutob/",
+      "source": "VICE",
+      "score": 53
+    },
+    {
+      "url": "https://travelfoodatlas.com/tajik-qurutob-recipe",
+      "source": "Travel Food Atlas",
+      "score": 40
+    },
+    {
+      "url": "https://www.internationalcuisine.com/qurutob/",
+      "source": "International Cuisine",
+      "score": 34
+    },
+    {
+      "url": "https://app.ckbk.com/recipe/heal00691c05s001r002/qurutob",
+      "source": "ckbk (Remmi Smith)",
+      "score": 15,
+      "disqualified": "Paywalled with no steps; uses Parmesan and puff pastry, not recognizably the dish."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Qurutob\" (no results on any site)",
+    "Qurutob recipe",
+    "Кутоб курутоб рецепт таджикский"
+  ],
+  "notes": "Only the Pinel recipe is both traditional and fully specified. The arousingappetites.com page could not be read (fetch failed, host not found), so it is not scored. The Vice recipe is the same author's recipe republished. Travel Food Atlas has a long list of steps but gives amounts mainly as cups, and its yogurt-reduction qurut is a shortcut. Authenticity point: the winner's author is not from Tajikistan.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:20.656Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

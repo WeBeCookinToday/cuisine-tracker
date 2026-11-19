@@ -1,0 +1,146 @@
+{
+  "id": "benin",
+  "country": "Benin",
+  "dish": "Amiwo",
+  "aliases": [
+    "Amiwô",
+    "Amiwo with grilled chicken",
+    "Poulet amiwo",
+    "Pâte rouge",
+    "red corn paste"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.buzzfeed.com/ancestrydna/amiwo-with-grilled-chicken",
+    "title": "Amiwo With Grilled Chicken",
+    "source": "BuzzFeed / AncestryDNA (brand publisher, paid post, 2018)",
+    "score": 52,
+    "scores": {
+      "authenticity": 14,
+      "precision": 15,
+      "testing": 7,
+      "photos": 4,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Toasts the corn flour, makes a slurry plus dry flour, and sets the amiwo in moulds, the same method as the UN Tourism/Georgiana Viou version. Uses vegetable oil rather than palm oil and adds dried shrimp powder and a Dijon mustard sauce. Brand-publisher post with little cultural context.",
+      "precision": "Cup and spoon measures only, no weights. Every step has a time and most have a cue (onions soften, flour begins to brown, mixture thickens, liquid evaporated). Pan sizes not given. No chicken recipe.",
+      "testing": "Some reasoning (toasting, two-stage flour addition, stirring so the bottom does not scorch), but no test kitchen and no explanation of why.",
+      "photos": "One finished-dish photo plus a video I could not view. No process photos.",
+      "efficiency": "Sauce is made while the amiwo sets. Steps are sensible and the times look realistic.",
+      "access": "Shrimp powder is the only unusual item. Everything else is at a US grocery."
+    },
+    "why": "It follows the traditional toast-and-mould technique and gives the most cues, while the other versions are thin or are crab variants."
+  },
+  "runnerUp": {
+    "url": "https://afrotools.com/tools/afrokitchen/recipes/amiwo-bj/",
+    "title": "Amiwo",
+    "source": "AfroTools (AfroKitchen)",
+    "score": 41,
+    "scores": {
+      "authenticity": 13,
+      "precision": 11,
+      "testing": 3,
+      "photos": 3,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Corn porridge cooked in tomato and palm oil base, but it is a crab version, with no cultural context or named author.",
+      "precision": "Cups and a few counts, with one weight (200 g crab). Cues: reduced and thick, pulls away from the pot sides. No pan size.",
+      "testing": "No sign of testing or reasoning.",
+      "photos": "No step images, 9 images on the page.",
+      "efficiency": "Five clean steps, 60 minutes total.",
+      "access": "Crab meat is needed, but it offers crayfish as a substitute."
+    },
+    "why": "It has palm oil and a doneness cue, but it is a crab variant with less detail than the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.buzzfeed.com/ancestrydna/amiwo-with-grilled-chicken",
+      "source": "BuzzFeed / AncestryDNA",
+      "score": 52
+    },
+    {
+      "url": "https://afrotools.com/tools/afrokitchen/recipes/amiwo-bj/",
+      "source": "AfroTools",
+      "score": 41
+    },
+    {
+      "url": "https://www.comechop.africa/recipes/amiwo-corn-dough-stew",
+      "source": "ComeChop.Africa",
+      "score": 40
+    },
+    {
+      "url": "https://trends450.blogspot.com/2024/10/cuisine-amiwo-apopular-dish-of-benin.html",
+      "source": "The World Around U blog",
+      "score": 33
+    },
+    {
+      "url": "https://www.mrcook.app/recipes/0193cf13-be56-710c-bda3-ed096efffd6c",
+      "source": "Mr. Cook (Edwige Akpoly)",
+      "score": 28,
+      "disqualified": "Pâte rouge with beans, cumin and parsley and no palm oil, so it is a Westernized version rather than amiwo"
+    },
+    {
+      "url": "https://countryreports.org/fr/country/Benin/recipes/215",
+      "source": "CountryReports",
+      "score": 25,
+      "disqualified": "Pâte rouge, aggregator-style page with no quantities for most ingredients"
+    },
+    {
+      "url": "https://cookpad.com/us/recipes/7635220",
+      "source": "Cookpad",
+      "score": 0,
+      "disqualified": "Wrong dish (amala)"
+    },
+    {
+      "url": "https://www.afrik.com/poulet-amiwo",
+      "source": "Afrik.com",
+      "score": 0,
+      "disqualified": "HTTP 403"
+    },
+    {
+      "url": "https://pdtabenin.net/amiwo-au-poulet/?lang=en",
+      "source": "PDTA",
+      "score": 0,
+      "disqualified": "HTTP 403"
+    },
+    {
+      "url": "https://www.untourism.int/africa/african-gastronomy/benin",
+      "source": "UN Tourism (Georgiana Viou)",
+      "score": 0,
+      "disqualified": "HTTP 403, so the Viou recipe could not be read"
+    },
+    {
+      "url": "https://funtimesmagazine.com/recipes/benin-amiwo/",
+      "source": "FunTimes Magazine",
+      "score": 0,
+      "disqualified": "Fetch failed (certificate error), so it could not be read"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Amiwo\" (no results on any site)",
+    "Amiwo recipe Benin",
+    "Amiwo pâte rouge Bénin recette",
+    "amiwo recipe corn flour palm oil tomato Beninese blog how to make"
+  ],
+  "notes": "No candidate reached 60. The authoritative versions (Georgiana Viou via UN Tourism, PDTA, Afrik.com) returned 403, and FunTimes failed on a certificate error, so they were not scored. These may be worth a manual look. Results from the winner and runner-up differ on palm oil: the traditional dish uses it, and the winner does not.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:30:50.434Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Amiwo"
+    }
+  }
+}

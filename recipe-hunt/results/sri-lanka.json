@@ -1,0 +1,135 @@
+{
+  "id": "sri-lanka",
+  "country": "Sri Lanka",
+  "dish": "Kottu Roti",
+  "aliases": [
+    "Kothu Roti",
+    "Koththu Roti",
+    "Kottu",
+    "Kuttu Roti",
+    "කොත්තු රොටි",
+    "கொத்து ரொட்டி"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1017015-chicken-kottu-roti",
+    "title": "Chicken Kottu Roti",
+    "source": "NYT Cooking (Francis Lam, from Sanjeewa Gooneratne)",
+    "score": 66,
+    "scores": {
+      "authenticity": 21,
+      "precision": 14,
+      "testing": 14,
+      "photos": 7,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Recipe comes from Sri Lankan cook Sanjeewa Gooneratne, who makes it on a big griddle at New York events. Full curry base (roasted Sri Lankan curry powder, pandan, curry leaves, cardamom, cinnamon, coconut milk), then fried roti with egg and vegetables, finished with curry sauce. The headnote gives street-food context.",
+      "precision": "Only 2 of 32 ingredients have weights. It gives pound/ounce amounts, a 1 pound roti piece size (1/2 inch), 'medium red onion' and a large cast-iron pan or wok. About 12 sensory cues across 6 steps (ginger golden, onion has a little snap, roti dry and fluffy, oil shimmering or just smoking). No pan diameter and no temperatures.",
+      "testing": "NYT Cooking test process. 139 ratings averaging 5.0. Notes that the spice list can be trimmed, that the curry can be made ahead or frozen, and that oil should be reduced for oily flatbread.",
+      "photos": "No step images in the schema. 45 images on the page, which are mostly not process shots. The NYT page may hide more behind the login, so I did not mark it down further.",
+      "efficiency": "About 1h45 total. The curry takes 35 minutes of simmering, and the kottu stages (eggs, vegetables, roti) are done in sequence in one pan. The sequence is reasonable, but it makes a full chicken curry first.",
+      "access": "Pandan, curry leaves and Sri Lankan roasted curry powder are hard to find. The page says to omit some spices, gives a chile powder sub and allows paratha for roti. Frozen paratha is easy to find in the US."
+    },
+    "why": "Highest authenticity (Sri Lankan street cook, full curry sauce), the most doneness cues and a 139-rating 5.0 NYT test process, ahead of the Anglo-Sri Lankan Krumpli version."
+  },
+  "runnerUp": {
+    "url": "https://www.krumpli.co.uk/kottu-roti/",
+    "title": "Chicken Kottu Roti Recipe",
+    "source": "Krumpli",
+    "score": 59,
+    "scores": {
+      "authenticity": 16,
+      "precision": 16,
+      "testing": 10,
+      "photos": 8,
+      "efficiency": 6,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "From-scratch curry using whole spices, curry leaves and ghee. Egg is set first, then vegetables, curry and roti. The author is based in the UK, not Sri Lanka.",
+      "precision": "7 ingredients have weights in grams. It gives 25 cm and 30 cm pan sizes and 5-7 mm cut sizes for roti and chicken. Only 2 sensory cues, and some steps are time-only.",
+      "testing": "A personal blog with no test kitchen, and little explanation of why.",
+      "photos": "48 images on the page and no step images in the schema, so I could not confirm process photos.",
+      "efficiency": "75 minutes, split into 25 steps, of which many are small prep steps. The curry can be made 2-3 days ahead.",
+      "access": "Needs black cardamom, Kashmiri chillies and black onion seeds. No substitutions are given."
+    },
+    "why": "Better weights and pan sizes, but fewer doneness cues, no test-kitchen process and an author from outside the cuisine."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1017015-chicken-kottu-roti",
+      "source": "NYT Cooking",
+      "score": 66
+    },
+    {
+      "url": "https://www.krumpli.co.uk/kottu-roti/",
+      "source": "Krumpli",
+      "score": 59
+    },
+    {
+      "url": "https://www.islandsmile.org/?p=22128",
+      "source": "Islandsmile (Jehan Yusoof)",
+      "score": 58
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/lamb-kuttu-roti",
+      "source": "BBC Good Food (Rosie Birkett)",
+      "score": 50
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipes/stir-fried-shredded-roti-kottu-roti",
+      "source": "SBS Food (Alice Storey)",
+      "score": 47
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipes/kottu-roti",
+      "source": "SBS Food (Peter Kuruvita)",
+      "score": 38,
+      "disqualified": "Seafood, bok choy and barbecue plate version that the author calls 'now an Australian dish'. It is a fusion, not the dish as made in Sri Lanka."
+    },
+    {
+      "url": "https://cookingtheglobe.com/sri-lankan-chicken-kothu-roti/",
+      "source": "Cooking the Globe",
+      "score": 0,
+      "disqualified": "read returned HTTP 500"
+    },
+    {
+      "url": "https://www.loveandotherspices.com/wprm_print/sri-lankan-chicken-kottu-roti-koththu-roti",
+      "source": "Love and Other Spices",
+      "score": 0,
+      "disqualified": "Print page has no Recipe structured data and I did not score it. Not read with WebFetch."
+    },
+    {
+      "url": "https://arousingappetites.com/kottu-roti-sri-lankan-fried-bread/",
+      "source": "Arousing Appetites",
+      "score": 0,
+      "disqualified": "read failed (fetch error)"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Kottu Roti\"",
+    "Kottu Roti recipe",
+    "කොත්තු රොටි recipe Sri Lankan chicken kottu",
+    "Sri Lankan kottu roti recipe Hungry Lankan OR \"Sri Lankan\" blogger step by step"
+  ],
+  "notes": "Read 6 real candidates from 4 sites. Serious Eats has no kottu recipe and the ATK result was only a plain roti recipe. The NYT recipe is paywalled but its full recipe is in the structured data. No candidate has process photos I could confirm. Islandsmile (58) is the most Sri Lankan-authored of the web blogs, with step photos likely, but it has few ratings and a single long step block. I did not run WebFetch on any page. Companion roti: the Sri Lankan godamba roti is not in the NYT recipe, which allows paratha. I did not read any roti recipe, so there are no companions.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:38.839Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Kottu Roti",
+      "rating": 5,
+      "ratingCount": 139
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Kottu Roti Recipe"
+    }
+  }
+}

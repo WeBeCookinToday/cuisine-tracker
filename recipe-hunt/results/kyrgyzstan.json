@@ -1,0 +1,128 @@
+{
+  "id": "kyrgyzstan",
+  "country": "Kyrgyzstan",
+  "dish": "Shorpo",
+  "aliases": [
+    "Shorpo",
+    "Sorpo",
+    "Шорпо",
+    "Shurpa",
+    "Sho'rpo",
+    "Шурпа"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.kyrgyzchildrensfuture.org/kyrgyz-recipes/shorpo/",
+    "title": "Shorpo (Soup)",
+    "source": "Kyrgyz Children's Future (no individual author)",
+    "score": 46,
+    "scores": {
+      "authenticity": 17,
+      "precision": 12,
+      "testing": 3,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Published by a Kyrgyz-focused organization in a Kyrgyz recipe collection. Fries the meat in oil or mutton fat, then simmers with radish, tomato and dill, which fits the regional versions. No background text and no named author.",
+      "precision": "2 lb meat cut into 2-inch chunks, 8 cups water, 1/2 cup dill, 1/2 tsp red pepper. Doneness cues are 'meat is soft' and 'potatoes soft' (2 cues). Produce is counted, not sized or weighed. No pot size and no meat browning time.",
+      "testing": "No test notes and no reasoning given.",
+      "photos": "One 150x150 thumbnail of the finished dish. No process photos.",
+      "efficiency": "Seven short steps with sensible staging: potatoes go in late, and the 1.5 to 2 hour simmer is stated realistically.",
+      "access": "All ingredients are available at a US grocery. Substitutions given for meat, fat and tomato (paste or fresh)."
+    },
+    "why": "It is the most traditional-looking method (brown the meat, then simmer, with dill and radish) from a Kyrgyz source, but it is thin on precision, testing and photos."
+  },
+  "runnerUp": {
+    "url": "https://evolutionofflavour.com/recipe/shorpo-traditional-central-asian-shorpo/",
+    "title": "Shorpo",
+    "source": "Evolution of Flavour (Marco L'Amour)",
+    "score": 41,
+    "scores": {
+      "authenticity": 12,
+      "precision": 12,
+      "testing": 3,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Generic Central Asian shorpo with bone-in lamb, potato, carrot and dill. Gives a short roots blurb but is not Kyrgyz-specific.",
+      "precision": "2 lb / 900 g lamb, 2.4 L water, produce sized (4 medium potatoes, 3 large carrots). Sensory cues in 2 steps (skim impurities, vegetables tender). No pot size and no weights for the produce.",
+      "testing": "No test notes or reasoning.",
+      "photos": "No step images in the schema. 3 images on the page.",
+      "efficiency": "Simple 8 steps. The 1.5 hour simmer is realistic.",
+      "access": "All ingredients are common."
+    },
+    "why": "Better sizing and a metric conversion, but it is less region-specific and does not brown the meat."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.kyrgyzchildrensfuture.org/kyrgyz-recipes/shorpo/",
+      "source": "Kyrgyz Children's Future",
+      "score": 46
+    },
+    {
+      "url": "https://evolutionofflavour.com/recipe/shorpo-traditional-central-asian-shorpo/",
+      "source": "Evolution of Flavour",
+      "score": 41
+    },
+    {
+      "url": "https://www.1worldcafe.com/2014/04/12/shurpa/",
+      "source": "One World Cafe (Oksana)",
+      "score": 39
+    },
+    {
+      "url": "https://dosbolacademic.github.io/1-Foundation-Recipe-Website/recipes/Shorpo.html",
+      "source": "dosbolacademic GitHub Pages (student project, no author)",
+      "score": 35
+    },
+    {
+      "url": "https://lady.mail.ru/recipe/16255-shorpo-iz-baraniny/",
+      "source": "Lady Mail.ru editors",
+      "score": 34
+    },
+    {
+      "url": "https://tasteofasiaguide.com/recipes/shorpo/",
+      "source": "Taste of Asia Guide",
+      "score": 34
+    },
+    {
+      "url": "https://www.ifad.org/documents/d/new-ifad.org/recipes_10524-kyrgyzstan_w",
+      "source": "IFAD",
+      "score": 0,
+      "disqualified": "PDF is unreadable by the tools, and the search summary says it covers beshbarmak with shorpo broth rather than the soup itself."
+    },
+    {
+      "url": "https://kaktus.media/doc/371701_iskonno_kyrgyzskie_bluda_dlia_vosstanovleniia_jiznennyh_sil._prostye_recepty.html",
+      "source": "Kaktus.media",
+      "score": 0,
+      "disqualified": "Page content did not include a recipe when fetched."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Shorpo\"",
+    "node scripts/recipe-hunt.mjs sites \"Shurpa\"",
+    "Shorpo recipe Kyrgyz lamb soup",
+    "Шорпо рецепт кыргызское",
+    "Kyrgyz shorpo recipe lamb broth potatoes dill cilantro blog"
+  ],
+  "notes": "Nothing from the test-kitchen sites; both sites searches found no matches. Every English recipe is a short, untested blog or community-page recipe, and none gives weights for the produce, pot sizes, or process photos. Best next step if one is needed: a Russian-language source with grams and photos (for example a Kyrgyz food site), or use the Kyrgyz Children's Future method and add the doneness cues by hand. Some pages found in search were skipped as unreliable (hellskitchen sslip.io mirror, food.com/geniuskitchen copies, Wikipedia). The Taste of Asia page's claim of being served at every Kyrgyz family lunch is unsourced.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:01.834Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Shorpo"
+    }
+  }
+}

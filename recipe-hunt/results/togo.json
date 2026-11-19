@@ -1,0 +1,117 @@
+{
+  "id": "togo",
+  "country": "Togo",
+  "dish": "Gboma Dessi",
+  "aliases": [
+    "Gboma Dessi",
+    "Gboma Dési",
+    "Sauce feuille",
+    "Togolese spinach stew",
+    "Beef and Spinach Stew"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://togetherwomenrise.org/recipes/beef-and-spinach-stew-gboma-dessi-tested/",
+    "title": "Beef and Spinach Stew (Gboma Dessi) (Tested)",
+    "source": "Together Women Rise (adapted from ethnicfoodsrus.com; photo credit Linda McElroy)",
+    "score": 51,
+    "scores": {
+      "authenticity": 17,
+      "precision": 13,
+      "testing": 11,
+      "photos": 1,
+      "efficiency": 5,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Red palm oil (called a must-have), Gbotemi spice, tomato sauce, piri piri, beef and steamed spinach, served with djenkoume. Author not named and no cultural background beyond the Togo label.",
+      "precision": "Volumes for all ingredients (2 lb beef, 1 lb spinach, 14 oz tomato sauce). Cues: beef browned on two sides, onions softened, meat tender when pierced with a fork, spinach fully wilted. No pan sizes and no weights for produce.",
+      "testing": "Marked Tested. Explains why: mature spinach holds up better than baby, and cube size changes cook time so use the tenderness test rather than the clock.",
+      "photos": "One hero photo only, no process photos.",
+      "efficiency": "About 3 hours of simmering plus prep, with no total time stated. Long, but reasonable for stewing beef.",
+      "access": "Red palm oil can be swapped for regular oil. Piri piri is adjustable. Gbotemi spice has a linked recipe, with no sub named."
+    },
+    "why": "It is the only version that is marked tested, has real doneness cues and is close to the traditional method (palm oil and Gbotemi). It still falls short on photos and pan sizes."
+  },
+  "runnerUp": {
+    "url": "https://spicebreeze.com/blog/togolese-gboma-dessi-recipe/",
+    "title": "Togolese Gboma Dessi",
+    "source": "SpiceBreeze",
+    "score": 50,
+    "scores": {
+      "authenticity": 14,
+      "precision": 10,
+      "testing": 8,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Uses chicken, ground pumpkin seeds and a spice mix, with an optional long version that boils the meat and blanches the spinach. This departs from the usual beef and palm oil version.",
+      "precision": "Only 2 of 18 ingredients have weights. Cues are sparse: brown, soft, thickened, spinach reduced. Pans are named but not sized.",
+      "testing": "Author explains the short and long versions and the trade-offs. No test-kitchen process.",
+      "photos": "8 images on the page, none in the step schema. I did not confirm that they show process stages.",
+      "efficiency": "Short version is quick, at about 20 minutes of sauce plus frying.",
+      "access": "Pumpkin seeds and the spice mix need sourcing, and there are few subs."
+    },
+    "why": "Its method is clear and it is quicker, but it changes the protein and base and has weaker doneness cues than the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://togetherwomenrise.org/recipes/beef-and-spinach-stew-gboma-dessi-tested/",
+      "source": "Together Women Rise",
+      "score": 51
+    },
+    {
+      "url": "https://spicebreeze.com/blog/togolese-gboma-dessi-recipe/",
+      "source": "SpiceBreeze",
+      "score": 50
+    },
+    {
+      "url": "https://ethnicfoodsrus.com/around-the-world-recipes/african-cuisine/togolese-cuisine/gboma-dessi/",
+      "source": "Ethnic Foods R Us",
+      "score": 42
+    },
+    {
+      "url": "https://cupofyum.com/recipes/gboma-dessi",
+      "source": "Cup of Yum (Heidi Matthews)",
+      "score": 38,
+      "disqualified": "Copy of the ethnicfoodsrus recipe with a dumpling add-on. Only 2 ratings. No cues or pan sizes."
+    },
+    {
+      "url": "https://www.tastesfromtheroad.com/post/gboma-dessi-spinach-and-beef-stew-a-taste-of-togo",
+      "source": "A Taste of Togo",
+      "score": 0,
+      "disqualified": "Loaded (HTTP 200) but the page text was truncated in both read and WebFetch, so it could not be scored."
+    },
+    {
+      "url": "https://www.afrik.com/gboma-dessi",
+      "source": "Afrik.com",
+      "score": 0,
+      "disqualified": "HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Gboma Dessi\" (no matches on any site)",
+    "Gboma Dessi recipe",
+    "Togo gboma dessi spinach stew recipe",
+    "sauce feuille togolaise gboma dessi recette"
+  ],
+  "notes": "Few English recipes exist and most trace back to ethnicfoodsrus. None scored 60 or more: no process photos, no pan sizes, little weight data. The tastesfromtheroad.com page (a Togo-focused blog) could not be read, so it may be better than what I scored. A manual check is worthwhile. The unwto.org page on Togolese green-leaf sauce may help for authenticity context, but it is not a recipe. Scores for spicebreeze and cupofyum are partly estimates from schema and signals.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:22.022Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Togolese Gboma Dessi"
+    }
+  }
+}

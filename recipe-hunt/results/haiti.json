@@ -1,0 +1,126 @@
+{
+  "id": "haiti",
+  "country": "Haiti",
+  "dish": "Soup Joumou",
+  "aliases": [
+    "Soup joumou",
+    "Soupe joumou",
+    "Soup au giraumon",
+    "Soup Joumou (Haitian Independence Soup)",
+    "Haitian squash soup",
+    "Haitian pumpkin and beef soup"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.americastestkitchen.com/recipes/17395-soup-joumou-haitian-squash-soup",
+    "title": "Soup Joumou (Haitian Squash Soup)",
+    "source": "America's Test Kitchen (Erica Turner)",
+    "score": 73,
+    "scores": {
+      "authenticity": 18,
+      "precision": 17,
+      "testing": 17,
+      "photos": 9,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional structure: epis marinade for chuck, calabaza squash puree, turnips, carrots, potatoes, cabbage, pasta, whole habanero (Scotch bonnet stand-in). Adaptations: chicken broth, rigatoni, cloves in a cheesecloth bundle. Author is not Haitian, but ATK also has a companion article 'How to Make Soup Joumou'. Headnote frames it as Haiti's New Year's ritual.",
+      "precision": "Weights/sizes for 5 ingredients; vegetables cut to stated sizes (1.5-inch, 1-inch); 15 sensory/doneness cues (beef fork-tender with 2 cups liquid remaining, squash tender but not falling apart 12-15 min, root veg just shy of tender, pasta rests covered 4-6 min); Dutch oven named but no inch/quart size; no temperatures.",
+      "testing": "ATK test kitchen recipe. Make-ahead notes for epis and puree, and the pasta is finished off heat to avoid mush. Rating 3.8 from only 18 ratings. Detailed 'why' text is behind the login.",
+      "photos": "Step images not in schema (stepImagesInSchema 0, 19 images on page). Judged from ATK's usual practice, which is hidden behind login; not marked down heavily.",
+      "efficiency": "Epis and squash puree are made while beef marinates. 3h45m total is realistic. Making a double batch of epis and boiling squash separately adds a few steps.",
+      "access": "Calabaza is the hard item (found at Latino or Caribbean markets); kabocha or butternut works as a sub, though the page text read did not state it. Habanero replaces Scotch bonnet. Everything else is at a normal grocery."
+    },
+    "why": "Beat the NYT version on precision and tested-recipe rigor: it gives explicit doneness cues for beef, squash, vegetables and pasta, where NYT mostly gives times."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/1021716-soup-joumou",
+    "title": "Soup Joumou",
+    "source": "NYT Cooking (Priya Krishna, with Cindy Similien)",
+    "score": 69,
+    "scores": {
+      "authenticity": 22,
+      "precision": 14,
+      "testing": 14,
+      "photos": 8,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Developed with Haitian chef Cindy Similien. Includes epis, lime-washed beef, calabaza puree, Scotch bonnet left whole, vermicelli and hand-rolled dumplings (a traditional element). Headnote explains the independence story.",
+      "precision": "Only 2 ingredients with weights; produce sized (medium, large); 4 sensory cues; no temperatures; no pot size ('large pot'); several steps are time-only.",
+      "testing": "NYT Cooking, 395 ratings at 4 stars. Notes on bursting the pepper and thinning the soup, but little reasoning.",
+      "photos": "No step images in schema (45 images on page, likely mostly unrelated).",
+      "efficiency": "2 hours plus marination; dumplings made while soup cooks. Includes a full epis recipe.",
+      "access": "Calabaza and Scotch bonnet needed; no subs stated in the schema."
+    },
+    "why": "Slightly more authentic (dumplings, Haitian co-author) but less precise on doneness."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.americastestkitchen.com/recipes/17395-soup-joumou-haitian-squash-soup",
+      "source": "America's Test Kitchen",
+      "score": 73
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1021716-soup-joumou",
+      "source": "NYT Cooking",
+      "score": 69
+    },
+    {
+      "url": "https://www.saveur.com/article/Recipes/Soup-Joumou-Recipe",
+      "source": "Saveur (Elle Philippe)",
+      "score": 58
+    },
+    {
+      "url": "https://www.christinascucina.com/soup-joumou-haitian-pumpkin-soup/",
+      "source": "Christina's Cucina",
+      "score": 45
+    },
+    {
+      "url": "https://dipsy.pbs.org/food/recipes/leah-pennimans-soup-joumou",
+      "source": "PBS Food (Leah Penniman)",
+      "score": 25,
+      "disqualified": "No steps in the recipe; adds coconut milk and corn, so it is an adaptation"
+    },
+    {
+      "url": "https://www.177milkstreet.com/stories/haitian-pumpkin-and-beef-soup?token=514",
+      "source": "Milk Street",
+      "score": 0,
+      "disqualified": "Page is a magazine story with no ingredient amounts"
+    },
+    {
+      "url": "https://www.savethechildren.org/us/charity-stories/cooking-with-kids/soup-joumou-haiti-recipe",
+      "source": "Save the Children",
+      "score": 0,
+      "disqualified": "Loaded (200) but no structured data; not scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Soup Joumou\"",
+    "Soup Joumou recipe",
+    "soup joumou Haitian independence pumpkin soup traditional recipe",
+    "soup joumou soup au giraumon recette haïtienne"
+  ],
+  "notes": "Scores of ATK and NYT are close (73 vs 69); NYT is the better pick if you want a Haitian co-author, dumplings and 395 ratings. Saveur's Elle Philippe (grew up in Port-au-Prince) is the most authoritative voice but has no process photos or pan sizes, and gets 58. Calabaza is the main US access issue; kabocha or butternut is the usual sub. The Save the Children page was not scored, because I did not read its ingredients or steps.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:58.784Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Soup Joumou (Haitian Squash Soup)",
+      "rating": 3.8,
+      "ratingCount": 18
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Soup Joumou",
+      "rating": 4,
+      "ratingCount": 395
+    }
+  }
+}

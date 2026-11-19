@@ -1,0 +1,115 @@
+{
+  "id": "czechia",
+  "country": "Czechia",
+  "dish": "Svickova",
+  "aliases": [
+    "Svíčková",
+    "Svíčková na smetaně",
+    "Svickova na smetane",
+    "Czech marinated beef sirloin in cream sauce"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.cooklikeczechs.com/svickova-na-smetane/",
+    "title": "Svíčková na smetaně",
+    "source": "Cook Like Czechs (Petra Kupská)",
+    "score": 76,
+    "scores": {
+      "authenticity": 23,
+      "precision": 15,
+      "testing": 14,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Author is a born-and-raised Czech cook; traditional larded beef, sugar-and-vinegar caramelized root vegetables, spice bundle, roux strained into sauce, cream finish, blended and strained, served with lemon/whipped cream/cranberry. Little history on the page.",
+      "precision": "Only 3 of 21 ingredients carry weights, but produce is sized (medium carrots, 7 oz celeriac, 5 oz bacon, 1/3 inch x 4 inch lard strips). 11 steps with sensory cues (golden brown, vinegar evaporated, roux loses floury taste); no oven temps or pan sizes (stovetop, minimal heat, 2.5 h).",
+      "testing": "Explains why: discard 1/4 of the vegetables or the sauce turns overly vegetal and dense; count the bay leaves; roux cooked 15 min to lose floury taste; cream added off heat. Rating 4.9 from 28.",
+      "photos": "Step photos confirmed via WebFetch for larding, browning, vegetables, roux, thickening, cream, blending and the finished sauce. None in schema.",
+      "efficiency": "Single pot, no overnight marinade, 3 h total, realistic.",
+      "access": "Parsley root and celeriac are hard to find; the page suggests parsnip and celery, and says parsley can be omitted. Top blade and bacon fat are at any US store."
+    },
+    "why": "It is the only candidate by a Czech author with a traditional roux-and-cream method, step photos and explained reasoning, while the runner-up has no step photos and a looser sauce method."
+  },
+  "runnerUp": {
+    "url": "https://www.eatingeurope.com/blog/svickova-braised-beef-recipe/",
+    "title": "Svíčková (Braised Beef with Bread Dumplings)",
+    "source": "Eating Europe (Kenny Dunn)",
+    "score": 66,
+    "scores": {
+      "authenticity": 20,
+      "precision": 16,
+      "testing": 12,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Good history (1805 Prague Cookbook, Bavarian and French influence), but an oven-braise with overnight marinade and a flour-optional sauce.",
+      "precision": "Metric and US weights for most items, 320F oven, fork-tender cue, 2 to 4 hours is a wide range.",
+      "testing": "Some reasoning and substitution notes (coarse flour = AP flour + semolina 1:1); no test-kitchen sign.",
+      "photos": "Ingredient, marinade and finished photos only; no step photos.",
+      "efficiency": "Overnight marinade; wide time range.",
+      "access": "Substitutions given for flour, yeast and acid."
+    },
+    "why": "Strong on history and weights but has no step photos and a less traditional sauce."
+  },
+  "companions": [
+    {
+      "part": "bread dumplings (houskove knedliky)",
+      "url": "https://www.eatingeurope.com/blog/svickova-braised-beef-recipe/",
+      "title": "Svíčková (Braised Beef with Bread Dumplings), dumpling section",
+      "source": "Eating Europe (Kenny Dunn)",
+      "score": 66,
+      "why": "Yeast bread dumpling with weights, a boil time and a no-slime cue, plus a substitute for Czech coarse flour.",
+      "check": "warn"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.cooklikeczechs.com/svickova-na-smetane/",
+      "source": "Cook Like Czechs",
+      "score": 76
+    },
+    {
+      "url": "https://www.eatingeurope.com/blog/svickova-braised-beef-recipe/",
+      "source": "Eating Europe",
+      "score": 66
+    },
+    {
+      "url": "https://expats.cz/czech-news/article/in-the-czech-kitchen-beef-tenderloin-in-cream-sauce",
+      "source": "Expats.cz (Lokál U Bílé Kuželky)",
+      "score": 54
+    },
+    {
+      "url": "https://www.chefspencil.com/svickova-na-smetane-roast-sirloin-in-sour-cream-sauce-w-dumplings/",
+      "source": "Chef's Pencil",
+      "score": 0,
+      "disqualified": "Near word-for-word copy of the Eating Europe recipe; original used instead"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"svickova\" (no results on any site)",
+    "svickova recipe",
+    "svíčková na smetaně recept",
+    "Czech svickova beef sirloin cream sauce knedliky"
+  ],
+  "notes": "No Serious Eats, NYT, ATK or BBC recipe exists. The Czech-language sites were not read, since the user is in the US. The Expats.cz restaurant recipe is a 2.5 kg batch with no photos. Sauce lore differs by source: Cook Like Czechs uses roux, Eating Europe purees the vegetables with optional flour.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:37:54.787Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Svíčková na smetaně",
+      "rating": 4.9,
+      "ratingCount": 28
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

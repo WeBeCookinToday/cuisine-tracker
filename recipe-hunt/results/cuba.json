@@ -1,0 +1,111 @@
+{
+  "id": "cuba",
+  "country": "Cuba",
+  "dish": "Ropa Vieja",
+  "aliases": [
+    "Ropa vieja cubana",
+    "Cuban shredded beef",
+    "old clothes",
+    "carne desmechada (Venezuela/Colombia)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/ropa-vieja-cuban-latin-american-beef-stew-recipe",
+    "title": "Ropa Vieja Recipe",
+    "source": "Serious Eats (Daniel Gritzer)",
+    "score": 78,
+    "scores": {
+      "authenticity": 19,
+      "precision": 20,
+      "testing": 15,
+      "photos": 11,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Flank steak braised with onion, peppers, tomato, cumin, oregano, allspice, white wine, olives, served with rice and beans; classic Cuban profile. Streamlined one-pot method, not a traditional two-pot boil-then-sofrito. Author is not Cuban.",
+      "precision": "Weights for 10 of 19 ingredients (e.g. onion 415g, peppers 250g each); 11 sensory cues in steps (shimmering oil, browned, very tender, thin long shreds, glaze coats beef); oven temp 350F; Dutch oven but no pan size.",
+      "testing": "Serious Eats test kitchen; description explains why the one-pot approach gives better beefy flavor, and a note on cuts. Only 4 ratings (3.8), so little user validation.",
+      "photos": "3 step images in schema (vegetables, braise assembly, shredding); page has more images.",
+      "efficiency": "Single pot, 10 min prep, 2 hr cook; stated 2h10m is realistic.",
+      "access": "All ingredients at a US grocery."
+    },
+    "why": "Beat ATK on precision (weights for more than half the ingredients, a doneness cue at nearly every step) and on visible process photos."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/8264-cuban-braised-shredded-beef-ropa-vieja",
+    "title": "Ropa Vieja (Cuban Braised Shredded Beef)",
+    "source": "America's Test Kitchen (Dan Souza)",
+    "score": 75,
+    "scores": {
+      "authenticity": 17,
+      "precision": 17,
+      "testing": 19,
+      "photos": 10,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Cuban flavor base, but uses brisket instead of flank and adds anchovy for depth, so it departs from tradition.",
+      "precision": "No weights (volume and count only); strip widths given (2-inch, 1/4-inch shreds); 10 sensory cues; 300F oven; Dutch oven size not given.",
+      "testing": "ATK test kitchen; rating 4.6 from 90 ratings; description explains the choice of cut for texture.",
+      "photos": "Step photos hidden behind login; not marked down for that (scored 10).",
+      "efficiency": "Two dense steps, about 3 hours total; sensible.",
+      "access": "Anchovy and brisket are available at US grocery stores."
+    },
+    "why": "Strong testing and a 4.6 rating, but less precise on quantities and less traditional than the Serious Eats version."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/ropa-vieja-cuban-latin-american-beef-stew-recipe",
+      "source": "Serious Eats",
+      "score": 78
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/8264-cuban-braised-shredded-beef-ropa-vieja",
+      "source": "America's Test Kitchen",
+      "score": 75
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1021457-ropa-vieja",
+      "source": "NYT Cooking (J. Kenji López-Alt)",
+      "score": 68
+    },
+    {
+      "url": "https://www.laylita.com/recipes/cuban-ropa-vieja-shredded-beef/",
+      "source": "Laylita's Recipes",
+      "score": 63
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/3632-zarela-martinezs-ropa-vieja",
+      "source": "NYT Cooking (Zarela Martinez)",
+      "score": 40,
+      "disqualified": "Mexican poblano and flour tortilla version, not Cuban ropa vieja"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Ropa Vieja\"",
+    "Cuban ropa vieja recipe",
+    "ropa vieja cubana receta tradicional"
+  ],
+  "notes": "Kenji's NYT version (4.0 from 1526 ratings) adds raisins and capers and needs a separate peppers-and-onions sub-recipe. Laylita has good step photos but few doneness cues and no ratings. No candidate was from a Cuban author.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:54.410Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Ropa Vieja Recipe",
+      "rating": 3.8,
+      "ratingCount": 4
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Ropa Vieja (Cuban Braised Shredded Beef)",
+      "rating": 4.6,
+      "ratingCount": 90
+    }
+  }
+}
