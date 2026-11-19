@@ -1,0 +1,112 @@
+{
+  "id": "burundi",
+  "country": "Burundi",
+  "dish": "Mukeke",
+  "aliases": [
+    "Mukeke ya Tanganyika",
+    "Lake Tanganyika fish",
+    "Lates stappersii (Tanganyika sardine/lake perch)",
+    "Mukeke pan-fried with garlic"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://burunditravel.bi/en/comment-preparer-le-mukeke-au-burundi/",
+    "title": "Mukeke Recipe (Burundi)",
+    "source": "Burundi Travel (no named author)",
+    "score": 37,
+    "scores": {
+      "authenticity": 17,
+      "precision": 6,
+      "testing": 3,
+      "photos": 0,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Burundian tourism site; fried-then-simmered tomato/onion/garlic fish, mentions grilling over coals, serves with ugali/uburobe/plantain. Author not named; only brief background (emblematic fish of Lake Tanganyika).",
+      "precision": "Volumes only (1 cup peanut oil, 1/2 L water), no weights, no fish weight, no pot size, no frying time. Only doneness cue: flesh tender and has absorbed sauce; simmer 30-40 min.",
+      "testing": "No sign of testing, no reasoning beyond 'do not turn or it breaks' and lemon rub to reduce smell.",
+      "photos": "No photos seen in fetched content; no structured data.",
+      "efficiency": "Short, no wasted steps; 30-40 min simmer plausible.",
+      "access": "Fresh mukeke is unobtainable in the US and no substitute is named (tilapia would work)."
+    },
+    "why": "It is the only source I read that is clearly Burundian and actually the named dish, though it falls well under 60."
+  },
+  "runnerUp": {
+    "url": "https://www.monitor.co.ug/uganda/lifestyle/dining-recipes/whole-fresh-fried-tilapia-1680988",
+    "title": "Whole Fresh Fried Tilapia",
+    "source": "Daily Monitor (Uganda)",
+    "score": 46,
+    "scores": {
+      "authenticity": 8,
+      "precision": 15,
+      "testing": 8,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Ugandan lake-fish preparation, not Burundian mukeke; useful only as a technique proxy for a whole fried lake fish. Uses Royco.",
+      "precision": "Oil depth 2.5 cm, bread-cube oil test, 5-7 min per side until skin crisp; flour in cups, no fish weights.",
+      "testing": "Some reasoning (do not turn early, skin breaks); no named author.",
+      "photos": "One hero image only.",
+      "efficiency": "Fast, no wasted steps.",
+      "access": "Whole tilapia and Royco (sub: bouillon) are easy in the US."
+    },
+    "why": "Better written but it is a different dish, so it cannot be the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://burunditravel.bi/en/comment-preparer-le-mukeke-au-burundi/",
+      "source": "Burundi Travel",
+      "score": 37
+    },
+    {
+      "url": "https://www.monitor.co.ug/uganda/lifestyle/dining-recipes/whole-fresh-fried-tilapia-1680988",
+      "source": "Daily Monitor (Uganda)",
+      "score": 46,
+      "disqualified": "Not mukeke; Ugandan fried tilapia"
+    },
+    {
+      "url": "https://hellskitchen.206.189.43.227.sslip.io/dish/3619",
+      "source": "hellskitchen (sslip.io mirror)",
+      "score": 0,
+      "disqualified": "Unattributed content-farm style page on a bare-IP domain; claims (palm oil, chili) contradict UN Tourism; no author"
+    },
+    {
+      "url": "https://app.ckbk.com/recipe/teke51821c09s001r001/fried-tilapia",
+      "source": "ckbk (Saba Alemayoh)",
+      "score": 0,
+      "disqualified": "Ethiopian semek; no steps in schema, paywalled"
+    },
+    {
+      "url": "https://www.untourism.int/africa/african-gastronomy/burundi",
+      "source": "UN Tourism",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Mukeke\"",
+    "node scripts/recipe-hunt.mjs sites \"Burundi fish\"",
+    "Mukeke Burundi recipe",
+    "Burundian fried tilapia mukeke grilled fish recipe"
+  ],
+  "notes": "No test-kitchen or reputable cookbook source for mukeke exists in what I found. Only Burundi Travel gives a usable Burundian recipe; it is thin (no weights, no cues). The UN Tourism page (Kamwenubusa Jean Claude, mukeke pan-fried with garlic, traditionally with cow butter) is the authoritative description but returned 403 so it is not recorded as a recipe. A US cook would substitute whole tilapia or perch. Few distinct sites were available, so the 3-candidates-from-2-sites rule was met only by counting non-matching proxies; a retry with native-language (French) searches may help.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:30:52.198Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "netherlands",
+  "country": "Netherlands",
+  "dish": "Stamppot",
+  "aliases": [
+    "Boerenkoolstamppot",
+    "Boerenkool met worst",
+    "Stamppot boerenkool met rookworst",
+    "Dutch mashed potato and vegetable stew"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://coquinaria.nl/en/dutch-winterfare/amp/",
+    "title": "Stamppot - Traditional Dutch Winterfare",
+    "source": "Coquinaria (Christianne Muusers)",
+    "score": 70,
+    "scores": {
+      "authenticity": 22,
+      "precision": 16,
+      "testing": 14,
+      "photos": 5,
+      "efficiency": 9,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Dutch author living in the Netherlands. Classic boerenkool version with rookworst, bacon, onions, lard or butter and a splash of vinegar. Explains the 'little volcano' with gravy well, kale history back to the Middle Ages, and what a traditional cold-smoked rookworst is.",
+      "precision": "Metric plus US amounts for every ingredient (1 kg potatoes, 500-600 g kale, 50 g lard or butter, 100-150 g bacon). Cues: fork-prick potatoes after about 20 min, onions caramelized and bacon not burnt, mash stopping short of purée, loosen with cooking liquid. Weakness: no pan sizes, potato and onion sizes vague, no temperatures.",
+      "testing": "Author explains why: keep the cooking liquid in place of gravy, braise covered so onions caramelize and bacon doesn't burn, mash coarse for texture, salt caution because bacon, lard and stock cube are salty. Gives storage, reheating and leftover (croquette) advice. No formal test kitchen.",
+      "photos": "WebFetch could only confirm a finished-dish photo plus rookworst and masher photos. No step-by-step sequence confirmed.",
+      "efficiency": "Kale and sausage cook on top of the potatoes in one pot while bacon and onions braise in parallel. About 40 min total.",
+      "access": "Kale, potatoes, bacon and smoked sausage are available at US grocery stores. Rookworst can be swapped for frankfurters, per the page. Lard is optional (butter works). The page doesn't suggest a US-specific potato or sausage."
+    },
+    "why": "It is the only candidate that is both Dutch-authored and traditional, with weights, doneness cues and reasoning for each step."
+  },
+  "runnerUp": {
+    "url": "https://gypsyplate.com/stamppot/",
+    "title": "Stamppot (Dutch National Dish)",
+    "source": "GypsyPlate",
+    "score": 52,
+    "scores": {
+      "authenticity": 14,
+      "precision": 13,
+      "testing": 7,
+      "photos": 5,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "US food blog. Adds garlic, shallots, bay leaf and an olive oil drizzle, none of them traditional. A commenter notes that Dutch cooks don't use onion or garlic.",
+      "precision": "Only 2 of 12 ingredients have weights, mostly US volumes. Cues are limited to 'potatoes soft' and 'kale tender', with no temperatures.",
+      "testing": "Little reasoning beyond a note to watch the kale water. Rated 5 from 15 ratings.",
+      "photos": "No step images in the schema, and I did not confirm process photos on the page.",
+      "efficiency": "Parallel potatoes and kale, about 35 min.",
+      "access": "All ingredients are at a US grocery store."
+    },
+    "why": "It is a Westernized take with weaker precision and no cultural context."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://coquinaria.nl/en/dutch-winterfare/amp/",
+      "source": "Coquinaria",
+      "score": 70
+    },
+    {
+      "url": "https://gypsyplate.com/stamppot/",
+      "source": "GypsyPlate",
+      "score": 52
+    },
+    {
+      "url": "https://www.eatingeurope.com/blog/stamppot-recipe/",
+      "source": "Eating Europe (Kenny Dunn)",
+      "score": 40
+    },
+    {
+      "url": "https://www.all-thats-jas.com/dutch-stamppot-vegetable-mash/",
+      "source": "All that's Jas",
+      "score": 36
+    },
+    {
+      "url": "https://www.ah.nl/allerhande/recept/R-R7456/klassieke-boerenkoolstamppot",
+      "source": "Albert Heijn Allerhande",
+      "score": 0,
+      "disqualified": "HTTP 403"
+    },
+    {
+      "url": "https://www.pickuplimes.com/recipe/boerenkool-stamppot-dutch-kale-and-potato-mash-2667",
+      "source": "Pick Up Limes",
+      "score": 0,
+      "disqualified": "Ingredients and steps are in the app only. Not readable."
+    },
+    {
+      "url": "https://www.unox.nl/recepten/categorie/stamppotten/boerenkool-stamppot.html",
+      "source": "Unox",
+      "score": 0,
+      "disqualified": "No structured data. Not scored, since it is a category-style page and I judged the Dutch-language brand recipe less useful."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Stamppot\" (no matches on any site)",
+    "Stamppot recipe",
+    "boerenkool stamppot recept met rookworst"
+  ],
+  "notes": "The sites search found nothing. Albert Heijn recipes (the Dutch standard) return 403 to the reader. Other mainstream Dutch sites were not read. Scores for Eating Europe and All that's Jas are on the low side because they use endive or a mixed-vegetable mash and have sparse cues. The Coquinaria page is an AMP URL, as returned by search.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:31:01.568Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Stamppot (Dutch National Dish)",
+      "rating": 5,
+      "ratingCount": 15
+    }
+  }
+}

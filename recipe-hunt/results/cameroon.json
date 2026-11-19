@@ -1,0 +1,118 @@
+{
+  "id": "cameroon",
+  "country": "Cameroon",
+  "dish": "Ndole",
+  "aliases": [
+    "Ndolé",
+    "Ndolé camerounais",
+    "Bitterleaf and peanut stew",
+    "Ndolè"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://laviebami.com/ndole-with-beef-and-shrimp-cameroonian-bitterleaf-stew-with-video/",
+    "title": "Ndolé with Beef and Shrimp (Cameroonian Bitterleaf stew)",
+    "source": "La Vie Bami (Michèle)",
+    "score": 57,
+    "scores": {
+      "authenticity": 20,
+      "precision": 15,
+      "testing": 8,
+      "photos": 4,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Uses real ndole leaves (boiled twice for 15 min to remove bitterness), peanuts, crayfish, smoked fish, beef and shrimp, palm oil finish (Douala-style surf and turf). Ties dish to Cameroon Unity Day and lists related greens (okok, eru). Author not stated to be Cameroonian.",
+      "precision": "Grams for 6 of 13 ingredients (650g beef, 350g shrimp, 300g peanuts, 60g ginger, 100g fish); doneness cues on about 6 of 14 steps (brown, tender, translucent, pink, paste-like); only 'large pot' and 'smaller pot'; no temperatures; leaf boil has time only.",
+      "testing": "No test kitchen. Some reasoning: double boil to cut bitterness, tender smoked cod instead of hard fish, crayfish powdered, peanuts may be soaked overnight. Rate not shown.",
+      "photos": "WebFetch: photos show ingredients and finished dish only, plus a video; no step photos.",
+      "efficiency": "Prep 20 min, cook 1h40, total 2h stated. Parallel work (peanuts and meat) is implied. Serves 8.",
+      "access": "Frozen ndole leaves from African stores; no leaf substitute given. Other items at grocery stores."
+    },
+    "why": "Best balance of traditional method and gram weights, but still under 60 because it has no step photos and little testing evidence."
+  },
+  "runnerUp": {
+    "url": "https://www.nkosiagro.com/en/blogs/culture-africaine/recette-ndole-camerounais",
+    "title": "Ndolé, the recipe for Cameroon's national dish",
+    "source": "NKOSI (retailer blog)",
+    "score": 52,
+    "scores": {
+      "authenticity": 19,
+      "precision": 14,
+      "testing": 5,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Dried ndole leaves, peanut paste, dried shrimp, smoked fish, red palm oil; double boil of leaves; cites Cameroon national dish context.",
+      "precision": "Metric weights for 6 of 13 ingredients; few doneness cues (1); times only for most steps.",
+      "testing": "No sign of testing; brief tip on a second boil for lighter bitterness.",
+      "photos": "No step images in schema; 59 images on page are likely product shots and not confirmed as process photos.",
+      "efficiency": "Total 115 min stated; sensible order.",
+      "access": "Dried ndole leaves sold by the retailer; no substitute given."
+    },
+    "why": "Clear structure and metric amounts, but a retailer page with fewer cues and no step photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://laviebami.com/ndole-with-beef-and-shrimp-cameroonian-bitterleaf-stew-with-video/",
+      "source": "La Vie Bami",
+      "score": 57
+    },
+    {
+      "url": "https://www.nkosiagro.com/en/blogs/culture-africaine/recette-ndole-camerounais",
+      "source": "NKOSI",
+      "score": 52
+    },
+    {
+      "url": "https://www.africanbites.com/ndole/comment-page-3/",
+      "source": "Immaculate Bites",
+      "score": 51
+    },
+    {
+      "url": "https://lowcarbafrica.com/ndole-cameroonian-peanut-and-bitterleaf-soup/",
+      "source": "Low Carb Africa (Tayo Oredola)",
+      "score": 44
+    },
+    {
+      "url": "https://eatwellabi.com/ndole-cameroonian-bitter-leaf-stew/",
+      "source": "Eat Well Abi",
+      "score": 38
+    },
+    {
+      "url": "https://www.afrik.com/ndole-a-la-viande",
+      "source": "Afrik.com",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://adhc.lib.ua.edu/globalfoodways/?p=2181",
+      "source": "Alabama Digital Humanities Center",
+      "score": 0,
+      "disqualified": "read returned HTTP 404"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Ndole\" (no matches on any of the 4 sites)",
+    "Ndole recipe Cameroon",
+    "Ndolé camerounais recette traditionnelle"
+  ],
+  "notes": "No test-kitchen version exists on Serious Eats, NYT, ATK or BBC. All candidates are blogs with no step photos and weak precision. Immaculate Bites and Eat Well Abi use spinach as a main or partial leaf, which departs from the traditional dish. Wikibooks, preciouscore and congocookbook were surfaced by search but not read. If a retry is wanted, read those.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:25.840Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Ndolé with Beef and SHrimp (Cameroonian Bitterleaf stew)"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Ndolé, the recipe for Cameroon's national dish"
+    }
+  }
+}

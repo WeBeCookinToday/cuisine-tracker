@@ -1,0 +1,116 @@
+{
+  "id": "paraguay",
+  "country": "Paraguay",
+  "dish": "Bori Bori",
+  "aliases": [
+    "Vori vori",
+    "Vori-vori",
+    "Bori-bori",
+    "Vori vori de gallina",
+    "Bori bori de pollo",
+    "Sopa paraguaya de bolitas de maiz"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://jennyisbaking.com/2026/01/09/vori-vori-beste-suppe-aus-paraguay/",
+    "title": "Vori Vori, the Best Soup from Paraguay",
+    "source": "Jenny is Baking (Jenny, German blogger, married to a Colombian)",
+    "score": 57,
+    "scores": {
+      "authenticity": 18,
+      "precision": 13,
+      "testing": 9,
+      "photos": 5,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional build: browned chicken, tomato/onion/pepper, pumpkin, cumin and oregano, then cornmeal-and-cheese balls only (no egg or leavening). Explains the Guarani name ('a lot of balls') and notes the original uses queso paraguayo. Author is not Paraguayan.",
+      "precision": "Grams for cornflour (300 g), cheese (about 100 g) and pumpkin (200-300 g). Cues: chicken browned on all sides, balls float, 10 min. Chicken ('1 piece per person'), onion and pepper unsized, no pot size, no broth volume for dough ('3 ladles').",
+      "testing": "Some reasoning: brown first, add balls last, make balls fresh. A commenter found the dumplings dense and the author says she amended the dough, but the amended version is not on the page.",
+      "photos": "About 5 food photos, mostly finished dish. Process photos not confirmed. Process is only in an Instagram video.",
+      "efficiency": "75 min total, vegetables can be blitzed, pumpkin cubed while the vegetables cook. No wasted steps.",
+      "access": "Needs fine cornflour (harina pan or precooked cornmeal) and farmer's cheese. Farmer's cheese is a stated stand-in for queso paraguayo. No sub given for the cornflour."
+    },
+    "why": "Most traditional dumplings (cornflour and cheese only) with metric amounts, narrowly ahead of SBS, which uses ricotta, semolina and mozzarella."
+  },
+  "runnerUp": {
+    "url": "https://www.sbs.com.au/food/recipes/chicken-soup-ricotta-dumplings-vori-vori-de-pollo",
+    "title": "Chicken soup with ricotta dumplings (vori vori de pollo)",
+    "source": "SBS Food (Lucy Glavinich)",
+    "score": 56,
+    "scores": {
+      "authenticity": 12,
+      "precision": 15,
+      "testing": 12,
+      "photos": 5,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Recognizable vori vori but dumplings use ricotta, semolina, egg and mozzarella, which departs from the traditional cornmeal-and-cheese ball.",
+      "precision": "Metric weights for chicken (1.2 kg), cornmeal, semolina, ricotta, mozzarella. Cues: skim, chicken cooked through, dough just comes together, marble-sized balls, timings. No pan size. Single-paragraph method.",
+      "testing": "Professionally edited by SBS. Little explanation of why.",
+      "photos": "Professional photography (Alan Benson), finished dish only as far as seen.",
+      "efficiency": "About 2 hours total. Vegetables prepped while the chicken simmers.",
+      "access": "Harina pan note given. Ricotta, semolina and mozzarella are easy to find."
+    },
+    "why": "Better tested and more precise, but loses on authenticity because of the ricotta and semolina dumplings."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://jennyisbaking.com/2026/01/09/vori-vori-beste-suppe-aus-paraguay/",
+      "source": "Jenny is Baking",
+      "score": 57
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipes/chicken-soup-ricotta-dumplings-vori-vori-de-pollo",
+      "source": "SBS Food",
+      "score": 56
+    },
+    {
+      "url": "https://eatshistory.com/vori-vori-paraguays-iconic-soup/",
+      "source": "Eats History (Donnie)",
+      "score": 50
+    },
+    {
+      "url": "https://jabberwockystew.net/2016/03/04/karls-paraguayan-bori-bori-de-pollo-soup-chicken-and-dumpling-soup/",
+      "source": "Jabberwocky Stew (Karl Lueck)",
+      "score": 47
+    },
+    {
+      "url": "https://travelfoodatlas.com/?p=57003",
+      "source": "Travel Food Atlas",
+      "score": 38
+    },
+    {
+      "url": "https://mamaslatinas.com/?p=166031",
+      "source": "Mamas Latinas (from GlobalGourmet)",
+      "score": 35
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Bori Bori\"",
+    "node scripts/recipe-hunt.mjs sites \"Vori vori\"",
+    "Bori Bori Paraguayan soup recipe",
+    "Vori vori sopa paraguaya receta",
+    "vori vori recipe Paraguayan cook authentic queso paraguayo cornmeal balls grams"
+  ],
+  "notes": "No test-kitchen recipe exists on Serious Eats, NYT, ATK or BBC Good Food. Every English recipe is a home-blogger adaptation, and none scored 60. Scores are close and none has process photos. Eats History has the most traditional dumplings and a good cultural intro but uses cups only and a 2 hour simmer. Several candidates were read via WebFetch because they had no structured data. The NYT, ATK and other results from the Spanish search were news pieces and not read as recipes. Vori vori can also be made with precooked Paraguayan cornmeal, which is not sold in the US. Harina pan is the usual stand-in.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:09.154Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken soup with ricotta dumplings (vori vori de pollo)"
+    }
+  }
+}

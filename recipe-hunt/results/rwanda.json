@@ -1,0 +1,106 @@
+{
+  "id": "rwanda",
+  "country": "Rwanda",
+  "dish": "Agatogo",
+  "aliases": [
+    "Agatogo",
+    "Rwandan plantain stew",
+    "Agatogo with collard greens",
+    "green plantain stew"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://globaltableadventure.com/recipe/rwandan-agatogo-with-collard-greens/",
+    "title": "Rwandan \"Agatogo\" with Collard Greens",
+    "source": "Global Table Adventure (Sasha Martin)",
+    "score": 59,
+    "scores": {
+      "authenticity": 19,
+      "precision": 8,
+      "testing": 9,
+      "photos": 11,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Plantains, tomato paste, onion, garlic, greens, ground peanuts, lots of salt per locals. Author explains the dish always has plantains, tomato and meat/fish/veg, and that meat is scarce and smoked fish (injanga) is for people on the water. Author is not Rwandan, and no culinary credentials are listed.",
+      "precision": "Only 1 of 9 ingredients has a weight (6 oz tomato paste). Others are 'large onion', '4 plantains (mostly green)', '1 quart broth'. No pan size or temperatures. Cues: onions soft, just beginning to color, plantains tender and no longer white, thin with broth to taste.",
+      "testing": "Gives a peel technique for green plantains (chunk, slit once, crack back, paring knife if needed), the reason for heavy salt (plantains absorb it), and how to adjust thickness. No formal test-kitchen process described.",
+      "photos": "WebFetch showed five step photos in the Method (peeling, onion and garlic frying, simmering, thinning, serving). Schema stepImages is 0.",
+      "efficiency": "Simple one-pot, 30 min simmer. No total time stated, and the peeling time is not given.",
+      "access": "Plantains, collards, tomato paste and peanuts are all at US grocers. No subs listed but none are needed."
+    },
+    "why": "It is the only candidate that is traditional (plantain-based), has real step photos and explains the peeling and salting, though it falls just short of 60 on precision."
+  },
+  "runnerUp": {
+    "url": "https://healthiersteps.com/agatogo/",
+    "title": "Agatogo",
+    "source": "Healthier Steps",
+    "score": 43,
+    "scores": {
+      "authenticity": 10,
+      "precision": 11,
+      "testing": 5,
+      "photos": 4,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Vegan plantain stew, but adds carrots, bell pepper, Bragg's aminos, onion/garlic powder and bouillon cubes. These are modern pantry shortcuts, and there is no regional context.",
+      "precision": "Medium-sized produce and 2 inch plantain pieces, 0 ingredient weights, 3 cups water, 1 pan mention. Cues: onion soft, tomatoes soft, plantains tender after about 20 min.",
+      "testing": "Rated 5 from only 2 ratings. No reasoning given.",
+      "photos": "No step images in the schema. About 30 images on the page, unconfirmed as process photos.",
+      "efficiency": "About 45 min total, straightforward.",
+      "access": "All common ingredients."
+    },
+    "why": "It is more precise on sizing but is a Westernized vegan version with no context or process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://globaltableadventure.com/recipe/rwandan-agatogo-with-collard-greens/",
+      "source": "Global Table Adventure",
+      "score": 59
+    },
+    {
+      "url": "https://healthiersteps.com/agatogo/",
+      "source": "Healthier Steps",
+      "score": 43
+    },
+    {
+      "url": "https://theafrikanstore.com/blogs/recipes/traditional-rwandan-dish-agatogo",
+      "source": "The Ethnic Store (Afrikan Store) blog",
+      "score": 27,
+      "disqualified": "Generic mixed-vegetable stew with no plantains, no amounts for several ingredients, no author, and one photo. Not recognizably the plantain-based agatogo."
+    },
+    {
+      "url": "https://www.crsricebowl.org/?p=14747",
+      "source": "CRS Rice Bowl",
+      "score": 0,
+      "disqualified": "Page loads (200) but WebFetch returned the site homepage with no recipe content, so it could not be scored. Likely a re-post of the Global Table Adventure recipe."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Agatogo\" (no matches on any of the 4 sites)",
+    "Agatogo recipe Rwanda",
+    "agatogo Rwandan plantain vegetable stew",
+    "agatogo recipe green plantains tomato Rwandan cook blog"
+  ],
+  "notes": "Winner scores 59, one point under the 60 threshold, so status is none-found. The Global Table Adventure recipe is the best available and is probably usable. The dish is obscure online, and the other results were scraper or mirror sites (sslip.io, pages.dev, shopafricausa) that were not used. No Rwandan-authored recipe turned up. Not read: togetherwomenrise.org, which redirected to an igisafuliya recipe.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:31:02.224Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Rwandan \"Agatogo\" with Collard Greens"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Agatogo",
+      "rating": 5,
+      "ratingCount": 2
+    }
+  }
+}

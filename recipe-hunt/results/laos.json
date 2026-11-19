@@ -1,0 +1,130 @@
+{
+  "id": "laos",
+  "country": "Laos",
+  "dish": "Larb",
+  "aliases": [
+    "laap",
+    "laab",
+    "lap",
+    "ລາບ",
+    "larb mu",
+    "larb moo",
+    "larb gai"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://norecipes.com/larb-mu-recipe/",
+    "title": "Larb Mu (ลาบหมู)",
+    "source": "Norecipes (Marc Matsumoto)",
+    "score": 70,
+    "scores": {
+      "authenticity": 15,
+      "precision": 19,
+      "testing": 12,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Presented as an Isan Thai/Lao ground-pork salad. Uses toasted sticky-rice powder, fish sauce, lime, galangal, lemongrass, culantro, mint and shallot, and is served with lettuce. Author is not Lao, and the page frames it as Thai-first (Thai title).",
+      "precision": "Grams for 7 of 14 ingredients (shallot, scallion, lemongrass, culantro, mint, galangal, pork 300 g). Oven temperature of 400 F is given. Doneness cues include rice 'golden brown and smells like popcorn', grind 'like large grains of sand' and pork 'cooked through'. A pan is mentioned, but no size is given.",
+      "testing": "The author explains some reasoning: why the rice is roasted and ground coarse, simmering the pork with galangal and water then draining it, and 'do not cook the larb any more'. There is no formal test kitchen. Only 1 rating.",
+      "photos": "6 step images in the schema, covering rice roasting, grinding, herb prep, galangal, pork and the final toss.",
+      "efficiency": "20 minutes total. The oven roast of the rice runs in parallel with prep.",
+      "access": "Needs sticky rice, galangal, culantro and fish sauce. Culantro can be swapped for cilantro, which the page says. There is no sub for galangal, and Asian grocers carry it."
+    },
+    "why": "It has the most precise, photo-documented method of the Lao-style recipes I could read, with gram weights, doneness cues and 6 process photos, which beat the otherwise closely scored Woks of Life and AmazingRibs versions."
+  },
+  "runnerUp": {
+    "url": "https://thewoksoflife.com/pork-larb/",
+    "title": "Pork Larb, The National Dish of Laos",
+    "source": "The Woks of Life (Sarah)",
+    "score": 59,
+    "scores": {
+      "authenticity": 17,
+      "precision": 11,
+      "testing": 10,
+      "photos": 8,
+      "efficiency": 9,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Framed as the national dish of Laos. Uses toasted sticky rice powder, fish sauce, lime, shallots and herbs, and is served with sticky rice or lettuce. Written by a respected Asian-American family food site.",
+      "precision": "Only the pork is weighed (1 lb / 450 g). The rest are volumes or counts. 6 sensory cues, including toasting the rice 'golden and fragrant, about 10 minutes'. No pan size and no temperatures.",
+      "testing": "Rated 4.89 from 43 ratings. There is little explanation of why.",
+      "photos": "No step images in the schema. 38 images on the page, and I did not confirm that they show process stages.",
+      "efficiency": "25 minutes total, a lean 4-step method.",
+      "access": "Offers regular white rice as a substitute for sticky rice. Everything else is available at a US grocery."
+    },
+    "why": "It has stronger Lao framing but fewer measured ingredients and no confirmed process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://norecipes.com/larb-mu-recipe/",
+      "source": "Norecipes",
+      "score": 70
+    },
+    {
+      "url": "https://thewoksoflife.com/pork-larb/",
+      "source": "The Woks of Life",
+      "score": 59
+    },
+    {
+      "url": "https://amazingribs.com/tested-recipes/beef-and-bison-recipes/grilled-larb-recipe/",
+      "source": "AmazingRibs (Dan Gertsacov)",
+      "score": 58
+    },
+    {
+      "url": "https://www.carolinescooking.com/?p=42382",
+      "source": "Caroline's Cooking",
+      "score": 45
+    },
+    {
+      "url": "https://cookingwithlane.com/larb-gai-recipe/",
+      "source": "Cooking with Lane",
+      "score": 42
+    },
+    {
+      "url": "https://senseandedibility.com/larb-moo/comment-page-2/",
+      "source": "Sense & Edibility",
+      "score": 40
+    },
+    {
+      "url": "https://www.vietworldkitchen.com/blog/2021/08/tofu-larb-recipe-laap-tao-hu.html",
+      "source": "Viet World Kitchen (Andrea Nguyen)",
+      "score": 45,
+      "disqualified": "Tofu variant, not the traditional meat larb."
+    },
+    {
+      "url": "https://www.seriouseats.com/pork-larb-thai-salad-with-pork-herbs-chili-an-2",
+      "source": "Serious Eats",
+      "score": 0,
+      "disqualified": "Could not be read. The page has no structured data, WebFetch was blocked, and it is the Thai version."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Larb\"",
+    "Laos larb recipe",
+    "ລາບ ລາວ ສູດ larb lao authentic recipe khao khua"
+  ],
+  "notes": "Scores are modest overall. Few online larb recipes are by Lao authors, and most are Thai/Isan or Lao-American home cooks. Serious Eats larb recipes are Thai and could not be read. AmazingRibs is the most Lao-leaning (culantro, grilled aromatics, sticky rice) but needs a 1 hour marinade and has mostly volume-only measures. The Norecipes oven-roasted rice is a shortcut from the traditional dry-pan toasting.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:03.021Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Larb Mu (ลาบหมู)",
+      "rating": 5,
+      "ratingCount": 1
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Pork Larb, The National Dish of Laos",
+      "rating": 4.89,
+      "ratingCount": 43
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "south-sudan",
+  "country": "South Sudan",
+  "dish": "Kajaik",
+  "aliases": [
+    "Kajaik fish stew",
+    "Kajaik Sudanese fish stew",
+    "South Sudanese fish and okra stew"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.oneworldwhisk.com/post/south-sudan-fish-stew-kajaik-gurasa-flatbread-and-feta-yogurt-dip-mish",
+    "title": "SOUTH SUDAN: Fish Stew (Kajaik), Gurasa Flatbread, and Feta Yogurt Dip (Mish)",
+    "source": "One World Whisk (blog, no named author on page)",
+    "score": 48,
+    "scores": {
+      "authenticity": 12,
+      "precision": 14,
+      "testing": 6,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Light fish, tomato, okra stew. Uses fresh tilapia and smoked paprika, and the page admits paprika is not traditional (stands in for smoked fish). No author from the cuisine, little regional context.",
+      "precision": "Lbs and counts only, no grams. Medium onions and tomatoes. Cues such as onions translucent, tomatoes darkened, fish just cooked through. Dutch oven or large saute pan, no size. Times given for each step.",
+      "testing": "No test notes. One sentence explains why smoked paprika is used. A lemon typo in the ingredient list.",
+      "photos": "No process photos found by WebFetch.",
+      "efficiency": "About 35 minutes plus marinating. Parallel chopping is built into the steps.",
+      "access": "All ingredients are at a US grocery. Subs given for the fish and for the smoky flavor."
+    },
+    "why": "Only candidate with a clear, tidy method, doneness cues and a source that flags its own departures from tradition, but it still scores under 60."
+  },
+  "runnerUp": {
+    "url": "https://harambeeafrica.com/kajaik-recipe-guide/",
+    "title": "Kajaik Recipe Guide",
+    "source": "Harambee Africa (no named author)",
+    "score": 39,
+    "scores": {
+      "authenticity": 14,
+      "precision": 10,
+      "testing": 2,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Uses smoked or dried fish, groundnut paste and okra, and gives context on Dinka, Nuer and Shilluk. No named cook, so it reads like a content-farm piece.",
+      "precision": "Metric fish and water amounts, but most items are in cups or spoons. Cues are thin ('translucent', 'wilted'). 'A large pot.'",
+      "testing": "None.",
+      "photos": "Ingredient and finished-dish images only.",
+      "efficiency": "Reasonable, about 30 to 35 minutes plus a 30-minute soak.",
+      "access": "Smoked tilapia can be hard to find, but fresh fish is offered as a sub."
+    },
+    "why": "More traditional ingredients than the winner, but unattributed, with weaker precision and no testing."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.oneworldwhisk.com/post/south-sudan-fish-stew-kajaik-gurasa-flatbread-and-feta-yogurt-dip-mish",
+      "source": "One World Whisk",
+      "score": 48
+    },
+    {
+      "url": "https://harambeeafrica.com/kajaik-recipe-guide/",
+      "source": "Harambee Africa",
+      "score": 39
+    },
+    {
+      "url": "https://myplanetfood.com/sudan/kajaik-sudanese-fish-stew-recipe-step-by-step-guide/",
+      "source": "My Planet Food",
+      "score": 37,
+      "disqualified": "Likely content farm (author 'admin-food-prith', no testing, one hero photo). Scored from WebFetch, not scored for winner."
+    },
+    {
+      "url": "https://cookpad.com/eng/recipes/8730786",
+      "source": "Cookpad (Vera Aboi)",
+      "score": 15,
+      "disqualified": "Not the dish: generic Nigerian-style dried fish stew with Maggi and tomato paste."
+    },
+    {
+      "url": "https://ivebeencooking.pages.dev/recipes/kajaik",
+      "source": "ivebeencooking.pages.dev",
+      "score": 0,
+      "disqualified": "read failed (fetch failed); also looks like an AI content farm."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Kajaik\" (no matches on any site)",
+    "Kajaik recipe South Sudan",
+    "kajaik dried fish stew South Sudanese recipe",
+    "kajaik South Sudanese fish stew coconut okra dried fish how to make"
+  ],
+  "notes": "Kajaik is poorly documented online. Every English recipe is an unattributed or adapted blog version. Traditional versions use smoked or dried fish (sometimes with peanut paste or coconut water); the best-structured recipe (One World Whisk) switches to fresh tilapia. None have tested-kitchen provenance or process photos. The myplanetfood read timed out in the CLI, so it was read with WebFetch only. A manual cook-through or a South Sudanese cookbook source may be needed.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:15.179Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

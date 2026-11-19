@@ -1,0 +1,105 @@
+{
+  "id": "dominican-republic",
+  "country": "Dominican Republic",
+  "dish": "Sancocho",
+  "aliases": [
+    "Sancocho dominicano",
+    "Sancocho de 7 carnes",
+    "Sancocho prieto",
+    "Seven-meat stew"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.dominicancooking.com/sancocho",
+    "title": "Sancocho [Video+Recipe] 7 Carnes, or Beef & Chicken Stew",
+    "source": "Tia Clara's Dominican Cooking (Clara Gonzalez)",
+    "score": 80,
+    "scores": {
+      "authenticity": 24,
+      "precision": 17,
+      "testing": 12,
+      "photos": 15,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Dominican author. Full siete carnes version (beef, goat, pork, chicken, ribs, smoked ham bones, longaniza) with auyama, ñame, yautía, yuca, green plantain (one grated to thicken), and corn. It also gives a simpler beef and chicken option. Lime and oregano marinade, no sofrito.",
+      "precision": "Weights for 11 of 19 ingredients, in both lb and kg. Water is given as 1/2 gallon (2.5 L). Cues are 'until browned', 'until it breaks the boil' and 'until cooked through and thickened', with advice to adjust water or reduce. Vegetable cuts are 1 inch. No pan size and no temperatures. Stated times are 25 min prep and 60 min cook.",
+      "testing": "Author is an experienced Dominican cook with a long-running site. She explains how to adjust thickness and which meats are optional. 5.0 rating, but only 23 ratings. No test kitchen.",
+      "photos": "Schema lists an image for each of the 6 sectioned steps (marinate, brown, add water, add vegetables, simmer, serve). Also has a video.",
+      "efficiency": "Straightforward one-pot method. Marinating for 30 to 60 min can run in parallel with vegetable prep. The 60 min cook time is realistic for this many meats.",
+      "access": "Goat, ñame, yautía and auyama may need a Latin market. Substitutions given: kabocha for auyama, a beef and chicken version without goat. Yam and malanga are named as English equivalents."
+    },
+    "why": "It is the only candidate that is both a traditional Dominican siete carnes and has weights and step-by-step photos, which beats the NYT version, a Puerto Rican-style stew with sofrito and chorizo."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/1021999-sancocho",
+    "title": "Sancocho",
+    "source": "NYT Cooking (Von Diaz)",
+    "score": 66,
+    "scores": {
+      "authenticity": 14,
+      "precision": 15,
+      "testing": 17,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Author is Puerto Rican and the recipe is a Puerto Rican/pan-Caribbean take. It uses sofrito, Spanish chorizo, and pork or beef plus chicken thighs. It is not a Dominican-specific preparation.",
+      "precision": "Exact vegetable sizes (1-inch pieces), 10 cups stock, and staged vegetable additions with minutes for each. Weights appear for only 3 of 16 ingredients. Cues include 'tender and break easily with a fork' and a description of the final consistency. No pan size.",
+      "testing": "NYT editorial testing. The recipe explains why vegetables go in by firmness. 436 ratings at 4 stars.",
+      "photos": "No step images in schema (paywalled). Photo content could not be confirmed.",
+      "efficiency": "Listed as 1.5 hours total. It has many bowls for vegetable prep.",
+      "access": "Yautía, yuca and calabaza are named, with kabocha as an alternative."
+    },
+    "why": "Better tested and rated, but it is not Dominican in style and has no weights or process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.dominicancooking.com/sancocho",
+      "source": "Tia Clara's Dominican Cooking",
+      "score": 80
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1021999-sancocho",
+      "source": "NYT Cooking (Von Diaz)",
+      "score": 66
+    },
+    {
+      "url": "https://familiakitchen.com/maximos-dominican-sancocho-with-chicken-pork-and-viandas/",
+      "source": "Familia Kitchen (Máximo Taveras Recio)",
+      "score": 58
+    },
+    {
+      "url": "https://littleferrarokitchen.com/dominican-sancocho-three-meat-stew/",
+      "source": "The Little Ferraro Kitchen",
+      "score": 50
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Sancocho\"",
+    "Dominican sancocho recipe",
+    "sancocho dominicano receta siete carnes"
+  ],
+  "notes": "The sites search also found Colombian sancocho recipes (NYT, ATK), which were not read because they are a different regional variant. Familia Kitchen has Dominican authorship but no weights and only 1 rating. Little Ferraro uses kielbasa, sazon and jalapeno, so it is not very traditional.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:30:55.474Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Sancocho [Video+Recipe] 7 Carnes, or Beef & Chicken Stew",
+      "rating": 5,
+      "ratingCount": 23
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Sancocho",
+      "rating": 4,
+      "ratingCount": 436
+    }
+  }
+}

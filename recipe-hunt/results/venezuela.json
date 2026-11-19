@@ -1,0 +1,135 @@
+{
+  "id": "venezuela",
+  "country": "Venezuela",
+  "dish": "Pabellon Criollo",
+  "aliases": [
+    "Pabellón criollo",
+    "Pabellón",
+    "Pabellón con baranda (with plantain border)",
+    "Pabellón a caballo (with fried egg)",
+    "carne mechada con caraotas negras, arroz y tajadas"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.foodnetwork.com/fnk/recipes/pabellon-criollo-9415851",
+    "title": "Pabellón Criollo",
+    "source": "Food Network Kitchen (Larisa Alvarez)",
+    "score": 59,
+    "scores": {
+      "authenticity": 17,
+      "precision": 14,
+      "testing": 11,
+      "photos": 4,
+      "efficiency": 9,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Venezuelan-American author who calls it her favorite meal; all four classic components (pulled beef, black beans, rice, plantains) with optional queso duro, egg, avocado, arepa. Loses points for shortcuts: canned beans, frozen maduros, ketchup, adobo, curry powder, basmati rice.",
+      "precision": "Flank cut into 3 1/2-inch squares; cue-based steps (translucent, fragrant, 'small holes form on the surface', darker brown and slightly crispy, don't shred too finely); pressure-cook times; only 1 ingredient weight in signals, 15 sensory cues, 1 pan size, no temperatures. Plantains are not fried from scratch, so no cue.",
+      "testing": "Food Network Kitchen tested; gives reasoning (don't shred finely or it falls apart in the sauce; sauce thickness to preference); rating 4.5 from only 8 ratings.",
+      "photos": "87 images on page but 0 step images in schema; process photos not confirmed. Scored conservatively.",
+      "efficiency": "Beef, beans and rice run in parallel with clear 'meanwhile' steps; total 1h05 is realistic with pressure cooker and canned beans.",
+      "access": "Adobo, canned beans, frozen maduros and Abuela Chabe's seasoning (recipe given) are all at US grocery stores. No hard-to-find items."
+    },
+    "why": "Beat The Storied Recipe on doneness cues, tested-kitchen reasoning and parallel workflow, though both fall under 60."
+  },
+  "runnerUp": {
+    "url": "https://thestoriedrecipe.com/pabellon-criollo-authentic-venezuelan-rice-beans/",
+    "title": "Authentic Pabellón Criollo (Venezuelan Rice and Beans)",
+    "source": "The Storied Recipe",
+    "score": 56,
+    "scores": {
+      "authenticity": 19,
+      "precision": 11,
+      "testing": 8,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Dried beans cooked with sofrito, carne mechada from boiled skirt steak shredded in thin strands, FAQ on the dish's symbolism (Spanish, Indigenous, African). Includes curry, which is common in Venezuelan homes. Covers only beans and beef; no rice or plantain method.",
+      "precision": "Beans in grams (500 g) and beef 1.5 kg, but peppers and onions have no sizes; 3 sensory cues; no pan sizes or temperatures; times are given with soft-bean cue.",
+      "testing": "No test process shown; 4.8 from 12 ratings; little reasoning beyond pressure-cooker alternatives.",
+      "photos": "73 images on page, 0 step images in schema; not confirmed as process photos.",
+      "efficiency": "Beans and sofrito run in parallel; 3h58 stated.",
+      "access": "All ingredients are US grocery items."
+    },
+    "why": "More traditional preparation, but vague sizing, no rice or plantain recipe, and little testing evidence."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.foodnetwork.com/fnk/recipes/pabellon-criollo-9415851",
+      "source": "Food Network Kitchen (Larisa Alvarez)",
+      "score": 59
+    },
+    {
+      "url": "https://thestoriedrecipe.com/pabellon-criollo-authentic-venezuelan-rice-beans/",
+      "source": "The Storied Recipe",
+      "score": 56
+    },
+    {
+      "url": "https://mamaslatinas.com/food-home/106163-hispanic_heritage_month_traditional_venezuelan",
+      "source": "Mamas Latinas (credited to VenezuelanCooking.com)",
+      "score": 52
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/pabellon-criollo-18158958",
+      "source": "Food Network (Heaven Restaurant Market)",
+      "score": 49
+    },
+    {
+      "url": "https://www.directoalpaladar.com/recetas-de-legumbres/receta-pabellon-criollo-plato-nacional-venezuela",
+      "source": "Directo al Paladar (Pakus)",
+      "score": 44
+    },
+    {
+      "url": "https://eatshistory.com/pabellon-criollo-venezuelas-history-served-on-a-single-plate/",
+      "source": "EatsHistory (Donnie)",
+      "score": 43
+    },
+    {
+      "url": "https://eatinglove.com/recipe-depth/30766/Pabellon-Criollo-Recipe",
+      "source": "Eatinglove (copy of recipeofhealth.com)",
+      "score": 0,
+      "disqualified": "Aggregator copy of another site's recipe; no method."
+    },
+    {
+      "url": "https://www.bonviveur.com/recipes/pabellon-criollo",
+      "source": "Bon Viveur",
+      "score": 0,
+      "disqualified": "read returned HTTP 404"
+    },
+    {
+      "url": "https://www.goya.com/en/recipes/Venezuelan-Shredded-Beef/",
+      "source": "Goya",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Pabellon Criollo\" (no matches on any of the four sites)",
+    "Pabellon Criollo recipe",
+    "pabellón criollo receta carne mechada caraotas negras tajadas",
+    "Venezuelan pabellon criollo carne mechada caraotas authentic recipe Venezuelan cook blog"
+  ],
+  "notes": "No Serious Eats, NYT, ATK or BBC Good Food recipe exists for this dish. No candidate reached 60. Mamas Latinas (credited to VenezuelanCooking.com) was read through WebFetch because it has no structured data. It is the most traditional and Venezuelan-authored version, with all four components, but it has no process photos, a broken placeholder image, and vague sizes, and it uses soy sauce in the beef. The Venezuelancooking.wordpress.com original could not be read: it was only reachable as a Google AMP redirect URL. Suggest a retry targeting Venezuelan food bloggers (for example Venezuelan Food, Sabrosa, My Latina Table) or a cookbook-author site. Several Spanish-language results were too thin for scoring (Directo al Paladar has one block of text for the steps, no cues). Scores for the weaker candidates are approximate. The Food Network Heaven version uses coconut rice and an arepa, which are not traditional. Those candidates were scored from read output, and Mamas Latinas from WebFetch.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:25:39.537Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Pabellón Criollo",
+      "rating": 4.5,
+      "ratingCount": 8
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Authentic Pabellón Criollo (Venezuelan Rice and Beans)",
+      "rating": 4.8,
+      "ratingCount": 12
+    }
+  }
+}

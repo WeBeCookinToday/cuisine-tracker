@@ -1,0 +1,116 @@
+{
+  "id": "sierra-leone",
+  "country": "Sierra Leone",
+  "dish": "Cassava Leaf Stew",
+  "aliases": [
+    "Cassava Leaf Sauce",
+    "Cassava Leaf Soup",
+    "Cassava Leaves Plasas",
+    "Plasas",
+    "Palaver sauce",
+    "Saka-saka",
+    "Pondu",
+    "Mpondu"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://recipesfromapantry.com/cassava-leaf-sauce-palava/",
+    "title": "Cassava Leaf Sauce",
+    "source": "Recipes From A Pantry (Bintu Hardy)",
+    "score": 68,
+    "scores": {
+      "authenticity": 21,
+      "precision": 14,
+      "testing": 10,
+      "photos": 11,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Author Bintu Hardy writes as a Sierra Leonean (says 'we', visits 'my folks'), though nationality is not stated outright. Explains the dish's roots across Sierra Leone, Liberia, Guinea and Congo, and that red-stem leaves are preferred. Uses palm oil, smoked fish, peanut paste and a long-simmered leaf base. Blended aubergine base is a home-style technique.",
+      "precision": "Metric and US units on 4 of 13 ingredients (450 g beef, 750 ml water, 500 g leaves, 125 ml palm oil). 2 sensory cues in steps (beef cooked through, leaves done). No pan size and no temperatures. Gives leaf timing by age: 30 min for young minced leaves, 60 min for older leaves.",
+      "testing": "Some reasoning is given: blending the aubergine and onion cooks faster and thickens, peanut butter thickens, young leaves cook faster, beef liquid is reused. Chemistry is not covered. Rated 5.0 from only 5 ratings.",
+      "photos": "Titled as a tutorial. Step-by-step section with process images (ingredients, blending, pot stage, beef steaming). 42 images on the page. Image data is placeholder markup, so I could not confirm the images directly. stepImagesInSchema is 0.",
+      "efficiency": "70 min total. Beef cooks while the puree is blended, a good use of parallel work. No wasted steps.",
+      "access": "Frozen pounded cassava leaves are sold in African and Asian grocers. Subs given: spinach or sweet potato leaves, coconut oil for palm oil, crayfish powder or smoked poultry for smoked fish."
+    },
+    "why": "It has the clearest Sierra Leonean voice, a parallel-cooking method and a tutorial with photos, so it beat African Bites, which is more precise on weights but slower and less clearly Sierra Leonean."
+  },
+  "runnerUp": {
+    "url": "https://www.africanbites.com/cassava-leaf-soup/",
+    "title": "Cassava Leaf Soup",
+    "source": "Immaculate Bites (African Bites)",
+    "score": 59,
+    "scores": {
+      "authenticity": 17,
+      "precision": 15,
+      "testing": 9,
+      "photos": 8,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Well-known African cooking site. Frames the dish as Central and West African (Sierra Leone and Liberia). Uses palm oil, groundnut paste, crayfish and smoked meat. Commenters confirm 1 to 2 hour leaf cooking is the norm in Sierra Leone.",
+      "precision": "Weights on 9 of 13 ingredients, 5 sensory cues. No pan size. Safety note on parboiling and cyanide.",
+      "testing": "Notes on pre-boiling and the cyanide safety reason. Rated 4.89 from 18 ratings.",
+      "photos": "24 images on the page. WebFetch returned 403, so I could not confirm process photos.",
+      "efficiency": "140 min total, with a sequential 1.5 hour meat simmer.",
+      "access": "Frozen cassava leaves are used. Notes on palm oil are in the post. Spinach is not confirmed as a sub."
+    },
+    "why": "It is more precise on weights, but it is slower and less clearly Sierra Leonean, and I could not confirm its photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://recipesfromapantry.com/cassava-leaf-sauce-palava/",
+      "source": "Recipes From A Pantry",
+      "score": 68
+    },
+    {
+      "url": "https://www.africanbites.com/cassava-leaf-soup/",
+      "source": "Immaculate Bites",
+      "score": 59
+    },
+    {
+      "url": "https://www.internationalcuisine.com/cassava-leaf-stew/",
+      "source": "International Cuisine",
+      "score": 45
+    },
+    {
+      "url": "https://tourismsierraleone.com/stories/traditional-cassava-leaf-soup-recipe/",
+      "source": "Sierra Leone Tourism",
+      "score": 37
+    },
+    {
+      "url": "https://mysasun.com/blogs/cooking-tutorials/how-to-prepare-sierra-leonean-cassava-leaves",
+      "source": "Sasun",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Cassava Leaf Stew\"",
+    "Sierra Leone cassava leaf stew recipe",
+    "Sierra Leone cassava leaves plasas recipe",
+    "Sierra Leone cassava leaves recipe Sierra Leonean cook blog"
+  ],
+  "notes": "The sites search found no Serious Eats, NYT, ATK or BBC recipe for this dish. The winner and runner-up scores rest partly on WebFetch summaries, since the photos and author nationality could not be verified directly. African Bites returned 403 to WebFetch but 200 to read. Candidates were from only 2 distinct blogs plus a tourism page and a food-site stew, since no test-kitchen version exists. The recipes differ in method: the winner and International Cuisine blend aubergine into the sauce, African Bites sautes and then simmers. I did not run a native-language search because the dish has no distinct native-language name in the sources.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:14.521Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Cassava Leaf Sauce",
+      "rating": 5,
+      "ratingCount": 5
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Cassava Leaf Soup",
+      "rating": 4.89,
+      "ratingCount": 18
+    }
+  }
+}

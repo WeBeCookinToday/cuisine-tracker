@@ -1,0 +1,111 @@
+{
+  "id": "guatemala",
+  "country": "Guatemala",
+  "dish": "Pepian",
+  "aliases": [
+    "Pepián",
+    "Pepián de pollo",
+    "Pepián rojo",
+    "Pipián (Mexican cognate)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://uncorneredmarket.com/guatemalan-pepian-please-try-this-at-home/",
+    "title": "Guatemalan Pepian (Pepián) Recipe",
+    "source": "Uncornered Market (Daniel Noll)",
+    "score": 64,
+    "scores": {
+      "authenticity": 19,
+      "precision": 14,
+      "testing": 13,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional comal-roasted recado of squash seeds, sesame, tomato, tomatillo, guaque and pasa chiles, thickened with toasted pan frances. Author learned it in Guatemala (best of five versions tried in Xela, Antigua and Guatemala City). Notes it is a special-occasion dish. Author is not Guatemalan.",
+      "precision": "Weights for seeds (2 oz each), chicken 2 lb, water 1.5 L, tomatillos 2 oz. Cues: roast until tomatoes blacken, sauce should drip slowly from a spoon, chicken golden, adjust with broth or simmering. No pan sizes, salt or oil amounts. Rice side has no amounts.",
+      "testing": "Author explains why buns are the thickener and toasted until slightly burnt. Gives fixes for thick or thin sauce. Comments add substitutions. Not a test kitchen. The body (2-3 buns) and a comment (about half the buns) disagree.",
+      "photos": "A few photos (market, blackening ingredients on the comal). Not a full set of process stages. Read via WebFetch.",
+      "efficiency": "Short, about 1 hour. Chicken simmers while the seeds and sauce are prepped. No wasted steps.",
+      "access": "Guaque and pasa given as guajillo and ancho, or dried red bell pepper. Pan frances is a stand-in for hot dog buns. Everything else is common."
+    },
+    "why": "It has the most complete traditional method, with weights, a sauce-texture cue and reasons for the thickener, ahead of Familia Kitchen, which lacks weights."
+  },
+  "runnerUp": {
+    "url": "https://familiakitchen.com/luis-pepian-with-pollo-from-guatemala/",
+    "title": "Luis' Pepian with Pollo from Guatemala",
+    "source": "Familia Kitchen (Luis Yanes)",
+    "score": 59,
+    "scores": {
+      "authenticity": 22,
+      "precision": 12,
+      "testing": 10,
+      "photos": 6,
+      "efficiency": 6,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Guatemalan author. Whole chicken with traditional bone-in pieces, guisquil, green beans and potato, strained recado. Fits the family-style dish.",
+      "precision": "Almost no weights (1 lb string beans only). 5 of 20 steps have sensory cues (blister, smoky aroma, pale gold). No pan sizes or temperatures.",
+      "testing": "Some reasoning (strain the bits out, seeds burn quickly). Rating 4.1 from 15 votes.",
+      "photos": "No step images in schema, 70 images on page. Process photos not confirmed.",
+      "efficiency": "Cooling and straining steps add time. Total 1 h 40 min.",
+      "access": "Anise and chiles are listed without substitutions. Guisquil is replaced by chayote."
+    },
+    "why": "It is the most authentic cook but loses on precision: quantities are vague, with no weights."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://uncorneredmarket.com/guatemalan-pepian-please-try-this-at-home/",
+      "source": "Uncornered Market",
+      "score": 64
+    },
+    {
+      "url": "https://familiakitchen.com/luis-pepian-with-pollo-from-guatemala/",
+      "source": "Familia Kitchen",
+      "score": 59
+    },
+    {
+      "url": "https://foreignfork.com/pepian-de-pollo/",
+      "source": "The Foreign Fork",
+      "score": 44
+    },
+    {
+      "url": "https://togetherwomenrise.org/recipes/guatemalan-red-chicken-pepian-pepian-spice-mix/",
+      "source": "Together Women Rise (Linda McElroy, adapted from Presilla)",
+      "score": 39
+    },
+    {
+      "url": "https://www.tastesfromtheroad.com/post/pepian-from-guatemala",
+      "source": "Tastes from the Road",
+      "score": 0,
+      "disqualified": "Page content could not be read (truncated), so it was not scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Pepian\" (no matches on any site)",
+    "Guatemalan pepian recipe",
+    "pepián de pollo guatemalteco receta tradicional",
+    "Pepian"
+  ],
+  "notes": "No Serious Eats, NYT, ATK or BBC recipe exists. The ranking is close: Uncornered Market 64, Familia Kitchen 59. The winner is only just over the 60 bar. The Together Women Rise version is a Mexican-style adaptation from Presilla with cumin and chili powder, so it does not read as traditional. Winner and runner-up photo counts were not verified in detail.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:25:27.424Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Luis’ Pepian with Pollo from Guatemala",
+      "rating": 4.1,
+      "ratingCount": 15
+    }
+  }
+}

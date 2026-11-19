@@ -1,0 +1,112 @@
+{
+  "id": "uae",
+  "country": "United Arab Emirates",
+  "dish": "Saloona",
+  "aliases": [
+    "Salona",
+    "Salonat lahem",
+    "Dajaj salona",
+    "Dejaaj murragg",
+    "صالونة",
+    "Salounah"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.thenationalnews.com/lifestyle/food/ramadan-recipe-salonat-lahem-braised-goat-and-root-vegetable-stew-1.1203604",
+    "title": "Salonat Lahem (Braised Goat and Root Vegetable Stew)",
+    "source": "The National / Table Tales (Maisa Al Qassimi, curated by Hanan Sayed Worrell)",
+    "score": 63,
+    "scores": {
+      "authenticity": 23,
+      "precision": 18,
+      "testing": 11,
+      "photos": 2,
+      "efficiency": 6,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Emirati contributor, curated by author of Table Tales (Abu Dhabi cuisine book). Explains salona derives from Urdu salan, intentionally brothy, bzar and dried lumi. Traditional braise with bone-in goat.",
+      "precision": "Metric weights for nearly all ingredients (2 kg goat, 450 g onion, 340 g potatoes, 225 g carrots, 1,500 ml stock); Dutch oven named but no size; cues such as onions golden, meat almost tender, tender but still clings to the bone; no temperatures.",
+      "testing": "Published recipe from a cookbook author with some rationale (brothy by design, staged vegetable additions), but no test-kitchen notes.",
+      "photos": "No process photos; only finished-dish and contributor portrait (via WebFetch). No Recipe structured data on page.",
+      "efficiency": "About 3 hours, mostly passive braise; sensible staging of vegetables. Long if using chicken, but notes lamb, mutton or chicken work.",
+      "access": "Bzar, dried lumi and bone-in goat are specialty; goat swappable with lamb or chicken, but no bzar or lumi substitute given. Add (sub: ...) lines when adding to the app."
+    },
+    "why": "Ties on total with the runner-up but wins the tie-break on Precision (weights for nearly everything plus doneness cues) and has an Emirati source."
+  },
+  "runnerUp": {
+    "url": "https://butfirstchai.com/dejaj-salona-emirati-chicken-stew/",
+    "title": "Chicken Salona | Emirati Chicken and Vegetable Stew",
+    "source": "But First Chai (Famidha Ashraf, Abu Dhabi based)",
+    "score": 63,
+    "scores": {
+      "authenticity": 21,
+      "precision": 12,
+      "testing": 14,
+      "photos": 5,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Abu Dhabi based author, traditional stock-first method, bezar and loomi, serves with regag; some context on name.",
+      "precision": "Only the chicken has a weight (800 g); other items volumes or counts; 5 sensory cues (golden onions, skim foam, vegetables cooked through); no temperatures or pan size.",
+      "testing": "Explains why: bone renders stock flavour, skimming foam, staged vegetables, and notes faster one-pot alternative.",
+      "photos": "One collage of 3 stages (bezar, broth, boiled chicken); rest finished dish. Rating 5 from 1 review.",
+      "efficiency": "90 minutes total; separate stock step is deliberate and explained.",
+      "access": "Bezar, loomi, galangal and black stone flower are specialty, but the page gives a bezar mix and marks galangal and stone flower optional."
+    },
+    "why": "A strong chicken version with better reasoning and photos, but its measurements are vaguer than the winner's."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.thenationalnews.com/lifestyle/food/ramadan-recipe-salonat-lahem-braised-goat-and-root-vegetable-stew-1.1203604",
+      "source": "The National",
+      "score": 63
+    },
+    {
+      "url": "https://butfirstchai.com/dejaj-salona-emirati-chicken-stew/",
+      "source": "But First Chai",
+      "score": 63
+    },
+    {
+      "url": "https://dannibindubai.com/emirati-chicken-thareed-saloona-iftar-recipes/",
+      "source": "Danni in The Desert",
+      "score": 43
+    },
+    {
+      "url": "https://www.thebigsweettooth.com/dejaaj-murragg-saloona-emirati-chicken-stew/",
+      "source": "The Big Sweet Tooth (Rafeeda)",
+      "score": 41
+    },
+    {
+      "url": "https://theodehlicious.com/chicken-salona-recipe/",
+      "source": "The Odehlicious",
+      "score": 38
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Saloona\" (no matches on any site)",
+    "Saloona Emirati stew recipe",
+    "سالونة اماراتية طريقة",
+    "Saloona recipe"
+  ],
+  "notes": "Both top scores are only just above 60 and tie at 63. No test-kitchen version exists. Pick the National recipe for goat or lamb and weights, or But First Chai for a chicken weeknight version with a stock explanation. Beware the pitfall that bzar and lumi need a substitute note. Other candidates were not scored from photos on the page, so photo scores are estimates. Two further results were not read (observatory.wiki, WPSU PDF, Emirates Airlines) and the foodieparmod blog had no structured data so was not scored.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T18:38:22.750Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Salona | Emirati Chicken and Vegetable Stew",
+      "rating": 5,
+      "ratingCount": 1
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "austria",
+  "country": "Austria",
+  "dish": "Wiener Schnitzel",
+  "aliases": [
+    "Wiener Schnitzel",
+    "Wienerschnitzel",
+    "Viennese schnitzel",
+    "Kalbsschnitzel Wiener Art (pork version: Schnitzel Wiener Art)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/wiener-schnitzel-recipe-11849886",
+    "title": "Wiener Schnitzel",
+    "source": "Serious Eats (Daniel Gritzer)",
+    "score": 86,
+    "scores": {
+      "authenticity": 21,
+      "precision": 21,
+      "testing": 18,
+      "photos": 14,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Veal top round, 1/8 in pounded, fine light crumbs, frying in fat deep enough to swim and swirled for the signature puffed souffle crust, Erdapfelsalat as side. Author is not Austrian and the fat is flexible (oil/clarified butter/lard), and 6 eggs is a lot, so not full marks.",
+      "precision": "Veal 454 g; cutlet thickness 1/4 in slab then 1/8 in (2-3 mm) pounded; fat at least 3/4 in deep heated to 400F (200C); named vessel type; doneness cues (golden brown, 1-2 min per side, swirl and spoon fat). Only 1 of 9 ingredients has weights (flour, crumbs by volume); signals: temps 2, sensory cues 5.",
+      "testing": "Serious Eats test-kitchen style with explanations for fine crumbs, surface moisture, hot fat, and not pressing crumbs (reduces puffing).",
+      "photos": "6 of 6 steps have images in schema (cutting, pounding, breading, frying); 56 images on page.",
+      "efficiency": "40 min total, one cutlet at a time but straightforward; cutting your own cutlets is optional.",
+      "access": "Veal top round or cutlets are available at most US grocers/butchers, though pricey; no pork or turkey substitute listed in the ingredient list."
+    },
+    "why": "Beat the runner-up on a stated 400F fat temperature, exact cutlet thickness, and step-by-step process photos from a test kitchen."
+  },
+  "runnerUp": {
+    "url": "https://www.vienna-sunday.kitchen/wprm_print/how-to-make-an-authentic-wiener-schnitzel",
+    "title": "Authentic Wiener Schnitzel",
+    "source": "Vienna Sunday Kitchen (Angelika Kreitner-Beretits)",
+    "score": 82,
+    "scores": {
+      "authenticity": 24,
+      "precision": 17,
+      "testing": 15,
+      "photos": 14,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Viennese author; veal, butterfly cut, traditional clarified butter/lard fat blend, pork called out as 'Viennese style'; no history section.",
+      "precision": "5 mm pounding, fat 'two fingers' deep, breadcrumb bubble test and wooden-spoon test, swirl cue, 2-4 min per side; but no pan diameter, no numeric temperature, volumes only ('1 to 2 cups', '4 or more eggs').",
+      "testing": "Notes explain why: full flour coverage, not pressing crumbs, swirling fat for puffing, refreshing fat after about 4 cutlets.",
+      "photos": "11 step photos including the final plate (read via WebFetch of the print page).",
+      "efficiency": "45 min; advises breading the next cutlet while one fries and using two pans.",
+      "access": "Veal cutlets from a butcher; pork given as an alternative; lard/clarified butter optional with oil alternative."
+    },
+    "why": "Most authentic voice and good photos, but vague quantities and no temperature or pan size."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/wiener-schnitzel-recipe-11849886",
+      "source": "Serious Eats (Daniel Gritzer)",
+      "score": 86
+    },
+    {
+      "url": "https://www.vienna-sunday.kitchen/wprm_print/how-to-make-an-authentic-wiener-schnitzel",
+      "source": "Vienna Sunday Kitchen",
+      "score": 82
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/6055-wiener-schnitzel",
+      "source": "NYT Cooking (Kurt Gutenbrunner)",
+      "score": 68
+    },
+    {
+      "url": "https://www.austria.info/en-us/recipes/wiener-schnitzel/",
+      "source": "Austria.info (Renate Wagner)",
+      "score": 56
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Wiener Schnitzel\"",
+    "Wiener Schnitzel recipe",
+    "Wiener Schnitzel Rezept Kalbsschnitzel original österreichisch"
+  ],
+  "notes": "NYT version (118 ratings, 5.0) by Vienna-born chef Kurt Gutenbrunner is authentic (cream in egg, fried parsley) but has no weights beyond meat, few cues, and photos are hidden behind login; scored conservatively. Austria.info is official but has no temps, photos or reasoning. Authentic schnitzel is veal; pork is sold as 'Wiener Art'.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:37:52.190Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Wiener Schnitzel"
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

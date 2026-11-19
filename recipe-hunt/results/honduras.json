@@ -1,0 +1,132 @@
+{
+  "id": "honduras",
+  "country": "Honduras",
+  "dish": "Baleadas",
+  "aliases": [
+    "baleada",
+    "baleadas hondureñas",
+    "baleada sencilla",
+    "baleada con todo"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.suellenpineda.com/baleadas-a-favorite-honduran-street-food/",
+    "title": "Baleadas: A Favorite Honduran Street Food",
+    "source": "Suellen Pineda (Honduran-born dietitian)",
+    "score": 56,
+    "scores": {
+      "authenticity": 20,
+      "precision": 14,
+      "testing": 8,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Honduran-born author; from-scratch flour tortillas, blended and fried red beans, queso fresco, Honduran cream with sour cream sub; puffed-tortilla cue is a Honduran standard. No history or roots section.",
+      "precision": "Only 1 of 17 ingredients has a weight (1 lb flour); water amount inconsistent (1 1/4 cups vs 2 1/4 cups). Good cues: 5-7 min knead until soft and flexible, 6 inch tortillas, 6-7 sec first flip then pale and opaque, pat to puff, beans to hummus consistency. No pan size or temperatures.",
+      "testing": "Little reasoning given; notes Hondurans judge a tortilla by its puff. Rest and stir instructions given without explanation. No ratings.",
+      "photos": "Only a hero image (confirmed by WebFetch); no process photos.",
+      "efficiency": "Roughly 1h35m total, mostly the 45 min dough rest; sensible parallel work for beans.",
+      "access": "Everything at a US grocery; subs given for Honduran cream, shortening, and cheese."
+    },
+    "why": "Best authenticity and cues for a from-scratch tortilla and beans, narrowly ahead of the gram-weighted Spanish recipe, but it falls under 60 because of missing weights, photos and testing detail."
+  },
+  "runnerUp": {
+    "url": "https://www.directoalpaladar.com/recetas-vegetarianas/baleada-hondurena-esta-receta-base-que-puedes-enriquecer-al-gusto-tal-cual-deliciosa",
+    "title": "Baleadas hondureñas, esta es la receta base que puedes enriquecer al gusto (aunque tal cual ya es deliciosa)",
+    "source": "Directo al Paladar (Carmen Tía Alia)",
+    "score": 53,
+    "scores": {
+      "authenticity": 14,
+      "precision": 16,
+      "testing": 8,
+      "photos": 4,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Includes the Honduran mantequilla (butter and cream) spread and a flour tortilla, but the author is Spanish and uses canned beans and crème fraîche.",
+      "precision": "Grams or ml for 10 of 11 ingredients; cues include dough slightly sticky but manageable, flip when it puffs and bubbles; one run-on step, no temperatures or pan size; the baking powder amount is not given.",
+      "testing": "Some explanation of dough hydration and leaving a border so the filling stays in.",
+      "photos": "8 images on the page, no step images in schema.",
+      "efficiency": "30 min stated, with a 30 min dough rest, so the time is understated.",
+      "access": "Spanish language; crème fraîche is a substitution for Honduran cream."
+    },
+    "why": "Most precise, but Spanish-language, non-Honduran author and a single block of steps."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.suellenpineda.com/baleadas-a-favorite-honduran-street-food/",
+      "source": "Suellen Pineda",
+      "score": 56
+    },
+    {
+      "url": "https://www.directoalpaladar.com/recetas-vegetarianas/baleada-hondurena-esta-receta-base-que-puedes-enriquecer-al-gusto-tal-cual-deliciosa",
+      "source": "Directo al Paladar",
+      "score": 53
+    },
+    {
+      "url": "https://www.savoringthegood.com:443/baleadas/",
+      "source": "Savoring The Good",
+      "score": 46
+    },
+    {
+      "url": "https://themom100.com/recipe/baleadas",
+      "source": "The Mom 100 (Katie Workman)",
+      "score": 40
+    },
+    {
+      "url": "https://www.177milkstreet.com/recipes/honduran-baleadas?token=130",
+      "source": "Milk Street",
+      "score": 30,
+      "disqualified": "Paywalled; shortcut with store-bought tortillas and refried beans, baked."
+    },
+    {
+      "url": "https://foreignfork.com/baleadas-hondurenas/",
+      "source": "The Foreign Fork",
+      "score": 31
+    },
+    {
+      "url": "https://goya.com/en/recipes/honduran-baleadas",
+      "source": "Goya",
+      "score": 0,
+      "disqualified": "HTTP 403"
+    },
+    {
+      "url": "https://en.paulinacocina.net/honduran-baleadas/36638",
+      "source": "Paulina Cocina",
+      "score": 0,
+      "disqualified": "read failed (fetch failed)"
+    },
+    {
+      "url": "https://redhonduras.com/recipes/honduran-baleadas/",
+      "source": "Red Honduras",
+      "score": 0,
+      "disqualified": "Redirects to site home page; no recipe"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Baleadas\" (no matches on any site)",
+    "Baleadas recipe Honduran",
+    "baleadas hondureñas receta tortilla de harina"
+  ],
+  "notes": "No test-kitchen recipe exists; Serious Eats, NYT, ATK and BBC returned nothing. English versions mostly use canned beans and store-bought tortillas. Unread leads: El Heraldo and Dinner by Dennis (no structured data, not WebFetched), Paulina Cocina (fetch failed). A WebFetch of those could possibly beat 56.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:01.030Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Baleadas: A Favorite Honduran Street Food"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Baleadas hondureñas, esta es la receta base que puedes enriquecer al gusto (aunque tal cual ya es deliciosa)",
+      "rating": 5,
+      "ratingCount": 3
+    }
+  }
+}

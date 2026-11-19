@@ -1,0 +1,110 @@
+{
+  "id": "tunisia",
+  "country": "Tunisia",
+  "dish": "Shakshouka",
+  "aliases": [
+    "Shakshuka",
+    "Chakchouka",
+    "شكشوكة",
+    "Ojja",
+    "عجة"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.americastestkitchen.com/recipes/12003-shakshuka",
+    "title": "Shakshuka",
+    "source": "America's Test Kitchen (Anne Wolf)",
+    "score": 71,
+    "scores": {
+      "authenticity": 14,
+      "precision": 19,
+      "testing": 17,
+      "photos": 9,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Classic eggs-in-spiced-tomato-pepper sauce with cumin, turmeric, cayenne, cilantro. Adds feta and piquillo peppers, which are a Western tweak, and the author is not Tunisian. Still recognizably shakshouka.",
+      "precision": "12-inch skillet named; 7 sensory/doneness cues across 4 steps (onions softened and beginning to brown, tomato paste begins to darken, sauce slightly thickened, whites just set and yolks runny); 2-inch wells; only 1 ingredient has a weight (cans and jars give sizes); vegetable sizes partly given (1/4-inch pepper pieces).",
+      "testing": "ATK test kitchen; description explains balancing piquancy, acidity, richness, sweetness; rating 4.6 from 95 ratings. Blending 2 cups of sauce for body shows tested reasoning.",
+      "photos": "No step images in schema; 19 images on page. Step photos are likely behind the login, so not marked down heavily.",
+      "efficiency": "About 1 hour total. Blending step is extra but purposeful.",
+      "access": "Jarred piquillo peppers are in most US grocery stores. Feta and cilantro are common. No substitutes are listed."
+    },
+    "why": "It has the most doneness cues and the strongest test-kitchen reasoning, while the more traditional Tunisian sources give vague amounts and no times."
+  },
+  "runnerUp": {
+    "url": "https://www.sbs.com.au/food/recipe/tunisian-baked-eggs-shakshuka/g6pvitrri",
+    "title": "Tunisian baked eggs (shakshuka)",
+    "source": "SBS Food (Anneka Manning)",
+    "score": 59,
+    "scores": {
+      "authenticity": 17,
+      "precision": 15,
+      "testing": 8,
+      "photos": 8,
+      "efficiency": 6,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Labeled Tunisian; cumin and chilli, but oven-baked with a yoghurt topping, which is not the traditional stovetop method.",
+      "precision": "Metric weights for cans and yoghurt, 220C oven, 1.5 L dish, 6 cues (tender, reduced to sauce consistency, eggs just cooked but soft); no pan size for the sauce.",
+      "testing": "Baker's tips for ramekins, but no explanation of why.",
+      "photos": "12 images on page, none in steps (hero and styled shots).",
+      "efficiency": "35 min prep plus 17 min cook; the 25 min sauce is slow.",
+      "access": "All common ingredients."
+    },
+    "why": "Clearly Tunisian-labeled but oven-baked, with less testing and fewer cues than ATK."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.americastestkitchen.com/recipes/12003-shakshuka",
+      "source": "America's Test Kitchen",
+      "score": 71
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/tunisian-baked-eggs-shakshuka/g6pvitrri",
+      "source": "SBS Food",
+      "score": 59
+    },
+    {
+      "url": "https://www.ourtunisiantable.com/home/2017/1/8/ojja-shakshuka-recipe",
+      "source": "Our Tunisian Table (Munya and Rim)",
+      "score": 58
+    },
+    {
+      "url": "https://www.themediterraneandish.com/shakshuka-recipe/print/10706/",
+      "source": "The Mediterranean Dish",
+      "score": 54
+    },
+    {
+      "url": "https://www.pbs.org/food/recipes/shakshouka",
+      "source": "PBS Food (Marc Matsumoto)",
+      "score": 35
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Shakshouka\" (no matches on any site)",
+    "Tunisian shakshouka recipe",
+    "شكشوكة تونسية وصفة",
+    "Shakshouka recipe"
+  ],
+  "notes": "Our Tunisian Table (Tunisian authors) is the most authentic and notes the Tunisian dish is properly called ojja (harissa, often merguez, tuna or sardines), but it uses loose volumes, gives no times or pan size, and has no structured data. At 58 it is just below the 60 cutoff. The arousingappetites.com page failed to fetch and was not scored. Several other search results were aggregator or content-farm pages and were not read.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:31:02.886Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Shakshuka",
+      "rating": 4.6,
+      "ratingCount": 95
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Tunisian baked eggs (shakshuka)"
+    }
+  }
+}

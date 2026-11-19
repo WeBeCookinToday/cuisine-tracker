@@ -1,0 +1,104 @@
+{
+  "id": "switzerland",
+  "country": "Switzerland",
+  "dish": "Rosti",
+  "aliases": [
+    "Rösti",
+    "Roesti",
+    "Berner Rösti",
+    "Swiss potato cake",
+    "Kartoffelrösti"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/rosti-recipe-5217302",
+    "title": "Rösti (Swiss Potato Cake)",
+    "source": "Serious Eats (Daniel Gritzer)",
+    "score": 83,
+    "scores": {
+      "authenticity": 21,
+      "precision": 20,
+      "testing": 16,
+      "photos": 15,
+      "efficiency": 6,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Twice-cooked (boiled, chilled, then grated) potatoes fried in butter, matching the traditional Swiss method; author is not Swiss but Serious Eats is a recognized test kitchen.",
+      "precision": "Weights for potatoes (450 g, 2 medium) and butter (85 g, split 45/45); 10-inch skillet; cues such as pierce with a paring knife without splitting skins, foaming butter, 1 inch thick disc, deep golden and crisp, adjust heat to prevent scorching. Only 3 ingredients; no oven or pan temperatures.",
+      "testing": "Serious Eats test-kitchen recipe; explains why twice-cooked potatoes are the key. Only 8 ratings (3.8), so little reader validation.",
+      "photos": "stepImagesInSchema 5 of 5 steps have images.",
+      "efficiency": "About 1 hr active, but needs an 8 hour minimum chill (stated total 9 hrs). The chill is passive and can be done up to 3 days ahead.",
+      "access": "Yukon Gold potatoes, butter, salt only."
+    },
+    "why": "Gritzer's recipe has full process photos, a stated pan size and clear doneness cues, which the runner-up lacks, and it is more precise than the other candidates."
+  },
+  "runnerUp": {
+    "url": "https://www.helvetickitchen.com/recipes/rosti",
+    "title": "Rösti",
+    "source": "Helvetic Kitchen (Andie Pilot)",
+    "score": 77,
+    "scores": {
+      "authenticity": 24,
+      "precision": 15,
+      "testing": 14,
+      "photos": 11,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Swiss-focused blog; explains regional variants (Bern bacon, Aargau onions, Appenzell cheese) and the farmers' breakfast origin; uses Bratbutter and nutmeg.",
+      "precision": "800 g to 1 kg potatoes (a range); fat amount 'enough to cover the pan'; no pan size; timings 12-15 min per side with golden and releases-easily cues.",
+      "testing": "Author explains why pre-boiled, chilled potatoes beat raw; no test kitchen.",
+      "photos": "Several step photos and a flip GIF, per WebFetch summary (not displayed).",
+      "efficiency": "Overnight chill, 25-30 min cooking.",
+      "access": "Common ingredients; Yukon Gold suggested as waxy substitute."
+    },
+    "why": "More authentic and Swiss-sourced, but loses on precision (no pan size, vague fat amount, potato weight range)."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/rosti-recipe-5217302",
+      "source": "Serious Eats",
+      "score": 83
+    },
+    {
+      "url": "https://www.helvetickitchen.com/recipes/rosti",
+      "source": "Helvetic Kitchen",
+      "score": 77
+    },
+    {
+      "url": "https://www.saveur.com/article/Recipes/Rosti",
+      "source": "Saveur",
+      "score": 65
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1014463-rosti",
+      "source": "NYT Cooking (Mark Bittman)",
+      "score": 50
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Rosti\"",
+    "Swiss Rösti recipe",
+    "Berner Rösti Rezept traditionell"
+  ],
+  "notes": "Saveur (65): 2.25 lb russets, 8-inch nonstick pan, 20 min per side on medium-low, only one hero photo, no named author. NYT Bittman (50): raw grated and squeezed potatoes (Zurich style), vague '2 pounds, about', no pan size, no photos in schema. The MySwitzerland tourism recipe loaded in search but WebFetch returned HTTP 406 and it was not scored. Serious Eats rating count is low (8) and it requires an 8 hour chill, so plan ahead.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T18:38:17.352Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Rösti (Swiss Potato Cake)",
+      "rating": 3.8,
+      "ratingCount": 8
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}
