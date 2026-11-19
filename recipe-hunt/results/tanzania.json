@@ -1,0 +1,111 @@
+{
+  "id": "tanzania",
+  "country": "Tanzania",
+  "dish": "Mchuzi wa Samaki",
+  "aliases": [
+    "Mtuzi wa Samaki",
+    "Samaki wa Nazi",
+    "Mchuzi wa Samaki wa Nazi",
+    "Tanzanian coconut fish curry",
+    "Zanzibari fish curry"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://afrifoodnetwork.com/recipes/mtuzi-wa-samaki/",
+    "title": "Mtuzi Wa Samaki",
+    "source": "African Food Network (AFN Snr Chef)",
+    "score": 50,
+    "scores": {
+      "authenticity": 19,
+      "precision": 10,
+      "testing": 6,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Intro explains Zanzibar origin, spice-trade roots and clove production; coconut-tomato-tamarind base is traditional. Bell peppers and optional garam masala/curry powder are a looser, generic take.",
+      "precision": "1 of 10 ingredients has a weight (fish 2-2.5 lb); onion, peppers and tomatoes are unsized; no pan size or temperatures. Doneness cues on 3 of 9 steps (onion translucent, fish cooked through, simmer 6-8 min).",
+      "testing": "No test-kitchen process and little reasoning beyond a note that firm fish holds up; searing then removing the fish is not explained.",
+      "photos": "imagesOnPage 45 but stepImagesInSchema 0; not confirmed as process photos, so scored as hero shots only.",
+      "efficiency": "About 35 minutes total, sensible sequence: sear fish, build sauce, return fish.",
+      "access": "Tamarind paste is listed with a lemon juice alternative; garam masala or curry powder is easy to find. All else is at a US grocery."
+    },
+    "why": "Best roots and context, with a more complete method than Great British Chefs, but still short on precision and photos, so below 60."
+  },
+  "runnerUp": {
+    "url": "https://greatbritishchefs.com/recipes/tanzanian-fish-curry-recipe",
+    "title": "Mchuzi wa samaki (Tanzanian coconut fish curry)",
+    "source": "Great British Chefs (GBC Kitchen)",
+    "score": 47,
+    "scores": {
+      "authenticity": 15,
+      "precision": 9,
+      "testing": 8,
+      "photos": 3,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Named as the local dish with a tomato, coconut and tamarind base; but salmon plus hake and generic curry powder are Westernized choices, and little regional context.",
+      "precision": "Metric weights for fish and coconut milk (3 of 13 ingredients with weights); 'handful' of coriander; no pan size; 1 sensory cue; mostly minutes only.",
+      "testing": "Professional recipe site editorial kitchen, but only 2 ratings and no explanation of reasoning.",
+      "photos": "No step images in schema; imagesOnPage 14 with no confirmed process shots.",
+      "efficiency": "50 minutes; a 30-minute coconut simmer before the fish is longer than needed.",
+      "access": "Everything is available in a US grocery."
+    },
+    "why": "Metric weights and a cleaner structure, but a Westernized fish choice and no doneness cues."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://afrifoodnetwork.com/recipes/mtuzi-wa-samaki/",
+      "source": "African Food Network",
+      "score": 50
+    },
+    {
+      "url": "https://greatbritishchefs.com/recipes/tanzanian-fish-curry-recipe",
+      "source": "Great British Chefs",
+      "score": 47
+    },
+    {
+      "url": "https://www.whats4eats.com/fish/mtuzi-wa-samaki-recipe",
+      "source": "Whats4Eats",
+      "score": 46
+    },
+    {
+      "url": "https://www.food.com/recipe/mtuzi-wa-samaki-east-african-fish-in-coconut-curry-456504",
+      "source": "Food.com (evelynathens)",
+      "score": 40,
+      "disqualified": "Near word-for-word copy of the Whats4Eats and AFN recipe; user submission with 1 rating."
+    },
+    {
+      "url": "https://eightyplate.blogspot.com/2014/05/samaki-wa-nazi-from-tanzania.html",
+      "source": "Eighty Plate blog (Cindy Vine)",
+      "score": 40
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Mchuzi wa Samaki\" (no matches on any site)",
+    "Mchuzi wa Samaki recipe",
+    "Tanzanian fish curry coconut mchuzi wa samaki",
+    "Tanzanian mchuzi wa samaki wa nazi recipe Swahili blog grams tilapia kingfish"
+  ],
+  "notes": "No candidate reached 60. Most English versions are near-identical adaptations of one short recipe (AFN, Whats4Eats and Food.com share text) with no weights, pan sizes or process photos. Epicure Asia and Citizen Digital URLs returned 404, and Congo Cookbook failed to fetch, so none were scored. A retry could look for Swahili-language Tanzanian food blogs or cookbook excerpts.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:57.542Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Mtuzi Wa Samaki"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Mchuzi wa samaki (Tanzanian coconut fish curry)",
+      "rating": 5,
+      "ratingCount": 2
+    }
+  }
+}

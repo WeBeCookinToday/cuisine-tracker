@@ -1,0 +1,111 @@
+{
+  "id": "mozambique",
+  "country": "Mozambique",
+  "dish": "Peri-Peri Chicken",
+  "aliases": [
+    "Piri-Piri Chicken",
+    "Frango piri-piri",
+    "Frango na brasa com piri-piri",
+    "Pili pili chicken",
+    "Galinha à Zambeziana (related)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.notquitenigella.com/2023/02/13/peri-peri-chicken-portuguese",
+    "title": "Peri Peri Chicken",
+    "source": "Not Quite Nigella (Lorraine Elliott)",
+    "score": 79,
+    "scores": {
+      "authenticity": 21,
+      "precision": 19,
+      "testing": 17,
+      "photos": 12,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Butterflied whole bird, bird's eye chilli, garlic, lemon, vinegar, smoked paprika marinade, pan-drippings butter and brandy sauce, researched on a trip to Guia, Portugal. Page explains Portuguese explorers brought the chilli to Mozambique and that Southern Africa is the dish's origin. Author is Australian, not from the cuisine; roasted in the oven rather than charcoal.",
+      "precision": "Grams for 6 of 18 ingredients (chicken 1.5 kg, salt 150 g, garlic 40 g, lemon 60 g, butter 50 g); oven 200C/400F; 60 min roast; brine ratio given; 15 min rest. No internal temperature, only time and appearance cues (blistered skin, juicy meat). Pan sizes vague (large baking tray). Small inconsistency: half vs three-quarters of the paste.",
+      "testing": "Explains why for the brine (juicy breast), butterflying (faster, even skin coverage) and roasting over grilling (grill dries meat, roasting gives pan juices). 637 ratings averaging 5.",
+      "photos": "Captioned step photos for cutting the backbone, flattening, coating underside and top, making the sauce, plus salad and chips. No photo of the roasting stage.",
+      "efficiency": "Overnight brine plus 2 h marinade plus 1 h roast is long, though the reasons are given and most of it is hands-off. Sauce is made from drippings during the rest.",
+      "access": "Bird's eye chillies are the only slightly hard item. No substitute is listed, but they are widely sold in US groceries and Asian markets."
+    },
+    "why": "It has the most traditional flavor profile, with the best precision and reasoning, plus real process photos and a very large rating count, ahead of the NYT oven-roasted version."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/773839831-oven-roasted-peri-peri-chicken-and-potatoes",
+    "title": "Oven Roasted Peri Peri Chicken and Potatoes",
+    "source": "NYT Cooking (Kiano Moju)",
+    "score": 70,
+    "scores": {
+      "authenticity": 20,
+      "precision": 15,
+      "testing": 14,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Kenyan-born author; intro states peri peri traces its origins to Mozambique, a former Portuguese colony, and notes the Swahili 'pili pili'. Uses Fresno chiles, oven and potatoes, so it is an adaptation of the traditionally grilled dish.",
+      "precision": "Weights for chicken (3 lb) and potatoes (2 lb), 1/2-inch wedges, 450F oven, 35-45 min with cues (lightly browned, potatoes tender). Only 2 of 10 ingredients have weights; no tray size; no internal temperature.",
+      "testing": "NYT test process, 210 ratings averaging 5, includes a tip on chiles.",
+      "photos": "Page has many images, but step photos are hidden behind the login and could not be confirmed. Scored on that basis.",
+      "efficiency": "About 1 h 15 min total, one tray, 30 min minimum marinade.",
+      "access": "Fresno chiles and everything else are available at US groceries."
+    },
+    "why": "Fast and easy with a Mozambique-aware intro, but it has less precision, no confirmed process photos, and it swaps in Fresno chiles and potatoes."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.notquitenigella.com/2023/02/13/peri-peri-chicken-portuguese",
+      "source": "Not Quite Nigella",
+      "score": 79
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/773839831-oven-roasted-peri-peri-chicken-and-potatoes",
+      "source": "NYT Cooking",
+      "score": 70
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/8416-peri-peri-grilled-chicken",
+      "source": "America's Test Kitchen",
+      "score": 68
+    },
+    {
+      "url": "https://africanbites.com/mozambique-peri-peri-grill-chicken",
+      "source": "Immaculate Bites",
+      "score": 50
+    },
+    {
+      "url": "https://tastecooking.com/recipes/grilled-piri-piri-chicken-with-potato-chips-frango-na-brasa-com-piri-piri/",
+      "source": "TASTE (Nuno Mendes)",
+      "score": 55
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Peri-Peri Chicken\"",
+    "Peri-Peri Chicken recipe",
+    "frango piri-piri Mozambique recipe"
+  ],
+  "notes": "ATK version (Andrew Janjigian) is tested and precise (grill temperatures, 160F breast and 175F thigh) but takes five-spice and peanuts, is an African-inspired adaptation, and needs 6-24 h marinade. Immaculate Bites is the most explicitly Mozambican, but has weak precision and no step photos. TASTE/Nuno Mendes is Portuguese, with no internal temperature and no photos found; its pepper wording is inconsistent (cracked black vs white). Not scored in detail: Rick Stein, BBC Good Food and others in search results were not read. The winner is the Portuguese-style (Guia) preparation of a dish with Mozambican roots, so it is not a strictly Mozambican home recipe.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:46.836Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Peri Peri Chicken",
+      "rating": 5,
+      "ratingCount": 637
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Oven Roasted Peri Peri Chicken and Potatoes",
+      "rating": 5,
+      "ratingCount": 210
+    }
+  }
+}

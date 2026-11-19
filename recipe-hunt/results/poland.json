@@ -1,0 +1,120 @@
+{
+  "id": "poland",
+  "country": "Poland",
+  "dish": "Bigos",
+  "aliases": [
+    "Hunter's stew",
+    "Bigos myśliwski",
+    "Bigos staropolski",
+    "Polish hunter's choucroute"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1018007-bigos",
+    "title": "Bigos",
+    "source": "NYT Cooking (Francis Lam, adapted from Monika Woods)",
+    "score": 67,
+    "scores": {
+      "authenticity": 17,
+      "precision": 18,
+      "testing": 15,
+      "photos": 5,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Sauerkraut, fresh cabbage, beef, pork and kielbasa, caraway, allspice, bay, served with rye. Adapted from a Polish cook (Woods's mother's home version). Tomato and carrot are a legitimate home variant but not the classic prune, mushroom and juniper version. Intro explains the dish as the national dish and notes the scrap-meat tradition.",
+      "precision": "5 of 15 ingredients with weights; sizes given for cuts (1 1/2-inch, 1-inch, 1/4-inch slices). Sensory cues in steps: oil shimmers, golden brown, fragrant, onions soft, cabbage wilted and released juices. Explicit doneness at 2, 4 and 6 hours. Pot size vague (large, heavy pot).",
+      "testing": "NYT test process, 305 ratings averaging 4.0. Explains the sear-then-deglaze-with-water method and how flavor and texture change with simmer time.",
+      "photos": "Step photos are not in the schema (0). Page has many images but they could not be confirmed as process shots. Scored conservatively.",
+      "efficiency": "Five steps, no wasted work. 3.5 to 7.5 hours stated and honest, since long simmering is the point. Searing in batches with a deglaze each time is slightly fussy.",
+      "access": "All items are at a US grocery. Short-rib meat has a note; canned tomatoes and sauerkraut are easy."
+    },
+    "why": "It beat the runner-up on precision and tested guidance (doneness described at 2, 4 and 6 hours), though the Serious Eats version is more traditional."
+  },
+  "runnerUp": {
+    "url": "https://www.seriouseats.com/from-a-polish-country-house-kitchens-hunters",
+    "title": "Bigos (Polish Hunter's Stew)",
+    "source": "Serious Eats (Kate Williams, from A Polish Country House Kitchen by Anne Applebaum and Danielle Crittenden)",
+    "score": 62,
+    "scores": {
+      "authenticity": 22,
+      "precision": 15,
+      "testing": 11,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Traditional multi-meat bigos with dried wild mushrooms, prunes, sauerkraut, fresh cabbage, red wine and kielbasa. Sourced from a Poland-based cookbook, with a description of the target texture.",
+      "precision": "8 of 15 ingredients with weights; 'small handful' of mushrooms is vague; cues such as sauerkraut very tender, meat falls apart, broth rich and brown. Pot size vague.",
+      "testing": "Cookbook recipe republished with a description of the right consistency. No test-kitchen notes found.",
+      "photos": "0 step images in schema; photos not confirmed.",
+      "efficiency": "Parallel prep of sauerkraut and cabbage while browning meat. 2.5 hours stated.",
+      "access": "Venison is hard to find, and no substitute is given beyond a stewing cut. Dried wild mushrooms are fine."
+    },
+    "why": "More traditional, but less precise and with no test-kitchen backing."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1018007-bigos",
+      "source": "NYT Cooking",
+      "score": 67
+    },
+    {
+      "url": "https://www.seriouseats.com/from-a-polish-country-house-kitchens-hunters",
+      "source": "Serious Eats",
+      "score": 62
+    },
+    {
+      "url": "https://www.polonist.com/bigos-polish-hunters-stew/",
+      "source": "Polonist (Kasia)",
+      "score": 58
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/bigos",
+      "source": "BBC Good Food",
+      "score": 52
+    },
+    {
+      "url": "https://honest-food.net/polish-bigos-recipe",
+      "source": "Hunter Angler Gardener Cook",
+      "score": 48
+    },
+    {
+      "url": "https://www.chilipeppermadness.com/recipes/bigos/",
+      "source": "Chili Pepper Madness",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://www.saveur.com/article/Recipes/Classic-Polish-Pork-Sauerkraut-Stew/",
+      "source": "Saveur",
+      "score": 0,
+      "disqualified": "no structured data; not read further"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Bigos\"",
+    "Bigos recipe Polish hunter's stew",
+    "bigos staropolski przepis"
+  ],
+  "notes": "Scores for BBC, Polonist and Honest Food are rough estimates from read output. Polish-language sources were seen in search but not read. NYT also has a second version (Polish Hunter's Choucroute, 1018614) that was not read. Winner margin over Serious Eats is small; Serious Eats is the more traditional recipe if authenticity matters most.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:53.194Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Bigos",
+      "rating": 4,
+      "ratingCount": 305
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Bigos (Polish Hunter's Stew)"
+    }
+  }
+}

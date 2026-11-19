@@ -1,0 +1,121 @@
+{
+  "id": "angola",
+  "country": "Angola",
+  "dish": "Calulu",
+  "aliases": [
+    "Calulu de Peixe",
+    "Fish Calulu",
+    "Calulu à moda de Angola",
+    "Calulu de carne seca (dried meat version)"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.tudogostoso.com.br/receita/21562-calulu-a-moda-de-angola.html",
+    "title": "Calulu à moda de Angola",
+    "source": "Tudo Gostoso (Marlene Brandao)",
+    "score": 48,
+    "scores": {
+      "authenticity": 19,
+      "precision": 10,
+      "testing": 6,
+      "photos": 3,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Traditional layered method: fresh and dried corvina, okra, eggplant, spinach, palm oil, no added water, finished with a spoon of corn or cassava flour dissolved in water (funge-style thickening). Home cook, no cultural context given.",
+      "precision": "Only 1 of 10 ingredients has a weight (300 g okra); 0 temperatures, 0 sensory cues, no pan size ('tacho largo'). Some timing: add okra after 30 min, cook about 40 min, 2 min after thickening. Only cue is that the fish should not fall apart.",
+      "testing": "Small reasoning: no water because the vegetables release enough; flour thickening explained. Rating 3.8 from 6 ratings. No test kitchen.",
+      "photos": "No step images in the schema. The 91 images on the page are mostly site noise and were not confirmed as process photos.",
+      "efficiency": "75 minutes stated, no wasted steps. The 30 min plus 40 min timing is a little unclear.",
+      "access": "Page is in Portuguese. Red palm oil, dried fish and okra are hard to find in a regular US grocery. No substitutes given."
+    },
+    "why": "Most traditional method (dried plus fresh fish, no water, flour thickener) of the recipes read, though thin on precision, photos and English."
+  },
+  "runnerUp": {
+    "url": "https://www.worldfoodwine.com/node/2170",
+    "title": "Calulu de peixe",
+    "source": "World Food and Wine",
+    "score": 45,
+    "scores": {
+      "authenticity": 17,
+      "precision": 11,
+      "testing": 4,
+      "photos": 3,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Layers dried and fresh fish with okra, greens and palm oil. Brief note that it is Angolan with Portuguese influence.",
+      "precision": "4 of 9 ingredients with weights (pounds), 4 steps, one temperature cue (145F) and one flake cue, but no pan size or times.",
+      "testing": "No reasoning or testing shown.",
+      "photos": "2 images on the page, no step photos.",
+      "efficiency": "40 minutes stated, but the dried fish soak time is not given.",
+      "access": "Palm oil and salted dried fish have no substitutes listed."
+    },
+    "why": "Clearer doneness cue than the winner, but shorter on method detail and context."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.tudogostoso.com.br/receita/21562-calulu-a-moda-de-angola.html",
+      "source": "Tudo Gostoso",
+      "score": 48
+    },
+    {
+      "url": "https://www.worldfoodwine.com/node/2170",
+      "source": "World Food and Wine",
+      "score": 45
+    },
+    {
+      "url": "https://easyportugueserecipes.com/fish-calulu-calulu-de-peixe/",
+      "source": "Easy Portuguese Recipes",
+      "score": 44
+    },
+    {
+      "url": "https://travelfoodatlas.com/?p=62971",
+      "source": "Travel Food Atlas",
+      "score": 43
+    },
+    {
+      "url": "https://ethnicfoodsrus.com/authentic-angolan-calulu-de-pixe",
+      "source": "Ethnic Foods R Us",
+      "score": 0,
+      "disqualified": "Page loaded but WebFetch returned only navigation text, so the recipe could not be read or scored."
+    },
+    {
+      "url": "https://xavskitchen.substack.com/p/calulu-de-carne-seca-angola-stews",
+      "source": "Xavskitchen (Substack)",
+      "score": 0,
+      "disqualified": "Paywalled; the ingredients and steps could not be read."
+    },
+    {
+      "url": "https://arousingappetites.com/calulu-de-peixe-angolan-fish-vegetable-stew/",
+      "source": "Arousing Appetites",
+      "score": 0,
+      "disqualified": "Fetch failed (host not found) on both the main and print URLs."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Calulu\"",
+    "Calulu Angola recipe",
+    "calulu de peixe receita angolana"
+  ],
+  "notes": "No candidate reached 60. Scores for easyportugueserecipes (44) and travelfoodatlas (43) are approximate. Easy Portuguese Recipes has no author, a typo in the palm oil amount, soak times only and one photo. Travel Food Atlas is a westernized sauteed version with cod and bell pepper and no dried fish. Ethnic Foods R Us and Arousing Appetites could not be read, and either might score higher. A retry could read them via another route, and could search for a Brazilian caruru or Angolan blog source.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:37.628Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Calulu à moda de Angola",
+      "rating": 3.8,
+      "ratingCount": 6
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Calulu de peixe"
+    }
+  }
+}

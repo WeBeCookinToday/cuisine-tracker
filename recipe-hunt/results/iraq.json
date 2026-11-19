@@ -1,0 +1,124 @@
+{
+  "id": "iraq",
+  "country": "Iraq",
+  "dish": "Masgouf",
+  "aliases": [
+    "Maskoof",
+    "Masgouf",
+    "Miskouf",
+    "مسگوف",
+    "المسكوف",
+    "سمچ مسگوف",
+    "Iraqi grilled fish"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.middleeasteye.net/discover/how-make-iraqi-grilled-fish-dine-discover",
+    "title": "How to make Iraqi grilled fish | Dine & Discover",
+    "source": "Middle East Eye (Dina Macki)",
+    "score": 47,
+    "scores": {
+      "authenticity": 18,
+      "precision": 8,
+      "testing": 6,
+      "photos": 5,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Iraqi-linked author; explains the traditional carp, lemon and tamarind, open-fire Tigris method and that this version adds spices and uses bream for indoor grill/oven; pairs with amba, pickles, vermicelli rice. Still a home adaptation.",
+      "precision": "Few weights (tsp/tbsp spices, '1 medium onion', '6 fresh tomatoes', '1 large sea bream'); no fish weight; sumac and salt unmeasured; only cue is marinade thickening and mango to pulp; no cue for fish doneness (10-12 min only); no pan size.",
+      "testing": "No test-kitchen sign; brief context but little explanation of why.",
+      "photos": "Three images (finished dish, amba, fish); no process stages.",
+      "efficiency": "Prep stated as 2 hours and cook 45 min, which is loose; marinade and amba are made in parallel with no wasted steps.",
+      "access": "Tamarind paste, dried lime powder, sumac are specialty but available at Middle Eastern grocers; no explicit substitutions."
+    },
+    "why": "Most traditional framing and a full amba companion, ahead of the runner-up, but still under 60 because it has no fish doneness cue or weights."
+  },
+  "runnerUp": {
+    "url": "https://cardamomandtea.com/527/sweet-sour-spicy-masgouf/",
+    "title": "sweet, sour, and spicy masgouf",
+    "source": "Cardamom and Tea (Kathryn Pauline)",
+    "score": 45,
+    "scores": {
+      "authenticity": 9,
+      "precision": 9,
+      "testing": 8,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "American blogger; uses fillets, curry powder, brown sugar and a tomato topping, a simplified adaptation of masgouf.",
+      "precision": "US volumes and fish weight (10 to 12 oz); doneness cue 'until flaky' plus 6 minute minimum; no temperatures or pan size.",
+      "testing": "Blog author, notes on fish and marinating times and broiler variation; no test kitchen.",
+      "photos": "imagesOnPage 17 but none in schema steps; not confirmed as process shots.",
+      "efficiency": "About 1 hour total; marinate and make topping in parallel.",
+      "access": "All supermarket items; tamarind paste is footnoted."
+    },
+    "why": "Clearer cues but a further departure from traditional masgouf."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.middleeasteye.net/discover/how-make-iraqi-grilled-fish-dine-discover",
+      "source": "Middle East Eye (Dina Macki)",
+      "score": 47
+    },
+    {
+      "url": "https://cardamomandtea.com/527/sweet-sour-spicy-masgouf/",
+      "source": "Cardamom and Tea",
+      "score": 45
+    },
+    {
+      "url": "https://boroughmarket.org.uk/recipes/masgouf/",
+      "source": "Borough Market (Phil Juma)",
+      "score": 40
+    },
+    {
+      "url": "https://cardamomandtea.com/?p=341",
+      "source": "Cardamom and Tea",
+      "score": 38
+    },
+    {
+      "url": "https://www.myjewishlearning.com/?p=30713",
+      "source": "My Jewish Learning",
+      "score": 25,
+      "disqualified": "Uses salmon, broiled with tomatoes; not recognizably masgouf"
+    },
+    {
+      "url": "https://jewishjournal.com/culture/food/388428/tasting-the-past-masgouf-grilled-fish/",
+      "source": "Jewish Journal (Sephardic Spice Girls)",
+      "score": 20,
+      "disqualified": "Herby branzino 'inspired by' masgouf, not the dish"
+    },
+    {
+      "url": "https://observatory.wiki/Recipe:Middle_Eastern/Masgouf_Iraqi_Grilled_Fish",
+      "source": "Observatory wiki (credited to Brittani's Almanac)",
+      "score": 40,
+      "disqualified": "No named author, aggregator/wiki copy, no photos"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites Masgouf (no results on any site)",
+    "Masgouf recipe Iraqi grilled carp",
+    "مسگوف سمك مسكوف طريقة",
+    "masgouf recipe tamarind carp whole fish grill amba Iraqi cook blog"
+  ],
+  "notes": "No candidate reaches 60. Hilda's Kitchen Blog, International Cuisine and Spinneys returned HTTP 403 to read, so they were not scored. The arousingappetites.com page could not be fetched. Arabic results (mawdoo3, webteb, altkia, al-ain) were not read in full and have no structured data. Worth a retry with Hilda's Kitchen via another route, or a hand-picked Iraqi cook's recipe (e.g. Linda Dangoor, Sephardic Spice Girls cite her carp-and-curry version).",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T17:23:43.015Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "sweet, sour, and spicy masgouf"
+    }
+  }
+}
