@@ -1,0 +1,143 @@
+{
+  "id": "nepal",
+  "country": "Nepal",
+  "dish": "Dal Bhat",
+  "aliases": [
+    "Dal Bhat Tarkari",
+    "Dhal Bhat",
+    "Daal Bhaat",
+    "दाल भात"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://www.archanaskitchen.com/nepalese-style-dhal-bhat-recipe",
+    "title": "Nepalese Style Dhal Bhat Recipe",
+    "source": "Archana's Kitchen",
+    "score": 54,
+    "scores": {
+      "authenticity": 15,
+      "precision": 8,
+      "testing": 6,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Moong dal with freshly ground whole-spice masala (cinnamon, cardamom, clove, chili, pepper, cumin) fried with onion, the Nepali-style dal approach; author is an Indian recipe site, not Nepali; no regional context; rice and tarkari not covered, only a serving suggestion",
+      "precision": "Volumes only (2 cups dal, spices by tsp); no water amount, no rice recipe, no weights; cues are weak ('soft and mushy', 'onions translucent', 'raw smell goes away'); 0 temperatures",
+      "testing": "Rating 4.9 from 19,023 ratings shows heavy real-world use; no explanation of why",
+      "photos": "6 step images in schema, one per step",
+      "efficiency": "40 minutes total, no wasted steps; dal pressure-cooked while spices ground",
+      "access": "All items at a US grocery or Indian aisle; split yellow moong is common"
+    },
+    "why": "Best step photos and the largest rating base among the dal-only recipes, though still under the 60 bar for lack of precision and a full meal."
+  },
+  "runnerUp": {
+    "url": "https://abbyshearth.com/nepalese-dal-bhat-tarkari/",
+    "title": "Dal Bhat Tarkari (Nepali Rice, Lentils & Vegetable Curry)",
+    "source": "Abby's Hearth (guest writer)",
+    "score": 48,
+    "scores": {
+      "authenticity": 17,
+      "precision": 11,
+      "testing": 4,
+      "photos": 4,
+      "efficiency": 6,
+      "access": 6
+    },
+    "evidence": {
+      "authenticity": "Covers the whole meal: rice, red lentil dal, tarkari and gundruk pickle; gundruk is the genuinely Nepali touch; the dal text is near-identical to International Cuisine's recipe",
+      "precision": "14 ingredients with grams or ml; rice water ratios given; cues mostly 'until soft'; pressure-cooker dal timed in whistles; no pan sizes",
+      "testing": "4.88 from 8 ratings; no reasoning",
+      "photos": "No step images in schema; 53 images on page not confirmed as process shots",
+      "efficiency": "85 minutes; method I/II rice options add clutter; gundruk needs a week",
+      "access": "Mustard and turnip leaves for gundruk are harder to find; no substitutes"
+    },
+    "why": "Most complete and most Nepali meal, but it is thinly tested and has few cues or process photos."
+  },
+  "companions": [
+    {
+      "part": "tarkari (vegetable curry)",
+      "url": "https://www.whats4eats.com/vegetables/dal-bhat-tarkari-recipe",
+      "title": "Dal Bhat Tarkari (Nepalese vegetable curry with lentil soup and rice)",
+      "source": "Whats4eats (chefgod)",
+      "score": 44,
+      "why": "Gives volume amounts, a doneness cue for the onion and vegetables, and a rice method; no step photos.",
+      "check": "pass"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.archanaskitchen.com/nepalese-style-dhal-bhat-recipe",
+      "source": "Archana's Kitchen",
+      "score": 54
+    },
+    {
+      "url": "https://www.cookshideout.com/nepali-dal-bhat-recipe",
+      "source": "Cook's Hideout",
+      "score": 48
+    },
+    {
+      "url": "https://abbyshearth.com/nepalese-dal-bhat-tarkari/",
+      "source": "Abby's Hearth",
+      "score": 48
+    },
+    {
+      "url": "https://www.whats4eats.com/vegetables/dal-bhat-tarkari-recipe",
+      "source": "Whats4eats",
+      "score": 44
+    },
+    {
+      "url": "https://www.sbs.com.au/food/recipe/dal-bhat/34q0ejqd8",
+      "source": "SBS Food",
+      "score": 42
+    },
+    {
+      "url": "https://www.internationalcuisine.com/nepali-dal-bhat/",
+      "source": "International Cuisine",
+      "score": 40
+    },
+    {
+      "url": "https://www.mycookingjourney.com/dal-bhaat-tarkari-national-dish-of/",
+      "source": "My Cooking Journey",
+      "score": 40
+    },
+    {
+      "url": "https://www.thebossykitchen.com/dal-bhat-rice-and-lentils",
+      "source": "The Bossy Kitchen",
+      "score": 30
+    },
+    {
+      "url": "https://worldtravelfamily.com/dal-bhat-recipe/",
+      "source": "World Travel Family",
+      "score": 15,
+      "disqualified": "No ingredient amounts"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Dal Bhat\"",
+    "Nepali dal bhat recipe",
+    "दाल भात रेसिपी नेपाली",
+    "Dal Bhat recipe",
+    "authentic Nepali dal bhat tarkari achar recipe Nepali food blog jimbu dal"
+  ],
+  "notes": "No Serious Eats, NYT or ATK recipe for Nepali dal bhat exists; the sites search returned only Indian dals. No candidate came from a Nepali author, and no page gives weights plus real doneness cues. Many pages recycle the same red lentil recipe. A retry might look for a Nepali-authored blog or cookbook excerpt (jimbu, gundruk, ghee tarka). Not all candidates read were fully scored: the lower scores for International Cuisine, My Cooking Journey and Bossy Kitchen are quick estimates.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:51.800Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Nepalese Style Dhal Bhat Recipe",
+      "rating": 4.9,
+      "ratingCount": 19033
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Dal Bhat Tarkari (Nepali Rice, Lentils & Vegetable Curry)",
+      "rating": 4.88,
+      "ratingCount": 8
+    }
+  }
+}

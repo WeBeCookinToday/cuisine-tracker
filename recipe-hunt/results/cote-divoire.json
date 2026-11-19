@@ -1,0 +1,134 @@
+{
+  "id": "cote-divoire",
+  "country": "Cote d'Ivoire",
+  "dish": "Kedjenou",
+  "aliases": [
+    "Kédjénou",
+    "Kedjenou de poulet",
+    "Poulet kédjénou",
+    "Kedjenou chicken",
+    "Ivorian sealed-pot chicken"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://gypsyplate.com/kedjenou-chicken/",
+    "title": "Kedjenou Chicken",
+    "source": "GypsyPlate (Alpana Beiser)",
+    "score": 64,
+    "scores": {
+      "authenticity": 16,
+      "precision": 14,
+      "testing": 11,
+      "photos": 10,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "No added oil or liquid, sealed pot, shaken not stirred, eggplant and whole hot peppers, served with attieke or rice. Explains the dish as the flagship of Cote d'Ivoire, Baoule origin, name meaning 'to move or shake', canari and maquis context. Author is not Ivorian, so not full marks.",
+      "precision": "Medium-sized produce counts, 7-quart Dutch oven named, heat stages (medium-high 15 min, medium-low 45 min, 350F oven alternative), doneness cue 'fall off the bone tender'. No weights (0 of 14 ingredients), no chicken weight, only 1 doneness cue.",
+      "testing": "Says recipes are tested in her kitchen. Explains why: no oil in first layer, eggplant added late because it oxidizes, lid stays closed so the bird cooks in its own juices, hot peppers left whole then pricked one at a time to tune heat. 5.0 rating from 27 reviews. Not a test kitchen.",
+      "photos": "Captioned photos of the stages (marinated vegetables, first veg layer, chicken and pepper layer, final layer, finished pot). Schema has 0 step images, so confirmed via page fetch only.",
+      "efficiency": "About 1h15 total, one pot, marinade can be skipped. Layering is the only fiddly step.",
+      "access": "All at a US grocery. Habanero for scotch bonnet, dried thyme for fresh, bouillon cube. Eggplant, bell pepper and tomato are common."
+    },
+    "why": "It stays closest to the traditional no-oil sealed-pot method, gives a pot size and a doneness cue, and has stage photos, while the runner-up browns the chicken and builds a spice blend."
+  },
+  "runnerUp": {
+    "url": "https://jamilghar.com/kedjenou/",
+    "title": "Kedjenou Chicken",
+    "source": "Tressa Jamil (Jamil Ghar)",
+    "score": 55,
+    "scores": {
+      "authenticity": 13,
+      "precision": 13,
+      "testing": 9,
+      "photos": 10,
+      "efficiency": 7,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Explains canari, Baoule and the 'shake' name, foil plus lid seal, no added liquid. But the author learned it from a Colorado farmers market spice blend, and the recipe adds browning, olive oil, cumin, cinnamon and turmeric.",
+      "precision": "Chicken 2-3 lb, 1-inch eggplant pieces, 350F, but the Dutch oven size is not given and there is no doneness cue, only 'braise one hour'.",
+      "testing": "Explains sealing, shaking and even cuts. Says Ivorian friends noticed the difference with Maggi. No formal testing. 4.38 from 8 votes.",
+      "photos": "Captioned photos of seasoned chicken, browning, vegetables added, pot before braising and finished dish.",
+      "efficiency": "About 1h25 with a separate spice blend and batch browning.",
+      "access": "Insists Maggi cube is a must with no substitute. Habanero is allowed for scotch bonnet."
+    },
+    "why": "Good photos and some reasoning, but the spice blend and browning drift from the traditional dish and it has no doneness cue."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://gypsyplate.com/kedjenou-chicken/",
+      "source": "GypsyPlate",
+      "score": 64
+    },
+    {
+      "url": "https://jamilghar.com/kedjenou/",
+      "source": "Jamil Ghar",
+      "score": 55
+    },
+    {
+      "url": "https://www.africanbites.com/kedjenou-chicken/",
+      "source": "Immaculate Bites",
+      "score": 50
+    },
+    {
+      "url": "https://www.afrolems.com/2015/02/16/kedjenou-recipe/",
+      "source": "Afrolems",
+      "score": 47
+    },
+    {
+      "url": "https://afrifoodnetwork.com/recipes/chicken-beef-recipes/kedjenou/",
+      "source": "African Food Network",
+      "score": 40
+    },
+    {
+      "url": "https://cupofyum.com/recipes/kedjenou",
+      "source": "Cup of Yum (Heidi Matthews)",
+      "score": 38
+    },
+    {
+      "url": "https://www.meilleurduchef.com/fr/recette/poulet-kedjenou.html",
+      "source": "Meilleur du Chef",
+      "score": 40
+    },
+    {
+      "url": "https://travelfoodatlas.com/ivorian-kedjenou-recipe",
+      "source": "Travel Food Atlas",
+      "score": 0,
+      "disqualified": "Near word-for-word copy of the GypsyPlate recipe"
+    },
+    {
+      "url": "https://www.tastesfromtheroad.com/recipes/chicken-kedjenou-from-the-ivory-coast",
+      "source": "Tastes From the Road",
+      "score": 0,
+      "disqualified": "No recipe content loaded via read or WebFetch, so not scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Kedjenou\" (no results on any of the four sites)",
+    "Kedjenou recipe",
+    "Kédjenou poulet recette ivoirienne",
+    "Ivory Coast kedjenou chicken slow-cooked clay pot"
+  ],
+  "notes": "No test-kitchen recipe exists on Serious Eats, NYT, ATK or BBC Good Food. Winner is a modest 64 and has no ingredient weights. Candidates scored from structured data: Immaculate Bites, Afrolems (Nigerian author, uses 2-3 hr oven, no weights), AFN, Cup of Yum and Meilleur du Chef scored from read output only, with rough scores. Meilleur du Chef is a French-language recipe that adds water, which departs from the dry method. A 'sites' search with the French spelling 'Kédjénou' was not run. Wikibooks and congocookbook pages did not return usable data.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:41.137Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Kedjenou Chicken",
+      "rating": 5,
+      "ratingCount": 27
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Kedjenou Chicken",
+      "rating": 4.38,
+      "ratingCount": 8
+    }
+  }
+}

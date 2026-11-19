@@ -1,0 +1,114 @@
+{
+  "id": "afghanistan",
+  "country": "Afghanistan",
+  "dish": "Kabuli Pulao",
+  "aliases": [
+    "Qabuli Pulao",
+    "Qabili Palaw",
+    "Kabuli Palaw",
+    "قابلی پلو"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.thedeliciouscrescent.com/kabuli-pulao-recipe/",
+    "title": "Kabuli Pulao, Afghan Rice",
+    "source": "The Delicious Crescent",
+    "score": 65,
+    "scores": {
+      "authenticity": 19,
+      "precision": 16,
+      "testing": 12,
+      "photos": 7,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Recognizable Kabuli pulao: lamb simmered in spiced broth, rice cooked in that broth, caramelized-sugar drizzle, carrot/raisin/almond topping. Author's own background and the page's regional write-up were not checked.",
+      "precision": "Grams on onion (350 g), carrots (250 g), raisins (160 g); other items in cups/spoons. Sensory cues on 19 steps (light golden, fork-tender, light tan, plump, steam builds up). Stock volume stated (3 cups returned to pot). Pan size not given beyond 'large heavy-bottomed casserole'. No temperatures.",
+      "testing": "Notes on rice type, soaking, seasoning the stock so it tastes slightly salty, and variable cooking time. Only 3 ratings, so little reader validation.",
+      "photos": "26 images on page, 0 step images in schema. I did not confirm process photos with WebFetch, so scored conservatively.",
+      "efficiency": "Toppings are made while meat simmers. Stated 80 min total looks understated, since the lamb alone simmers 1 to 1.5 hours.",
+      "access": "Sella basmati, shajeera and black cardamom are specialty items. Notes offer alternatives (half cumin for shajeera, sella 'see note')."
+    },
+    "why": "It has the most doneness cues and a few weights, and it uses the traditional broth-cooked rice method, so it edged out the Hami Sharafi page."
+  },
+  "runnerUp": {
+    "url": "https://www.hamisharafi.com/free-recipes/kabuli-pulao",
+    "title": "Kabuli Pulao - The Afghan National Dish",
+    "source": "I Got It From My Maman (Hami Sharafi)",
+    "score": 57,
+    "scores": {
+      "authenticity": 18,
+      "precision": 15,
+      "testing": 10,
+      "photos": 4,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Persian cook who learned the dish from Afghan neighbours and a restaurant. Gives the dish's names and regional spread, and a traditional layered steamed method with optional carrot tahdig.",
+      "precision": "Weights for rice, lamb and carrots (400 g, 850 g, 200 g) and raisins (80 g). Parboil cue is soft outside with a bite inside. No pan sizes. The page has editing errors: cumin amounts are listed twice and the steps are out of order.",
+      "testing": "Explains why for rinsing, parboiling, brief raisin frying, straining the sauce and poking holes in the rice.",
+      "photos": "Only a carrot tahdig photo and a finished dish photo. No step photos. The cooking video is on Instagram.",
+      "efficiency": "3 hours stated, which looks realistic. Includes an optional saffron tahdig step.",
+      "access": "Chantenay carrots, saffron and pistachios are optional. Everything else is at a US grocery."
+    },
+    "why": "Stronger on explanation, but the page is muddled and has almost no process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.thedeliciouscrescent.com/kabuli-pulao-recipe/",
+      "source": "The Delicious Crescent",
+      "score": 65
+    },
+    {
+      "url": "https://www.hamisharafi.com/free-recipes/kabuli-pulao",
+      "source": "I Got It From My Maman (Hami Sharafi)",
+      "score": 57
+    },
+    {
+      "url": "https://www.hungrypaprikas.com/kabuli-pulao/",
+      "source": "Hungry Paprikas",
+      "score": 53
+    },
+    {
+      "url": "https://foreignfork.com/kabuli-pulao/",
+      "source": "The Foreign Fork",
+      "score": 52
+    },
+    {
+      "url": "https://sourandsweets.com/afghani-kabuli-pulao-recipe/",
+      "source": "Sour and Sweets",
+      "score": 40
+    },
+    {
+      "url": "https://afghancooks.com/kabuli-pulao-recipe/",
+      "source": "Afghan Cooks",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Kabuli Pulao\"",
+    "Kabuli Pulao recipe",
+    "قابلی پلو دستور پخت"
+  ],
+  "notes": "Closest call in the set. The winner scored 65 and the runner-up 57, so a reviewer could reasonably weigh them differently. Afghan Cooks, probably the most authoritative source, returned 403 and could not be scored. NYT and ATK surfaced only pulao variants (ground lamb, yakhni, herbed beef), not Kabuli pulao. Process photos were not confirmed on any page. Only 3 searches were run, with no retries.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:36.978Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Kabuli Pulao, Afghan Rice",
+      "rating": 5,
+      "ratingCount": 3
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}
