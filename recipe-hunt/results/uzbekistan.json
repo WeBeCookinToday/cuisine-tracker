@@ -1,0 +1,157 @@
+{
+  "id": "uzbekistan",
+  "country": "Uzbekistan",
+  "dish": "Lagman",
+  "aliases": [
+    "Laghman",
+    "Lagmon",
+    "Лагман",
+    "Uzbek lamb and noodle soup",
+    "chuzma lagman (pulled)",
+    "kesma lagman (cut)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://wanderingchopsticks.blogspot.com/2014/09/uzbek-lagman-lamb-noodle-soup.html",
+    "title": "Uzbek Lagman (Lamb Noodle Soup)",
+    "source": "Wandering Chopsticks (blog)",
+    "score": 63,
+    "scores": {
+      "authenticity": 16,
+      "precision": 12,
+      "testing": 11,
+      "photos": 12,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Tomato-forward soup-style lagman with lamb, radish/turnip, celery, carrot, red pepper, kala jeera and star anise, served over noodles cooked separately. Author explains the lamian origin, the thicker Uzbek noodle, and a Los Angeles Uzbek restaurant and Riga versions. Author is not Uzbek and the noodles are store-bought fresh wheat noodles, not hand-pulled.",
+      "precision": "Volumes for most ingredients (1 lb meat, 4 large tomatoes or a 28-oz can, 2 to 3 qt water, 'cover by about an inch'); 5-quart pot named. Oil amount is 'a bit'. Doneness cues are limited to browned meat, softened tomatoes and fragrant spices, plus a 30 to 45 minute simmer. Kala jeera is listed twice. No weights.",
+      "testing": "Blogger-tested, with reasoning: kala jeera gives the smoky flavor and regular cumin is a poor substitute; lamb can be gamey so use leaner cuts. Not a test kitchen.",
+      "photos": "WebFetch: 17 photos, 15 of them numbered step photos covering the recipe stages. The page has no Recipe schema.",
+      "efficiency": "Noodles boil while the soup simmers. About 1 hr total with no wasted steps.",
+      "access": "Kala jeera is hard to find, though the page says to seek it out and does not give a substitute for it. Udon or fettuccine is suggested for the noodles. Everything else is at a normal US grocery."
+    },
+    "why": "It has the most step photos, real regional context and an explained spice choice, where the runner-up gives a thin explanation and no pan size."
+  },
+  "runnerUp": {
+    "url": "https://valentinascorner.com/uzbek-lagman/",
+    "title": "Uzbek Lagman",
+    "source": "Valentina's Corner",
+    "score": 53,
+    "scores": {
+      "authenticity": 14,
+      "precision": 11,
+      "testing": 7,
+      "photos": 7,
+      "efficiency": 9,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Soup-style Uzbek lagman with beef, potato, carrot, tomato, coriander, cumin and star anise over linguine. Uses pasta, not pulled noodles.",
+      "precision": "Volumes given, but 'beef' has no weight beyond 1 lb and there are no pan size or doneness cues beyond 'tender'. 2 of 17 ingredients have weights.",
+      "testing": "Home cook, rated 5 from 11 ratings, little reasoning.",
+      "photos": "Page has many images, but the structured data lists no step images and I did not confirm process photos.",
+      "efficiency": "45 minutes, with pasta cooked ahead.",
+      "access": "All supermarket items."
+    },
+    "why": "A fast, accessible weeknight version, but it is less authentic and less documented than the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://wanderingchopsticks.blogspot.com/2014/09/uzbek-lagman-lamb-noodle-soup.html",
+      "source": "Wandering Chopsticks",
+      "score": 63
+    },
+    {
+      "url": "https://valentinascorner.com/uzbek-lagman/",
+      "source": "Valentina's Corner",
+      "score": 53
+    },
+    {
+      "url": "https://juliasalbum.com/lamb-vegetable-noodle-stew-pasta-soup-lagman-recipe/",
+      "source": "Julia's Album",
+      "score": 51
+    },
+    {
+      "url": "https://kashevar.com/en/recipes/lagman",
+      "source": "kashevar.com (Natalia)",
+      "score": 51
+    },
+    {
+      "url": "https://leelalicious.com/wprm_print/57635",
+      "source": "LeelaLicious",
+      "score": 48
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/lagman-soup-3752756",
+      "source": "Food Network (Nargis Cafe)",
+      "score": 47
+    },
+    {
+      "url": "https://recepty.mobi/en/soups/meat-soups/fried-lagman-uzbek-style.html",
+      "source": "Recepty.mobi (Artem)",
+      "score": 43
+    },
+    {
+      "url": "https://aish.com/uzbek-lagman/",
+      "source": "Aish (Akiva Genger)",
+      "score": 35
+    },
+    {
+      "url": "https://lifehacker.ru/lagman-recepty/",
+      "source": "Lifehacker.ru",
+      "score": 38
+    },
+    {
+      "url": "https://whattocooktoday.com/kazakh-noodles-laghman-sauce-uyghur-noodles.html",
+      "source": "What To Cook Today",
+      "score": 42,
+      "disqualified": "Kazakh/Uyghur dry noodles with sauce, not the Uzbek soup-style dish."
+    },
+    {
+      "url": "https://moribyan.com/uyghur-chopped-lagman-noodle/",
+      "source": "Moribyan",
+      "score": 25,
+      "disqualified": "Uyghur chopped lagman with soy sauce and frozen peas; fusion, not the dish."
+    },
+    {
+      "url": "https://eathealthy365.com/authentic-laghman-noodle/",
+      "source": "Flavor365 / eathealthy365",
+      "score": 0,
+      "disqualified": "Looks like an AI-generated content farm: generic text, 'Silas's definitive recipe', 1 rating."
+    },
+    {
+      "url": "https://boisdejasmin.com/2009/07/lagman-uzbek-lamb-and-noodle-soup-flavor-fragrance.html",
+      "source": "Bois de Jasmin",
+      "score": 0,
+      "disqualified": "read returned HTTP 511."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Lagman\"",
+    "Uzbek lagman recipe",
+    "лагман рецепт узбекский домашний",
+    "lagman hand-pulled noodles beef vegetable soup recipe",
+    "lagman recipe Uzbek chef pulled noodles vajda step by step photos"
+  ],
+  "notes": "Sites search found nothing on Serious Eats, NYT, ATK or BBC. The winner is only just over 60, so a better source may exist. No English recipe I read makes traditional pulled chuzma noodles and a soup-style Uzbek lagman together, with weights and photos. Food Network's Nargis Cafe recipe is the most traditional but has implausible quantities (3 lb beef plus 3 lb lamb for 4 servings, 4 tbsp ground star anise) and no photos. Its cookingchanneltv.com URL redirects to a landing page, so only the foodnetwork.com URL was usable. The Wandering Chopsticks page has no Recipe structured data and was read with WebFetch. A Euronews video lesson (chef Bahriddin Chustiy) turned up in search but is video only and was not scored.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T17:23:59.408Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Uzbek Lagman",
+      "rating": 5,
+      "ratingCount": 11
+    }
+  }
+}

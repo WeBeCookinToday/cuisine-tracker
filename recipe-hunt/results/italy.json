@@ -1,0 +1,175 @@
+{
+  "id": "italy",
+  "country": "Italy",
+  "dish": "Pollo alla Cacciatora",
+  "aliases": [
+    "Chicken Cacciatore",
+    "Pollo alla cacciatora",
+    "Pollo cacciatore",
+    "Hunter's chicken",
+    "Hunter's wife's chicken",
+    "Pollo alla cacciatora in bianco (tomato-free variant)"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/chicken-cacciatore-red-peppers-recipe",
+    "title": "Chicken Cacciatore With Red Peppers, Tomato, and Onion",
+    "source": "Serious Eats (Daniel Gritzer)",
+    "score": 79,
+    "scores": {
+      "authenticity": 15,
+      "precision": 20,
+      "testing": 16,
+      "photos": 14,
+      "efficiency": 9,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Tomato, white wine, rosemary/sage/thyme, bay braise of bone-in chicken with onion, bell pepper and garlic. This is the northern/Italian-American tomato style (Hazan's version also uses pepper), a valid regional variant, not a fusion. I could not read the headnote because WebFetch is blocked for seriouseats.com, so I did not credit it with roots or regional context. The schema description only says 'all the flavor and depth of a slow-cooked recipe'.",
+      "precision": "6 of 11 ingredients have weights or ml (chicken 1.4-1.8 kg, onion 225 g, pepper 225 g, tomatoes 795 g plus 120 ml juice, wine 175 ml, oil 45 ml). Oven temperature is given (350F/180C). 8 sensory or doneness cues: oil shimmering, browned all over about 6 min per side, vegetables softened about 8 min, sauce slightly reduced and thickened, chicken cooked through and tender. Pan is 'Dutch oven or large straight-sided saute pan' with no diameter.",
+      "testing": "Serious Eats test-kitchen recipe. The oven-finish method is built to give slow-braise depth in about an hour. The headnote reasoning was not readable. Only 5 ratings (4.4 average), so there is little public feedback.",
+      "photos": "5 of 5 steps have images in the recipe schema (stepImagesInSchema = 5). That covers browning, aromatics, deglazing and tomatoes, nestling the chicken, and the finished oven braise.",
+      "efficiency": "75 minutes total with 5 minutes of prep. One pot, and the oven finish needs no stirring. It browns in batches, which can't be avoided.",
+      "access": "Everything is at a US grocery. Herb choice is flexible (rosemary, sage or thyme) and parsley is optional."
+    },
+    "why": "It beat the runner-up on Precision and process photos: weighed ingredients, oven temperature, a doneness cue on every step, and a step photo for every step. The Italian-sourced versions I read have no step photos and few weights."
+  },
+  "runnerUp": {
+    "url": "https://www.recipetineats.com/chicken-cacciatore-italian-chicken-stew/",
+    "title": "Chicken Cacciatore",
+    "source": "RecipeTin Eats (Nagi Maehashi)",
+    "score": 68,
+    "scores": {
+      "authenticity": 11,
+      "precision": 17,
+      "testing": 17,
+      "photos": 11,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Australian cook. Her own headnote says there are no rules for cacciatore, and she calls her version fairly classic 'outside Italy'. It uses red wine, tomato paste, stock, kalamata olives, capsicum, mushrooms and anchovy, so it is clearly Italian-American or Australian in style.",
+      "precision": "Only 3 of 22 ingredients are weighed, but sizes are given (8 mm pepper slices, 15 cm rosemary sprigs, 1 kg thighs). Note 4 says to use a 30 cm (12 in) deep heavy pan. 6 doneness cues: skin golden about 6 min, onion softening, mushroom water evaporated, tomato paste cooked 2 min, wine reduced by 75 percent.",
+      "testing": "Explains why throughout: bone-in thighs hold up to the simmer, tomato paste is cooked to remove sourness, wine is reduced to cook off the raw taste, and anchovy adds depth. Gives anchovy and wine substitutions.",
+      "photos": "4 step photos in the method section, before the seasoning, onion and anchovy, tomato paste and simmering steps. Not every step is covered.",
+      "efficiency": "70 minutes. The chicken is browned in two stages and the vegetables in several. Many ingredients (22).",
+      "access": "All are at a US grocery. Anchovy is optional, with fish sauce as the substitute."
+    },
+    "why": "It has good reasoning and photos, but it is a Westernized version, and Serious Eats has more measured quantities and doneness cues per step."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/chicken-cacciatore-red-peppers-recipe",
+      "source": "Serious Eats (Daniel Gritzer)",
+      "score": 79
+    },
+    {
+      "url": "https://www.recipetineats.com/chicken-cacciatore-italian-chicken-stew/",
+      "source": "RecipeTin Eats",
+      "score": 68
+    },
+    {
+      "url": "https://katieparla.com/pollo-alla-cacciatora-chicken-cacciatore/",
+      "source": "Katie Parla (Roman, tomato-free; read via WebFetch)",
+      "score": 64
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1018267-umbrian-style-chicken-alla-cacciatora",
+      "source": "NYT Cooking (Julia Moskin with Letizia Mattiacci; Umbrian, tomato-free)",
+      "score": 61
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1026287-one-pot-roman-chicken-cacciatore-with-potatoes",
+      "source": "NYT Cooking (Cybelle Tondu)",
+      "score": 59,
+      "disqualified": "Not disqualified. Scored low because NYT itself calls it 'Roman-inspired' and it adds potatoes, so it is close to the 'inspired by' line in rule 4."
+    },
+    {
+      "url": "https://www.recipesfromitaly.com/chicken-cacciatore-recipe/",
+      "source": "Recipes from Italy (Silvana Nava)",
+      "score": 59
+    },
+    {
+      "url": "https://www.saveur.com/article/recipes/Pollo-alla-Cacciatora-Hunters-Wifes-Chicken/",
+      "source": "Saveur (adapted from Marcella Hazan; read via WebFetch)",
+      "score": 55
+    },
+    {
+      "url": "https://lidiasitaly.com/recipes/chicken-cacciatore/",
+      "source": "Lidia's Italy (Lidia Bastianich; read via WebFetch)",
+      "score": 55
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1015416-chicken-cacciatore",
+      "source": "NYT Cooking (Martha Rose Shulman)",
+      "score": 54
+    },
+    {
+      "url": "https://www.greatitalianchefs.com/recipes/pollo-alla-cacciatora-recipe",
+      "source": "Great Italian Chefs (Filippo Trapella)",
+      "score": 52
+    },
+    {
+      "url": "https://en.julskitchen.com/main/meat/chicken-cacciatore",
+      "source": "Juls' Kitchen",
+      "score": 53
+    },
+    {
+      "url": "https://www.cookist.it/pollo-alla-cacciatora-la-ricetta/",
+      "source": "Cookist (Italian-language)",
+      "score": 53
+    },
+    {
+      "url": "https://www.havocinthekitchen.com/traditional-chicken-cacciatore-pollo-alla-cacciatora/",
+      "source": "Havoc in the Kitchen",
+      "score": 51
+    },
+    {
+      "url": "https://www.cucchiaio.it/ricetta/ricetta-pollo-cacciatora/",
+      "source": "Il Cucchiaio d'Argento (Italian-language)",
+      "score": 50
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/685-chicken-cacciatore-with-white-wine-and-tarragon",
+      "source": "America's Test Kitchen",
+      "score": 49
+    },
+    {
+      "url": "https://www.seriouseats.com/chicken-cacciatore-mushrooms-recipe",
+      "source": "Serious Eats (Daniel Gritzer, mushroom version)",
+      "score": 74
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Pollo alla Cacciatora\"",
+    "node scripts/recipe-hunt.mjs sites \"chicken cacciatore\"",
+    "Pollo alla Cacciatora recipe",
+    "chicken cacciatore authentic Italian hunter's style recipe",
+    "pollo alla cacciatora ricetta originale tradizionale",
+    "Marcella Hazan chicken cacciatore hunter's wife recipe",
+    "giallozafferano pollo alla cacciatora ricetta",
+    "Italian chicken cacciatore recipe Lidia Bastianich OR \"Memorie di Angelina\" OR \"Italian Food Forever\" cacciatora",
+    "pollo alla cacciatora ricetta (allowed_domains: giallozafferano, cucchiaio, academiabarilla, italiasquisita, cookist)",
+    "two other domain-restricted searches failed with API 400 because lacucinaitaliana.*, bonappetit.com, epicurious.com, foodandwine.com and seriouseats.com are blocked for WebSearch"
+  ],
+  "notes": "Two traditions exist. Tuscan, Marche and northern Italian versions use tomato and wine, as in the winner. Roman and Umbrian versions omit tomato and use white wine, vinegar, rosemary, anchovy and capers, as in Katie Parla (64) and NYT Umbrian (61). The tomato-free versions are arguably older but have no step photos and fewer weights, so they scored lower. If the user wants the tomato-free Roman style, Katie Parla's page is the best of those, and its salt amount and pan size are vague. Serious Eats' mushroom version (same author, 74) is also good and uses the same method. WebFetch is blocked for seriouseats.com and cooking.nytimes.com, so I could not read the Serious Eats headnote or the NYT headnote/comments, and the winner's authenticity score rests on the recipe content alone. The Saveur/Hazan page has an error: step 1 adds celery that the ingredient list omits. Great Italian Chefs lists 4 step images in its schema but the page shows only one photo. The Week page loaded but had no Recipe data, so I did not score it. The Serious Eats mushroom version's candidate score of 74 is estimated from the same signals as the winner but it has no step images in its schema.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:51.034Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Cacciatore With Red Peppers, Tomato, and Onion",
+      "rating": 4.4,
+      "ratingCount": 5
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Cacciatore",
+      "rating": 4.9,
+      "ratingCount": 49
+    }
+  }
+}

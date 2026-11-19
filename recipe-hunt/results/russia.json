@@ -1,0 +1,177 @@
+{
+  "id": "russia",
+  "country": "Russia",
+  "dish": "Beef Stroganoff",
+  "aliases": [
+    "Бефстроганов",
+    "Говядина по-строгановски",
+    "Befstroganov",
+    "Beef Stroganov",
+    "Boeuf Stroganoff"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/ultimate-beef-stroganof-recipe",
+    "title": "The Ultimate Beef Stroganoff Recipe",
+    "source": "Serious Eats (J. Kenji López-Alt)",
+    "score": 75,
+    "scores": {
+      "authenticity": 10,
+      "precision": 21,
+      "testing": 18,
+      "photos": 13,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Recognizably stroganoff (beef, mushrooms, sour cream, Dijon mustard, paprika, egg noodles) but a modernized, Westernized build: whole tenderloin steaks seared and sliced, pearl onions, white wine, fish sauce, soy, Worcestershire, gelatin-fortified stock. Author is not from the cuisine and the structured data carries no Russian history or regional context.",
+      "precision": "Signals: 5 ingredients with weights (steaks 6-8 oz and 1.5-2 inch thick, 12 oz mushrooms, 8 oz pearl onions, 1 lb noodles, 1/4 oz gelatin packets), shallot sized to 1/4 cup; target internal temps 115F rare / 125F medium-rare; 13 sensory cues across 8 steps (lightly smoking oil, mushrooms released liquid and just browning, wine reduced to a few tablespoons, sauce fully homogeneous, loose creamy noodle consistency). Pan only called a 'large skillet or sauté pan', no diameter. No gram weights.",
+      "testing": "Serious Eats test-kitchen recipe by Kenji López-Alt. Description states the reasoning (whole steak keeps a medium-rare center; sauce layered to build flavor). The sauce method (bloomed gelatin in stock, hot liquid whisked slowly into sour cream) is aimed at a smooth sauce that will not split. Only 4.2 from 18 ratings, so no review-volume bonus.",
+      "photos": "5 of 8 steps carry a photo in the recipe schema (gelatin bloom, searing steak, fond/deglaze stage, sour cream tempering, sauce finish); 78 images on the page. Could not open the page text in WebFetch (blocked for seriouseats.com), so photo count rests on the read output.",
+      "efficiency": "55 min total (10 prep, 45 cook). Boils noodle water and blooms gelatin up front and uses one pan for steak, mushrooms and sauce, but the pour-off-and-temper step for the sour cream and the extra layering steps add work.",
+      "access": "Everything is at a US grocery: gelatin, fish sauce, pearl onions (frozen are fine), sour cream, egg noodles. No substitutions needed."
+    },
+    "why": "It edges out the ATK version on step photos that are visible in the page data and on a stated internal-temperature target for the beef, even though ATK has slightly tighter pan and cut sizing."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/130-classic-beef-stroganoff",
+    "title": "Classic Beef Stroganoff",
+    "source": "America's Test Kitchen",
+    "score": 74,
+    "scores": {
+      "authenticity": 12,
+      "precision": 22,
+      "testing": 18,
+      "photos": 9,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Page calls it a 'retro Russian dish'. Tenderloin strips, onion, tomato paste (a documented early-20th-century Russian addition), flour-thickened sauce finished with sour cream. Also adds brown sugar, white wine and chicken broth, so it is an American test-kitchen interpretation, not a Russian one.",
+      "precision": "Beef cut to 1/2-inch long by 1/8-inch wide strips; 12-inch skillet named in the steps; 3/4 lb beef, 12 oz mushrooms sized by cut; 'small onion, minced (1/2 cup)'; 15 sensory cues in 4 steps (hot and shimmering, lightly browned, broth reduced to 1/4 cup, onion lightly browned and softened, thickened). No temperatures.",
+      "testing": "Cook's Illustrated / ATK test-kitchen recipe, 503 ratings but only 3.8 average. Method reflects tested choices (sear in single layer, reduce broth separately, temper sour cream with hot sauce).",
+      "photos": "Not visible without a login (schema shows 0 step images, 14 images on page). Scored at a middle value rather than marked down for hidden content.",
+      "efficiency": "50 min total; about 20 min of active cooking. Noodles are not sequenced in parallel and the beef, mushrooms and broth are handled in separate passes.",
+      "access": "All ordinary US grocery items."
+    },
+    "why": "It has slightly stronger precision (12-inch pan, strip dimensions) but its process photos cannot be confirmed, while the winner's five step photos are visible in the schema."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/ultimate-beef-stroganof-recipe",
+      "source": "Serious Eats (J. Kenji López-Alt)",
+      "score": 75
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/130-classic-beef-stroganoff",
+      "source": "America's Test Kitchen",
+      "score": 74
+    },
+    {
+      "url": "https://www.saveur.com/article/Recipes/Beef-Stroganoff/",
+      "source": "Saveur (headnote by Darra Goldstein)",
+      "score": 64
+    },
+    {
+      "url": "https://tastinghistory.com/recipes/beefstroganoff",
+      "source": "Tasting History (Max Miller), 1871 Molokhovets recipe",
+      "score": 64
+    },
+    {
+      "url": "https://vikalinka.com/best-beef-stroganoff/comment-page-21/",
+      "source": "Vikalinka (Julia Frey)",
+      "score": 61
+    },
+    {
+      "url": "https://natashaskitchen.com/beef-stroganoff",
+      "source": "Natasha's Kitchen (Natasha Kravchuk)",
+      "score": 60
+    },
+    {
+      "url": "https://www.recipetineats.com/beef-stroganoff/comment-page-4/",
+      "source": "RecipeTin Eats (Nagi Maehashi)",
+      "score": 60
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1020862-beef-stroganoff",
+      "source": "NYT Cooking (Sam Sifton)",
+      "score": 58
+    },
+    {
+      "url": "https://lifehacker.ru/recipe/klassicheskij-befstroganov-iz-govyadiny/",
+      "source": "Lifehacker.ru (Артем Горбунов), Russian-language",
+      "score": 56
+    },
+    {
+      "url": "https://grantourismotravels.com/russian-beef-stroganoff-recipe/",
+      "source": "Grantourismo Travels (Lara Dunston)",
+      "score": 55
+    },
+    {
+      "url": "https://www.themoscowtimes.com/2019/02/20/the-definitive-beef-stroganov",
+      "source": "The Moscow Times (Jennifer Eremeeva)",
+      "score": 55
+    },
+    {
+      "url": "https://nomadparadise.com/wprm_print/russian-beef-stroganoff",
+      "source": "Nomad Paradise",
+      "score": 51
+    },
+    {
+      "url": "https://www.recepty.mobi/en/main-dishes/meat-dishes/main-courses-with-beef/beef-stroganoff-with-mushrooms.html",
+      "source": "Recepty.mobi (Artem)",
+      "score": 48
+    },
+    {
+      "url": "https://www.seriouseats.com/sunday-supper-beef-stroganoff",
+      "source": "Serious Eats (Adam Kuban)",
+      "score": 46
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1019085-craig-claibornes-beef-stroganoff",
+      "source": "NYT Cooking (Craig Claiborne)",
+      "score": 46
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/beef-stroganoff",
+      "source": "BBC Good Food (Elena Silcock)",
+      "score": 44
+    },
+    {
+      "url": "https://thepeasantsdaughter.net/beef-stroganoff/",
+      "source": "The Peasant's Daughter (Jana Dziak)",
+      "score": 41
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Beef Stroganoff\"",
+    "node scripts/recipe-hunt.mjs sites \"Бефстроганов\"",
+    "Beef Stroganoff recipe",
+    "бефстроганов рецепт классический",
+    "authentic Russian beef stroganoff history recipe",
+    "Russian beef stroganoff recipe sour cream onions mustard step by step photos Russian family recipe",
+    "Бефстроганов рецепт пошагово с фото говядина сметана горчица",
+    "Olga's Flavor Factory OR Tatyana's Everyday Food OR Alyona's Cooking beef stroganoff Russian authentic recipe",
+    "Befstroganov Beef Stroganoff Russian classic recipe grams step-by-step photos Russian cook blog"
+  ],
+  "notes": "Near tie: Serious Eats 75 vs ATK 74, which is within scoring judgment. No English-language recipe combines Russian authenticity with process photos. If authenticity matters more than photos, the two closest to the Russian source are Saveur (Darra Goldstein headnote, sour cream/mustard/onion sauce, served with fried potato straws, 12-inch skillet and 365F oil given; no mushrooms, no process photos) and Tasting History (1871 Molokhovets original: smetana, Sarepska mustard or Dijon, allspice, 2-hour salt rest; full gram weights, no photos); both scored 64. The only Russian-published recipe read, Lifehacker.ru, is Russian-language only and has no photos or history. Natasha's Kitchen (Russian-speaking author, 4.96 from 2,044 ratings) and RecipeTin Eats (4.9 from 559) have the strongest review volume but are cream-enriched, Americanized builds with no step photos confirmed. Serious Eats pages could not be opened with WebFetch (blocked), so the winner is scored from the read output. ATK photo score is unverified (hidden behind login). Saveur, Tasting History, Moscow Times and Nomad Paradise have no Recipe structured data and were read with WebFetch. Al Dente Diva and Olga's Flavor Factory returned HTTP 403 and Kitchen Stories returned HTTP 410, so none were scored. Not a two-part dish; no companions recorded.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:54.718Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "The Ultimate Beef Stroganoff Recipe",
+      "rating": 4.2,
+      "ratingCount": 18
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Classic Beef Stroganoff",
+      "rating": 3.8,
+      "ratingCount": 503
+    }
+  }
+}

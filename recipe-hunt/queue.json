@@ -1,0 +1,862 @@
+[
+  {
+    "id": "spain",
+    "country": "Spain",
+    "dish": "Paella Valenciana"
+  },
+  {
+    "id": "greece",
+    "country": "Greece",
+    "dish": "Moussaka"
+  },
+  {
+    "id": "south-africa",
+    "country": "South Africa",
+    "dish": "Bobotie"
+  },
+  {
+    "id": "peru",
+    "country": "Peru",
+    "dish": "Ceviche"
+  },
+  {
+    "id": "ethiopia",
+    "country": "Ethiopia",
+    "dish": "Doro Wat with Injera"
+  },
+  {
+    "id": "brazil",
+    "country": "Brazil",
+    "dish": "Feijoada"
+  },
+  {
+    "id": "bangladesh",
+    "country": "Bangladesh",
+    "dish": "Shorshe Ilish"
+  },
+  {
+    "id": "russia",
+    "country": "Russia",
+    "dish": "Beef Stroganoff"
+  },
+  {
+    "id": "egypt",
+    "country": "Egypt",
+    "dish": "Koshari"
+  },
+  {
+    "id": "dr-congo",
+    "country": "DR Congo",
+    "dish": "Moambe Chicken"
+  },
+  {
+    "id": "turkey",
+    "country": "Turkey",
+    "dish": "Adana Kebab"
+  },
+  {
+    "id": "germany",
+    "country": "Germany",
+    "dish": "Sauerbraten"
+  },
+  {
+    "id": "tanzania",
+    "country": "Tanzania",
+    "dish": "Mchuzi wa Samaki"
+  },
+  {
+    "id": "italy",
+    "country": "Italy",
+    "dish": "Pollo alla Cacciatora"
+  },
+  {
+    "id": "kenya",
+    "country": "Kenya",
+    "dish": "Nyama Choma"
+  },
+  {
+    "id": "uganda",
+    "country": "Uganda",
+    "dish": "Luwombo"
+  },
+  {
+    "id": "algeria",
+    "country": "Algeria",
+    "dish": "Couscous with Lamb Stew"
+  },
+  {
+    "id": "iraq",
+    "country": "Iraq",
+    "dish": "Masgouf"
+  },
+  {
+    "id": "afghanistan",
+    "country": "Afghanistan",
+    "dish": "Kabuli Pulao"
+  },
+  {
+    "id": "yemen",
+    "country": "Yemen",
+    "dish": "Saltah"
+  },
+  {
+    "id": "canada",
+    "country": "Canada",
+    "dish": "Poutine"
+  },
+  {
+    "id": "ukraine",
+    "country": "Ukraine",
+    "dish": "Borscht"
+  },
+  {
+    "id": "poland",
+    "country": "Poland",
+    "dish": "Bigos"
+  },
+  {
+    "id": "saudi-arabia",
+    "country": "Saudi Arabia",
+    "dish": "Kabsa"
+  },
+  {
+    "id": "angola",
+    "country": "Angola",
+    "dish": "Calulu"
+  },
+  {
+    "id": "uzbekistan",
+    "country": "Uzbekistan",
+    "dish": "Lagman"
+  },
+  {
+    "id": "mozambique",
+    "country": "Mozambique",
+    "dish": "Peri-Peri Chicken"
+  },
+  {
+    "id": "ghana",
+    "country": "Ghana",
+    "dish": "Red Red"
+  },
+  {
+    "id": "cote-divoire",
+    "country": "Cote d'Ivoire",
+    "dish": "Kedjenou"
+  },
+  {
+    "id": "madagascar",
+    "country": "Madagascar",
+    "dish": "Romazava"
+  },
+  {
+    "id": "nepal",
+    "country": "Nepal",
+    "dish": "Dal Bhat"
+  },
+  {
+    "id": "cameroon",
+    "country": "Cameroon",
+    "dish": "Ndole"
+  },
+  {
+    "id": "venezuela",
+    "country": "Venezuela",
+    "dish": "Pabellon Criollo"
+  },
+  {
+    "id": "australia",
+    "country": "Australia",
+    "dish": "Grilled Barramundi"
+  },
+  {
+    "id": "niger",
+    "country": "Niger",
+    "dish": "Dambou"
+  },
+  {
+    "id": "north-korea",
+    "country": "North Korea",
+    "dish": "Pyongyang Naengmyeon"
+  },
+  {
+    "id": "mali",
+    "country": "Mali",
+    "dish": "Maafe"
+  },
+  {
+    "id": "burkina-faso",
+    "country": "Burkina Faso",
+    "dish": "Riz Gras"
+  },
+  {
+    "id": "sri-lanka",
+    "country": "Sri Lanka",
+    "dish": "Kottu Roti"
+  },
+  {
+    "id": "zambia",
+    "country": "Zambia",
+    "dish": "Ifisashi"
+  },
+  {
+    "id": "kazakhstan",
+    "country": "Kazakhstan",
+    "dish": "Beshbarmak"
+  },
+  {
+    "id": "chile",
+    "country": "Chile",
+    "dish": "Cazuela"
+  },
+  {
+    "id": "romania",
+    "country": "Romania",
+    "dish": "Sarmale"
+  },
+  {
+    "id": "somalia",
+    "country": "Somalia",
+    "dish": "Suqaar"
+  },
+  {
+    "id": "senegal",
+    "country": "Senegal",
+    "dish": "Thieboudienne"
+  },
+  {
+    "id": "guatemala",
+    "country": "Guatemala",
+    "dish": "Pepian"
+  },
+  {
+    "id": "netherlands",
+    "country": "Netherlands",
+    "dish": "Stamppot"
+  },
+  {
+    "id": "ecuador",
+    "country": "Ecuador",
+    "dish": "Encebollado"
+  },
+  {
+    "id": "cambodia",
+    "country": "Cambodia",
+    "dish": "Fish Amok"
+  },
+  {
+    "id": "zimbabwe",
+    "country": "Zimbabwe",
+    "dish": "Sadza ne Nyama"
+  },
+  {
+    "id": "guinea",
+    "country": "Guinea",
+    "dish": "Poulet Yassa"
+  },
+  {
+    "id": "rwanda",
+    "country": "Rwanda",
+    "dish": "Agatogo"
+  },
+  {
+    "id": "benin",
+    "country": "Benin",
+    "dish": "Amiwo"
+  },
+  {
+    "id": "haiti",
+    "country": "Haiti",
+    "dish": "Soup Joumou"
+  },
+  {
+    "id": "bolivia",
+    "country": "Bolivia",
+    "dish": "Pique Macho"
+  },
+  {
+    "id": "burundi",
+    "country": "Burundi",
+    "dish": "Mukeke"
+  },
+  {
+    "id": "tunisia",
+    "country": "Tunisia",
+    "dish": "Shakshouka"
+  },
+  {
+    "id": "belgium",
+    "country": "Belgium",
+    "dish": "Moules-Frites"
+  },
+  {
+    "id": "jordan",
+    "country": "Jordan",
+    "dish": "Mansaf"
+  },
+  {
+    "id": "dominican-republic",
+    "country": "Dominican Republic",
+    "dish": "Sancocho"
+  },
+  {
+    "id": "cuba",
+    "country": "Cuba",
+    "dish": "Ropa Vieja"
+  },
+  {
+    "id": "south-sudan",
+    "country": "South Sudan",
+    "dish": "Kajaik"
+  },
+  {
+    "id": "honduras",
+    "country": "Honduras",
+    "dish": "Baleadas"
+  },
+  {
+    "id": "czechia",
+    "country": "Czechia",
+    "dish": "Svickova"
+  },
+  {
+    "id": "sweden",
+    "country": "Sweden",
+    "dish": "Swedish Meatballs"
+  },
+  {
+    "id": "portugal",
+    "country": "Portugal",
+    "dish": "Caldo Verde"
+  },
+  {
+    "id": "uae",
+    "country": "United Arab Emirates",
+    "dish": "Saloona"
+  },
+  {
+    "id": "tajikistan",
+    "country": "Tajikistan",
+    "dish": "Qurutob"
+  },
+  {
+    "id": "belarus",
+    "country": "Belarus",
+    "dish": "Draniki"
+  },
+  {
+    "id": "austria",
+    "country": "Austria",
+    "dish": "Wiener Schnitzel"
+  },
+  {
+    "id": "switzerland",
+    "country": "Switzerland",
+    "dish": "Rosti"
+  },
+  {
+    "id": "togo",
+    "country": "Togo",
+    "dish": "Gboma Dessi"
+  },
+  {
+    "id": "sierra-leone",
+    "country": "Sierra Leone",
+    "dish": "Cassava Leaf Stew"
+  },
+  {
+    "id": "laos",
+    "country": "Laos",
+    "dish": "Larb"
+  },
+  {
+    "id": "serbia",
+    "country": "Serbia",
+    "dish": "Karadjordjeva Snicla"
+  },
+  {
+    "id": "paraguay",
+    "country": "Paraguay",
+    "dish": "Bori Bori"
+  },
+  {
+    "id": "libya",
+    "country": "Libya",
+    "dish": "Sharba Libiya"
+  },
+  {
+    "id": "lebanon",
+    "country": "Lebanon",
+    "dish": "Mujadara"
+  },
+  {
+    "id": "nicaragua",
+    "country": "Nicaragua",
+    "dish": "Nacatamal"
+  },
+  {
+    "id": "kyrgyzstan",
+    "country": "Kyrgyzstan",
+    "dish": "Shorpo"
+  },
+  {
+    "id": "el-salvador",
+    "country": "El Salvador",
+    "dish": "Pupusas"
+  },
+  {
+    "id": "turkmenistan",
+    "country": "Turkmenistan",
+    "dish": "Dograma"
+  },
+  {
+    "id": "singapore",
+    "country": "Singapore",
+    "dish": "Hainanese Chicken Rice"
+  },
+  {
+    "id": "denmark",
+    "country": "Denmark",
+    "dish": "Smorrebrod"
+  },
+  {
+    "id": "congo-brazzaville",
+    "country": "Republic of the Congo",
+    "dish": "Liboke"
+  },
+  {
+    "id": "slovakia",
+    "country": "Slovakia",
+    "dish": "Bryndzové Halušky"
+  },
+  {
+    "id": "norway",
+    "country": "Norway",
+    "dish": "Farikal"
+  },
+  {
+    "id": "car",
+    "country": "Central African Republic",
+    "dish": "Kanda ti Nyma"
+  },
+  {
+    "id": "palestine",
+    "country": "Palestine",
+    "dish": "Musakhan"
+  },
+  {
+    "id": "ireland",
+    "country": "Ireland",
+    "dish": "Irish Stew"
+  },
+  {
+    "id": "new-zealand",
+    "country": "New Zealand",
+    "dish": "Hangi"
+  },
+  {
+    "id": "liberia",
+    "country": "Liberia",
+    "dish": "Pepper Soup"
+  },
+  {
+    "id": "oman",
+    "country": "Oman",
+    "dish": "Shuwa"
+  },
+  {
+    "id": "mauritania",
+    "country": "Mauritania",
+    "dish": "Mechoui"
+  },
+  {
+    "id": "panama",
+    "country": "Panama",
+    "dish": "Arroz con Pollo"
+  },
+  {
+    "id": "kuwait",
+    "country": "Kuwait",
+    "dish": "Murabyan"
+  },
+  {
+    "id": "croatia",
+    "country": "Croatia",
+    "dish": "Pasticada"
+  },
+  {
+    "id": "georgia",
+    "country": "Georgia",
+    "dish": "Chakhokhbili"
+  },
+  {
+    "id": "eritrea",
+    "country": "Eritrea",
+    "dish": "Zigni"
+  },
+  {
+    "id": "mongolia",
+    "country": "Mongolia",
+    "dish": "Khorkhog"
+  },
+  {
+    "id": "uruguay",
+    "country": "Uruguay",
+    "dish": "Chivito"
+  },
+  {
+    "id": "bosnia",
+    "country": "Bosnia and Herzegovina",
+    "dish": "Cevapi"
+  },
+  {
+    "id": "qatar",
+    "country": "Qatar",
+    "dish": "Thareed"
+  },
+  {
+    "id": "namibia",
+    "country": "Namibia",
+    "dish": "Potjiekos"
+  },
+  {
+    "id": "moldova",
+    "country": "Moldova",
+    "dish": "Zeama"
+  },
+  {
+    "id": "lithuania",
+    "country": "Lithuania",
+    "dish": "Cepelinai"
+  },
+  {
+    "id": "jamaica",
+    "country": "Jamaica",
+    "dish": "Ackee and Saltfish"
+  },
+  {
+    "id": "albania",
+    "country": "Albania",
+    "dish": "Fergese"
+  },
+  {
+    "id": "gambia",
+    "country": "Gambia",
+    "dish": "Superkanja"
+  },
+  {
+    "id": "gabon",
+    "country": "Gabon",
+    "dish": "Capitaine Fish"
+  },
+  {
+    "id": "botswana",
+    "country": "Botswana",
+    "dish": "Seswaa"
+  },
+  {
+    "id": "lesotho",
+    "country": "Lesotho",
+    "dish": "Likhobe"
+  },
+  {
+    "id": "guinea-bissau",
+    "country": "Guinea-Bissau",
+    "dish": "Caldo de Peixe"
+  },
+  {
+    "id": "slovenia",
+    "country": "Slovenia",
+    "dish": "Jota"
+  },
+  {
+    "id": "equatorial-guinea",
+    "country": "Equatorial Guinea",
+    "dish": "Sopa de Pescado"
+  },
+  {
+    "id": "latvia",
+    "country": "Latvia",
+    "dish": "Grey Peas with Bacon"
+  },
+  {
+    "id": "north-macedonia",
+    "country": "North Macedonia",
+    "dish": "Tavce Gravce"
+  },
+  {
+    "id": "bahrain",
+    "country": "Bahrain",
+    "dish": "Samak Mashwi"
+  },
+  {
+    "id": "timor-leste",
+    "country": "Timor-Leste",
+    "dish": "Batar Daan"
+  },
+  {
+    "id": "trinidad-tobago",
+    "country": "Trinidad and Tobago",
+    "dish": "Callaloo"
+  },
+  {
+    "id": "estonia",
+    "country": "Estonia",
+    "dish": "Rosolje"
+  },
+  {
+    "id": "mauritius",
+    "country": "Mauritius",
+    "dish": "Rougaille"
+  },
+  {
+    "id": "eswatini",
+    "country": "Eswatini",
+    "dish": "Umbidvo wetintsanga"
+  },
+  {
+    "id": "djibouti",
+    "country": "Djibouti",
+    "dish": "Skoudehkaris"
+  },
+  {
+    "id": "cyprus",
+    "country": "Cyprus",
+    "dish": "Grilled Halloumi"
+  },
+  {
+    "id": "fiji",
+    "country": "Fiji",
+    "dish": "Kokoda"
+  },
+  {
+    "id": "comoros",
+    "country": "Comoros",
+    "dish": "Langouste a la Vanille"
+  },
+  {
+    "id": "guyana",
+    "country": "Guyana",
+    "dish": "Pepperpot"
+  },
+  {
+    "id": "bhutan",
+    "country": "Bhutan",
+    "dish": "Ema Datshi"
+  },
+  {
+    "id": "solomon-islands",
+    "country": "Solomon Islands",
+    "dish": "Coconut Fish"
+  },
+  {
+    "id": "luxembourg",
+    "country": "Luxembourg",
+    "dish": "Judd mat Gaardebounen"
+  },
+  {
+    "id": "montenegro",
+    "country": "Montenegro",
+    "dish": "Riblja Corba"
+  },
+  {
+    "id": "suriname",
+    "country": "Suriname",
+    "dish": "Pom"
+  },
+  {
+    "id": "french-guiana",
+    "country": "French Guiana",
+    "dish": "Bouillon d'Awara"
+  },
+  {
+    "id": "cabo-verde",
+    "country": "Cabo Verde",
+    "dish": "Cachupa"
+  },
+  {
+    "id": "malta",
+    "country": "Malta",
+    "dish": "Stuffat tal-Fenek"
+  },
+  {
+    "id": "maldives",
+    "country": "Maldives",
+    "dish": "Mas Huni"
+  },
+  {
+    "id": "brunei",
+    "country": "Brunei",
+    "dish": "Ambuyat with Cacah Dip"
+  },
+  {
+    "id": "belize",
+    "country": "Belize",
+    "dish": "Hudut"
+  },
+  {
+    "id": "bahamas",
+    "country": "Bahamas",
+    "dish": "Conch Salad"
+  },
+  {
+    "id": "iceland",
+    "country": "Iceland",
+    "dish": "Kjotsupa"
+  },
+  {
+    "id": "vanuatu",
+    "country": "Vanuatu",
+    "dish": "Laplap"
+  },
+  {
+    "id": "barbados",
+    "country": "Barbados",
+    "dish": "Cou-Cou and Flying Fish"
+  },
+  {
+    "id": "sao-tome",
+    "country": "Sao Tome and Principe",
+    "dish": "Grilled Fish with Breadfruit"
+  },
+  {
+    "id": "samoa",
+    "country": "Samoa",
+    "dish": "Palusami"
+  },
+  {
+    "id": "saint-lucia",
+    "country": "Saint Lucia",
+    "dish": "Green Fig and Saltfish"
+  },
+  {
+    "id": "kiribati",
+    "country": "Kiribati",
+    "dish": "Coconut Reef Fish"
+  },
+  {
+    "id": "seychelles",
+    "country": "Seychelles",
+    "dish": "Octopus Curry"
+  },
+  {
+    "id": "grenada",
+    "country": "Grenada",
+    "dish": "Oil Down"
+  },
+  {
+    "id": "tonga",
+    "country": "Tonga",
+    "dish": "Lu Sipi"
+  },
+  {
+    "id": "st-vincent",
+    "country": "Saint Vincent and the Grenadines",
+    "dish": "Roast Breadfruit and Jackfish"
+  },
+  {
+    "id": "antigua-barbuda",
+    "country": "Antigua and Barbuda",
+    "dish": "Ducana and Saltfish"
+  },
+  {
+    "id": "andorra",
+    "country": "Andorra",
+    "dish": "Trinxat"
+  },
+  {
+    "id": "dominica",
+    "country": "Dominica",
+    "dish": "Bouyon"
+  },
+  {
+    "id": "st-kitts-nevis",
+    "country": "Saint Kitts and Nevis",
+    "dish": "Goat Water"
+  },
+  {
+    "id": "liechtenstein",
+    "country": "Liechtenstein",
+    "dish": "Kasknopfle"
+  },
+  {
+    "id": "monaco",
+    "country": "Monaco",
+    "dish": "Barbagiuan"
+  },
+  {
+    "id": "marshall-islands",
+    "country": "Marshall Islands",
+    "dish": "Coconut Crab"
+  },
+  {
+    "id": "san-marino",
+    "country": "San Marino",
+    "dish": "Fagioli con le Cotiche"
+  },
+  {
+    "id": "palau",
+    "country": "Palau",
+    "dish": "Demok"
+  },
+  {
+    "id": "nauru",
+    "country": "Nauru",
+    "dish": "Coconut Fish and Rice"
+  },
+  {
+    "id": "tuvalu",
+    "country": "Tuvalu",
+    "dish": "Pulaka with Coconut Fish"
+  },
+  {
+    "id": "vatican",
+    "country": "Vatican City",
+    "dish": "Fettuccine alla Papalina"
+  },
+  {
+    "id": "papua-new-guinea",
+    "country": "Papua New Guinea",
+    "dish": "Mumu"
+  },
+  {
+    "id": "chad",
+    "country": "Chad",
+    "dish": "Daraba"
+  },
+  {
+    "id": "new-caledonia",
+    "country": "New Caledonia",
+    "dish": "Bougna"
+  },
+  {
+    "id": "micronesia",
+    "country": "Micronesia",
+    "dish": "Taro with Coconut Cream"
+  },
+  {
+    "id": "falkland-islands",
+    "country": "Falkland Islands",
+    "dish": "Upland Goose Roast"
+  },
+  {
+    "id": "saint-helena",
+    "country": "Saint Helena",
+    "dish": "Spicy Fish Cakes"
+  },
+  {
+    "id": "tokelau",
+    "country": "Tokelau",
+    "dish": "Oka with Coconut Cream"
+  },
+  {
+    "id": "antarctica",
+    "country": "Antarctica",
+    "dish": "Midwinter Roast"
+  },
+  {
+    "id": "western-sahara",
+    "country": "Western Sahara",
+    "dish": "Mechoul with Dates"
+  }
+]

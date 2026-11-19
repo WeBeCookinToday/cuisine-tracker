@@ -1,0 +1,141 @@
+{
+  "id": "madagascar",
+  "country": "Madagascar",
+  "dish": "Romazava",
+  "aliases": [
+    "Ro mazava",
+    "Romazava aux brèdes mafana",
+    "Malagasy beef and greens stew"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://eathealthy365.com/authentic-malagasy-romazava/",
+    "title": "Authentic Malagasy Romazava",
+    "source": "Flavor365 (Silas, no surname)",
+    "score": 53,
+    "scores": {
+      "authenticity": 14,
+      "precision": 15,
+      "testing": 8,
+      "photos": 5,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Beef chuck, ginger, garlic, tomato, paracress (anamalaho / brèdes mafane) added off heat to keep the tingle. Uses beef broth and a Dutch oven sear, which is Westernized. Author is not Malagasy. Context is a travel anecdote with little history.",
+      "precision": "Weights on 3 of 11 ingredients (2.5 lb beef in 1.5-inch cubes, 1 lb paracress, 1/2 lb mustard greens). Doneness cues on most steps (deep brown crust, translucent onion, fork-tender beef, wilted greens). No pot size beyond 'large Dutch oven'.",
+      "testing": "First-person trial-and-error anecdotes and one 'don't overcook the paracress' reason. No test notes. 4.71 rating from 7 votes.",
+      "photos": "Schema lists an image on all 9 steps, but WebFetch of the page showed only a hero image. Scored on the mixed evidence.",
+      "efficiency": "About 2h20m total. Searing and a 1.5 to 2 hour braise are reasonable, with no wasted steps.",
+      "access": "Paracress is hard to find in the US. The page suggests arugula and mustard greens plus Szechuan peppercorn, and lists collards or mustard greens as the second green."
+    },
+    "why": "It has the most doneness cues and sizing, and it handles the paracress tingle correctly, but it is a Westernized, SEO-style page and still falls short of 60."
+  },
+  "runnerUp": {
+    "url": "https://www.legrandbleunosybe.com/en/recette-du-romazava-royale",
+    "title": "Royal Romazava Recipe",
+    "source": "Le Grand Bleu, Nosy Be (restaurant Le Turquoise)",
+    "score": 45,
+    "scores": {
+      "authenticity": 15,
+      "precision": 12,
+      "testing": 5,
+      "photos": 2,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "From a Madagascar restaurant. Zebu and chicken, brèdes, ginger, chilli. Little cultural context.",
+      "precision": "Gram weights for the two meats only. Cues such as golden brown, translucent, meats tender, brèdes tender. Tomatoes and brèdes are not sized.",
+      "testing": "No author and no reasoning.",
+      "photos": "Finished-dish photo only.",
+      "efficiency": "About 1h30 total with no wasted steps.",
+      "access": "Brèdes can be replaced with cassia leaves or local spinach."
+    },
+    "why": "It is more authentic in origin but gives fewer weights and cues than the winner."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://eathealthy365.com/authentic-malagasy-romazava/",
+      "source": "Flavor365",
+      "score": 53
+    },
+    {
+      "url": "https://www.legrandbleunosybe.com/en/recette-du-romazava-royale",
+      "source": "Le Grand Bleu",
+      "score": 45
+    },
+    {
+      "url": "https://www.nkosiagro.com/en/blogs/blog-and-recipes/recette-romazava-madagascar",
+      "source": "NKOSI (retailer blog)",
+      "score": 44
+    },
+    {
+      "url": "https://africa-cuisine.com/recipe/romazava-2/",
+      "source": "Africa-Cuisine",
+      "score": 43
+    },
+    {
+      "url": "https://agir-avec-madagascar.over-blog.com/romazava-aux-bredes-mafana",
+      "source": "Agir avec Madagascar (Randroso)",
+      "score": 41
+    },
+    {
+      "url": "https://www.vivytravel.com/romazava-mafana-greens-broth/",
+      "source": "Vivy Travel",
+      "score": 40
+    },
+    {
+      "url": "https://kreolmagazine.com/recipes-romazava-traditional-malagasy-dish/",
+      "source": "Kreol Magazine",
+      "score": 40
+    },
+    {
+      "url": "https://www.food.com/recipe/madagascar-romazava-452441",
+      "source": "Food.com (Ambervim)",
+      "score": 38,
+      "disqualified": "Not disqualified, but a 6.5 lb batch with no usable weights or cues."
+    },
+    {
+      "url": "https://www.constancehotels.com/fr/blog/culinary/recipe-for-romazava-madagascars-national-dish/",
+      "source": "Constance Hotels",
+      "score": 35
+    },
+    {
+      "url": "https://app.ckbk.com/recipe/isla15259c03s001ss002r023",
+      "source": "ckbk (Von Diaz)",
+      "score": 40,
+      "disqualified": "Steps are paywalled and returned empty. Scored from the ingredients only, so it can't win."
+    },
+    {
+      "url": "https://www.foodways.recipes/dishes/malagasy/romazava",
+      "source": "Foodways",
+      "score": 20,
+      "disqualified": "No steps and weak amounts. Looks like generated content."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Romazava\" (no matches on any of the 4 sites)",
+    "Romazava recipe",
+    "Malagasy romazava brèdes mafana beef recipe",
+    "romazava Malagasy recipe Madagascar cook blog zebu brèdes mafana anamamy tested"
+  ],
+  "notes": "No candidate reached 60. No test-kitchen recipe exists for romazava, and the sites search found nothing on Serious Eats, NYT, ATK or BBC Good Food. Most English pages are thin, time-only recipes. The Flavor365 site publishes several near-duplicate romazava pages, so treat it as a weak winner. The Von Diaz version (ckbk, from a cookbook) may be better, but its steps could not be read. The African Gourmet link from a search result returned 404 and was not used. Brèdes mafana (paracress) is hard to find in the US, so use arugula or mustard greens and add a little Szechuan peppercorn for the tingle.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:45.787Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Authentic Malagasy Romazava",
+      "rating": 4.71,
+      "ratingCount": 7
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}

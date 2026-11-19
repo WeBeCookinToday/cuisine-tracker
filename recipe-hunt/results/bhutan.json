@@ -1,0 +1,102 @@
+{
+  "id": "bhutan",
+  "country": "Bhutan",
+  "dish": "Ema Datshi",
+  "aliases": [
+    "ཨེ་མ་དར་ཚིལ་",
+    "ema datsi",
+    "ema datchi",
+    "Bhutanese chili cheese stew"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://bongeats.com/recipe/ema-datshi",
+    "title": "Ema Datshi",
+    "source": "Bong Eats",
+    "score": 69,
+    "scores": {
+      "authenticity": 18,
+      "precision": 19,
+      "testing": 15,
+      "photos": 4,
+      "efficiency": 9,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional method (chillies simmered with onion, garlic, tomato in water, heat off, then butter and cheese). Article stresses chillies are the main ingredient, warns against fondue-style versions, notes dish eaten in Bhutan/Kalimpong, serves with rice or tingmo.",
+      "precision": "Metric weights for all 10 ingredients (220 g jalapenos, 15 g garlic, 75 g cheese, 250 g water). Doneness cue: ~15 min medium until peppers softened; taste and adjust salt by cheese. No pan size. Cues on only 1 or 2 steps.",
+      "testing": "Reasoning given: mixed chillies for flavour vs heat, heat off before cheese to prevent curdling, avoid stringy cheeses, cheese saltiness varies. Rating 97.3 over 5188 votes.",
+      "photos": "No step-by-step photos; only finished-dish and in-Bhutan photos.",
+      "efficiency": "25 min total, single pot, nothing wasted.",
+      "access": "Real datshi is unobtainable in the US. Page says use any good melting cheese, processed cheese in a pinch, avoid mozzarella. Jalapenos are easy to find."
+    },
+    "why": "Only candidate with full gram weights, a clear doneness cue and explained reasoning, and it is the most faithful to the traditional chilli-forward dish."
+  },
+  "runnerUp": {
+    "url": "https://travelfoodatlas.com/bhutanese-ema-datshi-recipe",
+    "title": "Bhutanese Ema Datshi Recipe",
+    "source": "Travel Food Atlas",
+    "score": 50,
+    "scores": {
+      "authenticity": 16,
+      "precision": 11,
+      "testing": 8,
+      "photos": 3,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Same method as Bong Eats (appears adapted from it), with volume measures.",
+      "precision": "Mostly cup/tsp volumes, one weight (8 oz jalapenos); softened-peppers cue.",
+      "testing": "No reasoning.",
+      "photos": "No step images in schema.",
+      "efficiency": "20 min total.",
+      "access": "Generic cheese, no substitution guidance."
+    },
+    "why": "Same technique but with vaguer volume measures and no explanation."
+  },
+  "candidates": [
+    {
+      "url": "https://bongeats.com/recipe/ema-datshi",
+      "source": "Bong Eats",
+      "score": 69
+    },
+    {
+      "url": "https://travelfoodatlas.com/bhutanese-ema-datshi-recipe",
+      "source": "Travel Food Atlas",
+      "score": 50
+    },
+    {
+      "url": "https://globaltableadventure.com/?p=2978",
+      "source": "Global Table Adventure (Sasha Martin)",
+      "score": 48
+    },
+    {
+      "url": "https://foreignfork.com/ema-datschi-peppers-and-cheese-from-bhutan/",
+      "source": "The Foreign Fork",
+      "score": 44
+    }
+  ],
+  "searches": [
+    "Ema Datshi recipe Bhutanese chili cheese",
+    "ཨེ་མ་དར་ཚིལ་ ema datshi authentic Bhutan recipe",
+    "ema datshi recipe (cooking.nytimes.com, americastestkitchen.com)"
+  ],
+  "notes": "Winner does not specify pan size and has no process photos. Real datshi cheese is not sold in the US; the source recommends a good melting cheese (not mozzarella). NYT/ATK have no ema datshi recipe. Page content for Bong Eats came from WebFetch since no structured data was returned.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T19:20:39.880Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Ema Datshi",
+      "rating": 97.3,
+      "ratingCount": 5188
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Bhutanese Ema Datshi Recipe"
+    }
+  }
+}

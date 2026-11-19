@@ -1,0 +1,110 @@
+{
+  "id": "ukraine",
+  "country": "Ukraine",
+  "dish": "Borscht",
+  "aliases": [
+    "Borshch",
+    "Борщ",
+    "Ukrainian red borscht",
+    "Hot Ukrainian borscht"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/hot-borscht-beet-meat-soup-recipe",
+    "title": "Hot Ukrainian Borscht Recipe (With Beets, Beef, Pork, and More)",
+    "source": "Serious Eats (Daniel Gritzer)",
+    "score": 79,
+    "scores": {
+      "authenticity": 20,
+      "precision": 21,
+      "testing": 16,
+      "photos": 11,
+      "efficiency": 6,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Traditional meat-stock hot borscht with beets, cabbage, celery root, parsnip, potatoes, sweet-sour finish with vinegar, sour cream and dill. Author is not Ukrainian, but it is a test-kitchen treatment of the Ukrainian style. Optional kielbasa and caraway are modest additions.",
+      "precision": "21 of 29 ingredients carry weights; vegetables sized with weights (e.g. 1 medium onion 225g, 2 lb beets about 5 medium); 14 sensory cues in steps (until tender, until shimmering, until starting to brown); vinegar adjusted to taste. No pan size and no temperatures.",
+      "testing": "Serious Eats test-kitchen recipe. Separates broth from soup, adds vegetables in order of cooking time, and explains make-ahead and freezing. Rating 4.8 but only 6 ratings.",
+      "photos": "4 step images in schema (browning meat, sauteing aromatics, finished soup stages, serving); 60 images on page.",
+      "efficiency": "About 4 hr 55 min total, with a 3 hr simmer for the broth. The two-stage method is long but the broth can be made 3 days ahead. Makes 1 gallon, 12 servings.",
+      "access": "Short ribs, pork belly, marrow bones, ham hock and celeriac are all at US grocery or butcher counters. Notes give substitutions for the meats."
+    },
+    "why": "Beat ATK's version with fuller weights, more process photos and a richer multi-meat broth, though ATK is faster."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/15321-hot-ukrainian-borscht",
+    "title": "Hot Ukrainian Borscht",
+    "source": "America's Test Kitchen (Annie Petito)",
+    "score": 73,
+    "scores": {
+      "authenticity": 19,
+      "precision": 17,
+      "testing": 18,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Pork-broth hot borscht with the beet, carrot and tomato paste fry-up (zazharka-style) added at the end, dill and lemon. Authentic structure, simplified vegetable list.",
+      "precision": "Only 2 of 16 ingredients have weights, but produce is sized (8 oz beets, 1 lb potatoes), 12-inch skillet is named, and 10 sensory cues appear in steps.",
+      "testing": "ATK test kitchen, 164 ratings at 4.2. Reasoning text is behind the login, so it was not marked down.",
+      "photos": "No step images visible through the schema; step photos may be hidden by the login.",
+      "efficiency": "3 hr 45 min with a 2 hr pork simmer. Vegetables are cooked in parallel with the broth, which is efficient.",
+      "access": "Everything is at a standard US grocery."
+    },
+    "why": "Faster and well tested, but less precise on weights and no visible process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/hot-borscht-beet-meat-soup-recipe",
+      "source": "Serious Eats",
+      "score": 79
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/15321-hot-ukrainian-borscht",
+      "source": "America's Test Kitchen",
+      "score": 73
+    },
+    {
+      "url": "https://www.alyonascooking.com/easy-borscht-recipe-beet-soup/",
+      "source": "Alyona's Cooking",
+      "score": 59
+    },
+    {
+      "url": "https://hildaskitchenblog.com/recipe/traditional-ukrainian-borscht-recipe/",
+      "source": "Hilda's Kitchen Blog",
+      "score": 53
+    },
+    {
+      "url": "https://tastecooking.com/recipes/classic-ukrainian-borscht-recipe/",
+      "source": "TASTE (Mari Uyehara, adapted from Anya von Bremzen)",
+      "score": 46
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Borscht\"",
+    "Ukrainian borscht recipe",
+    "борщ український рецепт"
+  ],
+  "notes": "Alyona's Cooking is by a Ukrainian author with good step photos but uses Vegeta and garlic salt and gives few weights. The TASTE recipe is adapted from a Russian cookbook and has no structured data, so it was read through WebFetch. NYT has several borscht recipes in the sites output (Winter Borscht, Beets-With-Greens), but these were not read. I did not run a separate sites search for the native-language name.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:58.712Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Hot Ukrainian Borscht Recipe (With Beets, Beef, Pork, and More)",
+      "rating": 4.8,
+      "ratingCount": 6
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Hot Ukrainian Borscht",
+      "rating": 4.2,
+      "ratingCount": 164
+    }
+  }
+}

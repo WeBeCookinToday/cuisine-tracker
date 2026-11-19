@@ -1,0 +1,105 @@
+{
+  "id": "canada",
+  "country": "Canada",
+  "dish": "Poutine",
+  "aliases": [
+    "Poutine québécoise",
+    "fries with cheese curds and gravy"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/ultimate-perfect-poutine-fries-cheese-curds-gravy-recipe",
+    "title": "The Ultimate Poutine",
+    "source": "Serious Eats (Joshua Bousel)",
+    "score": 82,
+    "scores": {
+      "authenticity": 21,
+      "precision": 19,
+      "testing": 17,
+      "photos": 14,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Classic trio: twice-fried russet fries, fresh squeaky white cheddar curds at room temperature, roux-based beef gravy. Author is not Canadian, but the dish is made traditionally.",
+      "precision": "Volumes plus produce sizing (4 large russets, about 2 lb, 1/4-inch sticks); 4 temperatures (350F, 425F); 10 sensory cues (golden blonde roux, reduced to 2 cups, pale blonde, deep golden brown); Dutch oven or wok named but no inches.",
+      "testing": "Serious Eats test kitchen. Explains fresh curds (under 24 hours), gravy balance, soak and freezing-step note for crispier fries. Only 2 ratings, though.",
+      "photos": "5 of 5 steps have images in schema (gravy, soak, both fries, assembly).",
+      "efficiency": "Stated total 1 hr 40 min, mostly the 1 hour potato soak; gravy can be made during the soak. Needs homemade pressure-cooker beef stock (see note), which adds time.",
+      "access": "Fresh cheese curds are the only hard item (some US grocers, cheese shops, or homemade). Beef stock and peanut oil are easy."
+    },
+    "why": "Beat the NYT version on step photos, explicit frying temperatures, and a more traditional, simpler gravy."
+  },
+  "runnerUp": {
+    "url": "https://cooking.nytimes.com/recipes/1025426-poutine",
+    "title": "Poutine",
+    "source": "NYT Cooking (Melissa Knific)",
+    "score": 74,
+    "scores": {
+      "authenticity": 19,
+      "precision": 19,
+      "testing": 16,
+      "photos": 10,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Intro explains the rural Quebec roots and the Lachance anecdote; gravy adds ketchup, thyme, and chicken plus beef stock, which are common variations.",
+      "precision": "Sizes given (3 lb russets, 1/3-inch planks, 2 to 3 inches of oil); temps 325F and 375F; 13 sensory cues; doneness cues on most steps.",
+      "testing": "NYT test process; explains the soak purpose. 119 ratings, average 4.",
+      "photos": "No step images in schema; step photos may be hidden by login, so not marked down fully.",
+      "efficiency": "About 2.5 hours stated; the soak is 1 hour or more.",
+      "access": "Cheese curds are needed; the recipe has a tip on them."
+    },
+    "why": "Strong and well-rated, but a more elaborate gravy and fewer visible photos than Serious Eats."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/ultimate-perfect-poutine-fries-cheese-curds-gravy-recipe",
+      "source": "Serious Eats",
+      "score": 82
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1025426-poutine",
+      "source": "NYT Cooking",
+      "score": 74
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/poutine",
+      "source": "BBC Good Food (Miriam Nice)",
+      "score": 51,
+      "disqualified": "Not disqualified, but scored low: lists mozzarella as an alternative to curds, uses chicken wings in the gravy, and has no step photos."
+    },
+    {
+      "url": "https://tastet.ca/en/recipes/make-the-best-homemade-poutine-in-four-steps/?region=mtl",
+      "source": "Tastet (Montreal)",
+      "score": 0,
+      "disqualified": "No ingredient amounts, no temperatures; only a general technique article."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Poutine\"",
+    "poutine recipe",
+    "poutine québécoise recette authentique sauce fromage en grains"
+  ],
+  "notes": "Fresh cheese curds are the only real sourcing issue in the US. Serious Eats has only 2 ratings, while NYT has 119 at 4.0. The Serious Eats recipe calls for homemade pressure-cooker beef stock, but good store-bought stock would work.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:39.188Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "The Ultimate Poutine",
+      "rating": 4.5,
+      "ratingCount": 2
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Poutine",
+      "rating": 4,
+      "ratingCount": 119
+    }
+  }
+}

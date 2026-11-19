@@ -1,0 +1,121 @@
+{
+  "id": "saudi-arabia",
+  "country": "Saudi Arabia",
+  "dish": "Kabsa",
+  "aliases": [
+    "Kabsah",
+    "Al Kabsa",
+    "Machboos (Gulf variant)",
+    "كبسة"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/kabsa-spiced-chicken-and-rice-11878672",
+    "title": "Kabsa (Spiced Chicken and Rice)",
+    "source": "Serious Eats (Laila Ibrahim)",
+    "score": 85,
+    "scores": {
+      "authenticity": 19,
+      "precision": 22,
+      "testing": 17,
+      "photos": 14,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Recognizable kabsa: bone-in chicken browned then cooked with basmati in a tomato-spice base, loomi (dried lime), cardamom, cinnamon, cloves, ghee, topped with fried almonds, pine nuts and raisins, served with daqoos and yogurt. Carrot, allspice and orange zest are modest home-cook adaptations. Author is not confirmed as Saudi, so not full marks.",
+      "precision": "Weights for 11 of 29 ingredients (onion 10 oz/283 g, tomatoes 255 g, carrot 170 g, rice 400 g, water 600 ml); chicken sized as 4 thighs and 4 drumsticks, about 2.5 lb; large Dutch oven; 25 sensory cues in 7 steps (skin golden, tomato mixture jammy and sticking, rice edges translucent, golden crust, nuts lightly golden). No oven temperature needed except for the optional broil.",
+      "testing": "Serious Eats test-kitchen style, with salting-time reasoning, notes on ghee vs oil, rice rinsing and loomi substitution. Only 2 ratings, so little public feedback. The page's why-it-works text was not confirmed.",
+      "photos": "All 7 steps have images in the schema (7 step images); 66 images on the page in total.",
+      "efficiency": "Total 1 hr 5 min. The topping is made while the rice cooks, and the chicken is browned in the same pot. The optional broil and 30-minute salting add a little time.",
+      "access": "Loomi lime is the only specialty item, and the recipe gives a lime-peel strip substitute. Daqoos is optional. Everything else is at a normal US grocery."
+    },
+    "why": "It is the only candidate with step photos, weights, a pan size and a doneness cue on nearly every step, from a test-kitchen publisher."
+  },
+  "runnerUp": {
+    "url": "https://www.thedeliciouscrescent.com/chicken-kabsa/",
+    "title": "Chicken Kabsa (Arabian Chicken and Rice)",
+    "source": "The Delicious Crescent",
+    "score": 58,
+    "scores": {
+      "authenticity": 18,
+      "precision": 14,
+      "testing": 8,
+      "photos": 5,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Traditional layout: homemade kabsa spice mix, bone-in chicken, dried limes, rice cooked in tomato-spice broth, oven-browned chicken, fried onion, nut and raisin garnish.",
+      "precision": "Only 1 of 33 ingredients has a weight; 4 oven temperatures and 19 sensory cues; Dutch oven size not given.",
+      "testing": "No stated reasoning or testing beyond one rating.",
+      "photos": "No step images in the schema; process photos not confirmed.",
+      "efficiency": "80 minutes; the first stage is somewhat long, and it yields 12 servings.",
+      "access": "Dried limes are used, with a lime powder substitute."
+    },
+    "why": "A more traditional-style recipe than the quicker versions, but it has less precision and no process photos."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/kabsa-spiced-chicken-and-rice-11878672",
+      "source": "Serious Eats",
+      "score": 85
+    },
+    {
+      "url": "https://www.thedeliciouscrescent.com/chicken-kabsa/",
+      "source": "The Delicious Crescent",
+      "score": 58
+    },
+    {
+      "url": "https://amiraspantry.com/chicken-saudi-kabsa/",
+      "source": "Amira's Pantry",
+      "score": 55
+    },
+    {
+      "url": "https://marocmama.com/saudi-arabian-kabsa-chicken-and-rice/",
+      "source": "MarocMama (Aysh of Jeddah Mom)",
+      "score": 48
+    },
+    {
+      "url": "https://www.munatycooking.com/kabsa/",
+      "source": "Munaty Cooking",
+      "score": 46
+    },
+    {
+      "url": "https://zaatarandzaytoun.com/kabsa/",
+      "source": "Zaatar & Zaytoun",
+      "score": 44
+    },
+    {
+      "url": "https://www.themediterraneandish.com/?p=130418",
+      "source": "The Mediterranean Dish",
+      "score": 0,
+      "disqualified": "read returned HTTP 403, so it was not scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Kabsa\"",
+    "Kabsa recipe",
+    "كبسة سعودية وصفة لحم أو دجاج"
+  ],
+  "notes": "NYT Cooking, ATK and BBC Good Food had no kabsa recipe in the sites search. The Mediterranean Dish returned 403 so it is unscored. Non-winning candidates were scored from structured data only, with photo counts unconfirmed by WebFetch. The Serious Eats recipe has only 2 ratings.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:54.643Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Kabsa (Spiced Chicken and Rice)",
+      "rating": 5,
+      "ratingCount": 2
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Chicken Kabsa (Arabian Chicken and Rice)",
+      "rating": 5,
+      "ratingCount": 1
+    }
+  }
+}

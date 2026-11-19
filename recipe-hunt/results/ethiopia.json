@@ -1,0 +1,156 @@
+{
+  "id": "ethiopia",
+  "country": "Ethiopia",
+  "dish": "Doro Wat with Injera",
+  "aliases": [
+    "Doro Wot",
+    "Doro Wet",
+    "ዶሮ ወጥ",
+    "Ethiopian chicken stew"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.daringgourmet.com/doro-wat-spicy-ethiopian-chicken-stew/",
+    "title": "Doro Wat (Ethiopian Spiced Chicken)",
+    "source": "The Daring Gourmet",
+    "score": 65,
+    "scores": {
+      "authenticity": 21,
+      "precision": 10,
+      "testing": 12,
+      "photos": 11,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Niter kibbeh, berbere, tej (honey wine), onions slow-cooked dry/covered ~95 min before chicken, pierced boiled eggs; traditional method. Author is American, not Ethiopian.",
+      "precision": "Cups/lbs only, no weights (0 of 14 ingredients with grams); onions given as '3 cups chopped'; heavy pot named but no size; steps are time-driven (45/20/30/45/15 min) with little doneness cueing beyond 'chunky puree'.",
+      "testing": "Rated 4.97 from 131 ratings; explains homemade berbere and tej substitution; blog post covers the long-onion rationale. No test kitchen.",
+      "photos": "About 49 images on page; blog post shows process stages (not confirmed by WebFetch).",
+      "efficiency": "About 2h40m total, honest and mostly unattended; long but that is the traditional method.",
+      "access": "Berbere and niter kibbeh need sourcing; tej has a stated sub (white wine plus honey), and homemade berbere is linked."
+    },
+    "why": "Most traditional method (long dry onion cook, niter kibbeh, berbere, tej) with the best rating, narrowly ahead of GypsyPlate, which is similar but less explained."
+  },
+  "runnerUp": {
+    "url": "https://gypsyplate.com/doro-wat/",
+    "title": "Doro Wat (Ethiopian Chicken Stew)",
+    "source": "GypsyPlate",
+    "score": 60,
+    "scores": {
+      "authenticity": 20,
+      "precision": 10,
+      "testing": 9,
+      "photos": 10,
+      "efficiency": 7,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Onions caramelized 45 min covered, 1/2 cup berbere, niter kibbeh (ghee/butter sub); adds tomato paste, which is not traditional.",
+      "precision": "Cups/lbs, no weights; 'large red onions'; 'fall off the bone tender' cue; no pan size.",
+      "testing": "5.0 from 30 ratings; notes on berbere and niter kibbeh.",
+      "photos": "29 images on page.",
+      "efficiency": "About 1h50m stated.",
+      "access": "Subs given for niter kibbeh."
+    },
+    "why": "Solid and traditional, but less explanation and fewer ratings than the winner, plus tomato paste."
+  },
+  "companions": [
+    {
+      "part": "injera",
+      "url": "https://www.daringgourmet.com/authentic-injera-ethiopian-flatbread/",
+      "title": "Authentic Injera (Ethiopian Flatbread)",
+      "source": "The Daring Gourmet",
+      "score": 72,
+      "why": "Traditional wild-fermented teff batter with absit, 4.86 from 121 ratings, many visual cues (bubbles pop, lid steam), and a teff/wheat option for beginners; cups only, no weights.",
+      "check": "pass"
+    },
+    {
+      "part": "injera (faster, with weights)",
+      "url": "https://cooking.nytimes.com/recipes/1025795-quick-injera",
+      "title": "Quick Injera",
+      "source": "NYT Cooking (Naz Deravian)",
+      "score": 70,
+      "why": "Teff in grams, 12-inch lidded nonstick pan, 48-hour ferment with baking powder, clear doneness cues; a shortcut, not fully traditional.",
+      "check": "pass"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.daringgourmet.com/doro-wat-spicy-ethiopian-chicken-stew/",
+      "source": "The Daring Gourmet",
+      "score": 65
+    },
+    {
+      "url": "https://gypsyplate.com/doro-wat/",
+      "source": "GypsyPlate",
+      "score": 60
+    },
+    {
+      "url": "https://cooking.nytimes.com/recipes/1019079-doro-wat-ethiopian-style-spicy-chicken",
+      "source": "NYT Cooking (Joan Nathan)",
+      "score": 57
+    },
+    {
+      "url": "https://foreignfork.com/doro-wat-from-ethiopia/",
+      "source": "The Foreign Fork",
+      "score": 56
+    },
+    {
+      "url": "https://searchingforspice.com/doro-wat-ethiopian-chicken-stew/",
+      "source": "Searching for Spice",
+      "score": 38,
+      "disqualified": "Not a traditional preparation: 30-minute simmer, tomato puree, one tablespoon of berbere, only 3 ratings"
+    },
+    {
+      "url": "https://www.177milkstreet.com/recipes/ethiopian-chicken-stew-doro-wat?token=330",
+      "source": "Milk Street (Courtney Hill)",
+      "score": 0,
+      "disqualified": "Paywalled, most ingredients and steps hidden; cannot grade"
+    },
+    {
+      "url": "https://honest-food.net/doro-wat-recipe",
+      "source": "Honest Food",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://www.masterclass.com/articles/doro-wat-recipe",
+      "source": "MasterClass",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    },
+    {
+      "url": "https://www.chilipeppermadness.com/recipes/doro-wat/",
+      "source": "Chili Pepper Madness",
+      "score": 0,
+      "disqualified": "read returned HTTP 403"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Doro Wat\"",
+    "node scripts/recipe-hunt.mjs sites \"Injera\"",
+    "doro wat recipe Ethiopian chicken stew",
+    "injera recipe teff homemade",
+    "Doro Wat recipe Ethiopian cook authentic berbere niter kibbeh Hilda's Kitchen OR \"Ethiopian-born\""
+  ],
+  "notes": "No Ethiopian-authored doro wat page was found in the searches. The winner clears 60 by a small margin because no source gives weights or pan sizes. All candidates are time-based rather than cue-based. NYT (Joan Nathan, 625 ratings, 4.0) skips berbere and bakes the chicken first, so it scored lower on authenticity. Authentic doro wat needs berbere and niter kibbeh; the recipe links homemade berbere. The Daring Gourmet injera post notes that 100% teff will not give the spongy restaurant texture. The Daring Gourmet doro wat page was not checked for process photos with WebFetch. The scout step run also did not WebFetch any page.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T19:24:05.257Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Doro Wat (Ethiopian Spiced Chicken)",
+      "rating": 4.97,
+      "ratingCount": 131
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Doro Wat (Ethiopian Chicken Stew)",
+      "rating": 5,
+      "ratingCount": 30
+    }
+  }
+}

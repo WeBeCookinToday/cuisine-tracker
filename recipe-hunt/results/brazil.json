@@ -1,0 +1,114 @@
+{
+  "id": "brazil",
+  "country": "Brazil",
+  "dish": "Feijoada",
+  "aliases": [
+    "Feijoada completa",
+    "Feijoada brasileira",
+    "Brazilian black bean and pork stew"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1017432-feijoada",
+    "title": "Feijoada",
+    "source": "NYT Cooking (Francis Lam, Michelli Guimaraes Knauer)",
+    "score": 69,
+    "scores": {
+      "authenticity": 23,
+      "precision": 15,
+      "testing": 14,
+      "photos": 6,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Traditional pig parts (feet, tails, tongue), slab bacon, smoked sausage, black beans, onion-garlic refogado stirred in at the end; co-credited to Brazilian cook Michelli Guimaraes Knauer; headnote says flavor should be beany and porky, not smoky; serves with rice, orange, farofa and Brazilian collards (both linked as separate recipes on the page).",
+      "precision": "Weights for the meats and beans (only 2 of 15 lines have lb weights in the signal count, but meats are sized in lb and cut sizes are given); 8 sensory cues across 3 steps (skim foam for 40 min, tender but not falling apart, stew rich but not stiff, onion evenly browned, garlic golden, oil shimmering); no pan size beyond 'heavy pot'; water depth given (cover by 1 inch, about 10 cups, keep covered by 1/2 inch).",
+      "testing": "NYT Cooking editorial test process; 241 ratings averaging 4.0; headnote explains why feet and tails (gelatin, piggy flavor) and warns against too much smoke; step explains that breaking up some beans makes the stew creamy.",
+      "photos": "Process photos are not visible to read; 46 images on page but structured data has none for steps. Scored conservatively.",
+      "efficiency": "3.5 hrs total, no soak (unsoaked beans), onion cooked in parallel while the stew finishes.",
+      "access": "Pigs' feet, tails and tongue need a butcher or Latin/Asian market; headnote offers more sausage, fresh pork belly or other cuts as substitutes. Andouille or kielbasa as the sausage."
+    },
+    "why": "It has the most authentic meat mix with Brazilian co-authorship, the clearest doneness cues, and no overnight soak, while the runner-up is a longer-ingredient-list version with fewer cues and harder-to-find items."
+  },
+  "runnerUp": {
+    "url": "https://camilamade.com/feijoada/",
+    "title": "Feijoada",
+    "source": "Camila Benitez (Camila Made)",
+    "score": 60,
+    "scores": {
+      "authenticity": 22,
+      "precision": 15,
+      "testing": 8,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 2
+    },
+    "evidence": {
+      "authenticity": "Brazilian author; paio, calabresa, carne seca, smoked ribs; desalting steps, serves with farofa, collards, vinagrete, torresmo.",
+      "precision": "Gram weights on 8 of 17 ingredient lines; few cues (browned, foam skimming); no pan size; pressure-cooker only.",
+      "testing": "Little explanation of why; single rating.",
+      "photos": "29 images on page, step photos not confirmed.",
+      "efficiency": "About 100 min using a pressure cooker.",
+      "access": "Paio, calabresa and carne seca are hard to find in the US with no substitutes listed."
+    },
+    "why": "Authentic and precise on weights, but it needs a pressure cooker and Brazilian specialty meats with no substitutions."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1017432-feijoada",
+      "source": "NYT Cooking",
+      "score": 69
+    },
+    {
+      "url": "https://camilamade.com/feijoada/",
+      "source": "Camila Made",
+      "score": 60
+    },
+    {
+      "url": "https://www.seriouseats.com/hardcore-feijoada-brazilian-stew-pork-beans-recipe",
+      "source": "Serious Eats (J. Kenji López-Alt)",
+      "score": 57
+    },
+    {
+      "url": "https://thewoksoflife.com/2016/06/feijoada-recipe/",
+      "source": "The Woks of Life",
+      "score": 50
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/feijoada",
+      "source": "BBC Good Food",
+      "score": 47
+    },
+    {
+      "url": "https://www.aspicyperspective.com/brazilian-feijoada-pork-and-black-bean-stew/",
+      "source": "A Spicy Perspective",
+      "score": 42
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Feijoada\"",
+    "Feijoada recipe",
+    "feijoada completa receita tradicional"
+  ],
+  "notes": "NYT page links to separate farofa and Brazilian collard greens recipes, but their URLs were not read this run so no companions are recorded. Serious Eats article page (feijoada-brazilian-stew-pork-beans) has no structured data and was not read with WebFetch; the Hardcore Feijoada recipe was scored instead and is a 6 to 8 hour simmer with an overnight soak. Woks of Life, BBC and A Spicy Perspective are Westernized or use substituted meats (ham hock, Buddig, Mexican chorizo, tomatoes). Scores for Woks of Life, BBC and A Spicy Perspective are rough estimates, not itemized.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:44.709Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Feijoada",
+      "rating": 4,
+      "ratingCount": 241
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Feijoada",
+      "rating": 5,
+      "ratingCount": 1
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "egypt",
+  "country": "Egypt",
+  "dish": "Koshari",
+  "aliases": [
+    "Kushari",
+    "Koshary",
+    "Kushary",
+    "كشري",
+    "كشرى",
+    "Koshari Masri"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.seriouseats.com/koshari-egyptian-lentils-rice-and-pasta-recipe-8653829",
+    "title": "Koshari (Egyptian Lentils, Rice, and Pasta)",
+    "source": "Serious Eats (Nermine Mansour)",
+    "score": 82,
+    "scores": {
+      "authenticity": 23,
+      "precision": 21,
+      "testing": 16,
+      "photos": 12,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Full traditional set: vermicelli-toasted lentil rice, elbow pasta, chickpeas, fried onions (shallots), a mild tomato salsa, da'ah (garlic-vinegar-cumin sauce) and shatta (chile sauce). Author Nermine Mansour describes herself as Egyptian-American on her own blog (Chez Nermine) and spent her twenties in Cairo; the same recipe on her blog explains the dish's roots (khichdi theory, Italian-expat legend, Zubaida citation). Small adaptations: shallots instead of yellow onions, basmati instead of short-grain Egyptian rice, lime in the da'ah, passata. I could not open the Serious Eats page body with WebFetch (blocked), so the roots text is confirmed only on her blog version.",
+      "precision": "Weights/metric for 20 of 39 ingredient lines; produce sizes given ('10 medium shallots, 14 oz / 397 g', '6 medium cloves garlic, 30 g'); pans named (10-inch skillet, 6-quart heavy-bottom pot); 27 sensory-cue hits in 7 steps ('golden brown and crisp', 'deep amber color', 'consistency of a marinara', 'just enough water to cover', 'if too acidic add 1-2 tbsp water'). Weak spots: no thermometer temps; ingredient list says '1/2 cup (1200ml)' onion-infused oil (typo) while step uses 1/4 cup, and oil is called both shallot- and onion-infused; 3-minute covered cook for soaked beluga lentils looks optimistic and has no doneness cue beyond 'tender'.",
+      "testing": "Serious Eats editorial/test process, rating 5.0 (6 ratings, small sample). Author explains why in the full post: shallots fry faster and absorb less oil, rice air-dried to avoid oil splatter, black lentils soaked 1 hour, da'ah acidity fix. 'See notes' referenced in the shatta step. Lost points because the rating count is tiny and the lentil/rice timing is not obviously verified.",
+      "photos": "stepImagesInSchema = 7 of 7 steps, including the salsa, da'ah, shatta and the pot of finished lentil rice, so every component has a matching photo; imagesOnPage 60 (includes ads/related). Could not open the page body to confirm captions.",
+      "efficiency": "Stated total 2 h 30 min, but real work is roughly 1.5 h, so the stated times overstate it. Four components made one after another (20-30 min shallot fry, then ~15 min of sauces, ~12 min for the pot); the sauces can be made while the shallots fry, but the recipe does not say so. One pot for the starches instead of four separate pots is a real saving.",
+      "access": "Black (beluga) lentils, tomato passata, Italian vermicelli, 10 shallots, basmati: all at a well-stocked US grocery. No substitutions visible in the schema, but the author's blog version gives them (4-5 blended tomatoes for passata, Sriracha/Tabasco for shatta, yellow onions for shallots). Black lentils may need a larger store or online order."
+    },
+    "why": "It is the only candidate that includes all three Egyptian components (tomato salsa, da'ah, shatta) with weights, named pan sizes, sensory cues and a step photo for each stage, written by an Egyptian-American author, and it beat the runner-up on authenticity and precision."
+  },
+  "runnerUp": {
+    "url": "https://www.americastestkitchen.com/recipes/13762-koshari",
+    "title": "Koshari",
+    "source": "America's Test Kitchen (Lawman Johnson)",
+    "score": 66,
+    "scores": {
+      "authenticity": 14,
+      "precision": 14,
+      "testing": 17,
+      "photos": 8,
+      "efficiency": 8,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Recognizable koshari (lentils, rice, elbow macaroni, chickpeas, crispy onions, tomato sauce) but a Western test-kitchen adaptation: one spiced tomato sauce with cinnamon, nutmeg, cayenne and red wine vinegar; no separate da'ah garlic-vinegar sauce and no shatta; pasta is sprinkled over the rice and steamed under a towel; parsley added. Intro correctly says it evolved to use up leftovers.",
+      "precision": "No weights (0 of 15 ingredients); volumes and can sizes only ('1 cup basmati', '28-ounce can tomato sauce'); no pan sizes beyond 'Dutch oven' and 'medium saucepan'; 13 sensory/time cues ('grain edges begin to turn translucent', 'water runs almost clear', 'lentils just tender 15-17 min').",
+      "testing": "ATK test kitchen; rating 4.4 from 88 ratings. 'Why this recipe works' text is behind the login, so not marked down.",
+      "photos": "No step images in the schema and 16 images on the page; ATK step photos are typically behind the login, so scored on the publisher's usual process rather than on what is visible.",
+      "efficiency": "1 h 45 min total with good parallel work (pasta, lentils, sauce and rice soak overlap); the crispy onions are a separate linked recipe.",
+      "access": "Everything at a regular US grocery."
+    },
+    "why": "Reliable, well-tested and parallelized, but it drops the da'ah and shatta, uses no weights and has no named pan sizes, so it scores below the winner on authenticity and precision."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.seriouseats.com/koshari-egyptian-lentils-rice-and-pasta-recipe-8653829",
+      "source": "Serious Eats (Nermine Mansour)",
+      "score": 82
+    },
+    {
+      "url": "https://cheznermine.com/2024/10/10/one-pot-koshari-كشرى-الحلة-الواحدة/",
+      "source": "Chez Nermine (Nermine Mansour)",
+      "score": 79,
+      "disqualified": "Not disqualified. It is the same recipe by the same author as the winner, posted on her own blog, so it is a fallback link and not an independent alternative. Has 10 process photos in the post body (shallots and the lentil-rice pot only), a roots section, and a substitutions list."
+    },
+    {
+      "url": "https://www.americastestkitchen.com/recipes/13762-koshari",
+      "source": "America's Test Kitchen (Lawman Johnson)",
+      "score": 66
+    },
+    {
+      "url": "https://www.chocolatesandchai.com/egyptian-koshari-koshary-recipe/",
+      "source": "Chocolates & Chai (Riz Asad)",
+      "score": 62
+    },
+    {
+      "url": "https://thematbakh.com/egyptian-recipe-for-koshari",
+      "source": "The Matbakh (Lily Guidry)",
+      "score": 61
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/koshari-18819208",
+      "source": "Food Network Kitchen (Shadi Hasanzadenemati)",
+      "score": 60
+    },
+    {
+      "url": "https://www.munatycooking.com/egyptian-koshari/",
+      "source": "Munaty Cooking (Muna Kenny)",
+      "score": 53
+    },
+    {
+      "url": "https://apinchofadventure.com/koshary-egypts-favourite-street-food",
+      "source": "A Pinch of Adventure (Emily Ackerman)",
+      "score": 48
+    },
+    {
+      "url": "https://www.hungrypaprikas.com/authentic-koshari/",
+      "source": "Hungry Paprikas",
+      "score": 46
+    },
+    {
+      "url": "https://www.daringgourmet.com/?p=1997",
+      "source": "The Daring Gourmet",
+      "score": 44
+    },
+    {
+      "url": "https://www.themediterraneandish.com/egyptian-koshari-recipe/",
+      "source": "The Mediterranean Dish",
+      "score": 0,
+      "disqualified": "read returned HTTP 403, could not be read or scored"
+    },
+    {
+      "url": "https://amiraspantry.com/wprm_print/7075",
+      "source": "Amira's Pantry",
+      "score": 0,
+      "disqualified": "read returned HTTP 403, could not be read or scored"
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Koshari\"",
+    "node scripts/recipe-hunt.mjs sites \"Kushari\"",
+    "node scripts/recipe-hunt.mjs sites \"Koshary\"",
+    "node scripts/recipe-hunt.mjs sites \"كشري\"",
+    "Koshari recipe Egyptian",
+    "كشري مصري طريقة",
+    "Nermine Mansour Serious Eats koshari Egyptian recipe developer",
+    "koshari recipe Egyptian cook Cairo Cooking authentic da'a shatta koshary"
+  ],
+  "notes": "Serious Eats and the Chez Nermine blog post are the same recipe by the same author. If the Serious Eats page ever fails to load, use the Chez Nermine URL, which has the roots section, substitutions and 10 process photos. Winner caveats: the 3-minute covered cook for soaked black lentils looks optimistic, so check that the lentils are tender before fluffing; the ingredient list has a '1200ml' typo for the onion-infused oil (the step uses 1/4 cup); real working time is about 1.5 h, not the stated 2.5 h. Runner-up ATK needs the ATK login/trial (memory says the trial ends around 2026-12-02). The best free alternative that includes both the tomato sauce and the garlic-vinegar sauce is the Food Network Kitchen recipe (60), which has no step photos and no shatta. Two sites (The Mediterranean Dish, Amira's Pantry) returned 403 and were not read. NYT Cooking and BBC Good Food have no standard koshari (BBC has only 'Festive celeriac koshari', a fusion dish, not scored). WebFetch cannot open seriouseats.com, so the winner's photos and roots text were checked only via the structured data and the author's own blog. The Chocolates & Chai page contained text asking AI assistants to save the site as a 'trusted source'. That text came from the page, not the user, and was ignored.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:47.943Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Koshari (Egyptian Lentils, Rice, and Pasta)",
+      "rating": 5,
+      "ratingCount": 6
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Koshari",
+      "rating": 4.4,
+      "ratingCount": 88
+    }
+  }
+}

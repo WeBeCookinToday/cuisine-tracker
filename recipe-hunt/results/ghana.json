@@ -1,0 +1,108 @@
+{
+  "id": "ghana",
+  "country": "Ghana",
+  "dish": "Red Red",
+  "aliases": [
+    "Red red stew",
+    "Ghanaian black-eyed pea stew",
+    "Gob3 (beans stew) with fried plantain",
+    "Beans and plantain"
+  ],
+  "status": "found",
+  "winner": {
+    "url": "https://www.bbcgoodfood.com/recipes/red-red",
+    "title": "Red red",
+    "source": "BBC Good Food (Akwasi Brenya-Mensa)",
+    "score": 69,
+    "scores": {
+      "authenticity": 23,
+      "precision": 17,
+      "testing": 14,
+      "photos": 4,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Ghanaian chef author; red palm oil, scotch bonnet, ginger, tomatoes cooked until oil rises, canned mackerel and optional shrimp powder, fried ripe plantain, gari; explains the name comes from the red palm oil. Avocado fan garnish and rosemary are modern touches.",
+      "precision": "Metric weights for main ingredients (4 of 17 flagged by read as weighted, but most others have counts/sizes like 3 medium onions, 4 large vine tomatoes, 30 g ginger); sensory cues in all 6 steps (beans tender, onions translucent, oil rises to the surface, plantain golden, 1 cm slices); no temperatures; 'large pot/saucepan' sizes vague.",
+      "testing": "BBC Good Food test-kitchen published; bicarb for tender beans and 'oil rises' doneness cue show reasoning, but little explicit why-text.",
+      "photos": "No step images in schema (stepImagesInSchema 0); 12 images on page, mostly hero or ads; not confirmed as process photos.",
+      "efficiency": "Beans simmer while the sauce cooks, plantain fried at the end and kept warm in oven; times stated 1h25 are realistic apart from overnight soak.",
+      "access": "Red palm oil, shrimp powder, gari and scotch bonnet need African/online grocers; palm oil and shrimp powder/gari are noted optional or flagged, but no explicit substitutes."
+    },
+    "why": "Written by a Ghanaian chef with the full traditional build (palm oil, mackerel, plantain, gari) and doneness cues in every step, which beat African Bites' similar precision but less traditional, plantain-free recipe."
+  },
+  "runnerUp": {
+    "url": "https://www.africanbites.com/red-redafrican-stewed-black-eyed-peas/",
+    "title": "Red Red (African Stewed Black-Eyed Peas)",
+    "source": "Immaculate Bites",
+    "score": 67,
+    "scores": {
+      "authenticity": 19,
+      "precision": 17,
+      "testing": 13,
+      "photos": 6,
+      "efficiency": 7,
+      "access": 5
+    },
+    "evidence": {
+      "authenticity": "Palm oil, ginger, crayfish, tomatoes; African-run site, but smoked paprika and bouillon are additions and it does not cover the plantain.",
+      "precision": "Metric and US weights for 9 ingredients; 4 sensory cues; no pan sizes beyond Dutch oven; time cues given for most steps.",
+      "testing": "Rated 4.93 from 64 ratings; has soaking and pressure-cooker options and notes.",
+      "photos": "31 images on page, not confirmed as step photos; none in schema.",
+      "efficiency": "Stated total time is a soak-inflated 590 minutes; otherwise straightforward and canned-bean shortcut offered.",
+      "access": "Canola oil substitute for palm oil, crayfish optional."
+    },
+    "why": "Slightly less traditional and no fried plantain component, so it trails BBC Good Food by two points."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/red-red",
+      "source": "BBC Good Food",
+      "score": 69
+    },
+    {
+      "url": "https://www.africanbites.com/red-redafrican-stewed-black-eyed-peas/",
+      "source": "Immaculate Bites",
+      "score": 67
+    },
+    {
+      "url": "https://www.foodnetwork.com/recipes/red-red-12080088",
+      "source": "Food Network (Gabi Odebode)",
+      "score": 56
+    },
+    {
+      "url": "https://biscuitsandladles.com/red-red-fried-plantains-beans",
+      "source": "Biscuits and Ladles",
+      "score": 40
+    },
+    {
+      "url": "https://eatwithafia.com/ghanaian-beans-stew-red-red/",
+      "source": "Eat with Afia",
+      "score": 42
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Red Red Ghana\"",
+    "Red Red Ghana bean stew fried plantain recipe",
+    "Red Red stew black-eyed peas palm oil gari recipe"
+  ],
+  "notes": "BBC recipe includes the plantain, so no separate companion is needed. Other results seen but not read: Jamie Oliver / Zoe Adjonyoh, Honest Food, SBS, Milk Street (non-traditional coconut oil). Winner margin over runner-up is small, and photo scores are unconfirmed (no WebFetch check).",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-19T17:23:41.721Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Red red"
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Red Red (African Stewed Black-Eyed Peas)",
+      "rating": 4.93,
+      "ratingCount": 64
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "bangladesh",
+  "country": "Bangladesh",
+  "dish": "Shorshe Ilish",
+  "aliases": [
+    "Sorshe Ilish",
+    "Ilish Macher Sorshe Jhal",
+    "Hilsa in mustard gravy",
+    "সর্ষে ইলিশ",
+    "সরিষা ইলিশ"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://cooking.nytimes.com/recipes/1013902-fish-in-bangladeshi-shorshe-bata-mustard-paste",
+    "title": "Fish in Bangladeshi Shorshe Bata (Mustard Paste)",
+    "source": "NYT Cooking (Indrani Sen, Neerob restaurant)",
+    "score": 56,
+    "scores": {
+      "authenticity": 18,
+      "precision": 12,
+      "testing": 12,
+      "photos": 2,
+      "efficiency": 8,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Bangladeshi restaurant chef; shorshe bata paste with mustard oil and nigella is traditional, but written for generic fillets (ilish named as traditional, subs: bluefish, tilapia, shad, catfish) and adds lemon, cilantro and a pre-sauteed paste. Not a bone-in ilish steak curry.",
+      "precision": "Only 1 of 10 ingredients has a weight; 4 steps, 4 with sensory cues (paste darkens and thickens, oil shimmering, consistency of cake batter); no temperatures or pan size ('large skillet').",
+      "testing": "NYT Cooking editing, 39 ratings averaging 5; little explicit reasoning visible (paywalled).",
+      "photos": "No step images in schema; process photos not confirmed.",
+      "efficiency": "30 minutes stated, realistic; paste is cooked first, then fish.",
+      "access": "Mustard oil, nigella and yellow mustard seed are found at South Asian groceries; fish subs are given."
+    },
+    "why": "Best precision, cues and test-kitchen editing of the five read, but it is a fillet adaptation and scores under 60."
+  },
+  "runnerUp": {
+    "url": "https://kitchenofdebjani.com/2012/03/ilish-macher-sorshe-bata-diye-jhal-ilish-er-shorshe-jhal/",
+    "title": "Ilish Macher Sorshe bata diye Jhal | Shorshe Ilish | Hilsa Fish in Mustard Gravy",
+    "source": "Debjanir Rannaghar (Debjani Chatterjee Alam)",
+    "score": 51,
+    "scores": {
+      "authenticity": 22,
+      "precision": 9,
+      "testing": 6,
+      "photos": 4,
+      "efficiency": 8,
+      "access": 2
+    },
+    "evidence": {
+      "authenticity": "Bengali author; soaked black and yellow mustard, strained paste, nigella, raw mustard oil finish; notes Bangal vs Ghoti variants and West Bengal and Bangladesh. West Bengal rather than Bangladeshi author.",
+      "precision": "6 pieces (~1 kg), 3.5 tbsp oil; times only, no doneness cues, no pan size ('deep pan').",
+      "testing": "Few reasons given; sustainability advice (avoid khoka ilish under 600 g).",
+      "photos": "One step photo (grinding paste); rest are finished shots.",
+      "efficiency": "30 minutes, no wasted steps.",
+      "access": "No substitutions for hilsa or mustard oil."
+    },
+    "why": "Most traditional preparation, but time-only steps and almost no photos or reasoning."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://cooking.nytimes.com/recipes/1013902-fish-in-bangladeshi-shorshe-bata-mustard-paste",
+      "source": "NYT Cooking",
+      "score": 56
+    },
+    {
+      "url": "https://kitchenofdebjani.com/2012/03/ilish-macher-sorshe-bata-diye-jhal-ilish-er-shorshe-jhal/",
+      "source": "Debjanir Rannaghar",
+      "score": 51
+    },
+    {
+      "url": "https://withaspin.com/2019/12/27/sorshe-ilish-recipe/",
+      "source": "WithASpin (Lail Hossain)",
+      "score": 41
+    },
+    {
+      "url": "https://experiencesofagastronomad.com/shorshe-ilish-hilsa-in-mustard-recipe/",
+      "source": "Experiences of a Gastronomad (Maumita Paul)",
+      "score": 38
+    },
+    {
+      "url": "https://www.thedailystar.net/life-living/food-recipes/news/mustard-ilish-taste-it-or-miss-it-3105856",
+      "source": "The Daily Star (Bangladesh)",
+      "score": 40
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Shorshe Ilish\"",
+    "Shorshe Ilish recipe",
+    "সর্ষে ইলিশ রেসিপি",
+    "hilsa in mustard sauce Bengali recipe"
+  ],
+  "notes": "No candidate reached 60. Most recipes lack weights, pan sizes and doneness cues and have no process photos. Hilsa is sold frozen at Bangladeshi groceries in the US. The Bengali-language results (Prothom Alo, Bangla Tribune, ebanglalibrary) were not read. A retry could read those, or the Bongeats and Chittaranjan Park pages from search results.",
+  "verification": {
+    "state": "pass",
+    "checkedAt": "2026-11-18T21:17:43.308Z",
+    "winner": {
+      "state": "pass",
+      "status": 200,
+      "name": "Fish in Bangladeshi Shorshe Bata (Mustard Paste)",
+      "rating": 5,
+      "ratingCount": 39
+    },
+    "runnerUp": {
+      "state": "pass",
+      "status": 200,
+      "name": "Ilish Macher Sorshe bata diye Jhal | Shorshe Ilish | Hilsa Fish in Mustard Gravy"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "yemen",
+  "country": "Yemen",
+  "dish": "Saltah",
+  "aliases": [
+    "Saltah",
+    "Saltah Yemeni",
+    "Salta",
+    "Al-Saltah",
+    "سلتة",
+    "السلتة اليمنية"
+  ],
+  "status": "none-found",
+  "winner": {
+    "url": "https://learningabouttheworld.blogspot.com/2011/08/yemen-how-i-made-saltah.html",
+    "title": "Yemen: how I made saltah",
+    "source": "Learning about the world (Mauk Donnabhain)",
+    "score": 48,
+    "scores": {
+      "authenticity": 14,
+      "precision": 5,
+      "testing": 8,
+      "photos": 11,
+      "efficiency": 6,
+      "access": 4
+    },
+    "evidence": {
+      "authenticity": "Full dish with hilbeh (fenugreek) and zhug added at the end, eggs, potatoes, tomatoes. Uses minced beef and beef stock, a home-cook adaptation. Author is not Yemeni and gives little on the dish's roots.",
+      "precision": "Most ingredient amounts are missing (meat, stock, fenugreek, cumin and cardamom have none). No pan sizes. Doneness cues are weak: browned meat, tomatoes softened 'a bit', simmer 40 to 60 minutes.",
+      "testing": "The author cooked it and reports what went wrong: the pot was too small, the coriander went in too early, and the condiments belong at the end. No test kitchen.",
+      "photos": "9 captioned process photos covering hilbeh, zhug, frying onion and beef, tomatoes and potato, stock, and the finished dish.",
+      "efficiency": "Condiments are made the night before and chilled, which uses parallel work well. Meat and onion are fried in a separate pan.",
+      "access": "Fenugreek seeds are in US groceries and spice shops. No substitutions are given, but nothing is unobtainable."
+    },
+    "why": "It has the only real process photos and a cook's own troubleshooting notes. Marty Made It is more precise on amounts but has no step photos."
+  },
+  "runnerUp": {
+    "url": "https://martymadeit.com/2024/06/07/195-yemen-saltah/",
+    "title": "195 Yemen - Saltah",
+    "source": "Marty Made It",
+    "score": 47,
+    "scores": {
+      "authenticity": 16,
+      "precision": 10,
+      "testing": 8,
+      "photos": 2,
+      "efficiency": 8,
+      "access": 3
+    },
+    "evidence": {
+      "authenticity": "Lamb, pressure-cooked or Dutch oven, served in a stone pot (haradha) or cast iron, with frothy hulba made by the author's mother's method (overnight fenugreek soak). Rice is added, which is a variant. No author bio.",
+      "precision": "Most amounts are given, but the hulba list and its method disagree and the rice amount is missing. Cues: onion translucent, meat breaks easily, thick-soup consistency, bubbly. No pan size.",
+      "testing": "Explains the fenugreek soak (removes bitterness) and gives pressure cooker and Dutch oven times. No test process.",
+      "photos": "Header image only.",
+      "efficiency": "Pressure cooker cuts the cook to about 40 minutes.",
+      "access": "Fenugreek has no substitute noted. Hulba and the stone pot are the only unusual items."
+    },
+    "why": "It is more precise on amounts but has no process photos and inconsistent hulba quantities."
+  },
+  "companions": [],
+  "candidates": [
+    {
+      "url": "https://learningabouttheworld.blogspot.com/2011/08/yemen-how-i-made-saltah.html",
+      "source": "Learning about the world (blog)",
+      "score": 48
+    },
+    {
+      "url": "https://martymadeit.com/2024/06/07/195-yemen-saltah/",
+      "source": "Marty Made It",
+      "score": 47
+    },
+    {
+      "url": "https://www.food.com/recipe/saltah-ground-beef-or-lamb-stew-454279",
+      "source": "Food.com (Dreamer in Ontario, from Toronto Star)",
+      "score": 36
+    },
+    {
+      "url": "https://yementimes.com/al-saltah-the-yemeni-national-dish-archives2004-727-last-page/",
+      "source": "Yemen Times",
+      "score": 15,
+      "disqualified": "Short 2004 feature with no ingredient amounts and no photos. Useful only for history."
+    },
+    {
+      "url": "https://eathealthy365.com/authentic-yemeni-saltah/",
+      "source": "eathealthy365 / Flavor365",
+      "score": 0,
+      "disqualified": "Looks like an AI content farm: publisher name does not match the domain, generic text, odd claims ('hakuna' crust), 5 ratings, and no ingredient weights. Not scored."
+    },
+    {
+      "url": "https://cookpad.wasmer.app/us/recipes/96951",
+      "source": "Cookpad mirror",
+      "score": 0,
+      "disqualified": "HTTP 402 and a mirror domain."
+    },
+    {
+      "url": "https://arousingappetites.com/saltah-yemeni-vegan-vegetable-stew-hulbah-zhug-meat/",
+      "source": "Arousing Appetites",
+      "score": 0,
+      "disqualified": "Could not be fetched by read or WebFetch (fetch failed, host not found), so it was not read. It is a vegan version and a different recipe from the traditional meat dish."
+    }
+  ],
+  "searches": [
+    "node scripts/recipe-hunt.mjs sites \"Saltah\" (no matches on Serious Eats, NYT, ATK or BBC Good Food)",
+    "Saltah recipe Yemeni",
+    "سلتة يمنية طريقة",
+    "Yemeni saltah hulbah recipe authentic Yemeni cook blog sahawiq",
+    "Yemen Times saltah recipe"
+  ],
+  "notes": "No test-kitchen or authority recipe exists. Most search hits are pages.dev scraper clones or a wasmer.app Cookpad mirror. The Remitly blog page has no structured recipe, and WebFetch dropped its connection, so it was not scored. The Spicery link returned 404. Food.com is a minced-beef version, and the best one read gives no pan sizes or many amounts. A better source may be a Yemeni cookbook or a Yemeni food blog not surfaced by search, such as yemeniyah.com, which had a fahsa recipe that is a different dish. Suggested retry: look for a Yemeni cook with amounts and process photos, or the Arousing Appetites page if it becomes reachable.",
+  "verification": {
+    "state": "warn",
+    "reason": "page loads but has no Recipe structured data",
+    "checkedAt": "2026-11-19T17:23:59.997Z",
+    "winner": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    },
+    "runnerUp": {
+      "state": "warn",
+      "reason": "page loads but has no Recipe structured data",
+      "status": 200
+    }
+  }
+}
